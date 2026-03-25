@@ -43,15 +43,15 @@
               "font-weight": "700",
               "letter-spacing": "0.9px",
               "text-transform": "uppercase",
-              "background-color": "=if([$Status] == 'Czytam', '#0f6cbd', if([$Status] == 'Przeczytana', '#2f7d32', if([$Status] == 'Do przeczytania', '#8a6d1f', '#6b6258')))",
+              "background-color": "=if([$field_3] == 'Czytam', '#0f6cbd', if([$field_3] == 'Przeczytana', '#2f7d32', if([$field_3] == 'Do przeczytania', '#8a6d1f', '#6b6258')))",
               "color": "#ffffff"
             },
-            "txtContent": "=if([$Status] == '', 'Brak statusu', [$Status])"
+            "txtContent": "=if([$field_3] == '', 'Brak statusu', [$field_3])"
           },
           {
             "elmType": "img",
             "attributes": {
-              "src": "[$OkladkaUrl]",
+              "src": "[$field_4]",
               "alt": "[$Title]"
             },
             "style": {
@@ -101,7 +101,7 @@
                       "font-weight": "700",
                       "color": "#2f2415"
                     },
-                    "txtContent": "=if([$RokWydania] == '', '-', [$RokWydania])"
+                    "txtContent": "=if([$field_2] == '', '-', [$field_2])"
                   }
                 ]
               },
@@ -133,7 +133,7 @@
                       "font-weight": "700",
                       "color": "#8b4a12"
                     },
-                    "txtContent": "=if([$Ocena] == '', '-', [$Ocena] + '/10')"
+                    "txtContent": "=if([$field_13] == '', '-', [$field_13] + '/10')"
                   }
                 ]
               }
@@ -197,7 +197,7 @@
                       "font-size": "16px",
                       "color": "#665035"
                     },
-                    "txtContent": "= 'Autor: ' + [$Autor]"
+                    "txtContent": "= 'Autor: ' + [$field_1]"
                   }
                 ]
               },
@@ -221,7 +221,7 @@
                       "border": "1px solid #e1cfaa",
                       "color": "#8b4a12"
                     },
-                    "txtContent": "=if([$Gatunek] == '', 'Brak gatunku', [$Gatunek])"
+                    "txtContent": "=if([$field_7] == '', 'Brak gatunku', [$field_7])"
                   },
                   {
                     "elmType": "div",
@@ -234,7 +234,7 @@
                       "border": "1px solid #ddd1c0",
                       "color": "#5d5348"
                     },
-                    "txtContent": "=if([$Format] == '', 'Brak formatu', [$Format])"
+                    "txtContent": "=if([$field_8] == '', 'Brak formatu', [$field_8])"
                   }
                 ]
               }
@@ -276,7 +276,7 @@
                       "font-weight": "700",
                       "color": "#2f2415"
                     },
-                    "txtContent": "=if([$Jezyk] == '', '-', [$Jezyk])"
+                    "txtContent": "=if([$field_9] == '', '-', [$field_9])"
                   }
                 ]
               },
@@ -308,7 +308,7 @@
                       "font-weight": "700",
                       "color": "#2f2415"
                     },
-                    "txtContent": "=if([$Priorytet] == '', '-', [$Priorytet])"
+                    "txtContent": "=if([$field_12] == '', '-', [$field_12])"
                   }
                 ]
               }
@@ -407,7 +407,7 @@
                       "font-size": "14px",
                       "color": "#2f2415"
                     },
-                    "txtContent": "[$Autor]"
+                    "txtContent": "[$field_1]"
                   },
                   {
                     "elmType": "div",
@@ -429,7 +429,7 @@
                       "font-size": "14px",
                       "color": "#2f2415"
                     },
-                    "txtContent": "=if([$RokWydania] == '', '-', [$RokWydania])"
+                    "txtContent": "=if([$field_2] == '', '-', [$field_2])"
                   },
                   {
                     "elmType": "div",
@@ -451,7 +451,7 @@
                       "font-size": "14px",
                       "color": "#2f2415"
                     },
-                    "txtContent": "=if([$Status] == '', '-', [$Status])"
+                    "txtContent": "=if([$field_3] == '', '-', [$field_3])"
                   },
                   {
                     "elmType": "div",
@@ -473,7 +473,7 @@
                       "font-size": "14px",
                       "color": "#2f2415"
                     },
-                    "txtContent": "=if([$Seria] == '', '-', [$Seria])"
+                    "txtContent": "=if([$field_10] == '', '-', [$field_10])"
                   },
                   {
                     "elmType": "div",
@@ -493,7 +493,7 @@
                       "font-size": "14px",
                       "color": "#2f2415"
                     },
-                    "txtContent": "=if([$Lokalizacja] == '', '-', [$Lokalizacja])"
+                    "txtContent": "=if([$field_11] == '', '-', [$field_11])"
                   }
                 ]
               }
@@ -528,7 +528,7 @@
                   "color": "#392c1d",
                   "white-space": "normal"
                 },
-                "txtContent": "=if([$Notatki] == '', 'Dodaj tu krotki opis, swoje wrazenia, cytat albo informacje o wydaniu.', [$Notatki])"
+                "txtContent": "=if([$field_14] == '', 'Dodaj tu krotki opis, swoje wrazenia, cytat albo informacje o wydaniu.', [$field_14])"
               }
             ]
           },
@@ -543,7 +543,7 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "[$CzytajUrl]",
+                  "href": "[$field_5]",
                   "target": "_blank"
                 },
                 "style": {
@@ -564,7 +564,7 @@
               {
                 "elmType": "a",
                 "attributes": {
-                  "href": "[$OneDriveUrl]",
+                  "href": "[$field_6]",
                   "target": "_blank"
                 },
                 "style": {
