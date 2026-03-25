@@ -1,1 +1,1 @@
-This is where the docs for this repo live. They are created with MKDocs. Wow!
+Tutaj znajduje się dokumentacja tego repozytorium. Jest tworzona przy użyciu **MKDocs**.

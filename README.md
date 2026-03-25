@@ -9,31 +9,30 @@ extensions:
   contentType: samples
   createdDate: 11/2/2017 4:52:42 AM
 ---
-# SharePoint List Formatting Samples
+# Przykłady formatowania list SharePoint
 
-You can use column and view formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements.
+Możesz używać **formatowania kolumn** oraz **formatowania widoku**, aby dostosować sposób wyświetlania pól w listach i bibliotekach SharePoint. W praktyce polega to na utworzeniu obiektu **JSON**, który opisuje elementy wyświetlane w widoku listy (gdy pole jest widoczne w widoku) oraz style, które mają zostać zastosowane do tych elementów.
 
-This is a open source repository to share different kind of formatting json files between community. Check [**column-samples**](./column-samples), [**view-samples**](./view-samples) or [**form-samples**](./form-samples) folder for what's currently available. Have you build one which you can share? - **We do welcome contributions**.
+To repozytorium open source służy do dzielenia się różnymi plikami JSON z formatowaniem w społeczności. Zobacz foldery:
+- **column-samples** (przykłady formatowania kolumn)
+- **view-samples** (przykłady formatowania widoków)
+- **form-samples** (przykłady formatowania formularzy)
 
-![Column formatting sample](https://github.com/SharePoint/sp-dev-docs/raw/main/docs/images/sp-columnformatting-all.png)
+Masz własny przykład, którym możesz się podzielić? **Chętnie przyjmujemy wkład (contributions)**.
 
-You can find more details around the column formatting capability from official SharePoint Dev documentation. 
+![Przykład formatowania kolumn](https://github.com/SharePoint/sp-dev-docs/raw/main/docs/images/sp-columnformatting-all.png)
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+Więcej informacji o możliwościach formatowania kolumn znajdziesz w oficjalnej dokumentacji SharePoint Dev:
 
+- [Użyj formatowania kolumn, aby dostosować SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-# Contributing
+# Współtworzenie (Contributing)
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.microsoft.com.
+Ten projekt przyjmuje zgłoszenia oraz propozycje zmian. Większość zmian wymaga zaakceptowania umowy **Contributor License Agreement (CLA)**, w której oświadczasz, że masz prawo przekazać wkład i faktycznie udzielasz praw do wykorzystania go w projekcie. Szczegóły: https://cla.microsoft.com.
 
-When you submit a pull request, a CLA-bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+Gdy wyślesz pull request, bot CLA automatycznie sprawdzi, czy musisz uzupełnić CLA i odpowiednio oznaczy PR (np. etykietą lub komentarzem). Postępuj zgodnie z instrukcjami bota — zazwyczaj trzeba to zrobić tylko raz dla wszystkich repozytoriów, które używają naszego CLA.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Projekt stosuje [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+Więcej informacji: [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) albo kontakt: [opencode@microsoft.com](mailto:opencode@microsoft.com).
 
-> Sharing is caring!
+> Dzielenie się wiedzą ma sens!

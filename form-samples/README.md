@@ -1,14 +1,14 @@
-# Form Formatting samples for SharePoint and Microsoft Lists
+# Przykłady formatowania formularzy (Form Formatting) dla SharePoint i Microsoft Lists
 
-Samples for use with Form Formatting in SharePoint Online and Microsoft Lists. Samples are organized into dedicated folders with READMEs, screenshots, and everything needed to apply the sample in your own environment.
+Przykłady do użycia z **Form Formatting** w SharePoint Online i Microsoft Lists. Próbki są uporządkowane w osobnych folderach, które zawierają pliki README, zrzuty ekranu oraz wszystko, co jest potrzebne, aby zastosować przykład w Twoim środowisku.
 
-Folders are organized by column type (generic applies to any column type whose value is simple text). There is a dedicated listing of form samples in our documentation site along with groupings to help find exactly the sample you need:
+Foldery są pogrupowane według typu kolumny (kategoria „generic” dotyczy dowolnego typu kolumny, której wartość jest zwykłym tekstem). Na naszej stronie dokumentacji znajduje się kompletna lista przykładów formatowania formularzy oraz różne grupowania, które pomagają znaleźć dokładnie to, czego potrzebujesz:
 
-* [Form Samples](https://pnp.github.io/List-Formatting/formsamples/) - Friendly display of ALL form samples
-* [Groupings](https://pnp.github.io/List-Formatting/groupings/operator/) - Various listings of samples by operators, tokens, author, class usage, etc.
+* [Przykłady formatowania formularzy](https://pnp.github.io/List-Formatting/formsamples/) – przyjazny widok **WSZYSTKICH** próbek
+* [Grupowania](https://pnp.github.io/List-Formatting/groupings/operator/) – różne listy próbek wg operatorów, tokenów, autora, użycia klas itd.
 
 <p align="center">
-    <img src="../assets/SharingIsCaring.png" alt="Parker" title="Parker loves you!">
+    <img src="../assets/SharingIsCaring.png" alt="Parker" title="Parker lubi, gdy się dzielisz!">
 </p>
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/readme" />
