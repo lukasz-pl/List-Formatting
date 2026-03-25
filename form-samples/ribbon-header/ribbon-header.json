@@ -86,7 +86,7 @@
                   "children": [
                     {
                       "elmType": "div",
-                      "txtContent": "=if([$Title] == '', 'No Title' , [$Title])",
+                      "txtContent": "=if([$Title] == '', 'Brak tytulu' , [$Title])",
                       "style": {
                         "font-size": "22px",
                         "font-weight": "bold",

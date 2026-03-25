@@ -1,30 +1,30 @@
 # Download File Button
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates adding a button within a document library view which downloads the file.
+Ta próbka pokazuje adding a button within a document library view which downloads the file.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to any column type (its value is ignored).
+Ten format można zastosować do any column type (its value is ignored).
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-download-file-button.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |January 05, 2022 |Initial release
+1.0     |January 05, 2022 |Wersja początkowa
 1.1     |January 07, 2023 |Changed button hide condition.
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-download-file-button" />

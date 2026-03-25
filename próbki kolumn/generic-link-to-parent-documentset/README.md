@@ -1,38 +1,38 @@
 # Link to Parent Documentset
 
-## Summary
+## Podsumowanie
 The purpose of this sample is to enhance the use of documentsets. Assuming you have a SharePoint Library  with documentsets, it can be useful to create a view that shows all the files without the documentset (folder) structure. By adding a column to this view using this sample, users can open the parent documentset of a file.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - A library with documentsets
 - A view showing all the recent documents
 -- Folders: "Show all items without folders"
 -- Filter: Content Type is not equal to NameOfTheDocumentSetContentType
 - A "Single line of text" column, the column doesn't need to be linked to any content type
 
-## Sample
+## Przykład
 
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/gdk-max)
 
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 7, 2022|Initial release
+1.0|April 7, 2022|Wersja początkowa
 2.0|January 20, 2023|Changed txtContent formula - based on the idea of Chris Kent
 
-## Additional notes
+## Dodatkowe uwagi
 none
 
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-link-to-parent-documentset" />

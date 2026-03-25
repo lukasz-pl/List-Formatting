@@ -1,31 +1,31 @@
 # Bulleted and Numbered List
 
-## Summary
-This sample demonstrates displaying Multi-Select Choice column values like a bulleted and numbered list.
+## Podsumowanie
+Ta próbka pokazuje displaying Multi-Select Choice column values like a bulleted and numbered list.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The bullet list symbols use [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons), which can be changed to stars, hearts, etc. by changing the value of the `iconName` property.
 
 ![screenshot of the bulleted list sample](./assets/screenshot-bulleted-list.png)
 
-## View requirements
-This format can be applied to a Multi-Select Choice column.
+## Wymagania widoku
+Ten format można zastosować do a Multi-Select Choice column.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-choice-list.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 multi-choice-numbered-list.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Wersja |Data             |Uwagi
 --------|-----------------|----------------
-1.0     |January 14, 2023 |Initial release
+1.0     |January 14, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-choice-list" />

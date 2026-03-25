@@ -1,30 +1,30 @@
 # File Picker
 
-## Summary
-This sample demonstrates how to prompt users to copy a file link from a specific library and displays it in the column.
+## Podsumowanie
+Ta próbka pokazuje how to prompt users to copy a file link from a specific library and displays it in the column.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 
-## View requirements
-- This format can be applied to any `Single line of Text` Column with Title `FilePicker`.
+## Wymagania widoku
+- Ten format można zastosować do any `Single line of Text` Column with Title `FilePicker`.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-filepicker.json | [André Lage](https://github.com/aaclage)
 
 - Replace `[replaceUrlPathtoLibrary]` with path to SharePoint Library, sample: '/SiteAssets/'
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 27, 2022|Initial release
+1.0|May 27, 2022|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

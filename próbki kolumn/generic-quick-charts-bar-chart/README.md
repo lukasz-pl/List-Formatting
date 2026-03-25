@@ -1,17 +1,17 @@
 # Bar Chart Column Formatter
 
-## Summary
+## Podsumowanie
 
-This sample uses **SharePoint List Formatting** to automatically generate a bar chart visualization for task status counts in each list item.  
+Ta próbka wykorzystuje **SharePoint List Formatting** to automatically generate a bar chart visualization for task status counts in each list item.  
 Each row displays a dynamically generated bar chart showing the distribution of tasks across three states: "To Do", "In Progress", and "Done", making it easy to visualize project or task progress at a glance.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View Requirements
+## Wymagania widoku
 
-Create a list with the following columns:
+Utwórz listę z następującymi kolumnami:
 
-| Internal Name        | Type    |
+| Nazwa wewnętrzna | Typ    |
 |---------------------|---------|
 | **Title**       | Single line of text  |
 | **ToDoCount**       | Number  |
@@ -21,7 +21,7 @@ Create a list with the following columns:
 
 *Note: Additional columns can be added as needed for your specific use case.*
 
-## Sample Data
+## Dane przykładowe
 
 | ToDoCount | InProgressCount | DoneCount |
 |-----------|----------------|-----------|
@@ -29,9 +29,9 @@ Create a list with the following columns:
 | 8         | 2              | 5         |
 | 0         | 4              | 16        |
 
-## How it Works
+## Jak to działa
 
-- The formatter displays a **bar chart** for each list item based on task status counts
+- Formatter displays a **bar chart** for each list item based on task status counts
 - Charts are generated dynamically using the [QuickChart.io API](https://quickchart.io/)
 - Each bar chart visualizes three data segments with unique colors:
   - **To Do** (Red - #FF6384)
@@ -40,32 +40,32 @@ Create a list with the following columns:
 - The layout displays charts at 400x250 pixels with rounded corners
 - The chart automatically updates when column values change
 
-## Security Configuration
+## Konfiguracja zabezpieczeń
 
 **CRITICAL**: Before the charts will display, you must configure SharePoint security settings:
 
 1. Navigate to **SharePoint Admin Center**
-2. Go to **Settings** > **Advanced Settings**  
-3. Find **"HTML Field Security"** section
+2. Przejdź do **Settings** > **Advanced Settings**  
+3. Znajdź **"HTML Field Security"** section
 4. Add `quickchart.io` to the **allowed domains** list
-5. Save the configuration
+5. Zapisz konfigurację
 
-**Without this security configuration, charts will not display due to SharePoint's content security policies.**
+**Bez tej konfiguracji zabezpieczeń wykresy nie będą wyświetlane z powodu zasad bezpieczeństwa zawartości w SharePoint.**
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-quick-charts-bar-chart.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 08, 2025|Initial release
+1.0|October 08, 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
@@ -94,7 +94,7 @@ Change `label:%22Tasks%22` to any text you prefer (URL-encode the text)
 **Border Radius:**
 Adjust the `border-radius` value to change corner roundness (use `"0px"` for square corners)
 
-### Use Cases
+### Przykładowe zastosowania
 - **Project Management**: Visualize task completion status across multiple projects
 - **Sprint Tracking**: Monitor work items in agile development workflows
 - **Resource Allocation**: Display distribution of team members across different work states
@@ -103,9 +103,9 @@ Adjust the `border-radius` value to change corner roundness (use `"0px"` for squ
 - **Support Tickets**: Monitor ticket distribution by status
 - **Inventory Management**: Track stock levels across different categories
 
-### Chart URL Structure
+### Struktura adresu URL wykresu
 
-The QuickChart URL uses the Chart.js configuration format (URL-encoded):
+Adres URL QuickChart używa formatu konfiguracji Chart.js (zakodowanego w URL):
 ```
 https://quickchart.io/chart?c={
   type: "bar",
@@ -127,20 +127,20 @@ The default color scheme uses:
 - **Yellow (#FFCE56)**: Represents "In Progress" tasks - showing active work
 - **Blue (#36A2EB)**: Represents "Done" tasks - completed work
 
-You can customize these colors to match your organization's branding or create different visual meanings.
+Możesz dostosować these colors to match your organization's branding or create different visual meanings.
 
-### Limitations
+### Ograniczenia
 - Requires internet connectivity for chart generation
 - External dependency on QuickChart.io API
 - Performance may vary with large lists due to multiple API calls
 - Limited customization without modifying the URL-encoded chart configuration
 - Chart renders as a static image (not interactive)
 
-### Advanced Customization
+### Zaawansowane dostosowanie
 
 For more advanced chart customization (colors, legends, etc.), you can modify the Chart.js configuration in the URL. Refer to the [QuickChart.io documentation](https://quickchart.io/documentation/) for available options.
 
-## License
-This formatting solution is provided as-is for educational and professional use. The QuickChart.io API has its own terms of service.
+## Licencja
+To rozwiązanie formatowania jest udostępniane w stanie takim, w jakim jest, do celów edukacyjnych i profesjonalnych. Interfejs QuickChart.io API ma własne warunki korzystania.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-quick-charts-bar-chart" />

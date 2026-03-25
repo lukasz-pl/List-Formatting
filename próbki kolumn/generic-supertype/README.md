@@ -1,9 +1,9 @@
 # Generic Super Type
 
-## Summary
-This sample demonstrates recreating the `Type` column (folder/file icons) and adds meaningful hover panels. Shows you how to take advantage of SharePoint folder colors by referencing the `[$_ColorHex]` field. Additionally, demonstrates 2 different ways of using the `filepreview` element to show a file type icon and also a thumbnail preview of the file.
+## Podsumowanie
+Ta próbka pokazuje recreating the `Type` column (folder/file icons) and adds meaningful hover panels. Shows you how to take advantage of SharePoint folder colors by referencing the `[$_ColorHex]` field. Additionally, demonstrates 2 different ways of using the `filepreview` element to show a file type icon and also a thumbnail preview of the file.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ### Folder Colors
 
@@ -26,30 +26,30 @@ This sample demonstrates recreating the `Type` column (folder/file icons) and ad
 |Light purple|14|
 |Light pink|15|
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to any column in your Document Library.
+Ten format można zastosować do any column in your Document Library.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-supertype.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 9, 2023|Initial release
+1.0|November 9, 2023|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 - [Create Folders with Colors using Power Automate](https://www.expiscornovus.com/2023/10/11/create-coloured-folder/) by [Expicornovus](https://pnp.github.io/List-Formatting/groupings/author/#dennis)
 - [Create Folders with Colors using PnP.PowerShell](https://pnp.github.io/script-samples/spo-create-colored-folder/README.html?tabs=pnpps) by [Tetsuya Kawahara](https://pnp.github.io/List-Formatting/groupings/author/#tetsuya-kawahara) and [Ganesh Sanap](https://pnp.github.io/List-Formatting/groupings/author/#ganesh-sanap)
 

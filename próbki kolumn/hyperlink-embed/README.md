@@ -1,15 +1,15 @@
 # Displaying Embedded Content Using the `embed` Action
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates displaying embedded content using the `embed` action.
+Ta próbka pokazuje displaying embedded content using the `embed` action.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 > [!NOTE]  
 > - This sample and the `embed` action are only available in the newer version of the Microsoft Lists App.
 
-## Prerequisites
+## Wymagania wstępne
 
 ### Allowing Embedding in HTML Field Security Settings
 
@@ -36,28 +36,28 @@ If the URL is not an embedding URL, the following error screen may appear:
 
 ![screenshot of the error screen if the URL is not an embedding URL](./assets/refused-screen.png)
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to a Hyperlink column.
+Ten format można zastosować do a Hyperlink column.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 hyperlink-embed.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date            |Comments
+Wersja |Data            |Uwagi
 --------|----------------|--------
-1.0     |August 27, 2024 |Initial release
+1.0     |August 27, 2024 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - The `embed` action is described in [Formatting syntax reference - customRowAction](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#customrowaction)
 

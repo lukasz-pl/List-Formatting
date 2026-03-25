@@ -1,15 +1,15 @@
 # Field Value Update Button
 
-## Summary
-This sample demonstrates displaying a button to update the fields values of an item.
+## Podsumowanie
+Ta próbka pokazuje displaying a button to update the fields values of an item.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 In this sample, there are 8 types of buttons as follows.
 
-![screenshot of the sample](./assets/screenshot_theme-color.png)
+![zrzut ekranu próbki](./assets/screenshot_theme-color.png)
 
-![screenshot of the sample](./assets/screenshot_OK-NG.png)
+![zrzut ekranu próbki](./assets/screenshot_OK-NG.png)
 
 ### How to change the text on the button
 If you want to change the text of the button, change the value of the `txtContent` property.
@@ -23,8 +23,8 @@ If you want to change the field to be updated, refer to [Microsoft Docs](https:/
 ### How to set the button to show or hide
 If you want to show or hide the button, change the value of the `display` property.
 
-## View requirements
-This format can be applied to any column type but expects the following columns to be part of the view:
+## Wymagania widoku
+Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
 |Type            |Internal Name |Required|
 |----------------|--------------|:------:|
@@ -32,9 +32,9 @@ This format can be applied to any column type but expects the following columns 
 |Date and Time   |Date          |No      |
 |Person or Group |User          |No      |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-update-button.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 generic-update-button-theme-color-filled-icon-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
@@ -45,13 +45,13 @@ generic-update-button-OK-NG-filled-icon-text.json | [Tetsuya Kawahara](https://g
 generic-update-button-OK-NG-filled-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 generic-update-button-OK-NG-filled-text.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |April 2, 2022 |Initial release
+1.0     |April 2, 2022 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-update-button" />

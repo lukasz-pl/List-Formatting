@@ -1,6 +1,6 @@
 # Gamification Badge Column Formatting
 
-## Summary
+## Podsumowanie
 
 This project demonstrates how to create **dynamic Gamification badges** within a SharePoint list using **column formatting JSON**. The badges display different contributor levels based on score values, with **visual indicators, tooltips, and color-coded borders**.
 
@@ -25,21 +25,21 @@ The badge system categorizes contributors into the following tiers based on thei
 | 31-149 | Ace Contributor | Blue (#007acc) | 🥈 Silver | Ace.png |
 | > 150 | Champion | Gold (#ffc107) | 🥇 Gold | Champion.png |
 
-## View requirements
+## Wymagania widoku
 
-This formatting requires the following **columns in your SharePoint list**:
+To formatowanie wymaga następujących **kolumn na liście SharePoint**:
 
 | Column Name | Type | Description |
 |-------------|------|-------------|
 | Score | Number | Numerical score value for determining Gamification level |
-| EmployeeName | Single Line of Text | Employee Name |
-| Title | Single Line of Text | Column where the formatting will be applied |
+| EmployeeName | Pojedyncza linia tekstu | Employee Name |
+| Title | Pojedyncza linia tekstu | Column where the formatting will be applied |
 
-> **Note:** The formatting references the `Score` column to determine which badge to display. Ensure your Score column contains numerical values.
+> **Note:** Formatting references the `Score` column to determine which badge to display. Ensure your Score column contains numerical values.
 
 ## JSON Column Formatting Features
 
-The JSON formatting includes several advanced features:
+Formatowanie JSON obejmuje kilka zaawansowanych funkcji:
 
 - **Conditional Image Loading:** Different images based on score ranges
 - **Dynamic Styling:** Border colors and background colors change based on Gamification level
@@ -96,9 +96,9 @@ The JSON formatting includes several advanced features:
 - No external dependencies or third-party resources required
 - All logic is processed client-side through SharePoint's JSON engine
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-gamification.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
@@ -108,8 +108,8 @@ Version|Date|
 -------|----|
 1.0|September 26, 2025|
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ## References
 

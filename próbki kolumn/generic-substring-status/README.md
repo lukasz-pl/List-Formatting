@@ -1,14 +1,14 @@
 # Substring Status
 
-## Summary
-This format demonstrates using a combination of the `substring` and `indexOf` operations to "split" a value and make style decisions based on portions of the value. In this case the status values are separated with a colon (`:`). The first part is a general category such as Not Started, In Progress, or Resolved. The second part is the detailed reason for the status. Since these values are within the same column it becomes necessary to break the value apart.
+## Podsumowanie
+Ten format pokazuje użycie kombinacji operacji `substring` i `indexOf`, aby "podzielić" wartość i podejmować decyzje o stylu na podstawie jej fragmentów. W tym przypadku wartości statusu są rozdzielone dwukropkiem (`:`). Pierwsza część to ogólna kategoria, taka jak Not Started, In Progress lub Resolved. Druga część to szczegółowy powód statusu. Ponieważ te wartości znajdują się w tej samej kolumnie, konieczne jest ich rozdzielenie.
 
 The value before the colon is used to set an icon and font-color as well as being displayed in it's own `span` element. The value after the colon is used to display the details in a secondary `span` element.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-- This format can be applied to a text/choice column but expects values similar to:
+## Wymagania widoku
+- Ten format można zastosować do a text/choice column but expects values similar to:
   - Not Started: New
   - Not Started: Delayed
   - Not Started: Unassigned
@@ -25,25 +25,25 @@ The value before the colon is used to set an icon and font-color as well as bein
   - Resolved: Can't Reproduce
   - Resolved: Enemy Destroyed
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-substring-status.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 6, 2020|Initial release
+1.0|February 6, 2020|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-substring-status" />

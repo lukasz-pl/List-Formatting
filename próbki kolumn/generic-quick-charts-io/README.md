@@ -1,26 +1,26 @@
 # Task Status Chart Column Formatters
 
-## Summary
+## Podsumowanie
 
 This collection provides **three different chart visualizations** for task status data in SharePoint lists using column formatting. Each formatter automatically generates dynamic charts showing the distribution of tasks across "To Do", "In Progress", and "Done" states.
 
-![screenshot of the sample](./assets/screenshot.png)
-![screenshot of the sample](./assets/outlabeledpie.png)
-![screenshot of the sample](./assets/polar.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/outlabeledpie.png)
+![zrzut ekranu próbki](./assets/polar.png)
 
 ## Available Chart Types
 
-This sample includes three chart variations:
+Ta próbka zawiera three chart variations:
 
 1. **doughnut Chart** (`generic-quick-charts-io.json`) - Classic doughnut with automatic colors
 2. **Outlabeled Pie Chart** (`generic-quick-charts-outlabeledPie.json`) - Enhanced pie chart with labels outside segments
 3. **Polar Area Chart** (`generic-quick-charts-polararea.json`) - Polar area chart with legend and title
 
-## View Requirements
+## Wymagania widoku
 
-Create a list with the following columns:
+Utwórz listę z następującymi kolumnami:
 
-| Internal Name        | Type    |
+| Nazwa wewnętrzna | Typ    |
 |---------------------|---------|
 | **Title**       | Single line of text  |
 | **ToDoCount**       | Number  |
@@ -30,7 +30,7 @@ Create a list with the following columns:
 
 *Note: Additional columns can be added as needed for your specific use case.*
 
-## Sample Data
+## Dane przykładowe
 
 | ToDoCount | InProgressCount | DoneCount |
 |-----------|----------------|-----------|
@@ -60,9 +60,9 @@ Create a list with the following columns:
 - Custom RGBA colors with 50% opacity
 - File: `generic-quick-charts-polararea.json`
 
-## How it Works
+## Jak to działa
 
-- The formatter displays a **doughnut chart** for each list item based on task status counts
+- Formatter displays a **doughnut chart** for each list item based on task status counts
 - Charts are generated dynamically using the [QuickChart.io API](https://quickchart.io/)
 - Each doughnut chart visualizes three data segments:
   - **To Do** (first segment)
@@ -71,34 +71,34 @@ Create a list with the following columns:
 - The layout displays charts at 400x250 pixels with rounded corners
 - The chart automatically updates when column values change
 
-## Security Configuration
+## Konfiguracja zabezpieczeń
 
 **CRITICAL**: Before the charts will display, you must configure SharePoint security settings:
 
 1. Navigate to **SharePoint Site**
-2. Go to **Site Settings**
-3. Find **"HTML Field Security"** section
+2. Przejdź do **Site Settings**
+3. Znajdź **"HTML Field Security"** section
 4. Add `quickchart.io` to the **allowed domains** list
-5. Save the configuration
+5. Zapisz konfigurację
 
-**Without this security configuration, charts will not display due to SharePoint's content security policies.**
+**Bez tej konfiguracji zabezpieczeń wykresy nie będą wyświetlane z powodu zasad bezpieczeństwa zawartości w SharePoint.**
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-quick-charts-io.json | [Sai Bandaru](https://github.com/saiiiiiii)
 generic-quick-charts-outlabeledPie.json | [Sai Bandaru](https://github.com/saiiiiiii)
 generic-quick-charts-polararea.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 13, 2025|Initial release
+1.0|October 13, 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ## Limitations
 - Requires internet connectivity for chart generation
@@ -109,7 +109,7 @@ Version|Date|Comments
 
 ## Advanced Customization
 
-You can customize the charts by modifying the URL-encoded Chart.js configuration:
+Możesz dostosować the charts by modifying the URL-encoded Chart.js configuration:
 
 - **Colors**: Modify `backgroundColor` arrays with hex or rgba values
 - **Labels**: Change text in the `labels` array
@@ -140,8 +140,8 @@ Refer to the [QuickChart.io documentation](https://quickchart.io/documentation/)
 - Consider caching strategies for frequently accessed lists
 - Monitor QuickChart.io API usage and rate limits
 
-## License
-This formatting solution is provided as-is for educational and professional use. The QuickChart.io API has its own terms of service and usage limits. Please review their documentation for production use.
+## Licencja
+To rozwiązanie formatowania jest udostępniane w stanie takim, w jakim jest, do celów edukacyjnych i profesjonalnych. Interfejs QuickChart.io API ma własne warunki korzystania i limity użycia. Przed użyciem produkcyjnym zapoznaj się z ich dokumentacją.
 
 ## Resources
 - [SharePoint Column Formatting Documentation](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)

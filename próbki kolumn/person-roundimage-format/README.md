@@ -1,15 +1,15 @@
 # Display a Person's Profile Picture in a Circle
 
-## Summary
-This sample applies styles to a parent `div` element and a child `img` element to show a person's profile picture in a circle.
+## Podsumowanie
+Ta próbka stosuje styles to a parent `div` element and a child `img` element to show a person's profile picture in a circle.
 
 The size can be easily adjusted by changing the default value of `32px` for both the `width` and `height` style attributes on the parent div.
 
-You can also adjust the `border-radius` value of the parent div to change it from a full circle (_50%_) to a rounded rectangle (_< 50%_). To get larger profile pictures you can change the `size=S` portion of the URL to use either `size=M` or `size=L`. See the table below for details on image size.
+Możesz również adjust the `border-radius` value of the parent div to change it from a full circle (_50%_) to a rounded rectangle (_< 50%_). To get larger profile pictures you can change the `size=S` portion of the URL to use either `size=M` or `size=L`. See the table below for details on image size.
 
 For best results, images should be square (S & M user profile pictures always are).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ### User Profile Picture sizes
 
@@ -25,31 +25,31 @@ Overall, however, the L size shouldn't be used inside columns not only because t
 
 > Note: `@currentField.picture` can be used to retrieve a profile picture directly from a person column. However, size options are not available using that approach.
 
-## View requirements
-- This format can be applied to a Person column
+## Wymagania widoku
+- Ten format można zastosować do a Person column
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 person-roundimage-format.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 21, 2018|Initial release
+1.0|March 21, 2018|Wersja początkowa
 1.1|August 20, 2018|Switched to Excel-style expression
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 This template is included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart.
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 > An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
 

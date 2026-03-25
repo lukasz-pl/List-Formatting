@@ -1,32 +1,32 @@
 # Item Version History
 
-## Summary
+## Podsumowanie
 Since document sets rely on a different style of version history (captured versions) - sometimes you want to see how the metadata has changed over time, using the Versions.aspx page over the DocSetVersions.aspx works awesome, but this is also really useful just to make the version history for someone.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 > [!NOTE]  
 > If you use this sample, you need to set the __LIST ID__. If not set, the link will not work.
 > ![screenshot of how to find List ID](./assets/listid.png)
 
-## View requirements
+## Wymagania widoku
 
-- This format can be applied to any column type, I used a calculated field with the _=""_ formula.
+- Ten format można zastosować do any column type, I used a calculated field with the _=""_ formula.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-item-version-history.json | [Dan Toft](https://github.com/Tanddant)
 
-## Version history
+## Historia wersji
 
 | Version | Date         | Comments        |
 | ------- | ------------ | --------------- |
-| 1.0     | May 12, 2023 | Initial release |
+| 1.0     | May 12, 2023 | Wersja początkowa |
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-item-version-history" />

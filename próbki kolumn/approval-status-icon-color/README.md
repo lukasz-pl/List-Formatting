@@ -1,9 +1,9 @@
 # Approval Status Icons and Colors
 
-## Summary
-This sample demonstrates how to change icons and colors based on the value in the Approval Status column. Changing the icon and color for each Approval Status column value allows for a more visual understanding of the status.
+## Podsumowanie
+Ta próbka pokazuje how to change icons and colors based on the value in the Approval Status column. Changing the icon and color for each Approval Status column value allows for a more visual understanding of the status.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The values displayed in Approval Status column are different depending on the display language.
 
@@ -17,7 +17,7 @@ There are also two samples, each described below.
 
 ![screenshot of the content approval](./assets/content-approval.png)
 
-The following table shows the icons and CSS classes for each value in the Approval Status column.
+Poniższe table shows the icons and CSS classes for each value in the Approval Status column.
 
 Approval Status  |Icon Name         |Background color related CSS class|
 -----------------|------------------|----------------------------------|
@@ -37,7 +37,7 @@ Since the Approvals in Lists feature is also enabled for the "Travel Request wit
 
 ![screenshot of the list templates](./assets/list-templates.png)
 
-The following table shows the icons and CSS classes for each value in the Approval Status column.
+Poniższe table shows the icons and CSS classes for each value in the Approval Status column.
 
 Approval Status  |Icon Name         |Background color related CSS class|
 -----------------|------------------|----------------------------------|
@@ -50,31 +50,31 @@ When you click on "Approval Details," the "Request approval" dialog or the "Appr
 
 ![screenshot of the approval dialog](./assets/approval-details.png)
 
-## View requirements
+## Wymagania widoku
 
 - **approval-status-icon-color-content-approval.json** can be applied to the Approval Status column with  the internal column name of `_ModerationStatus` when content approval is set as required.
 - **approval-status-icon-color-with-approvals.json** can be applied to the Approval status column with the internal column name `_ApprovalStatus`, which is created when the Approvals in Lists feature is enabled.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 approval-status-icon-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 approval-status-icon-color-with-approvals.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date        |Comments
+Wersja |Data        |Uwagi
 --------|------------|----------------
-1.0     |June 4, 2023|Initial release
-1.1     |May 22, 2024|Added a note to README.md about the Approvals in Lists feature
+1.0     |June 4, 2023|Wersja początkowa
+1.1     |May 22, 2024|Dodano a note to README.md about the Approvals in Lists feature
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - [Approvals in Lists](https://support.microsoft.com/office/approvals-in-lists-2bd0954d-5797-4be3-b78a-846f26338e17) feature has not yet been deployed as of May 22, 2024 and some tenants may not be able to activate the feature.
 

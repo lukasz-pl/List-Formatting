@@ -4,10 +4,10 @@
     "reponame": "yesno-checkmark-format",
     "source": "pnp",
     "title": "Yes/No Checkmark",
-    "shortDescription": "You can apply conditional formatting to Yes/No fields. This sample applies different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting predefined classes (sp-field-severity--good, sp-field-severity--low, or sp-field-severity--blocked) to the root <div /> based on the field's value. This is what determines the element's background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a <span /> element with an iconName attribute that shows a Fluent UI icon inside that element.",
+    "shortDescription": "Możesz zastosować formatowanie warunkowe do Yes/No fields. Ta próbka stosuje different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting predefined classes (sp-field-severity--good, sp-field-severity--low, or sp-field-severity--blocked) to the root <div /> based on the field's value. This is what determines the element's background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a <span /> element with an iconName attribute that shows a Fluent UI icon inside that element.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/yesno-checkmark-format",
     "longDescription": [
-      "You can apply conditional formatting to Yes/No fields. This sample applies different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting predefined classes (sp-field-severity--good, sp-field-severity--low, or sp-field-severity--blocked) to the root <div /> based on the field's value. This is what determines the element's background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a <span /> element with an iconName attribute that shows a Fluent UI icon inside that element."
+      "Możesz zastosować formatowanie warunkowe do Yes/No fields. Ta próbka stosuje different classes depending on whether the value of the field is Yes (true), No (false), or Blank. This example applies one of the column formatting predefined classes (sp-field-severity--good, sp-field-severity--low, or sp-field-severity--blocked) to the root <div /> based on the field's value. This is what determines the element's background color. A class of \u0060ms-fontColor-neutralSecondary\u0060 is always applied to ensure the text color is legible in both light and dark themes. Then, it outputs a <span /> element with an iconName attribute that shows a Fluent UI icon inside that element."
     ],
     "creationDateTime": "2017-11-22T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",
@@ -58,7 +58,7 @@
         "type": "image",
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/yesno-checkmark-format/assets/screenshot.png",
-        "alt": "screenshot"
+        "alt": "zrzut ekranu"
       }
     ],
     "authors": [
@@ -70,8 +70,8 @@
     ],
     "references": [
       {
-        "name": "Use column formatting to customize SharePoint",
-        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "name": "Użyj formatowania kolumn do dostosowania SharePoint",
+        "description": "Możesz użyć formatowania kolumn, aby dostosować sposób wyświetlania pól na listach i w bibliotekach SharePoint. W tym celu tworzysz obiekt JSON opisujący elementy wyświetlane wtedy, gdy pole jest uwzględnione w widoku listy, oraz style stosowane do tych elementów. Formatowanie kolumn nie zmienia danych elementu listy ani pliku; zmienia jedynie sposób ich wyświetlania użytkownikom przeglądającym listę.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
       }
     ]

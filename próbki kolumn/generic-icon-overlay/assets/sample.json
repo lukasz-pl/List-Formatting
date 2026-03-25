@@ -4,10 +4,10 @@
     "reponame": "generic-icon-overlay",
     "source": "pnp",
     "title": "Icon Overlays",
-    "shortDescription": "You can UI Fabric Icons within your column and view formats. This sample demonstrates combining multiple icons by overlaying to create colorful icons that can indicate more information than a single icon can.",
+    "shortDescription": "You can UI Fabric Icons within your column and view formats. Ta próbka pokazuje combining multiple icons by overlaying to create colorful icons that can indicate more information than a single icon can.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-icon-overlay",
     "longDescription": [
-      "You can UI Fabric Icons within your column and view formats. This sample demonstrates combining multiple icons by overlaying to create colorful icons that can indicate more information than a single icon can."
+      "You can UI Fabric Icons within your column and view formats. Ta próbka pokazuje combining multiple icons by overlaying to create colorful icons that can indicate more information than a single icon can."
     ],
     "creationDateTime": "2020-01-09T00:00:00.000Z",
     "updateDateTime": "2020-01-09T00:00:00.000Z",
@@ -82,8 +82,8 @@
     ],
     "references": [
       {
-        "name": "Use column formatting to customize SharePoint",
-        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "name": "Użyj formatowania kolumn do dostosowania SharePoint",
+        "description": "Możesz użyć formatowania kolumn, aby dostosować sposób wyświetlania pól na listach i w bibliotekach SharePoint. W tym celu tworzysz obiekt JSON opisujący elementy wyświetlane wtedy, gdy pole jest uwzględnione w widoku listy, oraz style stosowane do tych elementów. Formatowanie kolumn nie zmienia danych elementu listy ani pliku; zmienia jedynie sposób ich wyświetlania użytkownikom przeglądającym listę.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
       },
       {

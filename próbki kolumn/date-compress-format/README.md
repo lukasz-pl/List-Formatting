@@ -1,28 +1,28 @@
 # Formatting of Date column to compress date value in different style.
 
-## Summary
-This sample provide a different style to provide Date in a compress way such us align days and month and display year parallel as vertical.
+## Podsumowanie
+Ta próbka wprowadza inny styl prezentacji daty w skompresowanej formie, na przykład przez wyrównanie dnia i miesiąca oraz pionowe wyświetlenie roku.
 
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-- This format can be applied to any date time `Column`
+## Wymagania widoku
+- Ten format można zastosować do any date time `Column`
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 date-compress-format.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 6, 2021|Initial release
-1.1|March 23, 2024|Fixed to use `@currentField` instead of column specific name `[$DueDate]`
+1.0|December 6, 2021|Wersja początkowa
+1.1|March 23, 2024|Poprawiono to use `@currentField` instead of column specific name `[$DueDate]`
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-compress-format" />

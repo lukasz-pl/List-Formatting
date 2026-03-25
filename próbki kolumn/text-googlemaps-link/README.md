@@ -1,26 +1,26 @@
 # Display Link to Google Maps
 
-## Summary
-This sample demonstrates displaying a link to Google Maps. The URL for that link is set to the value `https://maps.google.com/maps?q=[Field Value]` and when the link is opened, a map around the location of the field value is displayed.
+## Podsumowanie
+Ta próbka pokazuje displaying a link to Google Maps. The URL for that link is set to the value `https://maps.google.com/maps?q=[Field Value]` and when the link is opened, a map around the location of the field value is displayed.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-- This format can be applied to any column type (but is intended for text fields)
+## Wymagania widoku
+- Ten format można zastosować do any column type (but is intended for text fields)
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 text-googlemaps-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |April 6, 2023 |Initial release
+1.0     |April 6, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-googlemaps-link" />

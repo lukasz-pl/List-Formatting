@@ -1,29 +1,29 @@
 # YouTube Thumbnail
 
-## Summary
-This sample provides a thumbnail of a YouTube video that links to the video and a larger preview image on hover.
+## Podsumowanie
+Ta próbka przedstawia a thumbnail of a YouTube video that links to the video and a larger preview image on hover.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
-- This format can be applied to any text column but expects that value to be a URL to a YouTube video. The `Title` column is also used in the hover card.
+## Wymagania widoku
+- Ten format można zastosować do any text column but expects that value to be a URL to a YouTube video. The `Title` column is also used in the hover card.
 
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-youtube-thumbnail.json | [João Ferreira](https://github.com/joaoferreira)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 10, 2021|Initial release
+1.0|February 10, 2021|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-youtube-thumbnail" />

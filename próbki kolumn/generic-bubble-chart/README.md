@@ -1,45 +1,45 @@
 # Bubble Chart
 
-This sample demonstrates how to use **SharePoint Column Formatting** to create a dynamic **bubble chart** in a list view. The size and color of each bubble are automatically determined by the length of the text in its corresponding column, providing a quick visual representation of your data.
+Ta próbka pokazuje how to use **SharePoint Column Formatting** to create a dynamic **bubble chart** in a list view. The size and color of each bubble are automatically determined by the length of the text in its corresponding column, providing a quick visual representation of your data.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-### Summary
+### Podsumowanie
 
   * The bubble size and color are dynamically generated.
   * A wider range of sizes and colors is supported for a more vibrant appearance.
   * The bubbles are arranged into a multi-line layout to prevent horizontal crowding.
   * The text within each bubble is horizontally and vertically centered, even when it wraps to multiple lines.
 
-### View Requirements
+### Wymagania widoku
 
 Create a SharePoint list with the following columns:
 
 | Column Name | Type |
 |-------------|-------------|
-| Title     | Single Line of Text |
-| LABEL1    | Single Line of Text |
-| LABEL2    | Single Line of Text |
-| LABEL3    | Single Line of Text |
-| LABEL4    | Single Line of Text |
-| LABEL5    | Single Line of Text |
-| LABEL6    | Single Line of Text |
-| LABEL7    | Single Line of Text |
-| LABEL8    | Single Line of Text |
-| LABEL9    | Single Line of Text |
-| LABEL10   | Single Line of Text |
-| LABEL11   | Single Line of Text |
-| LABEL12   | Single Line of Text |
-| LABEL13   | Single Line of Text |
-| LABEL14   | Single Line of Text |
-| LABEL15   | Single Line of Text |
-| LABEL16   | Single Line of Text |
-| LABEL17   | Single Line of Text |
-| LABEL18   | Single Line of Text |
-| LABEL19   | Single Line of Text |
-| LABEL20   | Single Line of Text |
+| Title     | Pojedyncza linia tekstu |
+| LABEL1    | Pojedyncza linia tekstu |
+| LABEL2    | Pojedyncza linia tekstu |
+| LABEL3    | Pojedyncza linia tekstu |
+| LABEL4    | Pojedyncza linia tekstu |
+| LABEL5    | Pojedyncza linia tekstu |
+| LABEL6    | Pojedyncza linia tekstu |
+| LABEL7    | Pojedyncza linia tekstu |
+| LABEL8    | Pojedyncza linia tekstu |
+| LABEL9    | Pojedyncza linia tekstu |
+| LABEL10   | Pojedyncza linia tekstu |
+| LABEL11   | Pojedyncza linia tekstu |
+| LABEL12   | Pojedyncza linia tekstu |
+| LABEL13   | Pojedyncza linia tekstu |
+| LABEL14   | Pojedyncza linia tekstu |
+| LABEL15   | Pojedyncza linia tekstu |
+| LABEL16   | Pojedyncza linia tekstu |
+| LABEL17   | Pojedyncza linia tekstu |
+| LABEL18   | Pojedyncza linia tekstu |
+| LABEL19   | Pojedyncza linia tekstu |
+| LABEL20   | Pojedyncza linia tekstu |
 
-The formatting code will apply to the column containing the JSON and reference these other columns to create the complete visual.
+Formatting code will apply to the column containing the JSON and reference these other columns to create the complete visual.
 
 ## How to Apply
 
@@ -57,9 +57,9 @@ The bubble chart is created using a single JSON file that applies to a column in
   * **Conditional Coloring:** The `background-color` property is also controlled by the text length, with a different color assigned to each size range.
   * **Multi-line Layout:** The bubbles are grouped into separate `div` elements to force them to wrap onto multiple lines, creating a clean, organized layout.
 
-### Sample
+### Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-bubble-chart.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
@@ -67,11 +67,11 @@ generic-bubble-chart.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 | Version | Date            | Comments       |
 |---------|-----------------|----------------|
-| 1.0     | September 2, 2025 | Initial release |
+| 1.0     | September 2, 2025 | Wersja początkowa |
 
-### Disclaimer
+### Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 -----
 

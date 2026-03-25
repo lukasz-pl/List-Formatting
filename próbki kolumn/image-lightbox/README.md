@@ -1,9 +1,9 @@
 # Image Lightbox
 
-## Summary
-This sample demonstrates showing the full size image in a lightbox (hover card) rather than opening this image in a new window.
+## Podsumowanie
+Ta próbka pokazuje showing the full size image in a lightbox (hover card) rather than opening this image in a new window.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 ### Taking it further
 
@@ -11,26 +11,26 @@ An additional format (image-lightbox-advanced.json) is provided which demonstrat
 
 ![screenshot of the advanced sample](./assets/screenshotAdvanced.gif)
 
-## View requirements
-- This format can be applied to any image column type (Note: this sample does not work with the Picture column type)
+## Wymagania widoku
+- Ten format można zastosować do any image column type (Note: this sample does not work with the Picture column type)
 
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 image-lightbox.json | [João Ferreira](https://github.com/joaoferreira)
 image-lightbox-advanced.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 10, 2020|Initial release
-1.1|July 8, 2021|Added advanced format
+1.0|February 10, 2020|Wersja początkowa
+1.1|July 8, 2021|Dodano advanced format
 1.2|October 26, 2023|Updated samples to use getThumbnailImage
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/image-lightbox" />

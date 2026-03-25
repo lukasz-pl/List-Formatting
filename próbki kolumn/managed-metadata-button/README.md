@@ -1,19 +1,19 @@
 #  Managed Metadata Values to Buttons
 
-## Summary
-This sample demonstrates changing managed metadata (multiple) values to buttons that open (external) sites, documents or items on other links. Myself used this for redirecting users to information, like clients, projects or group related documents.
+## Podsumowanie
+Ta próbka pokazuje changing managed metadata (multiple) values to buttons that open (external) sites, documents or items on other links. Myself used this for redirecting users to information, like clients, projects or group related documents.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 *Example of Related client(s) references on a document item within a SharePoint Document library*
 
 ![screenshot of the projects example](./assets/screenshot_projects.png)
 *Example of Related projects(s) references on a document item within a SharePoint Document library*
 
-![screenshot of the sample](./assets/screenshot_normreference.png)
+![zrzut ekranu próbki](./assets/screenshot_normreference.png)
 *Example of Institute Norm reference(s) on a document item within a SharePoint Document library*
 
-## View requirements
-This format can be applied to a Managed Metadata column.
+## Wymagania widoku
+Ten format można zastosować do a Managed Metadata column.
 
 ## How it works
 For every value (term) of the metadata column, create a [HTML hyperlink](https://www.w3schools.com/tags/tag_a.asp) element (\<a\>) wrapped with a [HTML Content Division](https://www.w3schools.com/tags/tag_div.ASP) element (\<div\>).
@@ -35,27 +35,27 @@ For example:
 6. Click on Save
 
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 managed-metadata-button.json | [Daniel Giessenburg](https://github.com/DAGiessenburg)
 
-## Version history
+## Historia wersji
 
-Version |Date               |Comments
+Wersja |Data               |Uwagi
 --------|-------------------|--------
-1.0     |June 26, 2025      |Initial release
+1.0     |June 26, 2025      |Wersja początkowa
 
 ## Additional Notes
 - [Introduction to managed metadata](https://learn.microsoft.com/sharepoint/managed-metadata)
 
 - [Create a Managed Metadata column](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f)
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
  
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/managed-metadata-button" />

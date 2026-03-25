@@ -1,31 +1,31 @@
 # Managed Metadata Tag Icon
 
-## Summary
-This sample displays a tag icon to the left of the value in the managed metadata column.
+## Podsumowanie
+Ta próbka wyświetla ikonę tagu po lewej stronie wartości w kolumnie metadanych zarządzanych.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 There are 2 versions of the sample included depending on if your Managed Metadata column is single or multi-value.
 
-## View requirements
-This format can be applied to a Managed Metadata column.
+## Wymagania widoku
+Ten format można zastosować do a Managed Metadata column.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 managed-metadata-tag-icon.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 managed-metadata-tag-icon-multi-choice.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date           |Comments
+Wersja |Data           |Uwagi
 --------|---------------|--------
-1.0     |March 29, 2021 |Initial release
-1.0     |January 14, 2023 |Fixed to not display the tag icon if the value is empty.
+1.0     |March 29, 2021 |Wersja początkowa
+1.0     |January 14, 2023 |Poprawiono to not display the tag icon if the value is empty.
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/managed-metadata-tag-icon" />

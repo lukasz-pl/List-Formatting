@@ -1,15 +1,15 @@
 # SharePoint Column Formatting – People Card with Custom Avatar
 
-## Summary
+## Podsumowanie
 
 This SharePoint column formatting sample provides a modern, interactive **People card** for list items using JSON formatting. It enhances the display of user information and enables **quick actions** directly from the list. The column supports **Person or Group type fields for Email**, making it fully compatible with SharePoint user data.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 ![Screenshot2 of People Card](./assets/screenshot2.png)
 
-## View Requirements
+## Wymagania widoku
 
-- This format expects to be applied to a Person column
+- Ten format powinien być zastosowany do a Person column
 
 ## Key Features
 
@@ -45,24 +45,24 @@ This SharePoint column formatting sample provides a modern, interactive **People
 
 The column will now display **custom avatars** with **hover cards** and **action buttons**.
 
-## Requirements
+## Wymagania
 - **SharePoint Online (Modern Experience)**
 - **Person or Group column type** for Email
 - Modern browser for full functionality
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 person-name-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
 | Version | Date | Comments |
 |---------|------|---------|
-| 1.0 | August 25, 2025 | Initial release |
+| 1.0 | August 25, 2025 | Wersja początkowa |
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-name-avatar" />

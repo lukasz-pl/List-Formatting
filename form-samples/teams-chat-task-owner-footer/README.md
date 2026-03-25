@@ -1,39 +1,39 @@
-# Microsoft Teams chat with Task owner
+# Czat Microsoft Teams z właścicielem zadania
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates displaying Microsoft Teams chat link to chat with owner of the task in SharePoint list.
+Ta próbka pokazuje link do czatu Microsoft Teams, który pozwala rozpocząć rozmowę z właścicielem zadania na liście SharePoint.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
+## Wymagania formularza
 
-|Type                   |Internal Name|Required|
-|-----------------------|-------------|:------:|
-|Single line of text    |Title        |Yes     |
-|Person or Group        |AssignedTo   |Yes     |
+|Typ                    |Nazwa wewnętrzna|Wymagane|
+|-----------------------|----------------|:------:|
+|Pojedyncza linia tekstu|Title           |Tak     |
+|Osoba lub grupa        |AssignedTo      |Tak     |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 teams-chat-task-owner-footer.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |October 15, 2022 |Initial release
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |October 15, 2022 |Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
-## Additional notes
+## Dodatkowe uwagi
 
-Microsoft Teams chat link uses deep link.
+Link do czatu Microsoft Teams korzysta z deep linku.
 
-- [Navigate to a chat](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-links#navigate-to-a-chat)
+- [Przejdź do czatu](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-links#navigate-to-a-chat)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/teams-chat-task-owner-footer" />

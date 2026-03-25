@@ -1,10 +1,10 @@
 # Incident Action Buttons
 
-## Summary
+## Podsumowanie
 
-This sample adds two context-aware buttons to a SharePoint list for managing incident workflows directly from the list view. It uses column formatting and the `executeFlow` action to provide inline **Escalate** and **Resolve** buttons that trigger Power Automate flows.
+Ta próbka dodaje two context-aware buttons to a SharePoint list for managing incident workflows directly from the list view. It uses column formatting and the `executeFlow` action to provide inline **Escalate** and **Resolve** buttons that trigger Power Automate flows.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 Key points:
 
@@ -13,7 +13,7 @@ Key points:
 - Both buttons are styled using inline JSON and provide a more app-like interaction in SharePoint
 - Uses `executeFlow` actions to launch Power Automate flows for escalation and resolution handling
 
-## View requirements
+## Wymagania widoku
 
 |Type|Internal Name|Required|Additional Information|
 |---|---|:---:|---|
@@ -21,21 +21,21 @@ Key points:
 |Choice|Status|Yes|Values: `new`, `in progress`, `resolved` (all lowercase)|
 |Single line of text|Actions| |Apply [generic-action-buttons.json](./generic-action-buttons.json) to this column|
 
-- The format is best applied to a dedicated Actions column (type: Single line of text) that exists solely for button rendering.
+- Format is best applied to a dedicated Actions column (type: Single line of text) that exists solely for button rendering.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-action-buttons.json | [Luise Freese](https://github.com/LuiseFreese)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |July 16, 2025 |Initial release
+1.0     |July 16, 2025 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-action-buttons" />

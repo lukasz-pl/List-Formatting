@@ -1,33 +1,33 @@
-# Set Date to Today's Date (Date Only)
+# Set Date to Today's Date (Tylko data)
 
-## Summary
-This sample a button to 'Mark Trip as Complete' (Date Field). 
+## Podsumowanie
+Ta próbka dodaje przycisk „Mark Trip as Complete” (pole daty). 
 This button uses the 'setValue' action to set a Date field value to Today's date by using the token @now and formatting it in a way that we exclude the time piece (a string in the format ‘yyyy-MM-dd’).
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 
-## View requirements
+## Wymagania widoku
 
 |Type|Internal Name|Required|Additional Information
 |---|---|:---:|---|
-|Date Only|DateTripCompleted|Yes| Apply [date-button-setValue-today.json](./date-button-setValue-today.json) to this column
+|Tylko data|DateTripCompleted|Yes| Apply [date-button-setValue-today.json](./date-button-setValue-today.json) to this column
 
 
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 date-button-setValue-today.json | [Michel Mendes](https://github.com/michelcarlo)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |January 15, 2023 |Initial release
+1.0     |January 15, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-button-setValue-today" />

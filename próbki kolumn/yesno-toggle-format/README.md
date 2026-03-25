@@ -1,34 +1,34 @@
 # Yes/No Column Toggle
 
-## Summary
-This sample demonstrates changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, & Emoji). Also, this sample uses the `setValue` of `customRowAction` to update the field. You need to set the `actionInput` to the internal name of the column to be updated.
+## Podsumowanie
+Ta próbka pokazuje changing the value of the Yes/No column to a toggle. Three different versions of the sample are provided (Toggle, Icon, & Emoji). Also, this sample uses the `setValue` of `customRowAction` to update the field. Musisz set the `actionInput` to the internal name of the column to be updated.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
-This format can be applied to a Yes/No column.
+## Wymagania widoku
+Ten format można zastosować do a Yes/No column.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 yesno-toggle-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 yesno-toggle-icon-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 yesno-toggle-emoji-format.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |April 29, 2021    |Initial release
+1.0     |April 29, 2021    |Wersja początkowa
 1.1     |November 21, 2021 |Modified to update item using `setValue`
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 There is also a way to implement this with SPFx Extension, available from PnP: [React Toggle Field Customizer](https://github.com/pnp/sp-dev-fx-extensions/tree/main/samples/react-field-toggle)
 

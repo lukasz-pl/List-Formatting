@@ -1,15 +1,15 @@
 # Generic Gauge
 
-## Summary
-This sample demonstrates combining a fixed SVG (gauge background) with a dynamic SVG (needle). The values are based on text values (choice or text).
+## Podsumowanie
+Ta próbka pokazuje combining a fixed SVG (gauge background) with a dynamic SVG (needle). The values are based on text values (choice or text).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 > This sample is an adaptation of the [number-gauge](../number-gauge/) sample that shows how to represent a percent column with a dynamic gauge.
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to any column. As written, it is expecting the values to be one of the following:
+Ten format można zastosować do any column. As written, it is expecting the values to be one of the following:
 - Critical
 - Off Track
 - At Risk
@@ -18,25 +18,25 @@ This format can be applied to any column. As written, it is expecting the values
 
 To use custom values, simply to a find and replace with your equivalent values.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-gauge.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 26, 2022|Initial release
+1.0|April 26, 2022|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-gauge" />

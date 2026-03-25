@@ -1,13 +1,13 @@
 # Liked By Users
 
-## Summary
-This sample demonstrates showing the users who have liked an item.
+## Podsumowanie
+Ta próbka pokazuje showing the users who have liked an item.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Prerequisites
+## Wymagania wstępne
 ### Enabling the ratings feature
-The ratings feature is available by default in the team site, but not in the communication site. If you want to use the ratings feature in the list of communication sites, you need to enable the feature GUID ` 915c240e-a6cc-49b8-8b2c-0bff8b553ed3`. The following is an example of how to enable it using [PnP PowerShell](https://pnp.github.io/powershell).
+The ratings feature is available by default in the team site, but not in the communication site. If you want to use the ratings feature in the list of communication sites, you need to enable the feature GUID ` 915c240e-a6cc-49b8-8b2c-0bff8b553ed3`. Poniższe is an example of how to enable it using [PnP PowerShell](https://pnp.github.io/powershell).
 
 ```
 $targetURL = "https://<tenent name>.sharepoint.com/sites/<site name>"
@@ -29,7 +29,7 @@ Disconnect-PnPOnline
 
    ![screenshot of how to add the ratings feature](./assets/add_ratings_2.png)
 
-## View requirements
+## Wymagania widoku
 
 - Add a ratings feature to the list and display a like button.
 - In addition, one field needs to be defined
@@ -38,22 +38,22 @@ Disconnect-PnPOnline
 |-------------------|-------------|:------:|
 |Single line of text|LikedBy      |No      |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-likedby.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date            |Comments
+Wersja |Data            |Uwagi
 --------|----------------|----------------
-1.0     |October 22, 2021|Initial release
+1.0     |October 22, 2021|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## Additional notes
+## Dodatkowe uwagi
 - [PnP PowerShell](https://pnp.github.io/powershell)
 - [Add a ratings feature to your library](https://support.microsoft.com/en-us/office/add-a-ratings-feature-to-your-library-5901fcfd-19ca-4f27-a65f-284654298552)
 

@@ -1,13 +1,13 @@
 # Scheduling Dialog Links to MS Teams and Outlook
 
-## Summary
-This sample demonstrates creating deep links to the scheduling dialog in Microsoft Teams and Microsoft Outlook.
+## Podsumowanie
+Ta próbka pokazuje creating deep links to the scheduling dialog in Microsoft Teams and Microsoft Outlook.
 
-![screenshot of the sample](./assets/screenshot.png)
-![screenshot of the sample](./assets/screen_capture.gif)
+![zrzut ekranu próbki](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screen_capture.gif)
 
-## View requirements
-This format can be applied to any column type but expects the following columns to be part of the view:
+## Wymagania widoku
+Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
 |Type                 |Internal Name  |Required|
 |---------------------|---------------|:------:|
@@ -30,23 +30,23 @@ Alternatively, an additional format (generic-scheduling-link-advanced.json) is i
 
 These formulas have been put into the separate format because they are difficult to read and are not universally applicable. If you are targeting multiple regions with varying locale formats it is advised to use the calculated columns and the standard version of the format.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-scheduling-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 generic-scheduling-link-advanced.json | [Tetsuya Kawahara](https://github.com/tecchan1107) & [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |January 28, 2021 |Initial release
+1.0     |January 28, 2021 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## Additional notes
+## Dodatkowe uwagi
 - [Create deep links to content and features in Microsoft Teams](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#generating-a-deep-link-to-the-scheduling-dialog)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-scheduling-link" />

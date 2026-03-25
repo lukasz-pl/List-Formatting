@@ -1,7 +1,7 @@
 # Date Notation
 
-## Summary
-This sample provides a way to make sure that the notation of a date and time column in SharePoint is forced in a specific notation.
+## Podsumowanie
+Ta próbka przedstawia a way to make sure that the notation of a date and time column in SharePoint is forced in a specific notation.
 
 In Power Apps we can use Power Fx:
 `text(ThisItem.DateTimeColumn, 'yyyy-mm-dd')`
@@ -13,29 +13,29 @@ to force the notation to be 'yyyy-MM-dd'
 
 In SharePoint Column Formatting I was not able to find a generic expression that can easily do this on a date and time value. Therefor this sample can be useful if different users have different regional settings or if the Time Format setting in the Site Settings is greyed out, but you want to make sure that a date and time value is shown in a specific format / in a specific notation.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-This format can be applied to a date column with time enabled.
+## Wymagania widoku
+Ten format można zastosować do a date column with time enabled.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 date-notation.json | [Django Lohn](https://github.com/m3ngi3)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 8, 2023|Initial release
+1.0|February 8, 2023|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 - I verified this formatting for Dutch and English Locales (Regional Settings) of the SharePoint Site. Some locales may not be displayed correctly.
 - This format allows the date and time to be displayed in the local PC time zone, instead of the site's time zone.
 - Please let me know if you have a scenario that is not accounted for in my generic example when it comes regional settings logic. Maybe we can add more logic to this script together.

@@ -1,10 +1,10 @@
 # Multi-lookup fields and projected fields
 
-## Summary
+## Podsumowanie
 Lookup columns that support multiple values can be formatted using the advanced `forEach` property. 
-Since the inclusion of the split operation, projected fields (additional columns associated to your lookup column) can now also be formatted using the same method. This sample provides two formats illustrating the difference in how these columns are formatted.
+Since the inclusion of the split operation, projected fields (additional columns associated to your lookup column) can now also be formatted using the same method. Ta próbka przedstawia two formats illustrating the difference in how these columns are formatted.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ### Multi-Lookup Columns vs Projected Fields
 
@@ -26,32 +26,32 @@ We can now use the `split` operation to separate the string into an array which 
 
 It's ideal to match the formatting properties of the projected fields with the primary lookup column to ensure the values line up correctly.
 
-## View requirements
+## Wymagania widoku
 - The `multi-lookup.json` format can be applied to any multi-value lookup column
 - The `multi-lookup-projected-field.json` format can be applied to any projected field
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-lookup-projected-field.json | [Chris Kent](https://github.com/thechriskent), [Tim Hunt](https://github.com/timberrr)
 multi-lookup.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 22, 2021|Initial release
+1.0|April 22, 2021|Wersja początkowa
 1.1|August 14, 2023|Updated projected field to use split and forEach
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-lookup-projected-field" />

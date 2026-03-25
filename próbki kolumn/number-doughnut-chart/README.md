@@ -1,37 +1,37 @@
 # Doughnut Chart
 
-## Summary
-This sample changes the appearance of the values in number columns (percent) to a donut chart. The donut chart is displayed using `svg`.
+## Podsumowanie
+Ta próbka zmienia wygląd wartości w kolumnach liczbowych (procentowych) na wykres pierścieniowy. Wykres jest wyświetlany przy użyciu `svg`.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-This format can be applied to a Number column. It is expected that the values will be from 0 to 1 (percent).
+## Wymagania widoku
+Ten format można zastosować do a Number column. It is expected that the values will be from 0 to 1 (percent).
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 number-doughnut-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 number-doughnut-chart-percent-only.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 number-doughnut-chart-icon-only.json    | [Tetsuya Kawahara](https://github.com/tecchan1107)
 number-doughnut-chart-compact.json    | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date            |Comments
+Wersja |Data            |Uwagi
 --------|----------------|----------------
-1.0     |August 20, 2021 |Initial release
-1.1     |October 3, 2021 |Fixed the display when the value is less than 0% and greater than 100%.
-1.2     |April 12, 2025 |Added `number-doughnut-chart-compact.json`
+1.0     |August 20, 2021 |Wersja początkowa
+1.1     |October 3, 2021 |Poprawiono the display when the value is less than 0% and greater than 100%.
+1.2     |April 12, 2025 |Dodano `number-doughnut-chart-compact.json`
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
-This sample uses icons from the Fluent UI
+## Dodatkowe uwagi
+Ta próbka wykorzystuje icons from the Fluent UI
 
 - [Fluent UI](https://developer.microsoft.com/en-us/fluentui)
 

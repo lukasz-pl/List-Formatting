@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-person-circle-header",
     "reponame": "person-circle-header",
     "source": "pnp",
-    "title": "Person circle Header",
-    "shortDescription": "This sample demonstrates how to display multiple selected persons from existing field in the header.",
+    "title": "Nagłówek z okręgami osób",
+    "shortDescription": "Ta próbka pokazuje, jak wyświetlić w nagłówku wiele wybranych osób z istniejącego pola.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/person-circle-header",
     "longDescription": [
-      "This sample demonstrates how to display multiple selected persons from existing field in the header. The values of the `Contacts` column are displayed in the header with visual circle process desing and switching color position."
+      "Ta próbka pokazuje, jak wyświetlić w nagłówku wiele wybranych osób z istniejącego pola. Wartości kolumny `Contacts` są prezentowane w nagłówku w formie wizualnych okręgów z przesunięciem kolorów."
     ],
     "creationDateTime": "2023-02-17T00:00:00.000Z",
     "updateDateTime": "2023-02-17T00:00:00.000Z",
@@ -70,8 +70,8 @@
     ],
     "references": [
       {
-        "name": "Configure the list form",
-        "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+        "name": "Skonfiguruj formularz listy",
+        "description": "Możesz skonfigurować formularz listy lub biblioteki z niestandardowym nagłówkiem, stopką i treścią formularza zawierającą jedną lub więcej sekcji z polami w każdej z nich.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
       }
     ]

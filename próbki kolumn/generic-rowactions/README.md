@@ -1,13 +1,13 @@
 # Row Actions
 
-## Summary
-You can use column and view formatting to create buttons that perform pre-defined actions when clicked. This sample provides several quick formats that demonstrates the use of each of the possible actions.
+## Podsumowanie
+Możesz używać formatowania kolumn i widoków do tworzenia przycisków wykonujących predefiniowane akcje po kliknięciu. Ta próbka zawiera kilka szybkich formatów pokazujących użycie każdej z dostępnych akcji.
 
 These samples are all built for column formatting, but these can be easily adapted to work with view formatting.
 
 Custom row actions only work when placed inside of `button`, `div`, or `span` elements. However, you can adjust the element's styles/children to customize the look entirely _(you can even wrap your entire format in a button - see the [bulletin-board-format](../../view-samples/bulletin-board-format) for an example)_.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 > Actions are supported in lists and libraries in SharePoint and Microsoft Lists
 
@@ -95,7 +95,7 @@ This action will open the context menu for an item. This is equivalent to right-
 ![screenshot of openContextMenu](./assets/openContextMenu.png)
 
 ### embed (embed.json)
-This action will open a callout with content embedded in it. You must specify the `src` value as part of `actionInput` to determine what content is loaded. You can also specify width and height of the callout using optional properties.
+This action will open a callout with content embedded in it. You must specify the `src` value as part of `actionInput` to determine what content is loaded. Możesz również specify width and height of the callout using optional properties.
 
 ![screenshot of embed](./assets/embed.png)
 
@@ -145,7 +145,7 @@ Just like with `executeFlow` the `actionParams` are escaped JSON but there's cur
 
 User's permissions on the destination library/folder are not verified ahead of time and users without permission will receive an error.
 
-## View requirements
+## Wymagania widoku
 - These formats can be applied to any column type (its value is ignored)
 - If using the `executeFlow` action, the list/library is expected to have an associated Flow, the ID of this flow needs to be included in the `actionParams` for the button
 - The `setValue.json` sample expects a number column named `Value`
@@ -153,9 +153,9 @@ User's permissions on the destination library/folder are not verified ahead of t
 
 > Tip - You can apply these formats to a Calculated Column with a formula of `=""`. This makes it obvious the fields aren't expected to hold values and you can configure the columns of your form to hide them easily.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-rowactions.json | [Chris Kent](https://github.com/thechriskent)
 editProps.json | [Chris Kent](https://github.com/thechriskent)
@@ -172,19 +172,19 @@ previewFileAction.json | [Chris Kent](https://github.com/thechriskent)
 copyFile.json | [Chris Kent](https://github.com/thechriskent)
 moveFile.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 18, 2019|Initial release
+1.0|April 18, 2019|Wersja początkowa
 2.0|July 31, 2025|Additional actions
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - Additional samples of the `executeFlow` action can be found here:
   - [generic-start-flow](../generic-start-flow)

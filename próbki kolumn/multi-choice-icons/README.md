@@ -1,11 +1,11 @@
 # Multi-Choice Icons
 
-## Summary
-This sample demonstrates using the `indexOf` and `join` functions (O365 only) to test if a multi-select choice field has a selected choice. Providing icons of the known choices and applying themed colors based on if the given choice is selected or not creates an intuitive, easy to understand visualization that doesn't suffer from varying item order or text formatting issues.
+## Podsumowanie
+Ta próbka pokazuje using the `indexOf` and `join` functions (O365 only) to test if a multi-select choice field has a selected choice. Providing icons of the known choices and applying themed colors based on if the given choice is selected or not creates an intuitive, easy to understand visualization that doesn't suffer from varying item order or text formatting issues.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-This sample also demonstrates how to use double-quotes within your values. To include double quotes, you'll need to escape them using standard JSON syntax where you place a slash in front of the double quote: `"\"Juice\""`
+Ta próbka pokazuje również, jak używać podwójnych cudzysłowów wewnątrz wartości. Aby je dodać, musisz je poprzedzić znakiem ucieczki zgodnie ze składnią JSON, umieszczając ukośnik przed cudzysłowem: `"\"Juice\""`
 
 The `indexOf` function returns the index where a given value is found within a string (indexes start at 0). If the value is not found in the text, the result is -1.
 
@@ -31,36 +31,36 @@ We can use the `join` or `toString` functions on the value first and then nest t
 
 `"=if(indexOf(join(@currentField,''),'dog') != -1, 'Yes', 'No')`
 
-## View requirements
-- This format can be applied to a Multi-Select Choice column
+## Wymagania widoku
+- Ten format można zastosować do a Multi-Select Choice column
 - This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
 
-### Sample Choice Values
+### Przykład Choice Values
 - Water
 - Coffee
 - Wine
 - Beer
 - "Juice"
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-choice-icons.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 5, 2019|Initial release
+1.0|February 5, 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+## Dodatkowe uwagi
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 The `indexOf` and `join` functions are not available in SharePoint 2019
 

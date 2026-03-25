@@ -2,9 +2,9 @@
 
 This project demonstrates how to create a **dynamic and visually appealing word cloud** within a SharePoint list using **column formatting JSON**. The word cloud visualizes data from multiple label columns, applying **dynamic font sizes, colors, and bold styling** based on word characteristics.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Summary
+## Podsumowanie
 
 - **Flexible Word Cloud Layout:** Uses `flex` and `flex-wrap` to automatically arrange words in multiple rows.
 - **Dynamic Font Sizes:** Word size is calculated based on character length:
@@ -18,33 +18,33 @@ This project demonstrates how to create a **dynamic and visually appealing word 
 - **Responsive Design:** Layout adapts to different screen sizes and wraps words automatically.
 - **Multi-column Support:** Displays words from **20 label columns** per item, making it ideal for survey data, tags, or keyword visualization.
 
-## View requirements
+## Wymagania widoku
 
 This word cloud supports the following **columns in your SharePoint list**:
 
 | Column Name | Description |
 |-------------|-------------|
 | Title     | Title |
-| LABEL1    | Single Line of Text |
-| LABEL2    | Single Line of Text |
-| LABEL3    | Single Line of Text |
-| LABEL4    | Single Line of Text |
-| LABEL5    | Single Line of Text |
-| LABEL6    | Single Line of Text |
-| LABEL7    | Single Line of Text |
-| LABEL8    | Single Line of Text |
-| LABEL9    | Single Line of Text |
-| LABEL10   | Single Line of Text |
-| LABEL11   | Single Line of Text |
-| LABEL12   | Single Line of Text |
-| LABEL13   | Single Line of Text |
-| LABEL14   | Single Line of Text |
-| LABEL15   | Single Line of Text |
-| LABEL16   | Single Line of Text |
-| LABEL17   | Single Line of Text |
-| LABEL18   | Single Line of Text |
-| LABEL19   | Single Line of Text |
-| LABEL20   | Single Line of Text |
+| LABEL1    | Pojedyncza linia tekstu |
+| LABEL2    | Pojedyncza linia tekstu |
+| LABEL3    | Pojedyncza linia tekstu |
+| LABEL4    | Pojedyncza linia tekstu |
+| LABEL5    | Pojedyncza linia tekstu |
+| LABEL6    | Pojedyncza linia tekstu |
+| LABEL7    | Pojedyncza linia tekstu |
+| LABEL8    | Pojedyncza linia tekstu |
+| LABEL9    | Pojedyncza linia tekstu |
+| LABEL10   | Pojedyncza linia tekstu |
+| LABEL11   | Pojedyncza linia tekstu |
+| LABEL12   | Pojedyncza linia tekstu |
+| LABEL13   | Pojedyncza linia tekstu |
+| LABEL14   | Pojedyncza linia tekstu |
+| LABEL15   | Pojedyncza linia tekstu |
+| LABEL16   | Pojedyncza linia tekstu |
+| LABEL17   | Pojedyncza linia tekstu |
+| LABEL18   | Pojedyncza linia tekstu |
+| LABEL19   | Pojedyncza linia tekstu |
+| LABEL20   | Pojedyncza linia tekstu |
 
 > Each column represents a single word or short phrase that will appear in the word cloud. You can **extend beyond 20 labels** by adding more `span` elements in the JSON formatting code.
 
@@ -99,20 +99,20 @@ The resulting word cloud will:
 - **Maximum Columns:** JSON supports multiple columns, but extremely large numbers of labels may impact performance.
 - **Text Only:** This solution works for text/label columns. Rich text or HTML may require preprocessing to extract plain words.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-word-cloud.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 2, 2025|Initial release
+1.0|September 2, 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ## References
 

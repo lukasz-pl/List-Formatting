@@ -1,14 +1,14 @@
 # Inline Column Chart
 
-## Summary
-This sample demonstrates displaying a column chart using SVG. It uses the `currentColor` for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site's theme.
+## Podsumowanie
+Ta próbka pokazuje displaying a column chart using SVG. It uses the `currentColor` for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site's theme.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 This example shows values from 0 to 100. You can adjust this scale by changing the `d` attribute of the path elements to calculate a percentage rather than use the value directly.
 
-## View requirements
-This format can be applied to any column type. However, it expects to have 4 number columns in the view.
+## Wymagania widoku
+Ten format można zastosować do any column type. However, it expects to have 4 number columns in the view.
 
 Column Name   |Type
 --------------|--------------
@@ -21,22 +21,22 @@ Chart         | Any
 The column where you apply your format (Chart above) can be any type since it's value is ignored. A calculated column with a formula of `=""` will prevent the field from showing up on your forms.
 
 ### Adapting to your fields
-This sample can easily be adjusted to work with your columns. Each chart column uses the internal name of a field 3 times. You can replace these with your own fields. You can also add additional columns by copying one of the child div elements and changing the referenced field.
+Tę próbkę można łatwo dostosować do własnych kolumn. Każda kolumna wykresu używa wewnętrznej nazwy pola 3 razy. Możesz zastąpić je własnymi polami. Możesz również dodać dodatkowe kolumny, kopiując jeden z elementów child div i zmieniając odwołanie do pola.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-column-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |October 10, 2020 |Initial release
+1.0     |October 10, 2020 |Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-column-chart" />

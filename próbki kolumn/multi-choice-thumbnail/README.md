@@ -1,9 +1,9 @@
 # Multi-choice Thumbnail
 
-## Summary
+## Podsumowanie
 This tutorial will help you create multiple thumbnails through images URLs listed in a **multiple choice column**.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 To achieve this result, you can implement one of the following column formatting options:
 
@@ -19,7 +19,7 @@ Examples of images URLs are:
 - ✔️ https://cdn.example.com/media/cms/images/helloworld.webp (external domain)
 - ✔️ https://contoso.sharepoint.com/sites/marketing/Document-Library/Images/helloworld.png (SharePoint)
 
-## View requirements
+## Wymagania widoku
 
 ### Column width and user interface
 Both samples illustrated below have a column **min-width of 730px**, to allow an optimal user interface both for a list view and the **OOTB** Microsoft Lists form. If your multiple thumbnail appears as partially cut, select the right edge of column header, drag to the right and increase its width. [Save](https://support.microsoft.com/office/create-or-change-the-view-of-a-list-25393905-087c-4b0a-9fb4-5c1e165b99b7) your view to keep current column settings. 
@@ -48,7 +48,7 @@ The advanced thumbnail template requires users to have **editing permission** (e
 |**COLUMN NAME**|**COLUMN TYPE**|**ADDITIONAL INFORMATION**|
 |---|---|---|
 |**MULTIPLETHUMBNAIL**|Multiple choice|Each image URL is a corresponding option of this column|
-|**LASTURL**|Multiple lines of text|This column keeps track temporarily of an image URL, when a user clicks on a miniature to open a larger window|
+|**LASTURL**|Wiele linii tekstu|This column keeps track temporarily of an image URL, when a user clicks on a miniature to open a larger window|
 |**VIEWTIME**| Single line of text |This column keeps track of the current date and time to perform an if condition **temporarily true**, so that a larger preview window works properly on click|
 
 After creating the 3 columns reported above, format the **MULTIPLETHUMBNAIL** column with the JSON code available [**here**](./multi-choice-thumbnail-advanced.json).
@@ -65,20 +65,20 @@ If you are wondering what's happening when a user clicks on a miniature, here is
 
 <img src="./assets/Window-Process.png">
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-choice-thumbnail.json | [Federico Sapia](https://github.com/Fedes365)
 multi-choice-thumbnail-advanced.json | [Federico Sapia](https://github.com/Fedes365)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Wersja |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |January 19, 2024  |Initial release
+1.0     |January 19, 2024  |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-choice-thumbnail" />

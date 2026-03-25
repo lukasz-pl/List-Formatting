@@ -1,9 +1,9 @@
 # Monthly Emoji
 
-## Summary
-This sample demonstrates how to display a emoji representing the month of the date to the left of the date.
+## Podsumowanie
+Ta próbka pokazuje how to display a emoji representing the month of the date to the left of the date.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The correspondence between the months and emoji in this sample is as follows:
 
@@ -22,22 +22,22 @@ October   |🎃
 November  |🍁
 December  |🎅
 
-## View requirements
-This format can be applied to a Date column
+## Wymagania widoku
+Ten format można zastosować do a Date column
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 date-monthly-emoji.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |October 17, 2021 |Initial release
+1.0     |October 17, 2021 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-monthly-emoji" />

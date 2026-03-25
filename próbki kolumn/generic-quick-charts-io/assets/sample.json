@@ -4,10 +4,10 @@
     "reponame": "generic-quick-charts-io",
     "source": "pnp",
     "title": "Quick Charts",
-    "shortDescription": "This sample uses SharePoint column formatting to automatically generate multiple chart types (pie, doughnut, out-labeled pie, and polar area) visualizing task status distribution across To Do, In Progress, and Done states.",
+    "shortDescription": "Ta próbka wykorzystuje SharePoint column formatting to automatically generate multiple chart types (pie, doughnut, out-labeled pie, and polar area) visualizing task status distribution across To Do, In Progress, and Done states.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-quick-charts-io",
     "longDescription": [
-      "This sample uses SharePoint column formatting to automatically generate various chart types including pie charts, doughnut charts, out-labeled pie charts, and polar area charts to visualize task status distribution across To Do, In Progress, and Done states. Each column displays a dynamically generated chart showing the distribution of tasks, making it easy to visualize project or task progress at a glance. Multiple chart style options are provided to suit different visualization preferences."
+      "Ta próbka wykorzystuje SharePoint column formatting to automatically generate various chart types including pie charts, doughnut charts, out-labeled pie charts, and polar area charts to visualize task status distribution across To Do, In Progress, and Done states. Each column displays a dynamically generated chart showing the distribution of tasks, making it easy to visualize project or task progress at a glance. Multiple chart style options are provided to suit different visualization preferences."
     ],
     "creationDateTime": "2025-10-13T00:00:00.000Z",
     "updateDateTime": "2025-10-13T00:00:00.000Z",
@@ -82,8 +82,8 @@
     ],
     "references": [
       {
-        "name": "Use column formatting to customize SharePoint",
-        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements.",
+        "name": "Użyj formatowania kolumn do dostosowania SharePoint",
+        "description": "Możesz użyć formatowania kolumn, aby customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
       },
       {

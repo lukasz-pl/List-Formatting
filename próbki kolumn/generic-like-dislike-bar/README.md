@@ -1,35 +1,35 @@
 # Like/Dislike Bar
 
-## Summary
-This sample demonstrates displaying a Like/Dislike bar that visualizes the ratio of Like to Dislike users.
+## Podsumowanie
+Ta próbka pokazuje displaying a Like/Dislike bar that visualizes the ratio of Like to Dislike users.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-You can combine this sample with the [multi-person-unique-reaction](../multi-person-reaction/) sample, to incorporate Like and Dislike buttons.
+Możesz połączyć tę próbkę z przykładem [multi-person-unique-reaction](../multi-person-reaction/), aby dodać przyciski Like i Dislike.
 
-![screenshot of the sample](./assets/screenshot_button.gif)
+![zrzut ekranu próbki](./assets/screenshot_button.gif)
 
-## View requirements
-This format can be applied to any column type but expects the following columns to be part of the view:
+## Wymagania widoku
+Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
 |Type                    |Internal Name  |Required|
 |------------------------|---------------|:------:|
 |Person or Group (Multi) |Like           |No      |
 |Person or Group (Multi) |Dislike        |No      |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-like-dislike-bar.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date           |Comments
+Wersja |Data           |Uwagi
 --------|---------------|--------
-1.0     |March 20, 2022 |Initial release
+1.0     |March 20, 2022 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-like-dislike-bar" />

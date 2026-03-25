@@ -1,36 +1,36 @@
 # Multiple Choice Country Flags
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates displaying flags of the counties selected in the multiple selection SharePoint choice column.
+Ta próbka pokazuje displaying flags of the counties selected in the multiple selection SharePoint choice column.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The country flags are shown using the [FlagCDN - CDN & API of flags](https://flagcdn.com/) web site API. So, allow `flagcdn.com` domain in HTML Field Security settings of your SharePoint site by following this Microsoft official documentation: [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/en-us/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 
-You can find the list of countries used in this JSON sample at: [Countries](./assets/countries.xlsx)
+Możesz znaleźć the list of countries used in this JSON sample at: [Countries](./assets/countries.xlsx)
 
 Add list of countries in the choice column settings like:
 
 ![screenshot of the edit column](./assets/edit-column.png)
 
-## View requirements
+## Wymagania widoku
 
-- This format can be applied to a multiple selection choice column
+- Ten format można zastosować do a multiple selection choice column
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-choice-country-flags.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |August 27, 2023 |Initial release
+1.0     |August 27, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-choice-country-flags" />

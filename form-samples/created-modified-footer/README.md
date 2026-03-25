@@ -1,28 +1,28 @@
-# Display Created and Modified Information in the Footer
+# Wyświetlanie informacji o utworzeniu i modyfikacji w stopce
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates displaying the values of "Created" (internal name: `Created`), "Created By" (internal name: `Author`), "Modified" (internal name: `Modified`), and "Modified By" (internal name: `Editor`) in the footer of the form.
+Ta próbka pokazuje, jak wyświetlić w stopce formularza wartości pól „Created” (nazwa wewnętrzna: `Created`), „Created By” (nazwa wewnętrzna: `Author`), „Modified” (nazwa wewnętrzna: `Modified`) oraz „Modified By” (nazwa wewnętrzna: `Editor`).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
+## Wymagania formularza
 
-None
+Brak
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 created-modified-footer.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |October 27, 2024 |Initial release
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |October 27, 2024 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/created-modified-footer" />

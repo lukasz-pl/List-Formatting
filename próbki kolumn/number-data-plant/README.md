@@ -1,10 +1,10 @@
 # Format a column with multi-path SVGs
 
-## Summary
+## Podsumowanie
 
-This formats applies different SVGs with multiple paths to a number field, depending on the value of the field. The field may contain the numbers `1`, `2`, `3`, or `4`.
+Ten format stosuje różne SVG z wieloma ścieżkami do pola liczbowego, zależnie od jego wartości. Pole może zawierać liczby `1`, `2`, `3` lub `4`.
 
-This solution provides a visually appealing way to represent progress using custom SVG graphics. The formatting dynamically changes the displayed SVG based on the value in a "Progress" column.
+This solution provides a visually appealing way to represent progress using custom SVG graphics. Formatting dynamically changes the displayed SVG based on the value in a "Progress" column.
 
 ## Features
 
@@ -13,7 +13,7 @@ This solution provides a visually appealing way to represent progress using cust
 * Supports up to 4 different progress stages
 * Easily customizable SVG paths and colors
 
-The sample includes conditional formatting that displays different SVGs based on the value in the "Progress" column:
+Próbka includes conditional formatting that displays different SVGs based on the value in the "Progress" column:
 
 | Value| Stage |
 |----------|----------|
@@ -24,26 +24,26 @@ The sample includes conditional formatting that displays different SVGs based on
 
 If the Progress field is empty or has any other value, no SVG will be displayed.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-- This format can be applied to a number column with values 1-4
+- Ten format można zastosować do a number column with values 1-4
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 number-data-plant.json | [Luise Freese](https://github.com/LuiseFreese)
 
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 8, 2024|Initial release
+1.0|October 8, 2024|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-data-plant" />

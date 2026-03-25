@@ -1,14 +1,14 @@
 # Image with Overlay Buttons
 
-## Summary
+## Podsumowanie
 
-This column formatting sample displays images with action buttons overlaid at the bottom. The formatting dynamically adjusts image dimensions and button positioning based on the image orientation (Landscape, Portrait, or Square).
+Ta próbka formatowania kolumn displays images with action buttons overlaid at the bottom. Formatting dynamically adjusts image dimensions and button positioning based on the image orientation (Landscape, Portrait, or Square).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to any column in your SharePoint list or Microsoft List. The column itself doesn't need to contain specific data - the formatting references other columns in the list to display images and buttons.
+Ten format można zastosować do any column in your SharePoint list or Microsoft List. The column itself doesn't need to contain specific data - the formatting references other columns in the list to display images and buttons.
 
 ### Required Columns
 
@@ -55,7 +55,7 @@ This column formatting creates a custom rendering for each list item, displaying
 
 ### Image Sizing by Orientation
 
-The formatting applies different dimensions based on the `ImageOrientation` column:
+Formatting applies different dimensions based on the `ImageOrientation` column:
 
 | Orientation | Width | Height | Use Case |
 |-------------|-------|--------|----------|
@@ -201,7 +201,7 @@ Increase the percentage to move buttons up or left, decrease to move them down o
 
 1. **Manual Orientation Setting**: Users must manually set the `ImageOrientation` column for each image. Consider creating a Power Automate flow to automatically detect and set orientation.
 
-2. **Fixed Button Count**: The formatting supports exactly two buttons. To add more buttons, you'll need to modify the JSON structure.
+2. **Poprawiono Button Count**: Formatting supports exactly two buttons. To add more buttons, you'll need to modify the JSON structure.
 
 3. **Overlay Positioning**: Button positioning uses percentage-based negative margins, which may need fine-tuning for different image sizes or aspect ratios.
 
@@ -230,21 +230,21 @@ Increase the percentage to move buttons up or left, decrease to move them down o
 - Consider pagination for lists with many items
 - Test performance with expected data volume
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 16, 2025|Initial release
+1.0|October 16, 2025|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 
 ## Use Cases

@@ -1,33 +1,33 @@
-# Workflow Progress Header
+# Nagłówek postępu workflow
 
-## Summary
-This sample shows a checkmark for each date field that has a value to help convey when milestones have been hit.
+## Podsumowanie
+Ta próbka pokazuje znacznik wyboru dla każdego pola daty, które ma wartość, aby ułatwić zobaczenie osiągniętych etapów.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## Form requirements
+## Wymagania formularza
 
-|Type          |Internal Name |Required|
-|--------------|--------------|:------:|
-|Date and Time |Date1         |No      |
-|Date and Time |Date2         |No      |
-|Date and Time |Date3         |No      |
+|Typ            |Nazwa wewnętrzna|Wymagane|
+|---------------|----------------|:------:|
+|Data i godzina |Date1           |Nie     |
+|Data i godzina |Date2           |Nie     |
+|Data i godzina |Date3           |Nie     |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 workflow-progress-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |February 1, 2021 |Initial release
-1.1     |April 19, 2024 |Fixed to use `[$ColumnName.displayValue]` instead of `toLocaleDateString` operator to solve the problem that date is not displayed depending on the date format.
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |February 1, 2021 |Wersja początkowa
+1.1     |April 19, 2024 |Poprawiono użycie `[$ColumnName.displayValue]` zamiast operatora `toLocaleDateString`, aby rozwiązać problem z niewyświetlaniem daty przy niektórych formatach daty.
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/workflow-progress-header" />

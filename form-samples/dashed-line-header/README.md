@@ -1,40 +1,40 @@
-# Dashed Line Header
+# Nagłówek z przerywaną linią
 
-## Summary
-This sample displays the `Title` and `Description` values in the heading and decorates them with dashed lines. If the `Description` value is empty, it will be hidden.
+## Podsumowanie
+Ta próbka wyświetla wartości `Title` i `Description` w nagłówku oraz dekoruje je przerywanymi liniami. Jeśli wartość `Description` jest pusta, zostanie ukryta.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-### Additional alignments
+### Dodatkowe wyrównania
 
 dashed-line-header-align-center.json
-![screenshot of the sample](./assets/screenshot_align-center.png)
+![zrzut ekranu próbki](./assets/screenshot_align-center.png)
 
 dashed-line-header-align-right.json
-![screenshot of the sample](./assets/screenshot_align-right.png)
+![zrzut ekranu próbki](./assets/screenshot_align-right.png)
 
-## Form requirements
+## Wymagania formularza
 
-|Type                   |Internal Name|Required|
-|-----------------------|-------------|:------:|
-|Single line of text    |Title        |Yes     |
-|Multiple lines of text |Description  |No      |
+|Typ                    |Nazwa wewnętrzna|Wymagane|
+|-----------------------|----------------|:------:|
+|Pojedyncza linia tekstu|Title           |Tak     |
+|Wiele linii tekstu     |Description     |Nie     |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 dashed-line-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 dashed-line-header-align-center.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 dashed-line-header-align-right.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
---------|------------------|--------
-1.0     |February 7, 2021  |Initial release
+Wersja |Data              |Uwagi
+-------|------------------|-----
+1.0     |February 7, 2021  |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/dashed-line-header" />

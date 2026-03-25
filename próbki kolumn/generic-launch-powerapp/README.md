@@ -1,9 +1,9 @@
 # Launch Power App Button
 
-## Summary
+## Podsumowanie
 Providing a direct link to an item within Power Apps is easy to do using this sample. To use it follow the instructions below to get the link to your Power App (and replace that portion of the format).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 
 #### To obtain the link to your Power App
@@ -32,29 +32,29 @@ If(!IsBlank(Param("itemId")) && IsNumeric(Param("itemId")),
 If(!IsBlank(Param("itemId")) && IsNumeric(Param("itemId")), scrDetail, scrHome)
 ```
 
-## View requirements
-- This format can be applied to any column type (its value is ignored)
+## Wymagania widoku
+- Ten format można zastosować do any column type (its value is ignored)
 
-> Tip - You can apply these formats to a Calculated Column with a formula of `=""`. This prevents the fields from storing data. You can also exclude them from your form by using a Conditional expression of `=false`.
+> Tip - You can apply these formats to a Calculated Column with a formula of `=""`. This prevents the fields from storing data. Możesz również exclude them from your form by using a Conditional expression of `=false`.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-launch-powerapp.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 27, 2021|Initial release
+1.0|May 27, 2021|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 None
 

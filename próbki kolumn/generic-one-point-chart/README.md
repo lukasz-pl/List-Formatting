@@ -1,36 +1,36 @@
 # One Point Chart
 
-## Summary
-This sample demonstrates making one point chart with support of 2 numeric fields (x,y) with dialog description.
+## Podsumowanie
+Ta próbka pokazuje making one point chart with support of 2 numeric fields (x,y) with dialog description.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 
-The format expect the following fields:
+Format expect the following fields:
 |Field                |Type
 |-------------------|-------------
 |Chart| Single line of text - Format (generic-one-point-chart.json) is added in this column        
 |x|Number - x position
 |y|Number - y position
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-one-point-chart.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 12, 2022|Initial release
+1.0|March 12, 2022|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-one-point-chart" />

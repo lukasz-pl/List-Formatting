@@ -1,22 +1,22 @@
 # Linear Gauge
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates displaying a linear gauge from a regular string set to the split operator.
+Ta próbka pokazuje displaying a linear gauge from a regular string set to the split operator.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-- This format can be applied to a Number column.
+- Ten format można zastosować do a Number column.
 
 ## How to apply this sample
 
-This sample needs modification for your specific use. Two changes are required.
+Ta próbka wymaga dostosowania do konkretnego zastosowania. Konieczne są dwie zmiany.
 
 ### Step 1: Set the min and max values
 
-1. Find the split operator on line 31 of the JSON.
+1. Znajdź the split operator on line 31 of the JSON.
 2. Adjust the min and max values to match your desired range.
 
     ```
@@ -36,7 +36,7 @@ This sample needs modification for your specific use. Two changes are required.
 
 ### Step 2: Set numerical range, background color, and range name
 
-1. Find the split operator on line 50 of the JSON.
+1. Znajdź the split operator on line 50 of the JSON.
 2. Adjust the numerical range, background color, and range name for each range according to your use case. Use a comma-separated format.
 
     ```
@@ -93,24 +93,24 @@ This sample needs modification for your specific use. Two changes are required.
     90<=n<=100:#FFD700:Range_D
     ```
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 number-linear-gauge.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |December 1, 2023 |Initial release
+1.0     |December 1, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 ### About the size of the linear gauge
 

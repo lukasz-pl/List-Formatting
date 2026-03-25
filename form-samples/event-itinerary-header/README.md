@@ -1,46 +1,46 @@
-# Event Itinerary Header
+# Nagłówek planu wydarzenia
 
-## Summary
-This sample shows a customized header for the item form used in the "Event itinerary" list template.
+## Podsumowanie
+Ta próbka pokazuje niestandardowy nagłówek formularza elementu używanego w szablonie listy „Event itinerary”.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-This format is intended for the Header Format of the form body in the Configure Layout panel. The body layout shown in the screenshot can be obtained by configuring sections within the Body panel (not included in this format).
+Ten format jest przeznaczony do sekcji Header Format w panelu Configure Layout formularza. Układ treści widoczny na zrzucie ekranu można uzyskać przez skonfigurowanie sekcji w panelu Body, ale nie jest to częścią tego formatu.
 
-## Form requirements
+## Wymagania formularza
 
-The following fields are all included in the "Event itinerary" template. You can find this template in the new List dialog:
+Poniższe pola są dostępne w szablonie „Event itinerary”. Szablon znajdziesz w oknie tworzenia nowej listy:
 
-![image on the list template](./assets/listtemplates.png)
+![obraz szablonu listy](./assets/listtemplates.png)
 
-|Type                   |Internal Name    |Required|
-|-----------------------|-----------------|:------:|
-|Single line of text    |Title            |Yes     |
-|Multiple lines of text |Description      |No      |
-|Single line of text    |SessionCode      |No      |
-|Choice                 |SessionType      |No      |
-|Person or Group        |Speakers         |No      |
-|Date and Time          |StartDateAndTime |No      |
-|Date and Time          |EndDateAndTime   |No      |
-|Calculated             |Duration         |No      |
-|Number                 |Capacity         |No      |
-|Choice                 |Location         |No      |
-|Multiple lines of text |Notes            |No      |
+|Typ                    |Nazwa wewnętrzna|Wymagane|
+|-----------------------|----------------|:------:|
+|Pojedyncza linia tekstu|Title           |Tak     |
+|Wiele linii tekstu     |Description     |Nie     |
+|Pojedyncza linia tekstu|SessionCode     |Nie     |
+|Wybór                  |SessionType     |Nie     |
+|Osoba lub grupa        |Speakers        |Nie     |
+|Data i godzina         |StartDateAndTime|Nie     |
+|Data i godzina         |EndDateAndTime  |Nie     |
+|Obliczeniowe           |Duration        |Nie     |
+|Liczba                 |Capacity        |Nie     |
+|Wybór                  |Location        |Nie     |
+|Wiele linii tekstu     |Notes           |Nie     |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 event-itinerary-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |January 31, 2021 |Initial release
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |January 31, 2021 |Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/event-itinerary-header" />

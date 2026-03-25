@@ -1,35 +1,35 @@
 # Heart in Heart
 
-## Summary
-This sample demonstrates how to change the size of a heart by using the percent value of a numeric column.
+## Podsumowanie
+Ta próbka pokazuje how to change the size of a heart by using the percent value of a numeric column.
 
 - `number-heart-in-heart.json` uses the theme color of the site as the color of the heart.
 - `number-heart-in-heart-custom-color.json` uses the HTML color code as the the color of the heart, and in the sample, `#FF0000` is set.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-This format can be applied to a Number column. It is expected that the values will be from 0 to 1 (percent).
+## Wymagania widoku
+Ten format można zastosować do a Number column. It is expected that the values will be from 0 to 1 (percent).
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 number-heart-in-heart.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 number-heart-in-heart-custom-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |February 13, 2022 |Initial release
+1.0     |February 13, 2022 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 The SVG heart in this sample is based on a sample from the following site.
 

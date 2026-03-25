@@ -1,6 +1,6 @@
 # Tolerance Comparison
 
-## Summary
+## Podsumowanie
 
 Display if a value is within the expected tolerance.
 
@@ -10,35 +10,35 @@ A Fluent UI icon is also applied to provide visual indicators of Pass or Fail.
 
 
 ### Screenshot
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 
 ## Column Types
 The columns used in this sample were created as "Number" column types.
 
-## View requirements
+## Wymagania widoku
 - This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 number-abs-tolerance-comparison.json | [David Warner II](https://github.com/PopWarner)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 8, 2019|Initial release
+1.0|March 8, 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-abs-tolerance-comparison" />

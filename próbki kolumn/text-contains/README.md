@@ -1,9 +1,9 @@
 # Text Contains
 
-## Summary
-This sample demonstrates using the `indexOf` function (O365 only) to test if text contains a given value. The sample also uses the `toLowerCase` function to ensure the contains condition is case-insensitive. In this sample, if the text of the current field contains the word _"dead"_ a class is applied to turn the text red.
+## Podsumowanie
+Ta próbka pokazuje using the `indexOf` function (O365 only) to test if text contains a given value. Próbka also uses the `toLowerCase` function to ensure the contains condition is case-insensitive. In this sample, if the text of the current field contains the word _"dead"_ a class is applied to turn the text red.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The `indexOf` function returns the index where a given value is found within a string (indexes start at 0). If the value is not found in the text, the result is -1.
 
@@ -23,29 +23,29 @@ Notice that the `indexOf` function is **case-sensitive**. You can do a case-inse
 
 `"=if(indexOf(toLowerCase(@currentField),'dog') != -1, 'Yes', 'No')"`
 
-## View requirements
-- This format can be applied to a Text or Choice column
+## Wymagania widoku
+- Ten format można zastosować do a Text or Choice column
 - This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 text-contains.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 5, 2019|Initial release
+1.0|February 5, 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+## Dodatkowe uwagi
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 The `indexOf` and `toLowerCase` functions are not available in SharePoint 2019
 

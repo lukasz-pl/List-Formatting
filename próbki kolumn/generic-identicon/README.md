@@ -1,19 +1,19 @@
 # Identicon Column Formatting
 
-## Summary
-This sample demonstrates how to use **SharePoint Column Formatting** to generate **Identicons** for list items.  
+## Podsumowanie
+Ta próbka pokazuje how to use **SharePoint Column Formatting** to generate **Identicons** for list items.  
 Each identicon is a small visual grid that represents the `Title` of the item, making it easier to identify items at a glance.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-### Sample Overview
+### Przykład Overview
 
 - Identicons are **6x7 grids of colored squares**.
 - Colors are generated based on a calculated **TitleLength** column.
 - Works in **modern SharePoint list views**.
 - Displayed alongside the **Title** column for quick identification.
 
-## View Requirements
+## Wymagania widoku
 
 Create a SharePoint list with the following columns:
 
@@ -28,7 +28,7 @@ Create a SharePoint list with the following columns:
 > ```  
 > This calculates the number of characters in the `Title` and is used to generate the identicon pattern.
 
-## Sample Data
+## Dane przykładowe
 
 | Title          | TitleLength |
 |----------------|------------|
@@ -45,9 +45,9 @@ The identicon pattern automatically updates based on `TitleLength`.
 - Supports **light and dark SharePoint themes**.
 - Ideal for **list views** where quick visual identification is needed.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
@@ -55,10 +55,10 @@ generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 | Version | Date       | Comments           |
 |---------|------------|------------------|
-| 1.0     | August 25, 2025 | Initial release |
+| 1.0     | August 25, 2025 | Wersja początkowa |
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

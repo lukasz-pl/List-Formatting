@@ -1,24 +1,24 @@
 # Days Counter
 
-## Summary  
-This sample shows how many days are left until a date or how many days have passed since a date, right inside a SharePoint list column. Color-coded for quick scanning.
+## Podsumowanie  
+Ta próbka pokazuje how many days are left until a date or how many days have passed since a date, right inside a SharePoint list column. Color-coded for quick scanning.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-This format can be applied to a Date column.
+## Wymagania widoku
+Ten format można zastosować do a Date column.
 
-## Sample
-Solution|Author(s)
+## Przykład
+Rozwiązanie|Autor(zy)
 --------|---------
 date-day-counter.json | [Tanel Vahk](https://github.com/tvahk)
 
-## Version history
-Version |Date             |Comments
+## Historia wersji
+Wersja |Data             |Uwagi
 --------|-----------------|--------------------------------
-1.0     |August 19, 2025 |Initial release
+1.0     |August 19, 2025 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-day-counter" />

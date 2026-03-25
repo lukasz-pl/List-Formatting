@@ -1,31 +1,31 @@
 # Multi-Person Mail To Link
 
-## Summary
+## Podsumowanie
 
-This column formatting sample demonstrates how to add a `mailto:` link for each person in a multiple selection person column.
+Ta próbka formatowania kolumn demonstrates how to add a `mailto:` link for each person in a multiple selection person column.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-This sample is derived from [person-mailto](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-mailto).
+Ta próbka pochodzi z [person-mailto](https://github.com/pnp/List-Formatting/tree/master/column-samples/person-mailto).
 
-## View requirements
+## Wymagania widoku
 
-This format expects to be applied to a multiple selection person column.
+Ten format powinien być zastosowany do a multiple selection person column.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-person-mailto.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |December 12, 2021 |Initial release
+1.0     |December 12, 2021 |Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-person-mailto" />

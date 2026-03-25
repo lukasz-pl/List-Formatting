@@ -1,33 +1,33 @@
 # Hyperlink long addresses
 
-## Summary
+## Podsumowanie
 The default hyperlink column has a limited number of characters that can be used, and this will get you into trouble when linking to, for example, OneNote pages or any other link with a lot of parameters.
 
 Using the following code, you can easily turn a “multiple lines of text” column into a useful list with hyperlinks.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-- This format can be applied to a Multi lines of text column
+## Wymagania widoku
+- Ten format można zastosować do a Multi lines of text column
 - Links can to be introduced with an alternative text by preceding them with square brackets, for example, [List Formatting Samples]https://pnp.github.io/List-Formatting/
 
-## Sample
-Solution|Author(s)
+## Przykład
+Rozwiązanie|Autor(zy)
 --------|---------
 text-hyperlink-long-addresses.json | [Geert de Kooter](https://github.com/gdk-max)
 
-## Version history
-Version|Date|Comments
+## Historia wersji
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 23, 2023|Initial release
+1.0|January 23, 2023|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 - None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-hyperlink-long-addresses" />

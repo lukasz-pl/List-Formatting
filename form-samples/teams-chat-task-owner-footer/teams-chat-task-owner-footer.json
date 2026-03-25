@@ -14,13 +14,13 @@
       "elmType": "a",
       "attributes": {
         "target": "_blank",
-        "href": "='https://teams.microsoft.com/l/chat/0/0?users=' + [$AssignedTo.email] + '&message=This is related to your Task: ' + [$Title]",
+        "href": "='https://teams.microsoft.com/l/chat/0/0?users=' + [$AssignedTo.email] + '&message=To dotyczy Twojego zadania: ' + [$Title]",
         "class": "ms-fontColor-themePrimary"
       },
       "children": [
         {
           "elmType": "span",
-          "txtContent": "Chat with Task Owner"
+          "txtContent": "Czatuj z właścicielem zadania"
         },
         {
           "elmType": "span",

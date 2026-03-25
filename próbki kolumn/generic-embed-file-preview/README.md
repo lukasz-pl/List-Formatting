@@ -1,10 +1,10 @@
 # File Preview Callout with the `embed` Action
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates how to display a file preview from a document library or Site Pages inside a callout using the [embed](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#customrowaction) action. This allows users to view file contents without leaving the current page.
+Ta próbka pokazuje how to display a file preview from a document library or Site Pages inside a callout using the [embed](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#customrowaction) action. This allows users to view file contents bez opuszczania bieżącej strony.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 Pages can also be previewed in a callout.
 
@@ -13,7 +13,7 @@ Pages can also be previewed in a callout.
 > [!WARNING]
 > Support for the `embed` action in Site Pages may not yet be available in some tenants as of October 2, 2025, so page previews might not work in those environments.
 
-## Prerequisites
+## Wymagania wstępne
 
 To embed content, the domain of the SharePoint site (e.g., `contoso.sharepoint.com`) must be allowed for embedding. For guidance on how to allow embedding, please refer to [Allow or restrict the ability to embed content on SharePoint Lists using custom formatters](https://go.microsoft.com/fwlink/p/?linkid=2258033).
 
@@ -23,30 +23,30 @@ If you attempt to embed content from a domain that is not allowed, the following
 
 ![screenshot of the error screen when target site is not allowed to embed](./assets/not-allowed-screen.png)
 
-## View requirements
+## Wymagania widoku
 
 - This format is designed for use with document libraries and Site Pages.
-- This format can be applied to any column type.
+- Ten format można zastosować do any column type.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-embed-file-preview.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date         |Comments
+Wersja |Data         |Uwagi
 --------|-------------|--------
-1.0     |June 30, 2025|Initial release
+1.0     |June 30, 2025|Wersja początkowa
 1.1     |October 2, 2025|Extended to support page (aspx) previews
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - This sample was created with reference to the [generic-file-preview](../generic-file-preview/).
 - Not all file extensions have been tested for preview, so some file types may not be supported for display.

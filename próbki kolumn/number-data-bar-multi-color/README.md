@@ -1,8 +1,8 @@
 # Multi-Colored Databars
 
-## Summary
+## Podsumowanie
 
-This column formatting sample demonstrates how to show the number column as data bars with multiple colors. Background color changes depending on the value: 
+Ta próbka formatowania kolumn demonstrates how to show the number column as data bars with multiple colors. Background color changes depending on the value: 
 
 Value                       |Color
 ----------------------------|---------------------------
@@ -10,28 +10,28 @@ Value                       |Color
 26% - 50% |Yellow
 51% - 100% |Green
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-This sample is derived from [number-data-bar](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-data-bar).
+Ta próbka pochodzi z [number-data-bar](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-data-bar).
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to a Number column. It is expected that the values will be from 0 to 1 (percent).
+Ten format można zastosować do a Number column. It is expected that the values will be from 0 to 1 (percent).
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 number-data-bar-multi-color.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |December 29, 2021 |Initial release
+1.0     |December 29, 2021 |Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-data-bar-multi-color" />

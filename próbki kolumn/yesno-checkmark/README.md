@@ -1,33 +1,33 @@
 # Yes/No Column Check Mark
 
-## Summary
+## Podsumowanie
 This example displays a check mark when the value of a Yes/No column is equal to Yes. This field uses the `iconName` attribute to display the `CheckMark` [Office UI Fabric predefined icon](https://developer.microsoft.com/en-us/fabric#/styles/icons).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-- This format can be applied to a Yes/No column
+## Wymagania widoku
+- Ten format można zastosować do a Yes/No column
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 yesno-checkmark.json | [Travis Lingenfelder](https://github.com/Travis-Constellation)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 27, 2017|Initial release
+1.0|November 27, 2017|Wersja początkowa
 1.1|March 22, 2018|Simplified logic
 1.2|August 20, 2018|Switched to Excel-style expression
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 For more information on using this custom formatting see the article [Check Mark SharePoint Modern List Column Format](http://www.constellationsolutions.com/how-to/check-mark-sharepoint-modern-list-column-format/)
 

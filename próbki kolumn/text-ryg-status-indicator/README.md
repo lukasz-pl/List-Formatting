@@ -1,35 +1,35 @@
 # Traffic Light (Red-Yellow-Green) Status Indicator
 
-## Summary
-This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of `@currentField` to `@currentField.lookupValue`).
+## Podsumowanie
+Ta próbka wyświetla wskaźnik statusu w stylu sygnalizacji świetlnej (czerwony-żółty-zielony) na podstawie wartości kolumny wyboru lub tekstowej. Aby użyć kolumny lookup, zamień wszystkie wystąpienia `@currentField` na `@currentField.lookupValue`.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 > The text values for the column are expected to be Red, Yellow, or Green. Any other values won't be shown.
 
-## View requirements
-- This format can be applied to a text/choice column and expects the values to be Green, Yellow, Red, or anything else
+## Wymagania widoku
+- Ten format można zastosować do a text/choice column and expects the values to be Green, Yellow, Red, or anything else
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 text-ryg-status-indicator.json | [Travis Lingenfelder](https://github.com/Travis-Constellation)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 27, 2017|Initial release
+1.0|November 27, 2017|Wersja początkowa
 1.1|March 22, 2018|Simplified logic
 1.2|August 20, 2018|Updated to use Excel-style expressions and theme classes
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 For more information on using this custom formatting see the article [SharePoint Modern List Traffic Light (Red-Yellow-Green) Status Indicator Column](http://www.constellationsolutions.com/how-to/sharepoint-modern-list-traffic-light-red-yellow-green-status-indicator-column/)
 

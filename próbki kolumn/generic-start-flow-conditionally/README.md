@@ -1,15 +1,15 @@
 # Conditionally Launch Flow for Item
 
-## Summary
-You can use column formatting to create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow. This is demonstrated in the [Generic-Start-Flow](../generic-start-flow) sample.
+## Podsumowanie
+Możesz użyć formatowania kolumn, aby create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow. This is demonstrated in the [Generic-Start-Flow](../generic-start-flow) sample.
 
-This sample demonstrates how to take it further to conditionally change which flow is launched or if a flow button option should be shown at all.
+Ta próbka pokazuje how to take it further to conditionally change which flow is launched or if a flow button option should be shown at all.
 
-![screenshot of the sample](./assets/Screenshot.gif)
+![zrzut ekranu próbki](./assets/Screenshot.gif)
 
 Column Formatting allows you to use expressions for individual attributes. This provides us a lot of power, but doesn't always make it obvious when we want to make multiple changes based on the same expression or conditionally include/exclude elements.
 
-This sample adjusts the color, icon, text, visibility, and the flow launched based on another column in the view, `Stage`. The same basic expression (nested if operations) is used for each of the properties individually. Here's a table showing the conditional results:
+Ta próbka dostosowuje the color, icon, text, visibility, and the flow launched based on another column in the view, `Stage`. The same basic expression (nested if operations) is used for each of the properties individually. Here's a table showing the conditional results:
 
 |Stage|Class|Icon|Text|Visible|Flow|
 |---|---|---|---|---|---|
@@ -31,36 +31,36 @@ To obtain a Flow's ID:
 3. Copy the ID from the end of the URL (between _flows/_ and _/details_)
 ![Flow ID](./assets/FlowID.png)
 
-## View requirements
-- This format can be applied to any column type (its value is ignored)
+## Wymagania widoku
+- Ten format można zastosować do any column type (its value is ignored)
 - This sample isn't really intended to be used directly since it's very specific, but if you want to do it exactly:
   - The list is expected to have 3 associated Flows, the IDs need to be included in the `actionParams` expression for the button
-  - The format expects a Choice Column called `Stage` with the following values
+  - Format expects a Choice Column called `Stage` with the following values
     - Development
 	- Deployed
 	- Destroyed
 
 > Tip - You can apply this format to a Calculated Column with a formula of `=""`. This prevents this field from being part of your edit/new forms.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-start-flow-conditionally.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
 1.0|March 15, 2019|Initial version
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-start-flow-conditionally" />

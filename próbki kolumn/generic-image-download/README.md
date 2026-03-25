@@ -1,37 +1,37 @@
 # Download Image from SharePoint Image column
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates adding a button within a SharePoint Online/Microsoft Lists view which downloads the image from image column.
+Ta próbka pokazuje adding a button within a SharePoint Online/Microsoft Lists view which downloads the image from image column.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## JSON note
+## Uwaga o JSON
 For this JSON to work in your list, make sure to edit the JSON and replace the `**YOUR-LIST-NAME**` placeholder with your list's name, as it appears in the URL (including special characters)
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to any column type (its value is ignored). However, it is expected that the following one column is part of the view.
+Ten format można zastosować do any column type (its value is ignored). However, it is expected that the following one column is part of the view.
 
 |Type  |Internal Name |Required|
 |------|--------------|:------:|
 |Image |Image         |No      |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-image-download.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |November 12, 2022 |Initial release
-1.1     |January 16, 2024 |Fixed an issue where images could not be downloaded due to a change in image storage location
+1.0     |November 12, 2022 |Wersja początkowa
+1.1     |January 16, 2024 |Poprawiono an issue where images could not be downloaded due to a change in image storage location
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-image-download" />

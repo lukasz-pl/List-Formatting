@@ -1,34 +1,34 @@
 # Like / Dislike - Unique reaction
 
-## Summary
-This sample demonstrates the usage of the `setValue` action and array manipulation using `removeFrom` and `appendTo` on multiple fields at the same time, by creating buttons to like/dislike an item and updating two multi person fields, one used to save the likes (people who liked), the other one to save the dislikes (people who disliked).
+## Podsumowanie
+Ta próbka pokazuje the usage of the `setValue` action and array manipulation using `removeFrom` and `appendTo` on multiple fields at the same time, by creating buttons to like/dislike an item and updating two multi person fields, one used to save the likes (people who liked), the other one to save the dislikes (people who disliked).
 
 A user can only either like or dislike an item, if an item is liked by the current and is disliked, the like is undone and vice-versa (similar to what happens in YouTube).
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 
 |Type|Internal Name|Required|Additional Information
 |---|---|:---:|---|
 |Person or Group (Multi)|Like|Yes| Apply the template [multi-person-unique-reaction.json](./multi-person-unique-reaction.json) on this field
 |Person or Group (Multi)|Dislike|Yes| Apply the template [multi-person-unique-reaction-dislike.json](./multi-person-unique-reaction-dislike.json) on this field
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-person-unique-reaction.json | [Michel Mendes](https://github.com/michelcarlo)
 multi-person-unique-reaction-dislike.json | [Michel Mendes](https://github.com/michelcarlo)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |November 27, 2021 |Initial release
+1.0     |November 27, 2021 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 ##
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-person-unique-reaction" />

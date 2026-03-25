@@ -4,10 +4,10 @@
     "reponame": "generic-likedby",
     "source": "pnp",
     "title": "Liked By Users",
-    "shortDescription": "This sample demonstrates showing the users who have liked an item.",
+    "shortDescription": "Ta próbka pokazuje showing the users who have liked an item.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-likedby",
     "longDescription": [
-      "This sample demonstrates showing the users who have liked an item."
+      "Ta próbka pokazuje showing the users who have liked an item."
     ],
     "creationDateTime": "2021-10-22T00:00:00.000Z",
     "updateDateTime": "2021-10-22T00:00:00.000Z",
@@ -58,7 +58,7 @@
         "type": "image",
         "order": 100,
         "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-likedby/assets/screenshot.png",
-        "alt": "screenshot"
+        "alt": "zrzut ekranu"
       }
     ],
     "authors": [
@@ -70,8 +70,8 @@
     ],
     "references": [
       {
-        "name": "Use column formatting to customize SharePoint",
-        "description": "You can use column formatting to customize how fields in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when a field is included in a list view, and the styles to be applied to those elements. The column formatting does not change the data in the list item or file; it only changes how it\u2019s displayed to users who browse the list.",
+        "name": "Użyj formatowania kolumn do dostosowania SharePoint",
+        "description": "Możesz użyć formatowania kolumn, aby dostosować sposób wyświetlania pól na listach i w bibliotekach SharePoint. W tym celu tworzysz obiekt JSON opisujący elementy wyświetlane wtedy, gdy pole jest uwzględnione w widoku listy, oraz style stosowane do tych elementów. Formatowanie kolumn nie zmienia danych elementu listy ani pliku; zmienia jedynie sposób ich wyświetlania użytkownikom przeglądającym listę.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
       },
       {

@@ -1,12 +1,12 @@
 # Rounded fill checkbox
 
-## Summary
-This sample includes custom checkbox rounded styles.
+## Podsumowanie
+Ta próbka zawiera custom checkbox rounded styles.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
-- The format expects the following fields:
+## Wymagania widoku
+- Format expects the following fields:
 
 Field |Type
 --------|---------
@@ -15,21 +15,21 @@ CheckOption | Yes/No - field with rounded style
 AzureOption | Yes/No - field with Azure look style
 
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 yesno-roundedfill-format.json | [André Lage](https://github.com/aaclage)
 yesno-azure-format.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 07, 2022|Initial release
+1.0|January 07, 2022|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/yesno-roundedfill-format" />

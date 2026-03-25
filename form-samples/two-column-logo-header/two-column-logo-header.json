@@ -26,7 +26,7 @@
           "attributes": {
             "iconName": "CRMCustomerInsightsApp",
             "class": "ms-fontSize-42 ms-fontWeight-regular ms-fontColor-white",
-            "title": "Details"
+            "title": "Szczegóły"
           },
           "style": {
             "flex": "none",
@@ -64,7 +64,7 @@
               "attributes": {
                 "class": "ms-fontSize-24"
               },
-              "txtContent": "='Sample Title: ' + [$Title]",
+              "txtContent": "='Tytuł próbki: ' + [$Title]",
               "style": {
                 "margin-top": "5px"
               }
@@ -88,7 +88,7 @@
                     "padding-right": "8px",
                     "padding-left": "8px"
                   },
-                  "txtContent": "='Request Status: ' + [$RequestStatus]"
+                  "txtContent": "='Status wniosku: ' + [$RequestStatus]"
                 }
               ]
             }

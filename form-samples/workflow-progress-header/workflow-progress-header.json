@@ -23,7 +23,7 @@
       "children": [
         {
           "elmType": "div",
-          "txtContent": "Process 1",
+          "txtContent": "Etap 1",
           "style": {
             "margin-bottom": "10px"
           }
@@ -56,7 +56,7 @@
       "children": [
         {
           "elmType": "div",
-          "txtContent": "Process 2",
+          "txtContent": "Etap 2",
           "style": {
             "margin-bottom": "10px"
           }
@@ -89,7 +89,7 @@
       "children": [
         {
           "elmType": "div",
-          "txtContent": "Process 3",
+          "txtContent": "Etap 3",
           "style": {
             "margin-bottom": "10px"
           }

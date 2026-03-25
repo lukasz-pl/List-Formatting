@@ -1,39 +1,39 @@
 # File Thumbnails
 
-## Summary
-This sample utilizes the `@thumbnail` placeholder token to create an inline preview for document libraries. Folders and filetypes where previews are not available will not display at all.
+## Podsumowanie
+Ta próbka wykorzystuje token zastępczy `@thumbnail`, aby utworzyć podgląd osadzony bezpośrednio w dokumencie biblioteki. Foldery i typy plików, dla których podgląd nie jest dostępny, nie będą wyświetlane.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-`file-thumbnail-lightbox.json` displays enlarged thumbnails in a lightbox. This sample is derived from [image-lightbox](https://github.com/pnp/List-Formatting/tree/master/column-samples/image-lightbox).
+`file-thumbnail-lightbox.json` displays enlarged thumbnails in a lightbox. Ta próbka pochodzi z [image-lightbox](https://github.com/pnp/List-Formatting/tree/master/column-samples/image-lightbox).
 
-![screenshot of the sample](./assets/screenshot-lightbox.png)
+![zrzut ekranu próbki](./assets/screenshot-lightbox.png)
 
 >Note - the automatic removal of the `img` element when dealing with folders or filetypes where previews are not available requires that properties of the `img` element do not use expressions.
 
-## View requirements
+## Wymagania widoku
 This can be added on any column in a document library, overwriting its contents.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 file-thumbnail.json | [Chris Kent](https://github.com/thechriskent)
 file-thumbnail-lightbox.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 27, 2019|Initial release
-1.1|July 4, 2021|Added file-thumbnail-lightbox.json
+1.0|May 27, 2019|Wersja początkowa
+1.1|July 4, 2021|Dodano file-thumbnail-lightbox.json
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - SharePoint Online only
 

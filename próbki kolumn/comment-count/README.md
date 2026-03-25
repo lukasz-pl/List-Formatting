@@ -1,40 +1,40 @@
-# Comment Count
+# Liczba komentarzy
 
-## Summary
-This sample adds a visual indicator to a list item, showing the number of comments present on it. This is achieved by using the built-in [$_CommentCount] reference, which returns the number of comments on the current item.
+## Podsumowanie
+Ta próbka dodaje wizualny wskaźnik do elementu listy, pokazując liczbę komentarzy, które się do niego odnoszą. Osiąga się to za pomocą wbudowanego odwołania [$_CommentCount], które zwraca liczbę komentarzy dla bieżącego elementu.
 
-![screenshot of the sample](./assets/screenshot.png).  
+![zrzut ekranu próbki](./assets/screenshot.png)  
 
-## View requirements
-This can be added on any column, overwriting its contents. You could, e.g., create an empty Single Line of Text column called Comment Count and format it with this sample.
+## Wymagania widoku
+Można to dodać do dowolnej kolumny, nadpisując jej zawartość. Możesz na przykład utworzyć pustą kolumnę typu pojedyncza linia tekstu o nazwie Liczba komentarzy i sformatować ją za pomocą tej próbki.
 
-Column Name|Type
+Nazwa kolumny|Typ
 --------|---------
-Comment Count  | Single Line of Text.
+Liczba komentarzy  | Pojedyncza linia tekstu.
 
-## Video
+## Wideo
 
-The solution was demonstrated and recorded in the General M365 Dev SIG call - 18th of March 2021. You can watch the recording on YouTube.
-[![Accessing comment information in list formatting and advance form adjustments](https://img.youtube.com/vi/0X4AzvDDuIE/hqdefault.jpg)](https://youtu.be/0X4AzvDDuIE)
+To rozwiązanie zostało pokazane i nagrane podczas spotkania General M365 Dev SIG 18 marca 2021 roku. Możesz obejrzeć nagranie na YouTube.
+[![Dostęp do informacji o komentarzach w formatowaniu list i zaawansowane dostosowania formularzy](https://img.youtube.com/vi/0X4AzvDDuIE/hqdefault.jpg)](https://youtu.be/0X4AzvDDuIE)
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 comment-count.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 19, 2021|Initial release
-2.0|August 20, 2021|Added readme
+1.0|March 19, 2021|Wersja początkowa
+2.0|August 20, 2021|Dodano README
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/comment-count" />

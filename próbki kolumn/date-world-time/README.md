@@ -1,12 +1,12 @@
 # World Time
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates displaying the times of countries and regions of the world for a date column value that includes the time.
+Ta próbka pokazuje displaying the times of countries and regions of the world for a date column value that includes the time.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-- The countries and regions to display can be added or removed by editing the string of the first argument of the `split` operator on line 45. The following notes apply to editing that string.
+- The countries and regions to display can be added or removed by editing the string of the first argument of the `split` operator on line 45. Poniższe notes apply to editing that string.
     - The string must be `[time difference from UTC]|[name of country or region]` separated by commas.
     - If you want to use spaces for the country or region name, use - (half-width hyphen). The - (half-width hyphen) will be replaced with a half-width space and displayed on the screen. Including spaces in the string will prevent the custom card from displaying.
 
@@ -15,24 +15,24 @@ This sample demonstrates displaying the times of countries and regions of the wo
     "forEach": "UTC in split('-8|Seattle,-5|New-York,0|Portugal,2|Finland,5.5|India,9|Japan',',')",
     ```
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to a Date column.
+Ten format można zastosować do a Date column.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 date-world-time.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |March 3, 2023 |Initial release
+1.0     |March 3, 2023 |Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-world-time" />

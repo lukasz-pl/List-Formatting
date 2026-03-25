@@ -1,38 +1,38 @@
 # Expand collapse format
 
-## Summary
-The following sample provide a format that display content based on expand/collapse effect using support column and option `setValue`.
+## Podsumowanie
+Poniższe sample provide a format that display content based on expand/collapse effect using support column and option `setValue`.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 > Note - This relies on updating the underlying list item meaning that the expanded/collapse state applies to ALL users viewing the item
 
-## View requirements
-- This format can be applied to any column type though the example is based on a single line of text field.
+## Wymagania widoku
+- Ten format można zastosować do any column type though the example is based on a single line of text field.
 
-Column Name|Type
+Nazwa kolumny|Typ
 --------|---------
 Content  | single line of text
 Expand | Yes/No - default value **"No"**
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 text-expand-collapse-format.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 10, 2022|Initial release
+1.0|January 10, 2022|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-expand-collapse-format" />

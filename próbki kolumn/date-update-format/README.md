@@ -1,12 +1,12 @@
 # Date Update Format
 
-## Summary
-This sample demonstrates updating a date value directly from the format. This includes setting the date to the current date/time, incremeting/decrementing the date by day (alternate format included to demonstrate incrementing/decrementing by year), and clearing the date.
+## Podsumowanie
+Ta próbka pokazuje updating a date value directly from the format. This includes setting the date to the current date/time, incremeting/decrementing the date by day (alternate format included to demonstrate incrementing/decrementing by year), and clearing the date.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
-- The format expect the following fields:
+## Wymagania widoku
+- Format expect the following fields:
 
 Field |Type
 --------|---------
@@ -14,21 +14,21 @@ Title | Single line of text
 CustomDate | Date and Time
 
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 date-update-format.json | [André Lage](https://github.com/aaclage)
 date-update-format-years.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 09, 2021|Initial release
+1.0|December 09, 2021|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-update-format" />

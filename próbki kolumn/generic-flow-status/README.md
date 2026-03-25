@@ -1,10 +1,10 @@
 # Flow Status
 
-## Summary
+## Podsumowanie
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-This sample conditionally shows a button to launch a flow. Additional details are provided to customize the flow panel title and button. This provides context to users and is often far more meaningful than the default of "Run Flow" which generally doesn't mean much to end users.
+Ta próbka warunkowo wyświetla przycisk uruchamiający przepływ. Dodatkowe szczegóły pozwalają dostosować tytuł panelu przepływu i sam przycisk. Daje to użytkownikom więcej kontekstu i jest zwykle znacznie bardziej zrozumiałe niż domyślne "Run Flow", które często niewiele mówi użytkownikom końcowym.
 
 ![screenshot of the flow panel](./assets/screenshotCustomFlowPanel.png)
 
@@ -26,14 +26,14 @@ In this sample, both the status and the flow url are updated (the flow url field
 
 The process status shown in the hover card was created in Visio and saved as an SVG. The [HTML to Formatter](https://pnp.github.io/List-Formatting/tools/html-formatter-generator/) tool was used to quickly convert the SVG into a format and that was adapted to add the conditional logic for fill colors.
 
-## View requirements
-- This format expects to be applied to a text column where the value of the field is the flow instance URL (see above).
+## Wymagania widoku
+- Ten format powinien być zastosowany do a text column where the value of the field is the flow instance URL (see above).
 
 |Type|Internal Name|Required|
 |---|---|:---:|
 |Choice|Status|Yes|
 
-The Status column is using these values (but you use different values, just update the format accordingly):
+Kolumna Status używa następujących wartości (but you use different values, just update the format accordingly):
 - Not Started
 - Pending Gate 1
 - Pending Gate 2
@@ -41,20 +41,20 @@ The Status column is using these values (but you use different values, just upda
 - Approved
 - Rejected
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-flow-status.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 15, 2022|Initial release
+1.0|April 15, 2022|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

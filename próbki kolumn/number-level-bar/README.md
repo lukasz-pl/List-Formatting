@@ -1,33 +1,33 @@
 # Number Level Bar
 
-## Summary
-This sample demonstrates displaying a percentage across a bar. End users are able to edit the values by increasing/decreasing in 25% increments using arrow buttons.
+## Podsumowanie
+Ta próbka pokazuje displaying a percentage across a bar. End users are able to edit the values by increasing/decreasing in 25% increments using arrow buttons.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to any number column. It expects the values to be percents (0-1) but the format could be adjusted for custom ranges by changing the expressions.
+Ten format można zastosować do any number column. It expects the values to be percents (0-1) but the format could be adjusted for custom ranges by changing the expressions.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 number-level-bar.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 12, 2022|Initial release
+1.0|May 12, 2022|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-level-bar" />

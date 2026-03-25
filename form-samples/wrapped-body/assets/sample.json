@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-wrapped-body",
     "reponame": "wrapped-body",
     "source": "pnp",
-    "title": "Wrapped Form Body",
-    "shortDescription": "By default, uncustomized list forms display the fields in a single column. This is generally fine, but sometimes you may want to use more horizontal space and have your fields wrap. This is not technically a format but rather a body layout. No columns or sections are specified meaning that this can be applied to any form and it won't change the order of display or what columns are visible it simply adds the wrapping.",
+    "title": "Zawijany układ treści formularza",
+    "shortDescription": "Domyślnie niespersonalizowane formularze list wyświetlają pola w jednej kolumnie. Zazwyczaj to wystarcza, ale czasem warto użyć większej przestrzeni poziomej i pozwolić polom zawijać się do kolejnego wiersza. Nie jest to technicznie format, lecz układ sekcji Body. Nie określono żadnych kolumn ani sekcji, więc można go zastosować do dowolnego formularza bez zmiany kolejności wyświetlania czy widocznych kolumn, a jedynie z dodaniem zawijania.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/wrapped-body",
     "longDescription": [
-      "By default, uncustomized list forms display the fields in a single column. This is generally fine, but sometimes you may want to use more horizontal space and have your fields wrap. This is not technically a format but rather a body layout. No columns or sections are specified meaning that this can be applied to any form and it won't change the order of display or what columns are visible it simply adds the wrapping."
+      "Domyślnie niespersonalizowane formularze list wyświetlają pola w jednej kolumnie. Zazwyczaj to wystarcza, ale czasem warto użyć większej przestrzeni poziomej i pozwolić polom zawijać się do kolejnego wiersza. Nie jest to technicznie format, lecz układ sekcji Body. Nie określono żadnych kolumn ani sekcji, więc można go zastosować do dowolnego formularza bez zmiany kolejności wyświetlania czy widocznych kolumn, a jedynie z dodaniem zawijania."
     ],
     "creationDateTime": "2021-01-21T00:00:00.000Z",
     "updateDateTime": "2021-01-21T00:00:00.000Z",
@@ -70,13 +70,13 @@
     ],
     "references": [
       {
-        "name": "Configure the list form",
-        "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+        "name": "Skonfiguruj formularz listy",
+        "description": "Możesz skonfigurować formularz listy lub biblioteki z niestandardowym nagłówkiem, stopką i treścią formularza zawierającą jedną lub więcej sekcji z polami w każdej z nich.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
       },
       {
-        "name": "Show or hide columns in a list or library form",
-        "description": "You can show or hide columns in a list or library form as an alternative to deleting them. When you hide a column, it doesn\u0027t affect the column or the data in the column, as it would if you delete it.",
+        "name": "Pokaż lub ukryj kolumny w formularzu listy lub biblioteki",
+        "description": "Możesz pokazywać lub ukrywać kolumny w formularzu listy lub biblioteki zamiast je usuwać. Ukrycie kolumny nie wpływa na samą kolumnę ani na dane, które zawiera, w przeciwieństwie do jej usunięcia.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-conditional-show-hide"
       }
     ]

@@ -1,9 +1,9 @@
 # Gantt Chart
 
-## Summary
-This sample demonstrates the use of the Calculated column to generate a string for displaying a Gantt chart, and then parses the string to display the Gantt chart. The start and end dates for the entire Gantt chart can be changed to any value by changing the formula in the Calculated Value column.
+## Podsumowanie
+Ta próbka pokazuje the use of the Calculated column to generate a string for displaying a Gantt chart, and then parses the string to display the Gantt chart. The start and end dates for the entire Gantt chart can be changed to any value by changing the formula in the Calculated Value column.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 Additionally, you can adjust the date format displayed on the Gantt chart by combining JSON and the corresponding formulas. Refer to the table below for date format options and the associated JSON and formulas:
 
@@ -15,7 +15,7 @@ Additionally, you can adjust the date format displayed on the Gantt chart by com
 
 ![screenshot of the date format sample](./assets/date-format.png)
 
-## View requirements
+## Wymagania widoku
 
 |Type                             |Internal Name|Required|
 |---------------------------------|-------------|:------:|
@@ -60,27 +60,27 @@ Set one of the following formulas for the `GanttChart` column.
 =TEXT([Start];"yyyy-MM-dd")&"^"&TEXT([End];"yyyy-MM-dd")&"(2023-08-01_2024-01-31)"
 ```
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-gantt-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 generic-gantt-chart-ddMMyyyy.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Wersja |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |September 27, 2023|Initial release
-1.1     |October 12, 2023|Added note on delimiter character in Calculated column
-1.2     |October 13, 2023|Added more options for date format displayed on Gantt chart
+1.0     |September 27, 2023|Wersja początkowa
+1.1     |October 12, 2023|Dodano note on delimiter character in Calculated column
+1.2     |October 13, 2023|Dodano more options for date format displayed on Gantt chart
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - Calculated columns can be added from [See all column types] on the Create Column screen.
 

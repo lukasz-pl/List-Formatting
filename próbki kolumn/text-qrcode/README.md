@@ -1,17 +1,17 @@
 # Display QR Code
 
-## Summary
-This sample demonstrates the use of [TEC-IT's service](https://barcode.tec-it.com/QRCode) to convert column value text into a QR code and display it.
+## Podsumowanie
+Ta próbka pokazuje the use of [TEC-IT's service](https://barcode.tec-it.com/QRCode) to convert column value text into a QR code and display it.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Prerequisites
+## Wymagania wstępne
 
 External image sources are blocked by default in the custom formatter. To allow external images, you must add the domain to **HTML Field Security**.
 
 ![screenshot of HTML Field Security](./assets/html-field-security.png)
 
-The following are the steps to add it.
+Poniższe are the steps to add it.
 
 1. Browse to the root site of your site collection
 2. Select **Settings ⚙** > Select **Site information** > Select **View all site settings**
@@ -26,26 +26,26 @@ The following are the steps to add it.
 
     ![screenshot of the steps to add a domain](./assets/add-domain.png)
 
-## View requirements
-- This format can be applied to any column type (but is intended for text fields)
+## Wymagania widoku
+- Ten format można zastosować do any column type (but is intended for text fields)
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 text-qrcode.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 text-qrcode-card.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |November 13, 2022 |Initial release
+1.0     |November 13, 2022 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## Additional notes
+## Dodatkowe uwagi
 - [Formatting syntax reference - img src security](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#img-src-security)
 - [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
 

@@ -1,14 +1,14 @@
 # Issue Status Pill 
 
-## Summary
-This format demonstrates how you can reproduce the status choices as pills found in the Microsoft Lists Issue Tracker template..
+## Podsumowanie
+Ten format pokazuje, jak odtworzyć wybory statusu w formie pigułek znanych z szablonu Microsoft Lists Issue Tracker.
 
-You can use this formatting to implement your own version of the *choices as pills* formatting.
+Możesz użyć tego formatowania, aby zaimplementować własną wersję układu *choices as pills*.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-- This format can be applied to any text/choice column, but expects the column values to be one of the following choices:
+## Wymagania widoku
+- Ten format można zastosować do any text/choice column, but expects the column values to be one of the following choices:
   - Blocked
   - In progress
   - Completed
@@ -17,25 +17,25 @@ You can use this formatting to implement your own version of the *choices as pil
   - Won't fix
   - New
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-issuestatus-pill.json | [Hugo Bernier](https://github.com/hugoabernier)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|July 30, 2020|Initial release
+1.0|July 30, 2020|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-issuestatus-pill" />

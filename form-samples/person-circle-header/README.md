@@ -1,29 +1,29 @@
-# Person circle Header
+# Nagłówek z okręgami osób
 
-## Summary
-This sample demonstrates how to display multiple selected persons from existing field in the header. The values of the `Contacts` column are displayed in the header with visual circle process desing and switching color position.
+## Podsumowanie
+Ta próbka pokazuje, jak wyświetlić w nagłówku wiele wybranych osób z istniejącego pola. Wartości kolumny `Contacts` są prezentowane w nagłówku w formie wizualnych okręgów z przesunięciem kolorów.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
+## Wymagania formularza
 
-|Type                   |Internal Name|Required|
-|-----------------------|-------------|:------:|
-|Person (Allow multiple selections)|Contacts     |Yes     |
+|Typ                              |Nazwa wewnętrzna|Wymagane|
+|---------------------------------|----------------|:------:|
+|Osoba (zezwalaj na wiele wyborów)|Contacts        |Tak     |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 person-circle-header.json | [Andre Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |February 17, 2023 |Initial release
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |February 17, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/person-circle-header" />

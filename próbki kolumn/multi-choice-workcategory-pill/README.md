@@ -1,12 +1,12 @@
 # Work Progress Category Pill
 
-## Summary
+## Podsumowanie
 
 This JSON sample demonstrates how you can format the work progress category choices as pills found in the newly released Microsoft Lists Work progress tracker template.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 * The `multi-choice-workcategory-pill.json` format can be applied to any multiple selection choice column, while the `text-column-workcategory-pill.json` format can be applied to other columns. Both formats expect the column values to be one of the following choices:
   + Planning
@@ -15,32 +15,32 @@ This JSON sample demonstrates how you can format the work progress category choi
   + Marketing
   + Research
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-choice-workcategory-pill.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 text-column-workcategory-pill.json | [Ganesh Sanap](https://github.com/ganesh-sanap) & [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 
 
-## Version history
+## Historia wersji
 
 | Version | Date          | Comments        |
 |---------|---------------|-----------------|
-| 1.0     | August 08, 2020 | Initial release |
-| 1.1     | November 1, 2024 | Added text-column-workcategory-pill.json |
+| 1.0     | August 08, 2020 | Wersja początkowa |
+| 1.1     | November 1, 2024 | Dodano text-column-workcategory-pill.json |
 | 1.2     | November 15, 2024 | Modified text-column-workcategory-pill.json to change colors and icons based on field values |
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-This sample uses some predefined classes also covered in the official documentation of Column Formatting:
+Ta próbka wykorzystuje some predefined classes also covered in the official documentation of Column Formatting:
 
 - [Use column formatting to customize SharePoint - Style guidelines](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#style-guidelines)
 

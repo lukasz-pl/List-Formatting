@@ -1,34 +1,34 @@
 # Instant Flow Trigger with HTML Response via Embed Action
 
-## Summary
-This sample demonstrates how to trigger a Power Automate flow instantly from a list button without the standard "Run Flow" side-pane friction.
+## Podsumowanie
+Ta próbka pokazuje how to trigger a Power Automate flow instantly from a list button without the standard "Run Flow" side-pane friction.
 
 It uses the `customRowAction` with `action: "embed"` to hit a Power Automate **HTTP Request (GET)** endpoint. The Flow returns an HTML payload that renders directly inside the (embedded) formatting callout bubble.
 
 ![screenshot](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 * This formatting can be applied to any column type (Text, Calculated, etc.).
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-http-flow-response.json  | [Sam Yost](https://github.com/samyost)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 23, 2025|Initial release
+1.0|November 23, 2025|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 ### Flow Configuration
 This pattern relies on a specific Power Automate configuration to function correctly within the SharePoint callout bubble.
@@ -50,7 +50,7 @@ This pattern relies on a specific Power Automate configuration to function corre
 If the callout bubble appears but displays an error message, your SharePoint environment may be blocking external iframes (including Azure Logic Apps domains).
 
 To fix this:
-1. Go to **Site Settings** > **HTML Field Security** (under Site Collection Administration).
+1. Przejdź do **Site Settings** > **HTML Field Security** (under Site Collection Administration).
 2. Add the domain of your Flow URL to the list (e.g., `logic.azure.com` or `prod-18.westus.logic.azure.com`).
 3. Click **OK**.
 

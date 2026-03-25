@@ -1,31 +1,31 @@
 # Shaded Backgrounds
 
-## Summary
-This sample demonstrates how to change the shade of the background color depending on the value of the number column. Also, in this sample, the background color is lightest at `-100` and darkest at `350`.
+## Podsumowanie
+Ta próbka pokazuje how to change the shade of the background color depending on the value of the number column. Also, in this sample, the background color is lightest at `-100` and darkest at `350`.
 
 - `number-background-color-shading.json` uses your site's theme color as the background color.
 - `number-background-color-shading-custom-color.json` uses the HTML color code as the background color, and in the sample, `#FFBBFF` is set.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to a Number column.
+Ten format można zastosować do a Number column.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 number-background-color-shading.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 number-background-color-shading-custom-color.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Wersja |Data             |Uwagi
 --------|-----------------|----------------
-1.0     |November 16, 2021|Initial release
+1.0     |November 16, 2021|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-background-color-shading" />

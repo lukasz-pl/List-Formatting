@@ -1,33 +1,33 @@
 # Change color based on Item Child Count
 
-## Summary
-This sample displays the value of the column Item Child Count in green when 5 documents have been uploaded. If less or more then 5 documents are uploaded, the field will be green.
+## Podsumowanie
+Ta próbka wyświetla wartość kolumny Item Child Count na zielono, gdy przesłano 5 dokumentów. Jeśli przesłano mniej lub więcej niż 5 dokumentów, pole również zostanie odpowiednio sformatowane.
 
 Sample can be extended to different colors or values based on your requirements.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 - This format can only be applied to the Item Child Count field. Add this field to your view by clicking on "Add Column" - "Show or hide columns"
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 childcount-color-change.json | [Marijn Somers](https://github.com/marijnsomers)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 20, 2023|Initial release
+1.0|February 20, 2023|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - None
 

@@ -1,35 +1,35 @@
 # Multi-Person inline edit pill
 
-## Summary
-This sample provides a "pill" style for each person in a multi-select person field, whilst allowing inline edits.
+## Podsumowanie
+Ta próbka przedstawia a "pill" style for each person in a multi-select person field, whilst allowing inline edits.
 
-The sample demonstrates the use of the `forEach` property to apply a format for each value of an array (multi-select person fields).
+Próbka demonstrates the use of the `forEach` property to apply a format for each value of an array (multi-select person fields).
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
-- This format can be applied to a Multi-Select Person column
+## Wymagania widoku
+- Ten format można zastosować do a Multi-Select Person column
 - This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-person-inlineedit-pill.json | [Hubert Lam](https://github.com/z3019494)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 1, 2023|Initial release
+1.0|August 1, 2023|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- [Use column formatting to customize SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
+- [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/multi-person-inlineedit-pill" />

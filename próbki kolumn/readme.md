@@ -1,16 +1,16 @@
-# Column Formatting samples for SharePoint and Microsoft Lists
+# Przykłady formatowania kolumn dla SharePoint i Microsoft Lists
 
-Samples for use with Column Formatting in SharePoint (2019 & Online) and Microsoft Lists. Samples are organized into dedicated folders with READMEs, screenshots, and everything needed to apply the sample in your own environment.
+Przykłady do użycia z formatowaniem kolumn w SharePoint (2019 i Online) oraz Microsoft Lists. Próbki są uporządkowane w osobnych folderach zawierających README, zrzuty ekranu i wszystko, co potrzebne, aby zastosować dany przykład we własnym środowisku.
 
-Folders are organized by column type (generic applies to any column type whose value is simple text). However, there is a dedicated listing of column samples in our documentation site along with groupings to help find exactly the sample you need:
+Foldery są pogrupowane według typu kolumny (`generic` dotyczy dowolnego typu kolumny, którego wartość jest prostym tekstem). Na stronie dokumentacji znajduje się także osobna lista przykładów formatowania kolumn wraz z grupowaniami, które pomagają znaleźć dokładnie ten przykład, którego potrzebujesz:
 
-* [Column Samples](https://pnp.github.io/List-Formatting/columnsamples/) - Friendly display of ALL column samples
-* [Groupings](https://pnp.github.io/List-Formatting/groupings/columntype/) - Various listings of samples by operators, tokens, author, class usage, etc.
+* [Przykłady kolumn](https://pnp.github.io/List-Formatting/columnsamples/) - przyjazny widok **WSZYSTKICH** przykładów formatowania kolumn
+* [Grupowania](https://pnp.github.io/List-Formatting/groupings/columntype/) - różne listy próbek według operatorów, tokenów, autorów, użycia klas itd.
 
-> Note: Excel-style expressions are not supported in SharePoint 2019. You need to use the AST(Abstract Syntax Tree) versions of samples which are provided in some cases. There is a [dedicated page for samples supported in SharePoint 2019](https://pnp.github.io/List-Formatting/groupings/SP2019/).
+> Uwaga: wyrażenia w stylu Excela nie są obsługiwane w SharePoint 2019. W takich przypadkach należy używać wersji AST (Abstract Syntax Tree), które są dostępne dla części próbek. Istnieje też [osobna strona z przykładami obsługiwanymi w SharePoint 2019](https://pnp.github.io/List-Formatting/groupings/SP2019/).
 
 <p align="center">
-    <img src="../assets/SharingIsCaring.png" alt="Parker" title="Parker loves you!">
+    <img src="../assets/SharingIsCaring.png" alt="Parker" title="Parker lubi, gdy się dzielisz!">
 </p>
 
-<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/readme" />
+<img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/README" />

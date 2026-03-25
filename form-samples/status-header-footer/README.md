@@ -1,46 +1,46 @@
-# Status Header and Footer
+# Nagłówek i stopka statusu
 
-## Summary
-This sample shows a customized header and footer for a form with a Status column with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. 
+## Podsumowanie
+Ta próbka pokazuje niestandardowy nagłówek i stopkę formularza z kolumną Status o możliwych wartościach `Thinking about it`, `Working on it`, `Done` oraz `Nevermind`.
 
-This format is intended for the Header Format and Footer Format of the form body in the Configure Layout panel. Depending on the value of the Status column, a corresponding icon and colour scheme are used.
+Ten format jest przeznaczony do sekcji Header Format i Footer Format treści formularza w panelu Configure Layout. W zależności od wartości kolumny Status używana jest odpowiednia ikona i kolorystyka.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-![screenshot of the sample](./assets/status-workingonit.png)
+![zrzut ekranu próbki](./assets/status-workingonit.png)
 
-![screenshot of the sample](./assets/status-done.png)
+![zrzut ekranu próbki](./assets/status-done.png)
 
-![screenshot of the sample](./assets/status-nevermind.png)
-
-
-## Form requirements
-
-A Choice column called Status is required with possible values 'Thinking about it', 'Working on it', 'Done', and 'Nevermind'. 
-
-![image on the list template](./assets/status-column.png)
-
-|Type                   |Internal Name    |Required|
-|-----------------------|-----------------|:------:|
-|Single line of text    |Title            |Yes     |
-|Choice                 |Status           |No      |
+![zrzut ekranu próbki](./assets/status-nevermind.png)
 
 
-## Sample
+## Wymagania formularza
 
-Solution|Author(s)
---------|---------
+Wymagana jest kolumna wyboru o nazwie Status z możliwymi wartościami `Thinking about it`, `Working on it`, `Done` oraz `Nevermind`.
+
+![obraz kolumny listy](./assets/status-column.png)
+
+|Typ                    |Nazwa wewnętrzna|Wymagane|
+|-----------------------|----------------|:------:|
+|Pojedyncza linia tekstu|Title           |Tak     |
+|Wybór                  |Status          |Nie     |
+
+
+## Przykład
+
+Rozwiązanie|Autor(zy)
+-----------|---------
 status-footer.json | [Chris Kent](https://github.com/thechriskent)
 status-header.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |January 31, 2021 |Initial release
-2.0     |August 20, 2021 | Added readme and screenshots
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |January 31, 2021 |Wersja początkowa
+2.0     |August 20, 2021 |Dodano README i zrzuty ekranu
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/status-header-footer" />

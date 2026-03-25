@@ -1,10 +1,10 @@
 # Context Menu
 
-## Summary
+## Podsumowanie
 
-The sample is a simple version of the current context menu. It allows you to customize the menu options and link to the most user of visited links. You can add links to Flows, web pages, or other items specific the the item it is on. It can be added to any customizable field, but adding it to the Title field helps eliminate confusion.
+Próbka is a simple version of the current context menu. It allows you to customize the menu options and link to the most user of visited links. You can add links to Flows, web pages, or other items specific the the item it is on. It can be added to any customizable field, but adding it to the Title field helps eliminate confusion.
 
-![screenshot of the sample](./assets/screenshot.png) ![screenshot of the sample](./assets/menu-minimal.png)
+![zrzut ekranu próbki](./assets/screenshot.png) ![zrzut ekranu próbki](./assets/menu-minimal.png)
 
 ## Setting Up for Sample Usage
 
@@ -18,26 +18,26 @@ To use this sample, you need to modify `__LIST ID__` and `__FLOW ID__` in [gener
 
     ![screenshot of the setting Flow ID](./assets/setting-flow-id.png)
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to any column type.
+Ten format można zastosować do any column type.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-context-menu.json | [Larry Pfaff](https://github.com/jaxkookie)
 generic-context-menu-minimal.json | [Watana](https://github.com/watana2)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |April 2, 2024 |Initial release
-1.1     |February 17, 2025 |Added generic-context-menu-minimal.json
+1.0     |April 2, 2024 |Wersja początkowa
+1.1     |February 17, 2025 |Dodano generic-context-menu-minimal.json
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-context-menu" />

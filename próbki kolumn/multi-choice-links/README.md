@@ -1,14 +1,14 @@
 # Multi-Choice Links
 
-## Summary
-This sample shows how we can display multiple links in a single column using the multi-choice column.
+## Podsumowanie
+Ta próbka pokazuje how we can display multiple links in a single column using the multi-choice column.
 
 **Note:** If rich text column is used to display links then this sample can be ignored. 
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-The sample expects the choices in the `Sessions` column to use the format `<Link Title>|<The actual link>|`.
+## Wymagania widoku
+Próbka expects the choices in the `Sessions` column to use the format `<Link Title>|<The actual link>|`.
 
 For Example - if the link we want to display has the title `Learn about list formatting` and the actual link is `https://pnp.github.io/sp-dev-list-formatting` then the choice for that in the `Sessions` column should be `Learn about list formatting|https://pnp.github.io/sp-dev-list-formatting|`.
 
@@ -34,22 +34,22 @@ We then extract `<the actual link>` using this formula:
 "=substring([$choiceIterator], indexOf([$choiceIterator], '|') + 1,  lastIndexOf([$choiceIterator], '|'))"
 ```
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-choice-links.json | [Anoop Tatti](https://github.com/anoopt)
 multi-choice-links-advanced.json | [Abhijeet Jadhav](https://github.com/TekExpo)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 14, 2021 |Initial release
-1.1|March 17, 2023 |Added multi-choice-links-advanced.json
+1.0|April 14, 2021 |Wersja początkowa
+1.1|March 17, 2023 |Dodano multi-choice-links-advanced.json
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

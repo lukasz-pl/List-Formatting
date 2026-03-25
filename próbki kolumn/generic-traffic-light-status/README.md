@@ -1,6 +1,6 @@
 # Traffic Light Column Formatting
 
-## Summary
+## Podsumowanie
 
 This column formatting demonstrates how to create a **dynamic traffic light visual** within a SharePoint list using **column formatting JSON**. The traffic light displays different signal states (Red, Yellow, Green) with realistic styling including glowing effects, metal pole structure, and decorative side triangles.
 
@@ -28,9 +28,9 @@ The traffic light system displays three possible states based on the column valu
 
 > **Note:** Only one light is active at a time. Inactive lights appear dark gray (#555) with inset shadows.
 
-## View requirements
+## Wymagania widoku
 
-This formatting requires the following **column in your SharePoint list**:
+To formatowanie wymaga następującej **kolumny na liście SharePoint**:
 
 | Column Name | Type | Accepted Values | Description |
 |-------------|------|-----------------|-------------|
@@ -129,20 +129,20 @@ Replace `@currentField == 'Red'` with your custom values:
 - Validate JSON using online JSON validators
 - Check SharePoint permissions
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-traffic-light-status.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version History
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 7, 2025|Initial release
+1.0|October 7, 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ## References
 

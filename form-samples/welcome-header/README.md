@@ -1,42 +1,42 @@
-# Welcome Header
+# Powitalny nagłówek
 
-## Summary
-This sample demonstrates how to display Welcome message depending on time of day, display user profile image and display user name if formated in mail address (sample: `user.1@[domain].com`).
+## Podsumowanie
+Ta próbka pokazuje, jak wyświetlić komunikat powitalny zależny od pory dnia, obraz profilu użytkownika oraz nazwę użytkownika, jeśli została zapisana w adresie e-mail w formacie podobnym do `user.1@[domain].com`.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
+## Wymagania formularza
 
-### Time format (12 Hours or 24 Hours)
+### Format czasu (12-godzinny lub 24-godzinny)
 
-Identify what regional settings are being used in site.
-- Normally the default configuration can be accessed on to Top right icon > Site informations > View all site settings > Regional Settings or Time format is managed by **M365 administrator**.
+Sprawdź, jakie ustawienia regionalne są używane w witrynie.
+- Zwykle domyślną konfigurację można znaleźć przez ikonę w prawym górnym rogu > Informacje o witrynie > Wyświetl wszystkie ustawienia witryny > Ustawienia regionalne, chyba że format czasu jest zarządzany przez administratora **M365**.
 
-![screenshot of the time format](./assets/time-format.png)
+![zrzut ekranu formatu czasu](./assets/time-format.png)
 
-### How to implement
+### Jak wdrożyć
 
-Access to list where customization will be apply, edit item, access top right options and select **"Configure layout"** and implement json for **Header**.
+Przejdź do listy, do której ma zostać zastosowane dostosowanie, edytuj element, otwórz opcje w prawym górnym rogu i wybierz **"Configure layout"**, a następnie wklej JSON dla sekcji **Header**.
 
-![screenshot of the list form configuration](./assets/list-form-configuration.png)
+![zrzut ekranu konfiguracji formularza listy](./assets/list-form-configuration.png)
 
-This information is important to use sample, since `12 hours` uses **12:00:00 AM and 12:00:00 PM** and `24 hours` uses **0:00:00 to 24:00:00**.
-- Based on this information (`12 Hours/24 Hours`) you can use sample json for testing.
+Ta informacja jest ważna przy korzystaniu z próbki, ponieważ `12 hours` używa **12:00:00 AM i 12:00:00 PM**, a `24 hours` używa **0:00:00 do 24:00:00**.
+- Na tej podstawie (`12 Hours/24 Hours`) możesz użyć odpowiedniego przykładowego JSON-a do testów.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 welcome-header.json | [Andre Lage](https://github.com/aaclage)
 welcome-header-24hours.json | [Andre Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |March 14, 2023 |Initial release
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |March 14, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/welcome-header" />

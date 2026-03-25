@@ -1,35 +1,35 @@
 # Color Based Emojis
 
-## Summary
-This sample displays smiley faces (emojis) based on color. The format will add a smiley face (icon) which comes from Fluent UI. If the value is `Green` then the icon will be `Emoji2`, if the value is `Yellow` then the icon will be `EmojiNeutral`, if the value is Red the icon will be `EmojiDisappointed`.
+## Podsumowanie
+Ta próbka wyświetla buźki (emoji) na podstawie koloru. Format dodaje ikonę buźki z Fluent UI. Jeśli wartość to `Green`, użyta zostanie ikona `Emoji2`, jeśli `Yellow` to `EmojiNeutral`, a jeśli `Red` to `EmojiDisappointed`.
 
 Sample can be extended to different colors based on your requirements.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-- This format can be applied to a Choice, Single line of text column
+## Wymagania widoku
+- Ten format można zastosować do a Choice, Single line of text column
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 color-based-smiley-face.json | [Siddharth Vaghasia](https://github.com/siddharth-vaghasia)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|June 16, 2019|Initial release
+1.0|June 16, 2019|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
-This sample uses icons from the Office UI Fabric
+## Dodatkowe uwagi
+Ta próbka wykorzystuje icons from the Office UI Fabric
 
 - [Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
 

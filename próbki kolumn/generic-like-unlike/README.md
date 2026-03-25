@@ -1,34 +1,34 @@
 # Like/Unlike List Item
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates how to like/unlike a list item. This sample uses the `setValue` `customRowAction` to update the number and person field.
+Ta próbka pokazuje how to like/unlike a list item. Ta próbka wykorzystuje the `setValue` `customRowAction` to update the number and person field.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 
-This format can be applied to any column type (its value is ignored). In addition, below fields needs to be defined:
+Ten format można zastosować do any column type (its value is ignored). In addition, below fields needs to be defined:
 
 |Type               |Internal Name|Required|Comments|
 |-------------------|-------------|--------|--------|
 |Number|LikesCount      |No      |Default value = 0|
 |Person|LikedBy      |No      |Allow multiple selections|
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-like-unlike.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |November 27, 2021 |Initial release
+1.0     |November 27, 2021 |Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-like-unlike" />

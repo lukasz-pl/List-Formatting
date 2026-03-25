@@ -1,12 +1,12 @@
 # Quick-View Issue Card
 
-## Summary
+## Podsumowanie
 
 The Issue HoverCard Formatter is a SharePoint list Column JSON formatter component tailored to enhance user experience when interacting with issue data. It provides a streamlined approach to view essential information about issues through hover cards, offering quick insights in a card format.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 | Column Name         | Type                                   | Internal Column Name |
 | ------------------- | -------------------------------------- | -------------------- |
@@ -19,19 +19,19 @@ The Issue HoverCard Formatter is a SharePoint list Column JSON formatter compone
 | Issue logged by     | Person or Group                        | Issueloggedby        |
 | IssueCard           | Single Line Text                       | IssueCard            |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-quickview-issue-card.json | [Jatin Patil](https://github.com/Jatin-patil)
 
-## Version history
+## Historia wersji
 
 | Version | Date             | Comments        |
 | ------- | ---------------- | --------------- |
-| 1.0     | 29 May, 2024     | Initial release |
+| 1.0     | 29 May, 2024     | Wersja początkowa |
 
-## Disclaimer
+## Zastrzeżenie
 
 **THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 

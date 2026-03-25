@@ -1,37 +1,37 @@
 # Country Flag
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates displaying the flag of the country selected in the single selection SharePoint choice column.
+Ta próbka pokazuje displaying the flag of the country selected in the single selection SharePoint choice column.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The country flag is shown using the [FlagCDN - CDN & API of flags](https://flagcdn.com/) web site API. So, allow `flagcdn.com` domain in HTML Field Security settings of your SharePoint site by following this Microsoft official documentation: [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/en-us/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 
-You can find the list of countries used in this JSON sample at: [Countries](./assets/countries.xlsx)
+Możesz znaleźć the list of countries used in this JSON sample at: [Countries](./assets/countries.xlsx)
 
 Add list of countries in the choice column settings like:
 
 ![screenshot of the edit column](./assets/edit-column.png)
 
-## View requirements
+## Wymagania widoku
 
-- This format can be applied to any text based column but a single selection choice column is the intent
+- Ten format można zastosować do any text based column but a single selection choice column is the intent
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 text-country-flag.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |August 28, 2023 |Initial release
+1.0     |August 28, 2023 |Wersja początkowa
 1.1     |October 19, 2025 |Renamed from `choice-country-flag` to `text-country-flag`
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-country-flag" />

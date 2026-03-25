@@ -1,11 +1,11 @@
 # Star Icons
 
-## Summary
-This sample formats a choice column to use the star icons similar to Gmail.
+## Podsumowanie
+Ta próbka formatuje kolumnę wyboru tak, aby używać ikon gwiazdek podobnych do Gmaila.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-This sample requires a choice field with these options added:
+Ta próbka wymaga a choice field with these options added:
 
 - None
 - Yellow Star
@@ -26,22 +26,22 @@ Also, it uses `inlineEditField`, which allows the user to change the icon on the
 
 ![screenshot of the inlineEditField](./assets/inlineEditField.gif)
 
-## View requirements
-- This format can be applied to a Choice column
+## Wymagania widoku
+- Ten format można zastosować do a Choice column
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-star-icon.json | [Will Cooper](https://github.com/wwcoop)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 15, 2023|Initial release
+1.0|May 15, 2023|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-star-icon" />

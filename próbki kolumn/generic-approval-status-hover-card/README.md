@@ -1,38 +1,38 @@
 # Approval Status Hover Card
 
-## Summary
-This sample provides more detail on list/library items when the standard Conent Approval flow is enabled. The approval status and a related icon/color are shown with additional details about the overall process visible in a panel on hover.
+## Podsumowanie
+Ta próbka przedstawia more detail on list/library items when the standard Conent Approval flow is enabled. The approval status and a related icon/color are shown with additional details about the overall process visible in a panel on hover.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-This format requires Content Approval to be enabled for your list/library (see below for instructions). Once enabled, this format can be applied to any column in your view as long as the Approval Status column ([$_ModerationStatus]) and the Modified column ([$Modified]) are also visible in the same view.
+## Wymagania widoku
+Ten format wymaga włączenia zatwierdzania zawartości dla listy lub biblioteki (instrukcja poniżej). Po włączeniu można go zastosować do dowolnej kolumny w widoku, o ile kolumna Approval Status ([$_ModerationStatus]) oraz kolumna Modified ([$Modified]) są również widoczne w tym samym widoku.
 
-### Enable Content Approval
+### Włącz zatwierdzanie zawartości
 On your list use the menu to choose Integrate > Power Automate > Configure flows. In the panel that opens, choose to enable approvals for the library and choose Content approval for the approval mode.
 
 In the Add column menu choose to Show/hide columns and add Approval Status and Modified to your view.
 
-## Sample
+## Przykład
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 generic-approval-status-hover-card.json | [Django Lohn](https://github.com/m3ngi3)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 19, 2021|Initial release
+1.0|March 19, 2021|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
-This sample uses icons from Fluent UI
+## Dodatkowe uwagi
+Ta próbka wykorzystuje icons from Fluent UI
 
 - [Fluent UI Iconography](https://developer.microsoft.com/fluentui#/styles/web/icons)
 
