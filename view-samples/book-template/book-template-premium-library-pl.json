@@ -52,7 +52,7 @@
             "elmType": "img",
             "attributes": {
               "src": "[$OkladkaUrl]",
-              "alt": "[$Tytul]"
+              "alt": "[$Title]"
             },
             "style": {
               "width": "172px",
@@ -189,7 +189,7 @@
                       "font-weight": "700",
                       "color": "#2d2214"
                     },
-                    "txtContent": "[$Tytul]"
+                    "txtContent": "[$Title]"
                   },
                   {
                     "elmType": "div",
@@ -385,7 +385,7 @@
                       "font-size": "14px",
                       "color": "#2f2415"
                     },
-                    "txtContent": "[$Tytul]"
+                    "txtContent": "[$Title]"
                   },
                   {
                     "elmType": "div",
