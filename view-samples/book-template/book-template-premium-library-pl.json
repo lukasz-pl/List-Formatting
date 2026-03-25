@@ -1,0 +1,591 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/view-formatting.schema.json",
+  "hideSelection": true,
+  "hideColumnHeader": true,
+  "rowFormatter": {
+    "elmType": "div",
+    "style": {
+      "display": "flex",
+      "flex-wrap": "wrap",
+      "width": "100%",
+      "margin": "0 0 22px 0",
+      "border-radius": "20px",
+      "overflow": "hidden",
+      "border": "1px solid #d7cdc1",
+      "background": "linear-gradient(125deg, #f8f2e8 0%, #fffdfa 52%, #efe3d2 100%)",
+      "box-shadow": "0 18px 40px rgba(62, 42, 18, 0.10)"
+    },
+    "children": [
+      {
+        "elmType": "div",
+        "style": {
+          "width": "240px",
+          "min-width": "240px",
+          "padding": "22px",
+          "display": "flex",
+          "flex-direction": "column",
+          "align-items": "center",
+          "justify-content": "space-between",
+          "gap": "16px",
+          "background": "linear-gradient(180deg, #e8d7bf 0%, #f3e7d6 100%)",
+          "position": "relative"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "position": "absolute",
+              "top": "16px",
+              "left": "16px",
+              "padding": "6px 12px",
+              "border-radius": "999px",
+              "font-size": "11px",
+              "font-weight": "700",
+              "letter-spacing": "0.9px",
+              "text-transform": "uppercase",
+              "background-color": "=if([$Status] == 'Czytam', '#0f6cbd', if([$Status] == 'Przeczytana', '#2f7d32', if([$Status] == 'Do przeczytania', '#8a6d1f', '#6b6258')))",
+              "color": "#ffffff"
+            },
+            "txtContent": "=if([$Status] == '', 'Brak statusu', [$Status])"
+          },
+          {
+            "elmType": "img",
+            "attributes": {
+              "src": "[$OkladkaUrl]",
+              "alt": "[$Tytul]"
+            },
+            "style": {
+              "width": "172px",
+              "height": "250px",
+              "margin-top": "18px",
+              "object-fit": "cover",
+              "border-radius": "14px",
+              "border": "1px solid #cab89d",
+              "box-shadow": "0 18px 26px rgba(49, 31, 11, 0.20)"
+            }
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "width": "100%",
+              "display": "grid",
+              "grid-template-columns": "1fr 1fr",
+              "gap": "10px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px 12px",
+                  "border-radius": "12px",
+                  "background-color": "rgba(255,255,255,0.72)",
+                  "border": "1px solid #dacdb9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "10px",
+                      "font-weight": "700",
+                      "text-transform": "uppercase",
+                      "letter-spacing": "0.8px",
+                      "color": "#7a6240",
+                      "margin-bottom": "4px"
+                    },
+                    "txtContent": "Rok"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "17px",
+                      "font-weight": "700",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "=if([$RokWydania] == '', '-', [$RokWydania])"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "10px 12px",
+                  "border-radius": "12px",
+                  "background-color": "rgba(255,255,255,0.72)",
+                  "border": "1px solid #dacdb9"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "10px",
+                      "font-weight": "700",
+                      "text-transform": "uppercase",
+                      "letter-spacing": "0.8px",
+                      "color": "#7a6240",
+                      "margin-bottom": "4px"
+                    },
+                    "txtContent": "Ocena"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "17px",
+                      "font-weight": "700",
+                      "color": "#8b4a12"
+                    },
+                    "txtContent": "=if([$Ocena] == '', '-', [$Ocena] + '/10')"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "elmType": "div",
+        "style": {
+          "flex-grow": "1",
+          "min-width": "340px",
+          "padding": "24px",
+          "display": "flex",
+          "flex-direction": "column",
+          "gap": "16px"
+        },
+        "children": [
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "flex-start",
+              "gap": "16px",
+              "flex-wrap": "wrap"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "flex-direction": "column",
+                  "gap": "6px"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "11px",
+                      "font-weight": "700",
+                      "text-transform": "uppercase",
+                      "letter-spacing": "1px",
+                      "color": "#846846"
+                    },
+                    "txtContent": "Prywatna biblioteczka"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "34px",
+                      "line-height": "1.08",
+                      "font-weight": "700",
+                      "color": "#2d2214"
+                    },
+                    "txtContent": "[$Tytul]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "16px",
+                      "color": "#665035"
+                    },
+                    "txtContent": "= 'Autor: ' + [$Autor]"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "flex",
+                  "gap": "10px",
+                  "flex-wrap": "wrap",
+                  "justify-content": "flex-end"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "9px 13px",
+                      "border-radius": "999px",
+                      "font-size": "13px",
+                      "font-weight": "700",
+                      "background-color": "#fff7ea",
+                      "border": "1px solid #e1cfaa",
+                      "color": "#8b4a12"
+                    },
+                    "txtContent": "=if([$Gatunek] == '', 'Brak gatunku', [$Gatunek])"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "9px 13px",
+                      "border-radius": "999px",
+                      "font-size": "13px",
+                      "font-weight": "700",
+                      "background-color": "#f6f1ea",
+                      "border": "1px solid #ddd1c0",
+                      "color": "#5d5348"
+                    },
+                    "txtContent": "=if([$Format] == '', 'Brak formatu', [$Format])"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "grid",
+              "grid-template-columns": "1fr 1fr",
+              "gap": "12px"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "14px 16px",
+                  "border-radius": "14px",
+                  "background-color": "rgba(255,255,255,0.68)",
+                  "border": "1px solid #dfd3c5"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "10px",
+                      "font-weight": "700",
+                      "text-transform": "uppercase",
+                      "letter-spacing": "0.8px",
+                      "color": "#7d6541",
+                      "margin-bottom": "6px"
+                    },
+                    "txtContent": "Jezyk"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "16px",
+                      "font-weight": "700",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "=if([$Jezyk] == '', '-', [$Jezyk])"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "padding": "14px 16px",
+                  "border-radius": "14px",
+                  "background-color": "rgba(255,255,255,0.68)",
+                  "border": "1px solid #dfd3c5"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "10px",
+                      "font-weight": "700",
+                      "text-transform": "uppercase",
+                      "letter-spacing": "0.8px",
+                      "color": "#7d6541",
+                      "margin-bottom": "6px"
+                    },
+                    "txtContent": "Priorytet"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "font-size": "16px",
+                      "font-weight": "700",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "=if([$Priorytet] == '', '-', [$Priorytet])"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "border": "1px solid #ddd1c0",
+              "border-radius": "16px",
+              "overflow": "hidden",
+              "background-color": "#fffdfa"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "grid",
+                  "grid-template-columns": "190px 1fr",
+                  "background-color": "#f2e7d7",
+                  "border-bottom": "1px solid #ddd1c0"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "12px 16px",
+                      "font-size": "12px",
+                      "font-weight": "700",
+                      "text-transform": "uppercase",
+                      "letter-spacing": "0.9px",
+                      "color": "#694f2d"
+                    },
+                    "txtContent": "Pole"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "12px 16px",
+                      "font-size": "12px",
+                      "font-weight": "700",
+                      "text-transform": "uppercase",
+                      "letter-spacing": "0.9px",
+                      "color": "#694f2d"
+                    },
+                    "txtContent": "Informacja"
+                  }
+                ]
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "display": "grid",
+                  "grid-template-columns": "190px 1fr"
+                },
+                "children": [
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "background-color": "#fbf7f0",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "13px",
+                      "font-weight": "700",
+                      "color": "#5b4529"
+                    },
+                    "txtContent": "Tytul"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "14px",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "[$Tytul]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "background-color": "#fbf7f0",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "13px",
+                      "font-weight": "700",
+                      "color": "#5b4529"
+                    },
+                    "txtContent": "Autor"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "14px",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "[$Autor]"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "background-color": "#fbf7f0",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "13px",
+                      "font-weight": "700",
+                      "color": "#5b4529"
+                    },
+                    "txtContent": "Rok wydania"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "14px",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "=if([$RokWydania] == '', '-', [$RokWydania])"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "background-color": "#fbf7f0",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "13px",
+                      "font-weight": "700",
+                      "color": "#5b4529"
+                    },
+                    "txtContent": "Status"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "14px",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "=if([$Status] == '', '-', [$Status])"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "background-color": "#fbf7f0",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "13px",
+                      "font-weight": "700",
+                      "color": "#5b4529"
+                    },
+                    "txtContent": "Seria"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "border-bottom": "1px solid #efe5d7",
+                      "font-size": "14px",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "=if([$Seria] == '', '-', [$Seria])"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "background-color": "#fbf7f0",
+                      "font-size": "13px",
+                      "font-weight": "700",
+                      "color": "#5b4529"
+                    },
+                    "txtContent": "Lokalizacja"
+                  },
+                  {
+                    "elmType": "div",
+                    "style": {
+                      "padding": "13px 16px",
+                      "font-size": "14px",
+                      "color": "#2f2415"
+                    },
+                    "txtContent": "=if([$Lokalizacja] == '', '-', [$Lokalizacja])"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "padding": "16px 18px",
+              "border-radius": "16px",
+              "background-color": "rgba(255,255,255,0.65)",
+              "border": "1px solid #e3d8c9"
+            },
+            "children": [
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "11px",
+                  "font-weight": "700",
+                  "text-transform": "uppercase",
+                  "letter-spacing": "1px",
+                  "color": "#7b6440",
+                  "margin-bottom": "8px"
+                },
+                "txtContent": "Notatki"
+              },
+              {
+                "elmType": "div",
+                "style": {
+                  "font-size": "14px",
+                  "line-height": "1.7",
+                  "color": "#392c1d",
+                  "white-space": "normal"
+                },
+                "txtContent": "=if([$Notatki] == '', 'Dodaj tu krotki opis, swoje wrazenia, cytat albo informacje o wydaniu.', [$Notatki])"
+              }
+            ]
+          },
+          {
+            "elmType": "div",
+            "style": {
+              "display": "flex",
+              "gap": "12px",
+              "flex-wrap": "wrap"
+            },
+            "children": [
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$CzytajUrl]",
+                  "target": "_blank"
+                },
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "padding": "11px 20px",
+                  "border-radius": "999px",
+                  "text-decoration": "none",
+                  "font-size": "14px",
+                  "font-weight": "700",
+                  "background-color": "#9f3a18",
+                  "color": "#ffffff",
+                  "border": "1px solid #9f3a18"
+                },
+                "txtContent": "Czytaj"
+              },
+              {
+                "elmType": "a",
+                "attributes": {
+                  "href": "[$OneDriveUrl]",
+                  "target": "_blank"
+                },
+                "style": {
+                  "display": "inline-flex",
+                  "align-items": "center",
+                  "justify-content": "center",
+                  "padding": "11px 20px",
+                  "border-radius": "999px",
+                  "text-decoration": "none",
+                  "font-size": "14px",
+                  "font-weight": "700",
+                  "background-color": "#ece3d3",
+                  "color": "#332718",
+                  "border": "1px solid #cfbfa7"
+                },
+                "txtContent": "OneDrive"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

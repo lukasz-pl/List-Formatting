@@ -1,52 +1,75 @@
-# Book Template Card Formatter
+# Book Template Table Formatter
 
 ## Podsumowanie
 
-This SharePoint JSON view formatting sample transforms your list items into visually rich book cards. Each card displays a book cover, title, author, price, category, release date, best seller badge, and more. It is ideal for book catalogues, libraries, or online bookstore lists.
+Ten szablon formatuje widok Microsoft Lists / SharePoint tak, aby kazdy rekord ksiazki byl pokazany jako elegancka karta z tabela danych po polsku. Widok eksponuje okladke, tytul, autora, kategorie, cene, date wydania, status bestsellera, opis oraz akcje dla uzytkownika.
 
-![zrzut ekranu próbki](./assets/screenshot.png)
+![zrzut ekranu probki](./assets/screenshot.png)
 
-## Wymagania widoku
+## Co zostalo zmienione
 
-### SharePoint List Columns
+- Etykiety i teksty interfejsu sa po polsku.
+- Glowna czesc rekordu ma uklad tabelaryczny.
+- Przyciski akcji sa opisane po polsku.
+- Widok jest przygotowany do uzycia w Microsoft Lists.
 
-| Column Name      | Type                   | Description                                 |
-|------------------|------------------------|---------------------------------------------|
-| Title            | Pojedyncza linia tekstu    | Book title                                  |
-| BookAuthor       | Pojedyncza linia tekstu    | Author of the book                          |
-| BookAbstract     | Wiele linii tekstu | Short extract or summary of the book        |
-| Category         | Pojedyncza linia tekstu    | Book category (e.g., Fantasy, Classic)      |
-| Price            | Pojedyncza linia tekstu    | Price of the book                           |
-| BookCoverUrl     | Pojedyncza linia tekstu    | URL to the book cover image                 |
-| IsBestSeller     | Yes/No                 | Indicates if the book is a best seller      |
-| ReleaseData      | Data i godzina          | Book release date                           |
-| FindInStoreUrl   | Pojedyncza linia tekstu    | Link to find the book in a store (e.g., map)|
-| AddToCart        | Yes/No                 | Add to cart flag                            |
+## Wymagane kolumny
 
-> [!NOTE]
-> - When using an external image URL in the `BookCoverUrl` column, the image may not be displayed. This happens when attempting to retrieve images from a domain that is not allowed. you'll need to configure the HTML Field Security settings. For more details, refer to [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
-> - A [PowerShell Script](./assets/Create%20List.ps1) is provided in the assets folder to provision the list and add sample data.
-> - This script uses [PnP PowerShell](https://pnp.github.io/powershell/) and requires an environment ready for PnP PowerShell.
+Utworz w liscie ponizsze kolumny. Nazwy wewnetrzne musza odpowiadac polom uzytym w JSON.
 
-## Próbka
+| Nazwa wyswietlana | Nazwa wewnetrzna | Typ kolumny | Opis |
+|---|---|---|---|
+| Tytul | `Title` | Pojedyncza linia tekstu | Tytul ksiazki |
+| Autor | `BookAuthor` | Pojedyncza linia tekstu | Autor ksiazki |
+| Opis | `BookAbstract` | Wiele linii tekstu | Krotki opis ksiazki |
+| Kategoria | `Category` | Pojedyncza linia tekstu | Np. Fantasy, Biznes, Klasyka |
+| Cena | `Price` | Pojedyncza linia tekstu | Cena, np. `49.90` |
+| Okladka URL | `BookCoverUrl` | Pojedyncza linia tekstu | Link do obrazu okladki |
+| Bestseller | `IsBestSeller` | Tak/Nie | Czy ksiazka jest bestsellerem |
+| Data wydania | `ReleaseDate` | Data i godzina | Data publikacji |
+| Link do sklepu | `FindInStoreUrl` | Pojedyncza linia tekstu | Link do sklepu lub lokalizacji |
+| W koszyku | `AddToCart` | Tak/Nie | Flaga przelaczana przyciskiem |
 
-Rozwiązanie|Autor(zy)
---------|---------
-book-template.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
+## Jak wdrozyc w Microsoft Lists
+
+1. Otworz swoja liste w Microsoft Lists.
+2. Dodaj kolumny wymienione w sekcji "Wymagane kolumny".
+3. Wejdz w widok listy, ktory chcesz sformatowac.
+4. Kliknij `View options` / `Opcje widoku`.
+5. Wybierz `Format current view` / `Formatuj biezacy widok`.
+6. Kliknij `Advanced mode` / `Tryb zaawansowany`.
+7. Otworz plik [book-template.json](/Users/lukasz_preihs/Documents/GitHub/List-Formatting/view-samples/book-template/book-template.json).
+8. Skopiuj cala zawartosc pliku JSON i wklej do okna formatowania.
+9. Zapisz zmiany przyciskiem `Save`.
+
+## Jak przetestowac
+
+1. Dodaj kilka rekordow ksiazek z uzupelnionymi polami.
+2. Upewnij sie, ze `BookCoverUrl` wskazuje na publicznie dostepny obraz.
+3. Kliknij `Dodaj do koszyka`, aby sprawdzic, czy pole `AddToCart` zmienia wartosc.
+4. Kliknij `Znajdz w sklepie`, aby sprawdzic, czy link otwiera sie poprawnie.
+
+## Uwagi
+
+- Jezeli obrazy z `BookCoverUrl` nie wyswietlaja sie, przyczyna moze byc blokada zewnetrznej domeny przez SharePoint HTML Field Security.
+- Do szybkiego przygotowania listy mozesz wykorzystac skrypt [Create List.ps1](/Users/lukasz_preihs/Documents/GitHub/List-Formatting/view-samples/book-template/assets/Create%20List.ps1), ale przed uruchomieniem warto dopasowac adres witryny i dane probne.
+- W JSON pole daty to `ReleaseDate`. Upewnij sie, ze w liscie kolumna ma dokladnie taka nazwe wewnetrzna.
+
+## Probka
+
+Rozwiazanie | Autor(zy)
+---|---
+`book-template.json` | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
 ## Historia wersji
 
-Wersja|Data|Uwagi
--------|----|--------
-1.0|Aug 31, 2025|Wersja początkowa
+Wersja | Data | Uwagi
+---|---|---
+1.1 | 2026-03-25 | Widok zmieniony na polski uklad tabelaryczny oraz dodana instrukcja wdrozenia do Microsoft Lists
+1.0 | 2025-08-31 | Wersja poczatkowa
 
-## Zastrzeżenie
-**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
+## Zastrzezenie
 
----
-
-## Dodatkowe uwagi
-
-- This sample includes a visually rich card layout for books, with best seller highlighting and store location links.
+**TEN KOD JEST DOSTARCZANY W STANIE TAKIM, W JAKIM JEST, BEZ JAKIEJKOLWIEK GWARANCJI.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/book-template" />
