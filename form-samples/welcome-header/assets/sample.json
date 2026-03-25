@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-welcome-header",
     "reponame": "welcome-header",
     "source": "pnp",
-    "title": "Welcome Header",
-    "shortDescription": "This sample demonstrates how to display Welcome message depending on time of day, display user profile image in Forms Header.",
+    "title": "Powitalny nagłówek",
+    "shortDescription": "Ta próbka pokazuje, jak wyświetlić komunikat powitalny zależny od pory dnia oraz obraz profilu użytkownika w nagłówku formularza.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/welcome-header",
     "longDescription": [
-      "This sample demonstrates how to display Welcome message depending on time of day, display user profile image and display user name if formated in mail address in Forms Header"
+      "Ta próbka pokazuje, jak wyświetlić komunikat powitalny zależny od pory dnia, obraz profilu użytkownika oraz nazwę użytkownika, jeśli została zapisana w adresie e-mail w nagłówku formularza."
     ],
     "creationDateTime": "2023-03-14T00:00:00.000Z",
     "updateDateTime": "2023-03-14T00:00:00.000Z",
@@ -70,8 +70,8 @@
     ],
     "references": [
       {
-        "name": "Configure the list form",
-        "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+        "name": "Skonfiguruj formularz listy",
+        "description": "Możesz skonfigurować formularz listy lub biblioteki z niestandardowym nagłówkiem, stopką i treścią formularza zawierającą jedną lub więcej sekcji z polami w każdej z nich.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
       }
     ]

@@ -1,33 +1,33 @@
-# Blank Header
+# Pusty nagłówek
 
-## Summary
-By default, uncustomized list forms display the `Title` field at the top. This is generally fine, but sometimes you may not want this (especially since the default is to repeat it as the first column). This very basic format removes the default `Title` display giving you a cleaner form.
+## Podsumowanie
+Domyślnie niespersonalizowane formularze list wyświetlają pole `Title` na górze. Zwykle to wystarcza, ale czasem możesz nie chcieć takiego układu, zwłaszcza że domyślnie to samo pole powtarza się jeszcze jako pierwsza kolumna. Ten bardzo prosty format usuwa domyślne wyświetlanie `Title`, dzięki czemu formularz jest czystszy.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
-None
+## Wymagania formularza
+Brak
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 blank-header.json | [Chris Kent](https://github.com/thechriskent)
 
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
--------|----|--------
-1.0|January 21, 2021|Initial release
+Wersja|Data|Uwagi
+------|----|-----
+1.0|January 21, 2021|Wersja początkowa
 
-## Additional notes
-None
+## Dodatkowe uwagi
+Brak
 
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-> Update telemetry url below to replace "readme-template" with the internal name of your sample (same as the containing folder)
+> Zaktualizuj poniższy adres telemetryczny, zastępując „readme-template” wewnętrzną nazwą próbki (taką samą jak nazwa folderu).
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/blank-header" />

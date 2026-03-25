@@ -3,11 +3,11 @@
     "name": "pnp-list-formatting-blank-header",
     "reponame": "blank-header",
     "source": "pnp",
-    "title": "Blank Header",
-    "shortDescription": "By default, uncustomized list forms display the Title field at the top. This is generally fine, but sometimes you may not want this (especially since the default is to repeat it as the first column). This very basic format removes the default Title display giving you a cleaner form.",
+    "title": "Pusty nagłówek",
+    "shortDescription": "Domyślnie niespersonalizowane formularze list wyświetlają pole Title na górze. Zwykle to wystarcza, ale czasem możesz nie chcieć takiego układu, zwłaszcza że domyślnie pole powtarza się jako pierwsza kolumna. Ten bardzo prosty format usuwa domyślne wyświetlanie Title, dzięki czemu formularz jest czystszy.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/form-samples/blank-header",
     "longDescription": [
-      "By default, uncustomized list forms display the Title field at the top. This is generally fine, but sometimes you may not want this (especially since the default is to repeat it as the first column). This very basic format removes the default Title display giving you a cleaner form."
+      "Domyślnie niespersonalizowane formularze list wyświetlają pole Title na górze. Zwykle to wystarcza, ale czasem możesz nie chcieć takiego układu, zwłaszcza że domyślnie pole powtarza się jako pierwsza kolumna. Ten bardzo prosty format usuwa domyślne wyświetlanie Title, dzięki czemu formularz jest czystszy."
     ],
     "creationDateTime": "2021-01-21T00:00:00.000Z",
     "updateDateTime": "2021-01-21T00:00:00.000Z",
@@ -70,13 +70,13 @@
     ],
     "references": [
       {
-        "name": "Configure the list form",
-        "description": "You can configure the list form in a list or library with a custom header, footer and the form body with one or more sections with fields in each of those sections.",
+        "name": "Skonfiguruj formularz listy",
+        "description": "Możesz skonfigurować formularz listy lub biblioteki z niestandardowym nagłówkiem, stopką i treścią formularza zawierającą jedną lub więcej sekcji z polami w każdej z nich.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-configuration"
       },
       {
-        "name": "Show or hide columns in a list or library form",
-        "description": "You can show or hide columns in a list or library form as an alternative to deleting them. When you hide a column, it doesn\u0027t affect the column or the data in the column, as it would if you delete it.",
+        "name": "Pokaż lub ukryj kolumny w formularzu listy lub biblioteki",
+        "description": "Możesz pokazywać lub ukrywać kolumny w formularzu listy lub biblioteki zamiast je usuwać. Ukrycie kolumny nie wpływa na samą kolumnę ani na dane, które zawiera, w przeciwieństwie do jej usunięcia.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/list-form-conditional-show-hide"
       }
     ]

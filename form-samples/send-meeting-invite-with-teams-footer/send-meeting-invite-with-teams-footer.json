@@ -16,13 +16,13 @@
           "operands": [
             "https://teams.microsoft.com/l/meeting/new",
             "?subject=",
-            "Test",
+            "Spotkanie",
             "&attendees=",
             "joe@contoso.com",
             "&content=",
-            "Hey, calling for a meeting to discuss (",
+            "Czesc, zapraszam na spotkanie w sprawie (",
             "[$Title]",
-            ") coming along?"
+            ")."
           ]
         },
         "class": "ms-fontColor-themePrimary"
@@ -30,7 +30,7 @@
       "children": [
         {
           "elmType": "span",
-          "txtContent": "Send Meeting invite with Microsoft Teams"
+          "txtContent": "Wyślij zaproszenie na spotkanie przez Microsoft Teams"
         },
         {
           "elmType": "span",

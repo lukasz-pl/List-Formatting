@@ -25,7 +25,7 @@
           "children": [
             {
               "elmType": "span",
-              "txtContent": "Created at"
+              "txtContent": "Utworzono"
             },
             {
               "elmType": "span",
@@ -33,7 +33,7 @@
             },
             {
               "elmType": "span",
-              "txtContent": "by"
+              "txtContent": "przez"
             },
             {
               "elmType": "div",
@@ -84,7 +84,7 @@
           "children": [
             {
               "elmType": "span",
-              "txtContent": "Last modified at"
+              "txtContent": "Ostatnio zmodyfikowano"
             },
             {
               "elmType": "span",
@@ -92,7 +92,7 @@
             },
             {
               "elmType": "span",
-              "txtContent": "by"
+              "txtContent": "przez"
             },
             {
               "elmType": "div",

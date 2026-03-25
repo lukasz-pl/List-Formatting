@@ -1,28 +1,28 @@
-# Wave Header and Footer
+# Nagłówek i stopka z falą
 
-## Summary
-This sample demonstrates how to display waves in the header and footer of a form. Waves are displayed using SVG.
+## Podsumowanie
+Ta próbka pokazuje, jak wyświetlać fale w nagłówku i stopce formularza. Fale są renderowane przy użyciu SVG.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
+## Wymagania formularza
 
-None
+Brak
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 wave-header.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 wave-footer.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date               |Comments
---------|-------------------|--------
-1.0     |September 14, 2021 |Initial release
+Wersja |Data               |Uwagi
+-------|-------------------|-----
+1.0     |September 14, 2021 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/wave-header-footer" />

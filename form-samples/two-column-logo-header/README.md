@@ -1,66 +1,66 @@
-# Two Column Logo Header
+# Dwukolumnowy nagłówek z logo
 
-## Summary
+## Podsumowanie
 
-This sample displays an `Icon` and `Title` in a two column header with the Icon on the left and the `Title` on the right. An additional `Icon` and `RequestStatus` and added below the `Title`.
+Ta próbka wyświetla `Icon` i `Title` w dwukolumnowym nagłówku, z ikoną po lewej i `Title` po prawej. Dodatkowa `Icon` oraz `RequestStatus` są wyświetlane pod `Title`.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
+## Wymagania formularza
 
-|Type                   |Internal Name|Required|
-|-----------------------|-------------|:------:|
-|Single line of text    |Title        |Yes     |
-|Choice |RequestStatus  |Yes      |
+|Typ                    |Nazwa wewnętrzna|Wymagane|
+|-----------------------|----------------|:------:|
+|Pojedyncza linia tekstu|Title           |Tak     |
+|Wybór                  |RequestStatus   |Tak     |
 
-### RequestStatus Choices
+### Wartości RequestStatus
 
-|Value           |
+|Wartość         |
 |----------------|
 |Approved|
 |Pending|
 |Rejected|
 |Withdrawn|
 
-Based on the value of `RequestStatus` value, the color of the column is changed along with the icon.
+Na podstawie wartości `RequestStatus` zmieniany jest kolor kolumny oraz ikona.
 
-- RequestStatus: Default (not chosen)
+- RequestStatus: Domyślny (nie wybrano)
 
-    ![screenshot of the sample when RequestStatus is blank](./assets/screenshot_two_column_Default.png)
+    ![zrzut ekranu próbki, gdy RequestStatus jest puste](./assets/screenshot_two_column_Default.png)
 
 - RequestStatus: Approved
 
-    ![screenshot of the sample when RequestStatus is Approved](./assets/screenshot_two_column_Approved.png)
+    ![zrzut ekranu próbki, gdy RequestStatus to Approved](./assets/screenshot_two_column_Approved.png)
 
 - RequestStatus: Pending
 
-    ![screenshot of the sample when RequestStatus is Pending](./assets/screenshot_two_column_Pending.png)
+    ![zrzut ekranu próbki, gdy RequestStatus to Pending](./assets/screenshot_two_column_Pending.png)
 
 - RequestStatus: Rejected
 
-    ![screenshot of the sample when RequestStatus is Rejected](./assets/screenshot_two_column_Rejected.png)
+    ![zrzut ekranu próbki, gdy RequestStatus to Rejected](./assets/screenshot_two_column_Rejected.png)
 
 - RequestStatus: Withdrawn
 
-    ![screenshot of the sample when RequestStatus is Withdrawn](./assets/screenshot_two_column_Withdrawn.png)
+    ![zrzut ekranu próbki, gdy RequestStatus to Withdrawn](./assets/screenshot_two_column_Withdrawn.png)
 
 ## Logo
 
-This sample logo uses the `CRMCustomerInsightsApp` from [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons).
+Logo w tej próbce korzysta z `CRMCustomerInsightsApp` z [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons).
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 two-column-logo-header.json | [Andrew Burns](https://github.com/GeorgiaGit)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
---------|------------------|--------
-1.0     |July 14, 2024  |Initial release
+Wersja |Data              |Uwagi
+-------|------------------|-----
+1.0     |July 14, 2024  |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/two-column-logo-header" />

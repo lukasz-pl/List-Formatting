@@ -19,9 +19,9 @@
           "operands": [
             "mailto:",
             "[$AssignedTo.email]",
-            "?subject=Task status&body=Hey, how is your task (",
+            "?subject=Status zadania&body=Czesc, jak idzie Twoje zadanie (",
             "[$Title]",
-            ") coming along?"
+            ")?"
           ]
         },
         "class": "ms-fontColor-themePrimary"
@@ -29,7 +29,7 @@
       "children": [
         {
           "elmType": "span",
-          "txtContent": "Send Email to Task Owner"
+          "txtContent": "Wyślij e-mail do właściciela zadania"
         },
         {
           "elmType": "span",

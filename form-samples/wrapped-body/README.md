@@ -1,33 +1,33 @@
-# Wrapped Form Body
+# Zawijany układ treści formularza
 
-## Summary
-By default, uncustomized list forms display the fields in a single column. This is generally fine, but sometimes you may want to use more horizontal space and have your fields wrap. This is not technically a format but rather a body layout. No columns or sections are specified meaning that this can be applied to any form and it won't change the order of display or what columns are visible it simply adds the wrapping.
+## Podsumowanie
+Domyślnie niespersonalizowane formularze list wyświetlają pola w jednej kolumnie. Zazwyczaj to wystarcza, ale czasem warto użyć większej przestrzeni poziomej i pozwolić polom zawijać się do kolejnego wiersza. Technicznie nie jest to format, lecz układ sekcji Body. Nie określono tutaj żadnych kolumn ani sekcji, więc rozwiązanie można zastosować do dowolnego formularza bez zmiany kolejności wyświetlania czy widocznych kolumn, a jedynie z dodaniem zawijania.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
-None
+## Wymagania formularza
+Brak
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 wrapped-body.json | [Chris Kent](https://github.com/thechriskent)
 
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
--------|----|--------
-1.0|January 21, 2021|Initial release
+Wersja|Data|Uwagi
+------|----|-----
+1.0|January 21, 2021|Wersja początkowa
 
-## Additional notes
-None
+## Dodatkowe uwagi
+Brak
 
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-> Update telemetry url below to replace "readme-template" with the internal name of your sample (same as the containing folder)
+> Zaktualizuj poniższy adres telemetryczny, zastępując „readme-template” wewnętrzną nazwą próbki (taką samą jak nazwa folderu).
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/wrapped-body" />

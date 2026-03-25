@@ -1,38 +1,38 @@
-# Send Meeting Invite with Microsoft Teams
+# Wyślij zaproszenie na spotkanie przez Microsoft Teams
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates sending a meeting invite via Microsoft Teams to attendees in SharePoint list. The JSON can be used as Footer within SharePoint List formatting.
+Ta próbka pokazuje wysyłanie zaproszenia na spotkanie przez Microsoft Teams do uczestników na liście SharePoint. Ten JSON może być używany jako stopka w formatowaniu list SharePoint.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
+## Wymagania formularza
 
-|Type                   |Internal Name|Required|
-|-----------------------|-------------|:------:|
-|Single line of text    |Title        |Yes     |
+|Typ                    |Nazwa wewnętrzna|Wymagane|
+|-----------------------|----------------|:------:|
+|Pojedyncza linia tekstu|Title           |Tak     |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 send-meeting-invite-with-teams-footer.json | [Vignesh Manohar](https://github.com/VigneshManohar)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |Sepetember 25, 2023 |Initial release
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |Sepetember 25, 2023 |Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-- This sample uses [deep link](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-workflow?tabs=teamsjs-v2#deep-link-to-open-a-meeting-scheduling-dialog
-) to open a meeting scheduling dialog.
+- Ta próbka używa [deep linku](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-workflow?tabs=teamsjs-v2#deep-link-to-open-a-meeting-scheduling-dialog
+) do otwierania okna planowania spotkania.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/send-meeting-invite-with-teams-footer" />

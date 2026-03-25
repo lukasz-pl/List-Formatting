@@ -42,7 +42,7 @@
             },
             {
               "elmType": "div",
-              "txtContent": "=if(getMonth([$StartDateAndTime])==0, 'Jan', if(getMonth([$StartDateAndTime])==1, 'Feb', if(getMonth([$StartDateAndTime])==2, 'Mar', if(getMonth([$StartDateAndTime])==3, 'Apr',  if(getMonth([$StartDateAndTime])==4, 'May', if(getMonth([$StartDateAndTime])==5, 'Jun', if(getMonth([$StartDateAndTime])==6 , 'Jul', if(getMonth([$StartDateAndTime])==7, 'Aug', if(getMonth([$StartDateAndTime])==8 , 'Sep', if(getMonth([$StartDateAndTime])==9, 'Oct', if(getMonth([$StartDateAndTime])==10, 'Nov', if(getMonth([$StartDateAndTime])==11, 'Dec', ''))))))))))))",
+              "txtContent": "=if(getMonth([$StartDateAndTime])==0, 'sty', if(getMonth([$StartDateAndTime])==1, 'lut', if(getMonth([$StartDateAndTime])==2, 'mar', if(getMonth([$StartDateAndTime])==3, 'kwi',  if(getMonth([$StartDateAndTime])==4, 'maj', if(getMonth([$StartDateAndTime])==5, 'cze', if(getMonth([$StartDateAndTime])==6 , 'lip', if(getMonth([$StartDateAndTime])==7, 'sie', if(getMonth([$StartDateAndTime])==8 , 'wrz', if(getMonth([$StartDateAndTime])==9, 'paz', if(getMonth([$StartDateAndTime])==10, 'lis', if(getMonth([$StartDateAndTime])==11, 'gru', ''))))))))))))",
               "style": {
                 "display": "flex",
                 "justify-content": "center",

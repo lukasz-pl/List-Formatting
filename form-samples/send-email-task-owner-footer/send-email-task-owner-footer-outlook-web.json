@@ -19,11 +19,11 @@
           "operands": [
             "https://outlook.office.com/mail/deeplink/compose",
             "?subject=",
-            "Task status",
+            "Status zadania",
             "&body=",
-            "Hey, how is your task (",
+            "Czesc, jak idzie Twoje zadanie (",
             "[$Title]",
-            ") coming along?",
+            ")?",
             "&to=",
             "[$AssignedTo.email]"
           ]
@@ -33,7 +33,7 @@
       "children": [
         {
           "elmType": "span",
-          "txtContent": "Send Email to Task Owner"
+          "txtContent": "Wyślij e-mail do właściciela zadania"
         },
         {
           "elmType": "span",

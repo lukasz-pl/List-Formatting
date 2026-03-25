@@ -1,34 +1,34 @@
-# Send Email to Task owner
+# Wyślij e-mail do właściciela zadania
 
-## Summary
+## Podsumowanie
 
-This sample demonstrates displaying Email link to send an email to owner of the task in SharePoint list.
+Ta próbka pokazuje link e-mail do wysłania wiadomości do właściciela zadania na liście SharePoint.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Form requirements
+## Wymagania formularza
 
-|Type                   |Internal Name|Required|
-|-----------------------|-------------|:------:|
-|Single line of text    |Title        |Yes     |
-|Person or Group        |AssignedTo   |Yes     |
+|Typ                    |Nazwa wewnętrzna|Wymagane|
+|-----------------------|----------------|:------:|
+|Pojedyncza linia tekstu|Title           |Tak     |
+|Osoba lub grupa        |AssignedTo      |Tak     |
 
-## Sample
+## Przykład
 
-Solution|Author(s)
---------|---------
+Rozwiązanie|Autor(zy)
+-----------|---------
 send-email-task-owner-footer.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 send-email-task-owner-footer-outlook-web.json |  [Ganesh Sanap](https://github.com/ganesh-sanap) & [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
---------|-----------------|--------
-1.0     |October 15, 2022 |Initial release
-1.1     |October 30, 2022 |Added send-email-task-owner-footer-outlook-web.json
+Wersja |Data             |Uwagi
+-------|-----------------|-----
+1.0     |October 15, 2022 |Wersja początkowa
+1.1     |October 30, 2022 |Dodano send-email-task-owner-footer-outlook-web.json
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/form-samples/send-email-task-owner-footer" />
