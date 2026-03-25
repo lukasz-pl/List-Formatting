@@ -6,7 +6,7 @@ New-PnPList -Title "Popular Books" -Template GenericList -Url "Lists/PopularBook
 
 # Add columns (as per requirements)
 
-Add-PnPField -List "Popular Books" -DisplayName "Number" -InternalName "Numer" -Type Number
+Add-PnPField -List "Popular Books" -DisplayName "Number" -InternalName "Number" -Type Number
 Add-PnPField -List "Popular Books" -DisplayName "BookAuthor" -InternalName "BookAuthor" -Type Text
 Add-PnPField -List "Popular Books" -DisplayName "BookAbstract" -InternalName "BookAbstract" -Type Note
 Add-PnPField -List "Popular Books" -DisplayName "Category" -InternalName "Category" -Type Text
