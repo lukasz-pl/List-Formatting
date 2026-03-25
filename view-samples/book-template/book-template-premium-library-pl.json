@@ -51,7 +51,7 @@
           {
             "elmType": "img",
             "attributes": {
-              "src": "[$field_4]",
+              "src": "=if([$field_4] == '', '', getThumbnailImage([$field_4], 400, 600))",
               "alt": "[$Title]"
             },
             "style": {
