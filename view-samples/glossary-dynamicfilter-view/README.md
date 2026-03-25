@@ -1,8 +1,8 @@
 # Glossary View Formatters (connected list WebParts)
 
-## Summary
+## Podsumowanie
 View formatters to buid a glossary page using connected list WebParts.
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 Two lists are needed on this sample, so two separate JSON files are used:
 
@@ -12,13 +12,13 @@ File Name|View type for formatting|Details
 [glossary-filter-background.json](./glossary-filter-background.json)|Gallery|Used to format the filter list with letter on a background.
 [glossary-dynamicfilter-view.json](./glossary-dynamicfilter-view.json)|List|Used to format the main list.
 
-## View requirements
+## Wymagania widoku
 
 ### List 1: Glossary Filter
 
-Type|Internal Name|Required|Details
+Typ|Nazwa wewnętrzna|Wymagane|Details
 -----|----------|--------|--------
-Single line of text|Title|Yes|Used to store a character to be used as a filter
+Pojedyncza linia tekstu|Title|Tak|Used to store a character to be used as a filter
 
 
 In this list we need to store all the alphabet letters from A to Z (or your country language variation of the alphabet if preferred) to be used later as filters.
@@ -28,11 +28,11 @@ Apply either the [glossary-filter.json](./glossary-filter.json) or [glossary-fil
 ### List 2: Glossary Terms
 This is the list used to store all terms and descriptions. This list will consist of 3 fields:
 
-Type|Internal Name|Required|Details
+Typ|Nazwa wewnętrzna|Wymagane|Details
 -----|----------|--------|--------
-Single line of text|Title|Yes|Used to store the glossary term
-Multiple lines of text| Description|Yes|Used to store the term description, no rich text enabled
-Calculated|FirstChar| |Used to show the first character of the term. This is the key to the whole functionality. Set it to use an output of 'Single line of text' and use as the formula: =LEFT(Title,1). This will extract only the first character from the Title field and use it as the value.
+Pojedyncza linia tekstu|Title|Tak|Used to store the glossary term
+Wiele linii tekstu| Description|Tak|Used to store the term description, no rich text enabled
+Calculated|FirstChar| |Used to show the first character of the term. This is the key to the whole functionality. Set it to use an output of 'Pojedyncza linia tekstu' and use as the formula: =LEFT(Title,1). This will extract only the first character from the Title field and use it as the value.
 
 Apply the [glossary-view.json](./glossary-dynamicfilter-view.json) view formatter in a view in this list.
 
@@ -56,27 +56,27 @@ To be more user friendly, in the example shown above they were renamed from:
 -Glossary Filters to Glossary
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 glossary-dynamicfilter-view.json | [Michel Mendes](https://github.com/michelcarlo) - Tweaked FAQ template from [Chris Kent](https://github.com/theChrisKent)
 glossary-filter.json | [Michel Mendes](https://github.com/michelcarlo)
 glossary-filter-background.json | [Watana](https://github.com/watana2)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 04, 2021|Initial release
-1.1|December 13, 2024|Added `glossary-filter-background.json`
+1.0|04 kwietnia 2021|Wersja początkowa
+1.1|13 grudnia 2024|Added `glossary-filter-background.json`
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 References:
 

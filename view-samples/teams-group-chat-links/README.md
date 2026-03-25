@@ -1,40 +1,40 @@
 # Teams Group Chat Links
 
-## Summary
+## Podsumowanie
 
 This sample uses [Microsoft Teams deep links](https://docs.microsoft.com/en-us/microsoftteams/platform/concepts/build-and-test/deep-links#deep-linking-to-a-chat) to create Teams chat group based on selected users with the associated Group name and message.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
-Chat | Multiple lines of text
+Title | Pojedyncza linia tekstu 
+Chat | Wiele linii tekstu
 PersonChat | Person - check to yes, Allow multiple selections
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 teams-group-chat-links.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 31, 2021|Initial release
+1.0|31 grudnia 2021|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/teams-group-chat-links" />

@@ -1,30 +1,30 @@
 # Current Year Row Class
 
-## Summary
+## Podsumowanie
 Demonstrates applying a class to rows where a value equals the current year. Can easily be updated to compare other portions of the date such as the month, hour, minute etc. by using the other date-part operators.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Date|Died|Yes|
+|Data|Died|Tak|
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 current-year-rowclass.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 2, 2019|Initial release
+1.0|2 października 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

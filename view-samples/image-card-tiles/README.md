@@ -1,40 +1,40 @@
 # Image Card Tiles
 
-## Summary
+## Podsumowanie
 This sample displays images in a visually appealing tile layout with modern styling using SharePoint's Gallery view. Each image tile is clickable and navigates to a URL specified in another column. The tiles feature rounded corners, shadow effects, and a clean design that works well for image galleries, catalogs, or showcase layouts.
 
 **Note**: This is a view formatter (tile formatter) that should be applied to a Gallery view, not a column formatter.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 - Create a view based on `Gallery` layout
 - Apply this formatter to the tile view
 
-|Type|Internal Name|Required|Purpose|
+|Typ|Nazwa wewnętrzna|Wymagane|Purpose|
 |----|-------------|--------|-------|
-|Single line of text|Title|Yes|Accessibility alt text|
-|Hyperlink or Picture|ImageURL|Yes|Image URL|
-|Hyperlink or Picture|URL|No|Contains the target link|
+|Pojedyncza linia tekstu|Title|Tak|Accessibility alt text|
+|Hiperłącze or Picture|ImageURL|Tak|Image URL|
+|Hiperłącze or Picture|URL|Nie|Contains the target link|
 
 > [!NOTE]  
 > If images from external sites are specified for `ImageURL`, HTML field security must be set. For more information see: [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 image-card-tiles.json | [Nanddeep Nachan](https://github.com/nanddeepn), [Smita Nachan](https://github.com/smitanachan)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 11, 2025|Initial release
+1.0|11 sierpnia 2025|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
@@ -58,7 +58,7 @@ This formatter creates a modern tile-based layout for displaying images in a Sha
 ## Browser Compatibility:
 This formatter uses modern CSS properties including flexbox, object-fit, and box-shadow, which are supported in all modern browsers.
 
-## Additional notes
+## Dodatkowe uwagi
 
 ### Customization Options:
 - **Tile dimensions**: Adjust the height and width properties at the top level (currently set to 100px height and 180px width)

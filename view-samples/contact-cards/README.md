@@ -1,6 +1,6 @@
 # Contact Cards
 
-## Summary
+## Podsumowanie
 This is a sample of a complex format that customizes the entire display of a row. The goal is to illustrate several key principals including:
 - Responsive layout through flexbox
 - Conditionally showing elements based on fields having values
@@ -16,55 +16,55 @@ This is a sample of a complex format that customizes the entire display of a row
 - Disabling of selection (`hideSelection`)
 - Removal of the list header (`hideListHeader`)
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-### Map API key
+### Klucz API map
 
-The key provided in the template (the ugly text after `&key`) should be changed to your own FREE API Key. This will ensure you don't receive errors from over usage of a shared key. Getting a key takes 2 minutes and is FREE: [Get API Key](https://developers.google.com/maps/documentation/static-maps/get-api-key)
+Klucz podany w szablonie (ten mało estetyczny tekst po `&key`) należy zmienić na własny, BEZPŁATNY klucz API. Dzięki temu unikniesz błędów wynikających z nadmiernego użycia współdzielonego klucza. Uzyskanie klucza zajmuje 2 minuty i jest BEZPŁATNE: [Pobierz klucz API](https://developers.google.com/maps/documentation/static-maps/get-api-key)
 
->Note: Failure to switch the key to your own key leaves you open to future issues as other users use this key or if this key were to be revoked.
+>Uwaga: pozostawienie tego klucza bez zmiany na własny może w przyszłości powodować problemy, gdy inni użytkownicy będą go używać albo gdy zostanie unieważniony.
 
-## Map preview fails to appear?
-Most likely you need to enable the HTML Field Security on your site. For details, see: [Allow or restrict the ability to embed content on SharePoint pages](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
+## Podgląd mapy się nie wyświetla?
+Najprawdopodobniej musisz włączyć zabezpieczenia pól HTML w swojej witrynie. Szczegóły znajdziesz tutaj: [Zezwalanie lub ograniczanie możliwości osadzania zawartości na stronach SharePoint](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b)
 
-## View requirements
+## Wymagania widoku
 
-All fields below should be part of the view, but only those marked with Required need to have values:
+Wszystkie poniższe pola powinny być częścią widoku, ale tylko te oznaczone jako Wymagane muszą mieć wartości:
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Single line of text|JobTitle||
-|Single line of text|Company||
-|Single line of text|Email||
-|Single line of text|Phone||
-|Single line of text|StreetAddress||
-|Single line of text|City||
-|Single line of text|State||
-|Single line of text|ZipCode||
-|Hyperlink|Picture||
-|Multiple lines of text|Notes||
+|Pojedyncza linia tekstu|Title|Tak|
+|Pojedyncza linia tekstu|JobTitle||
+|Pojedyncza linia tekstu|Company||
+|Pojedyncza linia tekstu|Email||
+|Pojedyncza linia tekstu|Phone||
+|Pojedyncza linia tekstu|StreetAddress||
+|Pojedyncza linia tekstu|City||
+|Pojedyncza linia tekstu|State||
+|Pojedyncza linia tekstu|ZipCode||
+|Hiperłącze|Picture||
+|Wiele linii tekstu|Notes||
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 contact-cards.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 22, 2018|Initial release
+1.0|22 sierpnia 2018|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
-This format takes advantage of CSS Flexbox to help make it responsive:
+Ten format wykorzystuje CSS Flexbox, aby lepiej działał responsywnie:
 
 ![Responsive Screenshot](./assets/screenshotResponsive.png)
 

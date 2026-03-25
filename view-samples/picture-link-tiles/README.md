@@ -1,34 +1,34 @@
 # Picture Link Titles
 
-## Summary
+## Podsumowanie
 This sample displays a link collection with pictures using the Gallery view and group header formatting. Originally created by Tetsuya Kawahara, the author of [Link Collection using Emojis](https://github.com/pnp/List-Formatting/tree/master/view-samples/emoji-link-tiles), this is just a picture version.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-Type               |Internal Name|Required
+Type               |Internal Name|Wymagane
 -------------------|-------------|--------
-Single line of text|Title        |Yes
-Single line of text|Category     |Yes
-Single line of text|URL          |Yes
+Pojedyncza linia tekstu|Title        |Yes
+Pojedyncza linia tekstu|Category     |Yes
+Pojedyncza linia tekstu|URL          |Yes
 Image              |Image        |No
 
 Group the view by `Category` column.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 picture-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107) & [Watana](https://github.com/watana2)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Version |Data             |Uwagi
 --------|-----------------|--------
-1.0     |December 1, 2024 |Initial release
+1.0     |grudnia 1, 2024 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/picture-link-tiles" />

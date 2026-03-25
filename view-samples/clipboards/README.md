@@ -1,36 +1,36 @@
 # Clipboards
 
-## Summary
+## Podsumowanie
 This sample demonstrates displaying items in a clipboard. Text that is too long is shown in an overflow custom hover panel.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
+Title | Pojedyncza linia tekstu 
 Description | Multiple line of text - Content of clipboard
-DueDate | Date & Time - this field will be used to order the clipboards
+DueData | Data & Time - this field will be used to order the clipboards
 
-> Before apply the format to the view, sort the items by `DueDate` descending.
+> Before apply the format to the view, sort the items by `DueData` descending.
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 clipboards.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 06, 2021|Initial release
+1.0|06 grudnia 2021|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/clipboards" />

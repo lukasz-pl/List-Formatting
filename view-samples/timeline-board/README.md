@@ -1,33 +1,33 @@
 # Timeline in Board View
 
-## Summary
+## Podsumowanie
 This sample demonstrates displaying timelines in Board View.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type                  |Internal Name|Required|
+|Type                  |Internal Name|Wymagane|
 |----------------------|-------------|:------:|
-|Single line of text   |Title        |Yes     |
-|Multiple lines of text|Description  |        |
+|Pojedyncza linia tekstu   |Title        |Yes     |
+|Wiele linii tekstu|Description  |        |
 |Choice                |Month        |        |
 
 - You need to use Board View.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 timeline-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date           |Comments
+Version |Data           |Uwagi
 --------|---------------|--------------------------------
-1.0     |March 5, 2022  |Initial release
+1.0     |marca 5, 2022  |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/timeline-board" />

@@ -1,11 +1,11 @@
 # FAQ Accordion
 
-## Summary
+## Podsumowanie
 This sample formats your view to appear and work like an Accordion style FAQ (Frequently Asked Questions). This view is responsive.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 Column Name   |Type
 --------------|--------------
@@ -15,29 +15,29 @@ Answer     | Multi Line Text (Plain text)
 ShowMore     | Single Line Text
 
 Apply a Group By on the Question column in your view.
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 faq-accordion.json | [Anand Vadivelan](https://github.com/anandragav)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Version |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |July 9, 2021  |Initial release
-1.1     |September 3, 2024  |Fixed layout corruption caused by updates to SharePoint and Microsoft Lists
+1.0     |lipca 9, 2021  |Wersja początkowa
+1.1     |września 3, 2024  |Fixed layout corruption caused by updates to SharePoint and Microsoft Lists
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - Whether answers are displayed expanded or collapsed by default can be set in the **Group By** section of the Edit View screen.
 
-    ![screenshot of the edit view sceen](./assets/edit-view-screen.png)
+    ![zrzut ekranu the edit view sceen](./assets/edit-view-screen.png)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/faq-accordion" />

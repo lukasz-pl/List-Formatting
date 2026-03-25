@@ -6,7 +6,7 @@ This sample uses **SharePoint List Formatting** to display list items grouped by
 - Interactive hover cards showing detailed information
 - Smooth modern styling
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -16,9 +16,9 @@ Create a list with the following columns:
 
 | Internal Name    | Type                          | Description                                    |
 |------------------|-------------------------------|------------------------------------------------|
-| **Title**        | Single line of text           | Item title                                     |
-| **Description**  | Multiple lines of text        | Item description (optional)                    |
-| **ColorCode**    | Single line of text           | Hex color code for visual theming (e.g., #0078d4) |
+| **Title**        | Pojedyncza linia tekstu           | Item title                                     |
+| **Description**  | Wiele linii tekstu        | Item description (optional)                    |
+| **ColorCode**    | Pojedyncza linia tekstu           | Hex color code for visual theming (e.g., #0078d4) |
 | **TaskTitle**     | Lookup                        | Lookup column to TaskTitle list               |
 
 ### TaskTitle List Setup
@@ -27,8 +27,8 @@ Create a separate **TaskTitle** list with the following columns:
 
 | Internal Name | Type                |
 |---------------|---------------------|
-| **Title**     | Single line of text |
-| **ImageUrl**     | Single line of text |
+| **Title**     | Pojedyncza linia tekstu |
+| **ImageUrl**     | Pojedyncza linia tekstu |
 | **TaskTitle**     | Calculated (calculation based on other columns) |
 
 **Important:** The TaskTitle lookup column must be configured to show additional fields. The lookup value should be formatted as:
@@ -38,7 +38,7 @@ Create a separate **TaskTitle** list with the following columns:
 
 For example: `Title&+&https://example.com/icon.png&++&`
 
-## Sample Data
+## Próbka Data
 
 ### TaskTitle List
 
@@ -63,7 +63,7 @@ For example: `Title&+&https://example.com/icon.png&++&`
 2. **Group Expansion:** Set groups to be collapsed by default for a cleaner initial view
 3. **Sorting:** Sort by TaskTitle (ascending) and then by Title (ascending)
 
-## Features
+## Funkcje
 
 ### Group Headers
 - **Profile Images:** TaskTitle images displayed in circular frames with elegant shadows
@@ -107,20 +107,20 @@ Modify the hover card appearance:
 "directionalHint": "rightCenter" // Change callout position
 ```
 
-## Sample
+## Próbka
 
 Solution|Author
 --------|---------
 grouped-accordion-cards.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 24, 2025|Initial release
+1.0|24 października 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

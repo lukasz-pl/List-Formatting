@@ -1,42 +1,42 @@
 # Custom Header
 
-## Summary
+## Podsumowanie
 Sometimes it is necessary to remove the standard headers. In those cases, you may still want to show a custom header. This sample demonstrates creating a custom header and only showing it on the first row. The key to this technique is setting the `display` style attribute to `none` (hidden) whenever the `@rowIndex` is not 0 (first row).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 Creating a custom header removes the standard features such as menus, sorting, moving, resizing, etc. In addition, the sticky header feature is now gone. So an additional sample, custom-header-repeating-format.json is provided that demonstrates drawing the custom header every 30 rows.
 
 ![screenshot repeating](./assets/screenshotRepeating.png)
 
-## View requirements
+## Wymagania widoku
 The concept can be adjusted for any view, but this specific format expects the following columns to be part of the view:
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Date|Deployed|Yes|
-|Yes/No|Active|Yes|
+|Pojedyncza linia tekstu|Title|Tak|
+|Data|Deployed|Tak|
+|Yes/No|Active|Tak|
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 custom-header.json | [Chris Kent](https://github.com/thechriskent)
 custom-header-repeating.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 20, 2020|Initial release
+1.0|20 lutego 2020|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/custom-header" />

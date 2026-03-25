@@ -1,50 +1,50 @@
 # Discussion Board
 
-## Summary
+## Podsumowanie
 
 This sample transforms your list into a discussion board with title, desription, tags, and votes are available. Additionally, users can react, comment, and perform inline edits!
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
-Description | Multiple lines of text
+Title | Pojedyncza linia tekstu 
+Description | Wiele linii tekstu
 Categories | Choice - Possible options "📣 Announcements, 💬 General, 💡 Ideas, 🙏 Q&A, 🙌 Show"
 Tags | Choice - include following options "Triage 🔍,Investigation, Feature, Bug/Issue 🐞"
 Vote | Person  - Allow multiple selections 
-Emotion | Multiple lines of text - Store icons for users
-EmotionCount | Single line of text  - stores counts of icons
+Emotion | Wiele linii tekstu - Store icons for users
+EmotionCount | Pojedyncza linia tekstu  - stores counts of icons
 Expand | Yes/No
 
 Edit View requirements
 - Include in View the following additional fields `Created`, `Created By`, `Modified` and `Modified By`.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 discussion-board.json | [André Lage](https://github.com/aaclage)
 discussion-board-format.json | [André Lage](https://github.com/aaclage)
 discussion-board-timeline-format.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-2.0|May 11, 2022| updated with new features
-1.0|January 30, 2022|Initial release
+2.0|11 maja 2022| updated with new features
+1.0|30 stycznia 2022|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/discussion-board" />

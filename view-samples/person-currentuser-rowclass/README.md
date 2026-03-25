@@ -1,35 +1,35 @@
 # Current User's Rows
 
-## Summary
+## Podsumowanie
 Highlights the entire row for any list items assigned to the current user (the user viewing the list view, not the author of the format). You can easily adjust this to use a different column like Author or Editor by changing the `[$AssignedTo]` portion of the expression.
 
 By using the Fluent UI color classes for themes, we can ensure our format looks good in all themes including both light and dark as well as custom themes.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 - This format expects a person column with an internal name of `AssignedTo` to be part of the view 
 
 > Note - This format is intended only for single-select person fields. There is a slightly more complicated sample ([multi-person-currentuser-rowclass](../multi-person-currentuser-rowclass)) that works for both single and multi-select person columns.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 person-currentuser-rowclass.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 21, 2018|Initial release
+1.0|21 sierpnia 2018|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 Because this format is only using the `additionalRowClass` property, it can be combined with column formats to make a pretty compelling visualization:
 

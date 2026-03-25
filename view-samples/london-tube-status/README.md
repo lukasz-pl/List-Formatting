@@ -1,15 +1,15 @@
 # London Underground Line Status
 
-## Summary
+## Podsumowanie
 Display on the homepage of your SharePoint intranet a continually updated feed of London Underground line statuses using the publicly available Transport for London (TFL) API. 
 
 The results are retrieved using Power Automate, then written to a SharePoint list, and the list view is styled (using view formatting) so it looks like the familiar TFL tube status board with correct line colours. Any line not currently in Good service can be clicked and a hovercard will show with further information i.e. delays/suspension/closure etc. 
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
 
-## View requirements
+## Wymagania widoku
 
 ### Technologies Used
 
@@ -94,21 +94,21 @@ Head over to your list and you'll see the Tube Statuses being updated using the 
 
 Head over to your list and you'll see the Tube Statuses being updated using the view format! By default, this list will receive updates every 15 minutes.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 london-tube-status.json | [Leon Armston](https://github.com/LeonArmston)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 24, 2020|Initial release
-2.0|January 31, 2021|Updated to include Logic App version and improved Flow.
-3.0|November 28, 2024|Updated [london-tube-status.json](./london-tube-status.json) & [DeploySPList-LondonTubes.zip](./flows/DeploySPList-LondonTubes.zip) to include addition of London Overground & Elizabeth lines.
+1.0|24 października 2020|Wersja początkowa
+2.0|31 stycznia 2021|Updated to include Logic App version and improved Flow.
+3.0|28 listopada 2024|Updated [london-tube-status.json](./london-tube-status.json) & [DeploySPList-LondonTubes.zip](./flows/DeploySPList-LondonTubes.zip) to include addition of London Overground & Elizabeth lines.
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/london-tube-status" />

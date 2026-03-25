@@ -1,44 +1,44 @@
 # Heat Map
 
-## Summary
+## Podsumowanie
 
 This sample demonstrates creating a layered dynamic SVG image in a view format. States are highlighted when they have list items that correspond to them. They get darker the more times a state is mentioned.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ### Theming
 
 This format utilizes theme colors and will adjust correctly as themes change (even dark themes!):
 
-![Screenshot of Heat Map in Dark Theme](./assets/screenshotDark.png)
+![Zrzut ekranu Heat Map in Dark Theme](./assets/screenshotDark.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|States|Yes|
+|Pojedyncza linia tekstu|States|Tak|
 
 > The `States` column can also be a single or multi-choice column with no adjustments needed to the format
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 heat-map.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 4, 2022|Initial release
+1.0|4 kwietnia 2022|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/heat-map" />

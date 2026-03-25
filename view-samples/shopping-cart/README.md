@@ -1,50 +1,50 @@
 # Shopping Cart
 
-## Summary
+## Podsumowanie
 
 The JSON template is designed for an online shopping cart. It displays items within the cart, including product details, pricing, shipping information, and user interactions like adding or removing items.
 
 Clicking on 'Add to Cart' updates the 'AddedToCart' field to true and changes the display text to 'Remove from Cart'
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 Column Name               | Type
 --------------------------|----------------------------------------
-Title                     | Single line of text
-Description               | Multiple lines of text
-Price                     | Currency (Number of decimal places=2)
+Title                     | Pojedyncza linia tekstu
+Description               | Wiele linii tekstu
+Price                     | Currency (Liczba of decimal places=2)
 OldPrice                  | Currency
-ImageUrl                  | Single line of text
-Offer                     | Single line of text
-CalculatedPrice           | Calculated (calculation based on other columns)(Formula = `=ROUND(Price,2)`) (Type = 'Single line of text')
-PriceDifference           | Calculated (calculation based on other columns)(Formula = `=OldPrice-Price`) (Type = 'Single line of text')
-Rating                    | Number
-DollarValue               | Calculated (calculation based on other columns)(Formula = `=INT(Price)`) (Type = 'Single line of text')
-CentsValue                | Calculated (calculation based on other columns)(Formula = `=TEXT(ROUND((Price-INT(Price))*100,0),"00")`)(Type = 'Single line of text')
-QuantitySold              | Number
+ImageUrl                  | Pojedyncza linia tekstu
+Offer                     | Pojedyncza linia tekstu
+CalculatedPrice           | Calculated (calculation based on other columns)(Formula = `=ROUND(Price,2)`) (Type = 'Pojedyncza linia tekstu')
+PriceDifference           | Calculated (calculation based on other columns)(Formula = `=OldPrice-Price`) (Type = 'Pojedyncza linia tekstu')
+Rating                    | Liczba
+DollarValue               | Calculated (calculation based on other columns)(Formula = `=INT(Price)`) (Type = 'Pojedyncza linia tekstu')
+CentsValue                | Calculated (calculation based on other columns)(Formula = `=TEXT(ROUND((Price-INT(Price))*100,0),"00")`)(Type = 'Pojedyncza linia tekstu')
+QuantitySold              | Liczba
 AddedToCart               | Yes/No
 Shipping                  | Currency
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 shopping-cart.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 11, 2024|Initial release
+1.0|11 września 2024|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 None
 

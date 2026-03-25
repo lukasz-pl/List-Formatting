@@ -1,58 +1,58 @@
 # Linkinbio Instagram
 
-## Summary
+## Podsumowanie
 
 This sample creates a instagram-inspired bio page for users.A "Link in bio" page is important for people to have because it provides a centralized location where they can direct their followers or potential customers to access more information about them, their products, or their services.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|Notes|
+|Typ|Nazwa wewnętrzna|Wymagane|Notes|
 |---|---|:---:|---|
-|Person|Person|Yes||
-|Multi lines of text|Bio|Yes||
-|Hyperlink|Website|No||
-|Hyperlink|Blog|No||
-|Hyperlink|Newsletter|No||
-|Hyperlink|VivaEngage|No||
-|Hyperlink|TeamsCall|No|Deep link to call a person in Teams, refer MS Docs.|
-|Hyperlink|TeamsChat|No|Deep link to chat with a person in Teams, refer MS Docs.|
-|Hyperlink|LinkedIn|No||
-|Hyperlink|X|No||
-|Hyperlink|Instagram|No||
-|Choices|Portfolio|Yes|"Yes", "No"|
-|Image|Photo1|No||
-|Image|Photo2|No||
-|Image|Photo3|No||
-|Image|Photo4|No||
-|Image|Photo5|No||
-|Image|Photo6|No||
-|Image|Photo7|No||
-|Image|Photo8|No||
-|Image|Photo9|No||
+|Person|Person|Tak||
+|Multi lines of text|Bio|Tak||
+|Hiperłącze|Website|Nie||
+|Hiperłącze|Blog|Nie||
+|Hiperłącze|Newsletter|Nie||
+|Hiperłącze|VivaEngage|Nie||
+|Hiperłącze|TeamsCall|Nie|Deep link to call a person in Teams, refer MS Docs.|
+|Hiperłącze|TeamsChat|Nie|Deep link to chat with a person in Teams, refer MS Docs.|
+|Hiperłącze|LinkedIn|Nie||
+|Hiperłącze|X|Nie||
+|Hiperłącze|Instagram|Nie||
+|Choices|Portfolio|Tak|"Yes", "No"|
+|Image|Photo1|Nie||
+|Image|Photo2|Nie||
+|Image|Photo3|Nie||
+|Image|Photo4|Nie||
+|Image|Photo5|Nie||
+|Image|Photo6|Nie||
+|Image|Photo7|Nie||
+|Image|Photo8|Nie||
+|Image|Photo9|Nie||
 
 - You need to use the Gallery or Tiles layout.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 linkinbio-instagram.json | [Anand Ragav](https://github.com/anandragav)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 22, 2023|Initial release
+1.0|22 kwietnia 2023|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - None
 

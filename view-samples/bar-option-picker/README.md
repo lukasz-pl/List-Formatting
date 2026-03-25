@@ -1,34 +1,34 @@
 # Bar Option Picker
 
-## Summary
+## Podsumowanie
 This sample displays a bar with multiple options. When an option on the bar is clicked, the `Value` column is updated to the corresponding value (0-4) using `setValue`.
 
 The value is shown in an icon on the left and the progress bar color is based on the value.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
-Value | Number - Default value 0
+Title | Pojedyncza linia tekstu 
+Value | Liczba - Default value 0
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 bar-option-picker.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 15, 2022|Initial release
+1.0|15 stycznia 2022|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/bar-option-picker" />

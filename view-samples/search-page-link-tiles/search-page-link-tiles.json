@@ -257,7 +257,7 @@
                 "attributes": {
                   "iconName": "=if(indexOf([$Favorites.email],@me)>-1,'FavoriteStarFill','FavoriteStar')",
                   "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover",
-                  "title": "=if(indexOf([$Favorites.email],@me)>-1,'Remove to My Favorites','Add to My Favorites')"
+                  "title": "=if(indexOf([$Ulubiones.email],@me)>-1,'Remove to My Ulubiones','Add to My Ulubiones')"
                 }
               }
             ]
@@ -278,7 +278,7 @@
                 "attributes": {
                   "iconName": "OpenPane",
                   "class": "ms-fontColor-themePrimary ms-bgColor-themeLighter--hover",
-                  "title": "Open the List Form"
+                  "title": "Otwórz the List Form"
                 }
               }
             ]

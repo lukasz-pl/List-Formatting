@@ -1,37 +1,37 @@
 # Honeycomb Links
 
-## Summary
+## Podsumowanie
 This sample demonstrates a honeycomb structure of links. The hexagons are displayed using SVG, so that five hexagons are displayed per line. This sample uses the Icons from the Fluent UI. The name of the icon is referenced through an `Icon` field.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type               |Internal Name|Required|
+|Type               |Internal Name|Wymagane|
 |-------------------|-------------|:------:|
-|Single line of text|Title        |Yes     |
-|Single line of text|URL          |Yes     |
-|Single line of text|Icon         |Yes     |
+|Pojedyncza linia tekstu|Title        |Yes     |
+|Pojedyncza linia tekstu|URL          |Yes     |
+|Pojedyncza linia tekstu|Icon         |Yes     |
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 honeycomb-link.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date         |Comments
+Version |Data         |Uwagi
 --------|-------------|--------------------------------
-1.0     |July 5, 2021 |Initial release
-1.1     |June 11, 2022|Fixed where to apply mouse hover effect
-1.2     |March 29, 2023|Fixed links not displaying when using List Web Part
-1.3     |June 11, 2024|Fixed a layout collapse when opened in Microsoft Lists App
+1.0     |lipca 5, 2021 |Wersja początkowa
+1.1     |czerwca 11, 2022|Fixed where to apply mouse hover effect
+1.2     |marca 29, 2023|Fixed links not displaying when using List Web Part
+1.3     |czerwca 11, 2024|Fixed a layout collapse when opened in Microsoft Lists App
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## Additional notes
+## Dodatkowe uwagi
 - [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/honeycomb-link" />

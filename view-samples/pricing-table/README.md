@@ -1,40 +1,40 @@
 # Pricing Table
 
-## Summary
+## Podsumowanie
 This sample transforms list items into cards formatted with pricing table layouts. To ensure the view functions correctly, make sure all specified columns are included. For the Features section in the pricing table, populate the Feature column with all the values separated by semicolons.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
   
-![screenshot of the sample embedded on the page](./assets/screenshot-page-view.png)
+![zrzut ekranu the sample embedded on the page](./assets/screenshot-page-view.png)
 
-## View requirements
-|Type               |Internal Name|Required|
+## Wymagania widoku
+|Type               |Internal Name|Wymagane|
 |-------------------|-------------|:------:|
-|Single line of text|Title        |Yes     |
-|Number             |Amount       |Yes     |
-|Single line of text|AmountSuffix   |        |
-|Single line of text|AmountPrefix   |        |
-|Single line of text|BackgroundColorCode   |        |
-|Single line of text|ColorCode   |        |
-|Multiple lines of text|Features   |        |
-|Hyperlink or Picture|Link   |Yes     |
+|Pojedyncza linia tekstu|Title        |Yes     |
+|Liczba             |Amount       |Yes     |
+|Pojedyncza linia tekstu|AmountSuffix   |        |
+|Pojedyncza linia tekstu|AmountPrefix   |        |
+|Pojedyncza linia tekstu|BackgroundColorCode   |        |
+|Pojedyncza linia tekstu|ColorCode   |        |
+|Wiele linii tekstu|Features   |        |
+|Hiperłącze or Picture|Link   |Yes     |
 
 - Make sure to use the Gallery View and include all the specified fields in the view.
 - For the Features section in the pricing table, populate the Feature column with all the values separated by semicolons.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 pricing-table.json | [Tanel Vahk](https://github.com/tvahk)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Version |Data             |Uwagi
 --------|-----------------|--------------------------------
-1.0     |September 23, 2024 |Initial release
+1.0     |września 23, 2024 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/pricing-table" />

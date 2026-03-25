@@ -1,33 +1,33 @@
 # Sticky Notes Board
 
-## Summary
+## Podsumowanie
 This sample demonstrates how to display sticky notes in Board View. The color of the stickies can be changed from the palette icon, and there are 6 different colors available.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 
-|Type                  |Internal Name|Required|
+|Type                  |Internal Name|Wymagane|
 |----------------------|-------------|:------:|
-|Single line of text   |Title        |Yes     |
-|Multiple lines of text|Description  |        |
-|Single line of text   |Color        |        |
+|Pojedyncza linia tekstu   |Title        |Yes     |
+|Wiele linii tekstu|Description  |        |
+|Pojedyncza linia tekstu   |Color        |        |
 
 - You need to use the Board View.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 sticky-notes-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Version |Data             |Uwagi
 --------|-----------------|--------------------------------
-1.0     |February 8, 2022 |Initial release
+1.0     |lutego 8, 2022 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/sticky-notes-board" />

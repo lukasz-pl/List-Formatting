@@ -1,6 +1,6 @@
 # Student & Class Learning Tracker
 
-## Summary
+## Podsumowanie
 
 This sample transforms your list into a learning tracker which enables teachers to
 - Mark items that have been taught in class, as _Complete_
@@ -14,49 +14,49 @@ This sample transforms your list into a learning tracker which enables teachers 
   - **Post Classwork/Homework to Student Team** flow
 - View in calendar mode, so that the actual length of a topic can be reassessed for the upcoming year
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-[📺 Recording made in May 2023 (whilst the Student & Class Learning Tracker was trialled)](https://youtu.be/MJj9jWLtQQU)
+[📺 Recording made in maja 2023 (whilst the Student & Class Learning Tracker was trialled)](https://youtu.be/MJj9jWLtQQU)
 
-## View requirements
-The view format expect the following fields. All **Number** fields should have zero decimal places.
+## Wymagania widoku
+The view format expect the following fields. All **Liczba** fields should have zero decimal places.
 
 Internal Name |Type | Choices | Allow Fill in Choice | Min/max values | Other notes
 --------|---------|--------|---------|---------|---------
-Title	| Single line of text	 | | 
+Title	| Pojedyncza linia tekstu	 | | 
 CalendarYear | Choice | `2023`, `2024`, `2025` etc | Yes  |  | 
 YearGroup | Choice	| `Year 7`, `Year 8`, `Year 9` etc | No |  | 
 Class	| Choice | _Class names_ , e.g. `8MAT.N`, `9MAT.B`, `11MAA.1`, `11MAX.1`, `12MAA.1`, `12MAX.1`, `12MXX.1` etc | No | N/A
-TopicNumber | Number	|| | `1` to `40`
-TopicName | Single line of text | | 
-TopicContentSequence | Number	| | | `0` to `100` ( `0` = Topic Content Header (yellow card), any other number = TopicContent (grey card)
+TopicLiczba | Liczba	|| | `1` to `40`
+TopicName | Pojedyncza linia tekstu | | 
+TopicContentSequence | Liczba	| | | `0` to `100` ( `0` = Topic Content Header (yellow card), any other number = TopicContent (grey card)
 ContentPointType | Choice	| `Syllabus`, `Teaching` | No | 
 SeniorCourse | Choice | `Advanced`, `Extension 1`, `Extension 2` | No |  | Add `Standard 1` and `Standard 2` if needed
 HPGE | Choice	| `Enrichment`, `Extension`, `Revision` | No | N/A
-Content	| Single line of text	
+Content	| Pojedyncza linia tekstu	
 AssignedTo	| Multi Person	
-ClassNotebookURL | Multiple lines of text	
+ClassNotebookURL | Wiele linii tekstu	
 MarkedCompleteBy | Person or Group	
-Reflection |	Multiple lines of text	
-CommencementDate	| Date and Time	| | | | Time not required
-CompletionDate | Date and Time	| | | | Time not required
-ContentCompletedUpdateLog | Multiple lines of text	
-ContentRating | Number	| | | `0` to `5` | 
-TimeAllowedRating | Number	| | | `0` to `5` | 
-ResourcesRating | Number	| | | `0` to `5` | 
-ApproxLessons | Number	| | | `0` to `50` | 
-WeeksExpected | Number| | | `0` to `50` | 
+Reflection |	Wiele linii tekstu	
+CommencementData	| Data i godzina	| | | | Time not required
+CompletionData | Data i godzina	| | | | Time not required
+ContentCompletedUpdateLog | Wiele linii tekstu	
+ContentRating | Liczba	| | | `0` to `5` | 
+TimeAllowedRating | Liczba	| | | `0` to `5` | 
+ResourcesRating | Liczba	| | | `0` to `5` | 
+ApproxLessons | Liczba	| | | `0` to `50` | 
+WeeksExpected | Liczba| | | `0` to `50` | 
 
 ### Views to make it work
 The following views are needed, with the JSON code applied to the following views:
 
 View name | Type | Sorting | Filtering | Group | Other notes | JSON code to paste
 --------|---------|--------|---------|---------|---------|---------
-`Year 07`, `Year 08`, ... , `Year 12` etc | List | `TopicContentSequence`, asc | `YearGroup` equal to `Year 7` etc | `Class`, then `TopicNumber` | See the progress of every class, down to the program content progress | student-class-learning-tracker-overview.json
-`Assigned to me` | List | `TopicContentSequence`, asc | `AssignedTo` equal to `[Me]` and `CalendarYear` geq `=YEAR([Today])` and `Completion Date` equal to _(blank)_ | `Class`, then `TopicNumber` | As above, but only shows classes assigned to Me | student-class-learning-tracker-overview.json
-`Assigned to me (also show completed)` | List | `TopicContentSequence`, asc | `AssignedTo` equal to `[Me]` and `Calendar Year` geq `=YEAR([Today])`  | `Class`, then `Topic Number` | | student-class-learning-tracker-overview.json
-`Cohort overview - Year 07`, `Cohort overview - Year 08` etc | List | `Class` asc | `YearGroup` equal to `Year 7` etc, and `Calendar Year` geq `=YEAR([Today])` and `TopicContentSequence` equal to `0` and `Completion Date` equal to _blank_ | Gives a cohort overview (shows yellow cards only) | | student-class-learning-tracker-overview.json
-`Calendar - Year 07`, `Calendar - Year 08` etc | Calendar | | `YearGroup` equal to `Year 7` etc | | `CommencementDate` as the calendar start date, `CompletionDate` as the calendar completion date. Title auto-set by Power Automate import | student-class-learning-tracker-calendar.json
+`Year 07`, `Year 08`, ... , `Year 12` etc | List | `TopicContentSequence`, asc | `YearGroup` equal to `Year 7` etc | `Class`, then `TopicLiczba` | See the progress of every class, down to the program content progress | student-class-learning-tracker-overview.json
+`Assigned to me` | List | `TopicContentSequence`, asc | `AssignedTo` equal to `[Me]` and `CalendarYear` geq `=YEAR([Today])` and `Completion Data` equal to _(blank)_ | `Class`, then `TopicLiczba` | As above, but only shows classes assigned to Me | student-class-learning-tracker-overview.json
+`Assigned to me (also show completed)` | List | `TopicContentSequence`, asc | `AssignedTo` equal to `[Me]` and `Calendar Year` geq `=YEAR([Today])`  | `Class`, then `Topic Liczba` | | student-class-learning-tracker-overview.json
+`Cohort overview - Year 07`, `Cohort overview - Year 08` etc | List | `Class` asc | `YearGroup` equal to `Year 7` etc, and `Calendar Year` geq `=YEAR([Today])` and `TopicContentSequence` equal to `0` and `Completion Data` equal to _blank_ | Gives a cohort overview (shows yellow cards only) | | student-class-learning-tracker-overview.json
+`Calendar - Year 07`, `Calendar - Year 08` etc | Calendar | | `YearGroup` equal to `Year 7` etc | | `CommencementData` as the calendar start date, `CompletionData` as the calendar completion date. Title auto-set by Power Automate import | student-class-learning-tracker-calendar.json
 
 All grouping is initially collapsed.
 
@@ -71,28 +71,28 @@ Apply Early Intervention | `30b64ec0-4c65-4f9b-a772-35dcf89de082` | Create an ea
 Lodge Learning Adjustment | `f446013b-3291-40fa-89df-fda631b70940` | Lodge a learning adjustment (disability or gifted) that has been applied for student(s).
 Post Classwork/Homework | `4f0c45b4-ed48-45e7-9a63-8ac3d981f823` | Posts classwork/homework to an existing team that contains students to remind of homework
 
-![screenshot of the flow buttons](./assets/flow-buttons.png)
+![zrzut ekranu the flow buttons](./assets/flow-buttons.png)
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 student-class-learning-tracker.json | [Hubert Lam](https://github.com/z3019494)
 student-class-learning-tracker-calendar.json | [Hubert Lam](https://github.com/z3019494)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|14 July 2023|Initial release
+1.0|14 lipca 2023|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - A Flow needs to be used in order for the program items to be entered correctly.
 - The Excel file(s) required, and the Flow sample will be uploaded shortly.

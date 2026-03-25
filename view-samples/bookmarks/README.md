@@ -1,6 +1,6 @@
 # Bookmarks
 
-## Summary
+## Podsumowanie
 This sample shows how to create SharePoint page bookmarks using list items with custom JSON formatting, inspired by [João Ferreira's post](https://sharepoint.handsontek.net/2024/10/14/create-custom-vertical-navigation-sharepoint-pages/).
 
 **Features:**
@@ -8,37 +8,37 @@ This sample shows how to create SharePoint page bookmarks using list items with 
 2. Open external links in a new tab (e.g https://google.com)
 3. Group and filter content by category
 
-![screenshot of the sample](./assets/bookmarks-list.png)
+![zrzut ekranu próbki](./assets/bookmarks-list.png)
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 
-## View requirements
-Column Name|Required|Type
+## Wymagania widoku
+Column Name|Wymagane|Type
 -----------|--------|-
 Title      | Yes    | Text
 Category   | Yes    | Choice
-Link       | Yes    | Hyperlink
+Link       | Yes    | Hiperłącze
 
 
 > [!NOTE]
 > It is necessary to group the view by the `Category` column.
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 bookmarks.json | [Watana](https://github.com/watana2)
 
 
-## Version history
-Version|Date|Comments
+## Historia wersji
+Wersja|Data|Uwagi
 -------|----|-
-1.0    | June 22, 2025 | Initial release
+1.0    | czerwca 22, 2025 | Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/bookmarks" />

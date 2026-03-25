@@ -3,9 +3,9 @@
 This sample uses **SharePoint List Formatting** to visualize feedback sentiment (Positive, Neutral, Negative) with **keyword-based detection** in a color-coded and emoji-enhanced card view.  
 Each feedback item is automatically analyzed for sentiment keywords and displayed as a beautiful card showing the sentiment icon, feedback text, author details, and submission date.
 
-![screenshot of the sample](assets/screenshot.png)
+![zrzut ekranu próbki](assets/screenshot.png)
 
-## Summary
+## Podsumowanie
 
 - **Automatic sentiment detection** based on keywords in feedback text
 - **Color-coded cards** with gradient backgrounds (Green for positive, Red for negative, Yellow for neutral)
@@ -21,10 +21,10 @@ Create a list with the following columns:
 
 | Internal Name   | Type                        | Description                           |
 |-----------------|-----------------------------|---------------------------------------|
-| **Title**       | Single line of text         | Feedback title or category            |
-| **Feedback**    | Multiple lines of text      | The actual feedback content           |
+| **Title**       | Pojedyncza linia tekstu         | Feedback title or category            |
+| **Feedback**    | Wiele linii tekstu      | The actual feedback content           |
 | **Author**      | Person or Group             | Person who submitted the feedback     |
-| **Created**     | Date and Time               | Submission date (auto-generated)      |
+| **Created**     | Data i godzina               | Submission date (auto-generated)      |
 
 **Note:** If your Author column has a different internal name, update `[$Author0]` in the JSON to match your column name (e.g., `[$Author]`).
 
@@ -39,7 +39,7 @@ poor, bad, terrible, worst, hate, awful, horrible, frustrated, disappointing
 ### Neutral (😐 Yellow):
 Any feedback without the above keywords
 
-## Sample Data
+## Próbka Data
 
 | Title                    | Feedback                                                                                      | Author             | Created              |
 |--------------------------|-----------------------------------------------------------------------------------------------|--------------------|----------------------|
@@ -47,20 +47,20 @@ Any feedback without the above keywords
 | Need faster approvals      | The document approval process is slow sometimes.           | Budvik B      | 2025-10-25T08:30:00Z |
 | Poor cafeteria service       | Food quality has bad in recent days.          | Sai Bandaru       | 2025-10-25T14:45:00Z |
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 feedback-sentiment-board.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 25, 2025|Initial release
+1.0|25 października 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

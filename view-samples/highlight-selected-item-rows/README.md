@@ -1,31 +1,31 @@
 # Highlight Selected List Item Rows
 
-## Summary
+## Podsumowanie
 
 This view formatting sample can be used to customize the list or compact list layout to highlight selected list item rows using `@isSelected` token and `additionalRowClass` property in view formatting.
 
 **Before/After applying view formatting**:
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 View with **List** or **Compact List** layout.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 highlight-selected-item-rows.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
-## Version history
+## Historia wersji
 
-Version |Date            |Comments
+Version |Data            |Uwagi
 --------|----------------|--------------------------------
-1.0     |August 24, 2022 |Initial release
+1.0     |sierpnia 24, 2022 |Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/highlight-selected-item-rows" />

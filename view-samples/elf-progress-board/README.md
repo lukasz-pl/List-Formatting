@@ -1,6 +1,6 @@
 # Elf Progress Board
 
-## Summary
+## Podsumowanie
 This sample demonstrates:
 - Handling Image fields, including providing default display for missing values
 - Randomization (random elf quote)
@@ -8,36 +8,36 @@ This sample demonstrates:
 - inlineEditField
 - setValue
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Person|ElfInCharge|Yes|
+|Pojedyncza linia tekstu|Title|Tak|
+|Person|ElfInCharge|Tak|
 |Multi-line Text|Description||
-|Number|Quantity||
-|Number|Built||
-|Number|Wrapped||
+|Liczba|Quantity||
+|Liczba|Built||
+|Liczba|Wrapped||
 |Managed Metadata|ToyColor||
 |Image|ToyImage||
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 elf-progress-board.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 9, 2021|Initial release
+1.0|9 grudnia 2021|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

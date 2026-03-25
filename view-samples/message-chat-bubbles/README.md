@@ -1,36 +1,36 @@
 # Message Chat Bubbles
 
-## Summary
+## Podsumowanie
 This sample formats your SharePoint list view to look like message chat bubbles! If the `Author` is the current user, the message will be displayed on the right.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title||
-|Multi line of text|Message|Yes|
-|Person|Author|Yes|
-|DateTime|Created|Yes|
+|Pojedyncza linia tekstu|Title||
+|Multi line of text|Message|Tak|
+|Person|Author|Tak|
+|DataTime|Created|Tak|
 
 * Show the default column `Author` and `Created` column in the view.
 * If you want to display the latest messages at the top, please sort them in descending order by `Created`.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 message-chat-bubbles.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Version |Data              |Uwagi
 --------|------------------|--------
-1.0     |November 19, 2020 |Initial release
+1.0     |listopada 19, 2020 |Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/message-chat-bubbles" />

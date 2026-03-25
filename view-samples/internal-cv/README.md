@@ -1,9 +1,9 @@
 # Internal CV
 
-## Summary
+## Podsumowanie
 This tutorial will help you create a basic internal CV through JSON view formatting. Thanks to JSON formatting, it's possible to create a large custom card to be used as a form itself, by taking advantage of the [inline editing](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced#inline-editing) feature. Let others know **more about you**, what you're good at, and what you're working on right now. Add projects, skills, and education history to your profile to help others find you when they're looking for people with a **certain expertise**.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Important notes
 This solution is not intended to encompass an entire management process, but it should be considered as an additional tool to support a single task or process phase, where users periodically update their respective internal CV.
@@ -27,7 +27,7 @@ Here is a visual description of the user interface:
 
 ![breakdown](./assets/Breakdown.png)
 
-## View requirements:
+## Wymagania widoku:
 
 **1) LIST CREATION:** create a new list from scratch with the following columns, including their **exact names with capital letters**:
 
@@ -36,13 +36,13 @@ Here is a visual description of the user interface:
 |**COVER**|Image|This will allow a user to customize their profile image header.|
 |**BACKGROUND**|Image|This will allow a user to add a custom image background.|
 |**Created By**| Person or Group |This is a standard column, required to display a user name in the internal CV. Include this column in your view.|
-|**YAMMER_PROFILE**|Multiple lines of text (Rich text **disabled**) |This column allows a user to write his/her Yammer profile link in the standard right pane and make it available to others, through the corresponding toolbar icon.|
-|**ABOUT_ME**|Multiple lines of text (Rich text **disabled**)|This column allows a user to provide a short personal description.|
+|**YAMMER_PROFILE**|Wiele linii tekstu (Rich text **disabled**) |This column allows a user to write his/her Yammer profile link in the standard right pane and make it available to others, through the corresponding toolbar icon.|
+|**ABOUT_ME**|Wiele linii tekstu (Rich text **disabled**)|This column allows a user to provide a short personal description.|
 |**PROJECTS**|Multi-Select Choice|This column allows a user to list both past and current projects. List owners (HR personnel) can setup this column to contain custom choices or not.|
 |**SKILLS_EXPERTISE**|Multi-Select Choice|This column allows a user to list both skills and expertise. List owners (HR personnel) can setup this column to contain custom choices or not.|
 |**SCHOOLS_EDUCATION**|Multi-Select Choice|This column allows a user to list info about his/her schools and education path. Custom choices are recommended.|
 |**BADGES_CERTIFICATIONS**|Multi-Select Choice|This column allows a user to list badges and certifications earned. List owners (HR personnel) can setup this column to contain custom choices or not.|
-|**MY_WORKS**|Multiple lines of text (Rich text **disabled**)|This column depends on the OOTB Attachments column and a specific Power Automate flow to list and display clickable attachments tiles in the internal CV.|
+|**MY_WORKS**|Wiele linii tekstu (Rich text **disabled**)|This column depends on the OOTB Attachments column and a specific Power Automate flow to list and display clickable attachments tiles in the internal CV.|
 |**COWORKERS**|Multi-Select Person|Although Microsoft 365 already provides info about related colleagues, a user could provide updated and consistent info about **actual** coworkers he/she is collaborating with.|
 
 **NOTE:** the standard and well known **Title** column isn't used in this sample, therefore you can make it not mandatory through the advanced list settings and exclude it both from the view and the standard right pane form.
@@ -106,19 +106,19 @@ As explained in a tutorial made by [Reza Dorrani](https://www.youtube.com/watch?
 
 💡 You can find out more about the split operator in a [detailed article](https://michelcarlo.com/2022/09/10/two-approaches-to-replace-all-occurrences-of-a-value-in-a-string-using-sharepoint-list-formatting-replaceall-split-join/) written by [**Michel Mendes**](https://github.com/michelcarlo) and an [amazing implementation](https://github.com/pnp/List-Formatting/tree/master/column-samples/number-zero-to-ten-rating) shared by [**Tetsuya Kawahara**](https://github.com/tecchan1107).
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 internal-cv.json | [Federico Sapia](https://github.com/Fedes365)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Version |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |December 21, 2022  |Initial release
+1.0     |grudnia 21, 2022  |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/internal-cv" />

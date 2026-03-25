@@ -1,11 +1,11 @@
 # QR Code Tile Formatter
 
-## Summary
+## Podsumowanie
 
 This sample uses **SharePoint List Formatting** to automatically generate QR codes for each list item in a tile view based on the Title field.  
 Each tile displays the item title above a dynamically generated QR code in a clean, centered card layout, making it ideal for visual dashboards, inventory displays, or quick-scan directories.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -13,13 +13,13 @@ Create a list with the following columns:
 
 | Internal Name   | Type               |
 |-----------------|--------------------|
-| **Title**       | Single line of text|
+| **Title**       | Pojedyncza linia tekstu|
 
 *Note: Additional columns can be added as needed for your specific use case.*
 
 Configure the view as **Tiles** layout for the best experience.
 
-## Sample Data
+## Próbka Data
 
 | Title                    |
 |--------------------------|
@@ -47,20 +47,20 @@ Configure the view as **Tiles** layout for the best experience.
 
 **Without this security configuration, QR codes will not display due to SharePoint's content security policies.**
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 qr-code-tile.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 13, 2025|Initial release with tile formatter
+1.0|13 października 2025|Wersja początkowa with tile formatter
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

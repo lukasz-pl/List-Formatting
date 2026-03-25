@@ -1,34 +1,34 @@
 # Link Collection using Emojis
 
-## Summary
+## Podsumowanie
 This sample demonstrates a link collection using Emoji and is a customization of the `Gallery` layout. Additionally, this sample combines group customization with a tile format.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type               |Internal Name|Required|
+|Type               |Internal Name|Wymagane|
 |-------------------|-------------|:------:|
-|Single line of text|Title        |Yes     |
-|Single line of text|Category     |Yes     |
-|Single line of text|URL          |Yes     |
-|Single line of text|Emoji        |Yes     |
+|Pojedyncza linia tekstu|Title        |Yes     |
+|Pojedyncza linia tekstu|Category     |Yes     |
+|Pojedyncza linia tekstu|URL          |Yes     |
+|Pojedyncza linia tekstu|Emoji        |Yes     |
 
 Set up grouping in `Category` column
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 emoji-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Version |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |April 5, 2021 |Initial release
+1.0     |kwietnia 5, 2021 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/emoji-link-tiles" />

@@ -741,7 +741,7 @@
                           },
                           {
                             "elmType": "span",
-                            "txtContent": "Share/Copy link",
+                            "txtContent": "Share/Kopiuj link",
                             "style": {
                               "word-break": "keep-all"
                             }

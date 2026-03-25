@@ -3,7 +3,7 @@
 This sample uses **SharePoint List Formatting** to display feedback items as **card-style layouts** with a prominent title header and scrollable feedback content.  
 Each row is rendered as a visually appealing card with a yellow header for the title and a scrollable area for longer feedback text.
 
-![screenshot of the sample](assets/screenshot.png)
+![zrzut ekranu próbki](assets/screenshot.png)
 
 ## View Requirements
 
@@ -11,8 +11,8 @@ Create a list with the following columns:
 
 | Internal Name   | Type               |
 |-----------------|--------------------|
-| **Title**       | Single line of text|
-| **Feedback**    | Multiple lines of text |
+| **Title**       | Pojedyncza linia tekstu|
+| **Feedback**    | Wiele linii tekstu |
 
 ## How it Works
 
@@ -22,20 +22,20 @@ Create a list with the following columns:
 - Cards have consistent spacing and borders for a clean, organized appearance.
 - Long feedback text will scroll independently within each card while the title remains visible at the top.
 
-## Sample
+## Próbka
 
 Solution|Author
 --------|---------
 sticky-title-feedback-card.json | [Sai Bandaru](https://github.com/saiiiiiii) ([LinkedIn](https://www.linkedin.com/in/sai-bandaru-97a946153/))
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 26, 2025|Initial release
+1.0|26 października 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

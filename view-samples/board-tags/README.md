@@ -1,6 +1,6 @@
 # Board Tags
 
-## Summary
+## Podsumowanie
 This sample displays a formatted card in a board view that enables tagging, updating card dates, menu options to reorder cards within their category, sharing links, flag (focus colors), assigning a user, and minimizing/expanding the card. 
 
 This List format also uses **embedded** action to open custom Power Apps with parameters for digital signature of user and report generator.
@@ -9,7 +9,7 @@ This List format also uses **embedded** action to open custom Power Apps with pa
 
 - This List fields formatting try to replicate same behavior/UI from **"Planner"** based on Board view.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 ### Task cards  (board-tags-cards.json)
 
@@ -19,25 +19,25 @@ This List format also uses **embedded** action to open custom Power Apps with pa
 
 # Configuration of Board tasks (board-tags.json)
 
-## View requirements
+## Wymagania widoku
 - The format expects the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text.
+Title | Pojedyncza linia tekstu.
 Assigned | Person - Assigned user associated to task, allow **multiple selections** of users.
 Tag | Choice - include tag names and define format for each choice and allow multiple selections.
 Category | Choice - include following values **("Started","Pending","Completed ✔️","Cancel")** and **Started** as default.
 Progress | Choice - include following values **("Not Started","In progress","Completed")**.
 Priority | Choice - include following values **("Urgent","Important","Medium","Low")** and **Medium** as default.
-StartDate | Date and time - Start date of task.
-EndDate | Date and time - Due Date of task.
-Description | Multiple lines of text.
+StartData | Data and time - Start date of task.
+EndData | Data and time - Due Data of task.
+Description | Wiele linii tekstu.
 Flag | True/False - include flag and change background color of card (Default value **False**).
 Expand | True/False - Minimize or expand Card (Default value **False**).
 Image | Image/Thumbnail - Image of Signature
-ReportUrl | Single line of text - Url to Report
-Color | Single line of text - Hex Color  used to pass to Power Apps and change color
+ReportUrl | Pojedyncza linia tekstu - Url to Report
+Color | Pojedyncza linia tekstu - Hex Color  used to pass to Power Apps and change color
 Attachments | Include default field **"Attachments"** in View to display content 
 Editor | Include field **"Modified By"** in View to display content 
 Modified | Include field  **"Modified"** in View to display content 
@@ -90,21 +90,21 @@ Access to **board-tags.json** and access to **Power Apps** url reference and rep
 - Copy content of file **board-tags-cards.json** and click save.
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 board-tags.json | [André Lage](https://github.com/aaclage)
 board-tags-cards.json | [André Lage](https://github.com/aaclage)
 PnPSample.zip | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-3.0|November 24, 2024|New features with Power Apps feature with signature and display report sample
-2.0|April 14, 2022|New features
-1.0|March 1, 2022|Initial release
+3.0|24 listopada 2024|New features with Power Apps feature with signature and display report sample
+2.0|14 kwietnia 2022|New features
+1.0|1 marca 2022|Wersja początkowa
 
 ## Support Documentation 
 
@@ -118,7 +118,7 @@ Version|Date|Comments
 ### List formatting - List embedded integrated with Power Apps
 [![Thumbnail image of the YouTube video "List formatting - List embedded integrated with Power Apps"](https://img.youtube.com/vi/s40X1dGu390/0.jpg)](https://www.youtube.com/watch?v=s40X1dGu390)
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/board-tags" />

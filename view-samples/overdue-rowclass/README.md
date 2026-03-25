@@ -1,33 +1,33 @@
 # Overdue Row Class
 
-## Summary
+## Podsumowanie
 
-This sample applies a class to any row where the `DueDate` column is overdue (earlier than `@now`).
+This sample applies a class to any row where the `DueData` column is overdue (earlier than `@now`).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-- The format expects a DateTime column with an internal name of `DueDate`
+## Wymagania widoku
+- The format expects a DataTime column with an internal name of `DueData`
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 overdue-rowclass.json | [Lincoln DeMaris](https://github.com/ldemaris)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 10, 2018|Initial release
+1.0|10 sierpnia 2018|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/overdue-rowclass" />

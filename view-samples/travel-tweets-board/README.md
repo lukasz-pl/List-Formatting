@@ -1,40 +1,40 @@
 # Travel Tweets Board
 
-## Summary
+## Podsumowanie
 
 This sample demonstrates using the board view to display travel tweets in a timeline format. Each tweet supports one image and one map link.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type                          |Internal Name|Required|
+|Type                          |Internal Name|Wymagane|
 |------------------------------|-------------|:------:|
-|Single line of text           |Title        |        |
-|Date and Time (Including Time)|DateTime     |Yes     |
-|Hyperlink                     |Map          |        |
+|Pojedyncza linia tekstu           |Title        |        |
+|Data i godzina (Including Time)|DataTime     |Yes     |
+|Hiperłącze                     |Map          |        |
 |Image                         |Image        |        |
 |Multi-Select Choice           |PeopleInImage|        |
 
 - The board view must be used.
 - In addition to the above columns, a choice column is required to organize the board view.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 travel-tweets-board.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date           |Comments
+Version |Data           |Uwagi
 --------|---------------|--------------------------------
-1.0     |April 27, 2025 |Initial release
+1.0     |kwietnia 27, 2025 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## Additional notes
+## Dodatkowe uwagi
 
 - I created this sample to organize personal travel experiences and records using [Microsoft Lists - MSA](https://www.microsoft.com/microsoft-365/microsoft-lists-preview).
 

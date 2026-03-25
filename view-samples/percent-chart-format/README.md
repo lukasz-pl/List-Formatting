@@ -1,6 +1,6 @@
 # Percent chart format
 
-## Summary
+## Podsumowanie
 This sample display formatted percent chart row based on icon/emoji/svg and associated result number, used is able to manage to total and used items for percent calculation. 
 
 ### Icons format
@@ -10,18 +10,18 @@ This sample display formatted percent chart row based on icon/emoji/svg and asso
 ![Percent chart format](./assets/PercentageChart1.gif)
 
 ### SVG format
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text.
-Total | Number - Total amount to calculate percentage (100%)
-Value | Number - How many were used from Total amount used in Percentage calculator.
-Year | Single line of text - Date.
-Color | Single line of text - Color for svg.
+Title | Pojedyncza linia tekstu.
+Total | Liczba - Total amount to calculate percentage (100%)
+Value | Liczba - How many were used from Total amount used in Percentage calculator.
+Year | Pojedyncza linia tekstu - Data.
+Color | Pojedyncza linia tekstu - Color for svg.
 
 ### Edit List View requirements
 
@@ -29,22 +29,22 @@ Color | Single line of text - Color for svg.
 - Edit View where format will be included:
    - Access to "**Sort**" Area and select column "**Year**" and check as **descending order**, this option order the cards based on changed.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 percent-chart-format.json | [André Lage](https://github.com/aaclage)
 carsales-format.json | [André Lage](https://github.com/aaclage)
 fishmeat-format.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 22, 2022|Initial release
+1.0|22 kwietnia 2022|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/percent-chart-format" />

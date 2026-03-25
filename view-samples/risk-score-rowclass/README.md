@@ -1,9 +1,9 @@
 # Risk Score Indicator
 
-## Summary
+## Podsumowanie
 A number column is evaluated against tiers of values to provide colors corresponding to score ranges. 
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 A number column is evaluated against tiers of values to provide colors corresponding to score ranges. This format provides 4 ranges:
 
@@ -16,26 +16,26 @@ A number column is evaluated against tiers of values to provide colors correspon
 
 You can easily adjust the values/colors to provide your own ranges. You can also add or remove nested conditions to increase or decrease the number of ranges needed.
 
-## View requirements
+## Wymagania widoku
 The format expects the following fields:
 
 Field |Type
 --------|---------
-Score | Number
+Score | Liczba
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 risk-score-rowclass.json | [S Merchant](https://github.com/sohailmerchant)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|Septmeber 9, 2018|Initial release
+1.0|Septmeber 9, 2018|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/risk-score-rowclass" />

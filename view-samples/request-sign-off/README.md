@@ -1,12 +1,12 @@
 # Request Sign-Off
 
-## Summary
+## Podsumowanie
 
 This sample provides a custom view to focus on files within a document library that need to be approved. A Power Automate flow is included to request sign-off (and to launch that flow directly from the view). This format provides a better visual indication of where documents are in the approval process.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 The view must include these columns:
 
@@ -21,7 +21,7 @@ The view must include these columns:
 Column Name|Type
 -----------|----
 RequiresSignOff | Boolean
-SignOffDueDate | DateTime
+SignOffDueData | DataTime
 SignOffStatus | Text
 
 ### Provisioning
@@ -71,25 +71,25 @@ The View Formatter JSON ([request-signoff.json](request-signoff.json)) defines a
                 },
 ````
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 request-sign-off.json | [Lincoln DeMaris](https://github.com/ldemaris), [Todd Baginski](https://github.com/TBag), Justin So, Tyler Lui
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 9, 2018|Initial release
+1.0|9 października 2018|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/request-sign-off" />

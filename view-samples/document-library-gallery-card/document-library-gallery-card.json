@@ -219,7 +219,7 @@
                     "actionParams": "{\"id\": \"183bedd4-6f2b-4264-855c-9dc7617b4dbe\"}"
                   },
                   "attributes": {
-                    "title": "Approve"
+                    "title": "Zatwierdź"
                   },
                   "style": {
                     "padding": "0px 16px",
@@ -236,7 +236,7 @@
                   "children": [
                     {
                       "elmType": "span",
-                      "txtContent": "Approve"
+                      "txtContent": "Zatwierdź"
                     }
                   ]
                 },

@@ -1,28 +1,28 @@
 # SharePoint View Formatting – Course Training Tile Cards
 
-## Summary
+## Podsumowanie
 Modern tile card layout for displaying training courses with images, badges, and hover previews in SharePoint Gallery view.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Fields Required
+## Fields Wymagane
 
-| Column | Type | Required |
+| Column | Type | Wymagane |
 |--------|------|----------|
-| Title | Single line of text | Yes |
+| Title | Pojedyncza linia tekstu | Yes |
 | Image | Image | No |
 | Visual | Choice | No |
-| Sponsor | Single line of text | No |
-| Description | Multiple lines of text | No |
-| Hours | Number | No |
+| Sponsor | Pojedyncza linia tekstu | No |
+| Description | Wiele linii tekstu | No |
+| Hours | Liczba | No |
 | Flag | Choice | No |
-| URL | Hyperlink or Picture | Yes |
+| URL | Hiperłącze or Picture | Yes |
 
 > [!NOTE]
 > If no image is provided in the `Image` column, this sample displays the image located in the “SiteAssets” library > “Images” folder > “tile-default.png” within the site (line 108).
 > Update the image file or path as needed.
 
-## Features
+## Funkcje
 
 - **280×350px tile cards** with course thumbnails
 - **Hover popup** showing title and description
@@ -31,19 +31,19 @@ Modern tile card layout for displaying training courses with images, badges, and
 - **Responsive image** with fallback to default
 - **Direct link** to course content
 
-## Sample
+## Próbka
 
-| Solution | Author(s) |
+| Rozwiązanie | Autor(zy) |
 |----------|-----------|
 | course-training-tiles.json | [Sai Bandaru](https://github.com/saiiiiiii) |
 
 ## Version History
 
-| Version | Date | Comments |
+| Wersja | Data | Uwagi |
 |---------|------|----------|
-| 1.0 | February 13, 2026 | Initial release |
+| 1.0 | lutego 13, 2026 | Wersja początkowa |
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/course-training-tiles" />

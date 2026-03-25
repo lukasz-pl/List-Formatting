@@ -1,11 +1,11 @@
-# View Formatting samples for SharePoint and Microsoft Lists
+# Próbki formatowania widoków dla SharePoint i Microsoft Lists
 
-Samples for use with View Formatting in SharePoint Online and Microsoft Lists. Samples are organized into dedicated folders with READMEs, screenshots, and everything needed to apply the sample in your own environment.
+Próbki do użycia z formatowaniem widoków w SharePoint Online i Microsoft Lists. Próbki są uporządkowane w osobnych folderach z plikami README, zrzutami ekranu i wszystkim, co potrzebne do zastosowania przykładu we własnym środowisku.
 
-There is a dedicated listing of view samples in our documentation site along with groupings to help find exactly the sample you need:
+Na naszej stronie z dokumentacją znajduje się osobna lista próbek widoków wraz z grupowaniami, które pomagają szybko znaleźć dokładnie ten przykład, którego potrzebujesz:
 
-* [View Samples](https://pnp.github.io/List-Formatting/viewsamples/) - Friendly display of ALL view samples
-* [Groupings](https://pnp.github.io/List-Formatting/groupings/author/) - Various listings of samples by operators, tokens, author, class usage, etc.
+* [Próbki widoków](https://pnp.github.io/List-Formatting/viewsamples/) - przyjazny widok WSZYSTKICH próbek widoków
+* [Grupowania](https://pnp.github.io/List-Formatting/groupings/author/) - różne zestawienia próbek według operatorów, tokenów, autora, użycia klas itd.
 
 <p align="center">
     <img src="../assets/SharingIsCaring.png" alt="Parker" title="Parker loves you!">

@@ -1,55 +1,55 @@
 # Stat Comparison Chart
 
-## Summary
+## Podsumowanie
 These samples format a list view into a chart that shows a comparison between two entities against various attributes. This sample can be used for all sorts of things but is demonstrated below using sports teams for the entities and stats for the teams as individual rows.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 There are 2 versions of the sample included. The difference being that one shows images to represent each entity (team country flags in this case) and icons for individual stats while the other does not.
 
 **Version without Images:**
-![screenshot of the sample without images](./assets/screenshot_without_images.png)
+![zrzut ekranu the sample without images](./assets/screenshot_without_images.png)
 
 > These samples are dervied from the [Butterfly Chart Sample](../butterfly-chart/).
 
-## View requirements (stat-comparison-chart.json)
+## Wymagania widoku (stat-comparison-chart.json)
 
-|Type                |Internal Name|Required|Details|
+|Type                |Internal Name|Wymagane|Details|
 |--------------------|-------------|:------:|-------|
-|Single line of text |Title        |Yes     |The attribute against which the stats are measured|
-|Single line of text |Icon         |No      |Icon to represent the attribute|
-|Number              |Entity1      |Yes     |The stat value for the first entity|
-|Number              |Entity2      |Yes     |The stat value for the second entity|
+|Pojedyncza linia tekstu |Title        |Yes     |The attribute against which the stats are measured|
+|Pojedyncza linia tekstu |Icon         |No      |Icon to represent the attribute|
+|Liczba              |Entity1      |Yes     |The stat value for the first entity|
+|Liczba              |Entity2      |Yes     |The stat value for the second entity|
 |Yes/No              |IsPercent    |No      |True when the stat is a percentage|
 |Image               |Entity1Image |No      |Image to represent the first entity. Will be only displayed for the first row at the top left. |
 |Image               |Entity2Image |No      |Image to represent the second entity. Will be only displayed for the first row at the top right.|
 
 
-## View requirements (stat-comparison-chart-without-images.json)
+## Wymagania widoku (stat-comparison-chart-without-images.json)
 
 These requirements are the same as above except that icons and images are not needed.
 
-|Type                |Internal Name|Required|
+|Type                |Internal Name|Wymagane|
 |--------------------|-------------|:------:|
-|Single line of text |Title        |Yes     |
-|Number              |Entity1      |Yes     |
-|Number              |Entity2      |Yes     |
+|Pojedyncza linia tekstu |Title        |Yes     |
+|Liczba              |Entity1      |Yes     |
+|Liczba              |Entity2      |Yes     |
 |Yes/No              |IsPercent    |No      |
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 stat-comparison-chart.json | [Anoop Tatti](https://github.com/anoopt)
 stat-comparison-chart-without-images.json | [Anoop Tatti](https://github.com/anoopt)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Version |Data              |Uwagi
 --------|------------------|--------
-1.0     |June 23, 2021  |Initial release
+1.0     |czerwca 23, 2021  |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/stat-comparison-chart" />

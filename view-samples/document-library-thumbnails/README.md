@@ -1,30 +1,30 @@
 # Document Library Thumbnails
 
-## Summary
+## Podsumowanie
 
 This sample demonstrates showing files in a document libary as preview images.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 - "Allow management of content types" is turned on under Library --> Advanced Settings.
 
 The size of the tiles can be adjusted by changing the width and height values.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 document-library-thumbnails.json | [Ravi Chandra](https://github.com/Ravikadri)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 02, 2019|Initial release
+1.0|02 lutego 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/document-library-thumbnails" />

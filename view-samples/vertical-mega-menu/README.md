@@ -1,17 +1,17 @@
 # Vertical Mega Menu
 
-## Summary
+## Podsumowanie
 
 This sample demonstrates the use of multi lines of text column value and the `split` operator to display a vertical mega menu.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type                |Internal Name|Required|
+|Type                |Internal Name|Wymagane|
 |--------------------|-------------|:------:|
-|Single line of text |Title        |Yes     |
-|Single line of text |Icon         |Yes     |
+|Pojedyncza linia tekstu |Title        |Yes     |
+|Pojedyncza linia tekstu |Icon         |Yes     |
 |Multi lines of text |Menu         |Yes     |
 
 - Set the icon name of [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons) in the `Icon` column.
@@ -49,22 +49,22 @@ This sample demonstrates the use of multi lines of text column value and the `sp
 >SharePoint Starter Kit‍|https://github.com/pnp/sp-starter-kit/
 ```
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 vertical-mega-menu.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Version |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |December 13, 2022 |Initial release
+1.0     |grudnia 13, 2022 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## Additional notes
+## Dodatkowe uwagi
 - [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/vertical-mega-menu" />

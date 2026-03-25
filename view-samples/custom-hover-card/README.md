@@ -1,42 +1,42 @@
 # Custom Hover Card (View)
 
-## Summary
+## Podsumowanie
 A custom card is shown on hover of an item. The hover card shows additional details about an item's status.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 - This format can be applied to any column type though the example is based on - 
 
 Column Name         |Type
 --------------------|--------------
 Status              | Choice
 Product ID          | Single Line Text
-PackedDate          | Date and Time 
-ShippedDate         | Date and Time
-InTransitStartDate  | Date and Time 
-DeliveredDate       | Date and Time
+PackedData          | Data i godzina 
+ShippedData         | Data i godzina
+InTransitStartData  | Data i godzina 
+DeliveredData       | Data i godzina
 Product Photo       | Picture
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 custom-hover-card.json | [Niket Jain](https://github.com/NiketJain)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 08, 2020|Initial release
+1.0|08 kwietnia 2020|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 This sample uses icons from the Office UI Fabric
 
 - [Office UI Fabric](https://developer.microsoft.com/en-us/fabric)

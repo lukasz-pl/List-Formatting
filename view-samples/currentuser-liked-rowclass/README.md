@@ -1,9 +1,9 @@
 # Current User Liked Row Class
 
-## Summary
+## Podsumowanie
 This sample demonstrates how to change the background color of a row that has been liked by the current user.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 ## Prerequisites
 ### Enabling the ratings feature
@@ -21,34 +21,34 @@ Disconnect-PnPOnline
 2. Click **List Settings**
 3. Under **General Settings**, click **Rating settings**.
 
-   ![screenshot of how to add the ratings feature](./assets/add_ratings_1.png)
+   ![zrzut ekranu how to add the ratings feature](./assets/add_ratings_1.png)
 
 4. Under **Allow items in this list to be rated?**, click **Yes**.
 5. Under **Which voting/rating experience would you like to enable for this list?**, click **Likes**.
 6. Click **OK**.
 
-   ![screenshot of how to add the ratings feature](./assets/add_ratings_2.png)
+   ![zrzut ekranu how to add the ratings feature](./assets/add_ratings_2.png)
 
-## View requirements
+## Wymagania widoku
 
 - Add a ratings feature to the list and display a like button.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 currentuser-liked-rowclass.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Version |Data             |Uwagi
 --------|-----------------|--------------------------------
-1.0     |October 20, 2021 |Initial release
+1.0     |października 20, 2021 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## Additional notes
+## Dodatkowe uwagi
 - [PnP PowerShell](https://pnp.github.io/powershell)
 - [Add a ratings feature to your library](https://support.microsoft.com/en-us/office/add-a-ratings-feature-to-your-library-5901fcfd-19ca-4f27-a65f-284654298552)
 

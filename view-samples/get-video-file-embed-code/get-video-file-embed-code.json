@@ -59,7 +59,7 @@
                   "line-height": "1.5em",
                   "margin-bottom": "8px"
                 },
-                "txtContent": "='Modified by ' + [$Editor.title] + ', ' + toLocaleString([$Modified])"
+                "txtContent": "='Modified by ' + [$Edytujor.title] + ', ' + toLocaleString([$Modified])"
               },
               {
                 "elmType": "div",
@@ -83,7 +83,7 @@
                 "customRowAction": {
                   "action": "editProps"
                 },
-                "txtContent": "Edit Properties",
+                "txtContent": "Edytuj Properties",
                 "attributes": {
                   "class": "sp-row-button ms-bgColor-neutralLighter ms-fontWeight-semibold"
                 },

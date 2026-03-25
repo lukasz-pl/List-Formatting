@@ -1,10 +1,10 @@
 # SharePoint View Formatting – Contact Custom Avatar Card
 
-## Summary
+## Podsumowanie
 
 This SharePoint view formatting sample provides a modern, interactive **Contact custom avatar card** for list items using JSON formatting. It enhances the display of user information and enables **quick actions** directly from the list. The column supports **Person or Group type fields for Email**, making it fully compatible with SharePoint user data.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -30,7 +30,7 @@ This formatting works for lists with the following fields:
 - **Email icons** opens the default mail client with the user's email.
 - **Teams icons** opens Microsoft Teams for direct conversation.
 
-## Usage Instructions
+## Użycie Instructions
 1. Navigate to your **SharePoint list**.
 2. Click All items → **Add view**.
 3. Select **Gallery** as the layout and give it a name of your choice.
@@ -40,25 +40,25 @@ This formatting works for lists with the following fields:
 
 Your list will now display in a **Gallery (card-style) layout** with custom avatars and action buttons.
 
-## Requirements
+## Wymagania
 - **SharePoint Online (Modern Experience)**
 - **Person or Group column type** for Email
 - Modern browser for full functionality
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 contact-custom-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-| Version | Date | Comments |
+| Wersja | Data | Uwagi |
 |---------|------|---------|
-| 1.0 | August 25, 2025 | Initial release |
+| 1.0 | sierpnia 25, 2025 | Wersja początkowa |
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/contact-custom-avatar" />

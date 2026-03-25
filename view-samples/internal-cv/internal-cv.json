@@ -231,7 +231,7 @@
                     "attributes": {
                       "href": "https://www.office.com",
                       "target": "_blank",
-                      "title": "Open the Microsoft 365 app",
+                      "title": "Otwórz the Microsoft 365 app",
                       "iconName": "HomeSolid"
                     }
                   },
@@ -255,7 +255,7 @@
                     "attributes": {
                       "href": "[$YAMMER_PROFILE]",
                       "target": "_blank",
-                      "title": "Open this Yammer profile",
+                      "title": "Otwórz this Yammer profile",
                       "iconName": "YammerLogo"
                     }
                   },

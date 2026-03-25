@@ -1,38 +1,38 @@
 # Icon Link Tiles
 
-## Summary
+## Podsumowanie
 This sample creates a collection of links featuring icons (similar to the original promoted links webpart).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 - The format expects the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
-Icon | Single line of text
-URL | Hyperlink 
+Title | Pojedyncza linia tekstu 
+Icon | Pojedyncza linia tekstu
+URL | Hiperłącze 
 NewTab | Yes/No - This field is used to open the link the same tab or new tab
 
 - You need to use the Gallery view.
 - The size of the tile can be adjusted by changing the width and height values.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 icon-link-tiles.json | [S Merchant](https://github.com/sohailmerchant), [Andrew Taylor](https://github.com/taylora3)
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|Septmeber 9, 2018|Initial release
-2.0|September 5, 2019|Utilizes tileProps
-2.1|September 9, 2019|Minor fixes
-3.0|November 18, 2025|The links were not displayed because `tileProps` was used. This has been fixed.
+1.0|Septmeber 9, 2018|Wersja początkowa
+2.0|5 września 2019|Utilizes tileProps
+2.1|9 września 2019|Minor fixes
+3.0|18 listopada 2025|The links were not displayed because `tileProps` was used. This has been fixed.
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/icon-link-tiles" />

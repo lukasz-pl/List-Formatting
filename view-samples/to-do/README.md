@@ -1,22 +1,22 @@
 # To-do List
 
-## Summary
+## Podsumowanie
 This sample formats your SharePoint list view to look like Microsoft To Do.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 
-## View requirements
+## Wymagania widoku
 
 Column Name   |Type
 --------------|--------------
 Title         | Single Line Text
 Description   | Multi Line Text
 Category   | Choice
-Due date   | Date and time
+Due date   | Data and time
 Important   | Yes/No, with default value set to No
 Status   | Yes/No, with default value set to No
-Date   | Calculated, as a single line of text using the formula: =CONCATENATE(TEXT(WEEKDAY([Due date]),"ddd"),", ",TEXT([Due date],"mmmm dd, yyyy"))
+Data   | Calculated, as a single line of text using the formula: =CONCATENATE(TEXT(WEEKDAY([Due date]),"ddd"),", ",TEXT([Due date],"mmmm dd, yyyy"))
 
 
 
@@ -33,22 +33,22 @@ A resumed version of the articles is also available in video format
 🎥 [Creating a To Do list for Microsoft Lists and SharePoint using View Formatting](https://www.youtube.com/watch?v=Ic5ZdBso3iI)   
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 to-do.json | [João Ferreira](https://github.com/joaoferreira)
 
 
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Version |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |March 4, 2022  |Initial release
+1.0     |marca 4, 2022  |Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/to-do" />

@@ -1,9 +1,9 @@
 # Alternating Rows
 
-## Summary
+## Podsumowanie
 Highlights every other row using theme colors.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 By usng the `@rowIndex` keyword, the alternating style will be applied regardless of sorting and filtering.
 
@@ -15,27 +15,27 @@ By using the [Office UI Fabric color classes](https://developer.microsoft.com/fa
 
 > Note - The alternating row format is now available as a Design Mode wizard for View Formatting. However, this sample uses Excel style syntax (design mode uses AST) and takes advantage of theme colors (rather than the default neutral). The Design Mode wizard is awesome, but there is still value in this sample as well.
 
-## View requirements
+## Wymagania widoku
 - None, this format will apply to any view!
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 alternating-rows.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 19, 2019|Initial release
+1.0|19 lutego 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 Because this format is using the `additionalRowClass` property, it can be combined with column formats to make a pretty compelling visualization:
 

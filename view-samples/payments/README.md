@@ -1,32 +1,32 @@
 # Payments
 
-## Summary
+## Podsumowanie
 This sample provides a payment list format to register daily expenses, currency, status, rate option, Locations, copy file link, comments and categorization of payment.
 Solution has 4 formats Desktop, Mobile, Group by Category and Timeline.
 
 Format includes icon for type of payment, capability to choose currency, expand collapse to view details, payment status and payment date.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
+Title | Pojedyncza linia tekstu 
 Description | Multiple Line of Text
 Category | Choice - Include the following options **"PaymentCard,Bank,Savings,Money,AllCurrency,EatDrink,AirTickets,ShoppingCart,Shop,Home,Health"**
-Payment | Number  - define number of decimal places to 2
-OtherCosts | Number - this field will be used order the clipboards
+Payment | Liczba  - define number of decimal places to 2
+OtherCosts | Liczba - this field will be used order the clipboards
 Currency | Choice - Include the following options **"CHF(CHF),€(EUR)£(GBP),$(USD),¥(JPY)"**
-PaymentDay | Date & Time
+PaymentDay | Data & Time
 Paid | Yes/No - default value **"No"**
 Expand | Yes/No - default value **"No"**
 Categorize | Choice - "Red, Blue, Green, Orange, Purple, Yellow"
-OtherCostDescription | Single line of text 
+OtherCostDescription | Pojedyncza linia tekstu 
 Rate | Choice - Values from 1 to 5
 Location | Location - place where is made the payment
-Invoice | Single line of text - Save copy link from file
+Invoice | Pojedyncza linia tekstu - Save copy link from file
 
 - Replace `[replaceUrlPathtoLibrary]` with path to SharePoint Library, sample: '/SiteAssets/'
 
@@ -36,9 +36,9 @@ Invoice | Single line of text - Save copy link from file
    - Access to "**Sort**" Area and select column "**PaymentDay**" and check as **ascending order**, this option order the images based on changed.
    - Include in View the following additional fields "**Created**", "**Modified**" and "**Modified By**".
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 payments.json | [André Lage](https://github.com/aaclage)
 payments-mobile.json | [André Lage](https://github.com/aaclage)
@@ -48,15 +48,15 @@ payments-mobile-format.json | [André Lage](https://github.com/aaclage)
 payments-timeline-format.json | [André Lage](https://github.com/aaclage)
 payments-groupby-format.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-2.0|June 04, 2022|New features
-1.0|January 10, 2022|Initial release
+2.0|04 czerwca 2022|New features
+1.0|10 stycznia 2022|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/payments" />

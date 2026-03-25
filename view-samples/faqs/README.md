@@ -1,9 +1,9 @@
 # FAQs
 
-## Summary
+## Podsumowanie
 This sample creates a theme-aware format to use when displaying FAQs (Frequently Asked Questions).
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ### faqs-with-keywords.json
 
@@ -16,39 +16,39 @@ The Keyword field is used to match a value in the Answer column, and adds a hype
 * Keyword - "Information"
 * KeywordLink - "https://www.microsoft.com"
 
-![screenshot of the sample with keywords](./assets/screenshotWithKeywords.png)
+![zrzut ekranu the sample with keywords](./assets/screenshotWithKeywords.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Multiple line of text|Answer|Yes|
-|Single line of text|Keyword||
-|Hyperlink|KeywordLink||
+|Pojedyncza linia tekstu|Title|Tak|
+|Multiple line of text|Answer|Tak|
+|Pojedyncza linia tekstu|Keyword||
+|Hiperłącze|KeywordLink||
 
 > The last 2 columns are only needed when using the keywords version of the format.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 faqs.json | [Chris Kent](https://github.com/thechriskent)
 faqs-with-keywords.json | [Chris Kent](https://github.com/thechriskent)
 
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 1, 2020|Initial release
+1.0|1 marca 2020|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 None
 

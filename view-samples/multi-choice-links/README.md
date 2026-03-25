@@ -1,6 +1,6 @@
 # Multi-Choice Links
 
-## Summary
+## Podsumowanie
 
 Rendering multiple links with a list view format cannot be achieved by using a rich text column. This sample solves that problem (rendering multiple links) using a multi choice column.
 
@@ -9,14 +9,14 @@ This sample is derived from the [birthdays](../birthdays) sample. This sample sh
 - Shows links to multiple sessions associated with a speaker (The sessions are stored as choices in a multi choice column).
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Single line of text|JobTitle||
+|Pojedyncza linia tekstu|Title|Tak|
+|Pojedyncza linia tekstu|JobTitle||
 |Choice (allow multiple selections)|Sessions||
 |Picture|Picture||
 
@@ -41,20 +41,20 @@ We then extract `<the actual link>` using this formula:
 "=substring([$sessionIterator], indexOf([$sessionIterator], '|') + 1,  lastIndexOf([$sessionIterator], '|'))"
 ```
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 multi-choice-links.json | [Anoop Tatti](https://github.com/anoopt)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 14, 2021 |Initial release
+1.0|kwietnia 14, 2021 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

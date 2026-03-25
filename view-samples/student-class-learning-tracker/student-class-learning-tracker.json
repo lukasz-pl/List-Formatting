@@ -71,7 +71,7 @@
                             },
                             "attributes": {
                               "class": "='sp-field-fontSizeSmall ' + if([$YearGroup] == 'Year 7','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont',if([$YearGroup] == 'Year 8','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$YearGroup] == 'Year 9','sp-css-backgroundColor-BgGold sp-css-color-GoldFont',if([$YearGroup] == 'Year 10','sp-css-backgroundColor-BgCoral sp-css-color-CoralFont',if([$YearGroup] == 'Year 11','sp-css-backgroundColor-BgDustRose sp-css-color-DustRoseFont','sp-css-backgroundColor-BgCyan sp-css-color-CyanFont')))))",
-                              "title": "Class code"
+                              "title": "Kod klasy"
                             },
                             "txtContent": "[$Class]"
                           },
@@ -91,9 +91,9 @@
                             },
                             "attributes": {
                               "class": "='sp-field-fontSizeSmall ' + if([$YearGroup] == 'Year 7','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont',if([$YearGroup] == 'Year 8','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$YearGroup] == 'Year 9','sp-css-backgroundColor-BgGold sp-css-color-GoldFont',if([$YearGroup] == 'Year 10','sp-css-backgroundColor-BgCoral sp-css-color-CoralFont',if([$SeniorCourse] == 'Advanced','sp-css-backgroundColor-BgCoral sp-css-color-BgCoralFont',if([$SeniorCourse] == 'Extension 1','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$SeniorCourse] == 'Extension 2','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont','')))))))",
-                              "title": "Topic number"
+                              "title": "Numer tematu"
                             },
-                            "txtContent": "='Topic ' + [$TopicNumber]"
+                            "txtContent": "='Temat ' + [$TopicNumber]"
                           },
                           {
                             "elmType": "span",
@@ -111,7 +111,7 @@
                             },
                             "attributes": {
                               "class": "='sp-field-fontSizeSmall ' + if([$YearGroup] == 'Year 7','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont',if([$YearGroup] == 'Year 8','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$YearGroup] == 'Year 9','sp-css-backgroundColor-BgGold sp-css-color-GoldFont',if([$YearGroup] == 'Year 10','sp-css-backgroundColor-BgCoral sp-css-color-CoralFont',if([$SeniorCourse] == 'Advanced','sp-css-backgroundColor-BgCoral sp-css-color-BgCoralFont',if([$SeniorCourse] == 'Extension 1','sp-css-backgroundColor-BgMintGreen sp-css-color-MintGreenFont',if([$SeniorCourse] == 'Extension 2','sp-css-backgroundColor-BgCornflowerBlue sp-css-color-CornflowerBlueFont','')))))))",
-                              "title": "Topic number"
+                              "title": "Numer tematu"
                             },
                             "txtContent": "[$SeniorCourse]"
                           },
@@ -131,7 +131,7 @@
                             },
                             "attributes": {
                               "class": "sp-css-backgroundColor-BgViolet sp-field-fontSizeSmall sp-css-color-VioletFont",
-                              "title": "Topic name"
+                              "title": "Nazwa tematu"
                             },
                             "txtContent": "[$TopicName]"
                           },
@@ -157,7 +157,7 @@
                                 "elmType": "span",
                                 "attributes": {
                                   "iconName": "=if([$ContentPointType] == 'Syllabus', 'Dictionary' , 'PublishCourse')",
-                                  "title": "=if([$ContentPointType] == 'Syllabus', 'Syllabus wording', 'School developed teaching point')"
+                                  "title": "=if([$ContentPointType] == 'Syllabus', 'Treść podstawy programowej', 'Punkt dydaktyczny opracowany przez szkołę')"
                                 },
                                 "style": {
                                   "font-size": "medium"
@@ -170,7 +170,7 @@
                                   "margin-left": "4px"
                                 },
                                 "attributes": {
-                                  "title": "=if([$ContentPointType] == 'Syllabus', 'Syllabus wording', 'School developed teaching point')"
+                                  "title": "=if([$ContentPointType] == 'Syllabus', 'Treść podstawy programowej', 'Punkt dydaktyczny opracowany przez szkołę')"
                                 }
                               }
                             ]
@@ -752,7 +752,7 @@
                         "attributes": {
                           "class": "sp-row-listPadding"
                         },
-                        "txtContent": "Topic commenced"
+                        "txtContent": "Temat commenced"
                       },
                       {
                         "elmType": "div",
@@ -795,7 +795,7 @@
                         "attributes": {
                           "class": "sp-row-listPadding"
                         },
-                        "txtContent": "=if([$TopicContentSequence] == 0 ,'Topic completed','Date Completed')"
+                        "txtContent": "=if([$TopicContentSequence] == 0 ,'Temat completed','Date Completed')"
                       },
                       {
                         "elmType": "div",
@@ -1100,7 +1100,7 @@
                   },
                   {
                     "elmType": "span",
-                    "txtContent": "Share/Copy link",
+                    "txtContent": "Share/Kopiuj link",
                     "style": {
                       "word-break": "keep-all"
                     }
@@ -1134,7 +1134,7 @@
                   },
                   {
                     "elmType": "span",
-                    "txtContent": "Edit details",
+                    "txtContent": "Edytuj details",
                     "style": {
                       "word-break": "keep-all"
                     }
@@ -1187,7 +1187,7 @@
               "children": [
                 {
                   "elmType": "div",
-                  "txtContent": "=if(indexOf(@group.fieldData,'MA') != -1 || indexOf(@group.fieldData,'MX') != -1 || indexOf(@group.fieldData,'SS') != -1, 'Class: ' + @group.fieldData, 'Topic ' + @group.fieldData + ' | ')",
+                  "txtContent": "=if(indexOf(@group.fieldData,'MA') != -1 || indexOf(@group.fieldData,'MX') != -1 || indexOf(@group.fieldData,'SS') != -1, 'Class: ' + @group.fieldData, 'Temat ' + @group.fieldData + ' | ')",
                   "attributes": {
                     "title": "=@group.fieldData",
                     "class": "ms-fontWeight-bold"

@@ -1,33 +1,33 @@
 # User Profile Card
 
-## Summary
+## Podsumowanie
 This is a simple user profile card built to provide a tile view with contact buttons. A default image is shown if a picture is not provided.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|JobTitle|No|
-|Person|User|Yes|
-|Picture|Picture|No|
-|Hyperlink|LinkedIn|No|
-|Hyperlink|Twitter|No|
+|Pojedyncza linia tekstu|JobTitle|Nie|
+|Person|User|Tak|
+|Picture|Picture|Nie|
+|Hiperłącze|LinkedIn|Nie|
+|Hiperłącze|Twitter|Nie|
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 profile-card.json | [Ejaz Hussain](https://github.com/ejazhussain)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 13, 2019|Initial release
+1.0|13 marca 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/profile-card" />

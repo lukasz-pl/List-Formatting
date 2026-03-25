@@ -1,6 +1,6 @@
 # Birthdays
 
-## Summary
+## Podsumowanie
 This is a sample derived from the [contact cards](../contact-cards) sample. It shows how to format a list to show upcoming employee birthdays. It features the following:
 - Responsive layout through flexbox
 - Conditionally showing a birthday cake icon if the persons birthday is the current date
@@ -9,19 +9,19 @@ This is a sample derived from the [contact cards](../contact-cards) sample. It s
   - Emailing the person with a pre-filled Happy Birthday Subject
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Single line of text|JobTitle||
-|Single line of text|Email||
-|Date Time|Birthday|Yes|
+|Pojedyncza linia tekstu|Title|Tak|
+|Pojedyncza linia tekstu|JobTitle||
+|Pojedyncza linia tekstu|Email||
+|Data Time|Birthday|Tak|
 |Calculated Column|BirthMonthDay||
-|Hyperlink|Picture||
+|Hiperłącze|Picture||
 
 You need the BirthMonthDay Calculated Column so that it only shows the current month name spelled out and date, not the year. The formula for this calculated column is below:
 
@@ -34,21 +34,21 @@ This sample relies on having a View set up which filters to only show items wher
 
 To make this a truly automated process, you can use Microsoft Flow to pull Birthday information from your Office 365 User Profiles and populate the SharePoint list with those values.  This is a good blog post which shows how to do that: [Celebrating milestones with SharePoint, Flow, and Delve](https://techcommunity.microsoft.com/t5/SharePoint/Celebrating-milestones-with-SharePoint-Flow-and-Delve/td-p/175433)
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
-birthdays.json | [April Dunnam](https://github.com/aprildunnam)
+birthdays.json | [kwietnia Dunnam](https://github.com/aprildunnam)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 20, 2019 |Initial release
-2.0|August 20, 2021 |Screenshot added
+1.0|lutego 20, 2019 |Wersja początkowa
+2.0|sierpnia 20, 2021 |Screenshot added
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

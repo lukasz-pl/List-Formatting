@@ -1,14 +1,14 @@
 # Funnel Chart – SharePoint List Tile JSON Formatter
 
-## Summary
+## Podsumowanie
 
 This sample demonstrates how to render a **Funnel Chart** inside a **Tile card style view** in SharePoint.
 
 The funnel chart is useful for visualizing pipeline stages such as **Leads → Qualified → Proposal → Closed**, with stage widths proportional to numeric values.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 Before starting, ensure you have:
 - **SharePoint Online** access with list creation permissions
@@ -22,7 +22,7 @@ Before starting, ensure you have:
 4. **Name your list** (e.g., "Sales Funnel Dashboard")
 5. **Click "Create"**
 
-## Step 2: Add Required Columns
+## Step 2: Add Wymagane Columns
 
 You need to add these columns to your newly created list:
 
@@ -35,16 +35,16 @@ You need to add these columns to your newly created list:
 | Column Name    | Type              | Notes |
 |----------------|-------------------|-------|
 | **Title**      | Single line text  | Already exists by default |
-| **Stage1**     | Number            | First stage value |
+| **Stage1**     | Liczba            | First stage value |
 | **Stage1Label**| Single line text  | First stage name |
 | **Stage1Color**| Single line text  | First stage color (hex code) |
-| **Stage2**     | Number            | Second stage value |
+| **Stage2**     | Liczba            | Second stage value |
 | **Stage2Label**| Single line text  | Second stage name |
 | **Stage2Color**| Single line text  | Second stage color (hex code) |
-| **Stage3**     | Number            | Third stage value |
+| **Stage3**     | Liczba            | Third stage value |
 | **Stage3Label**| Single line text  | Third stage name |
 | **Stage3Color**| Single line text  | Third stage color (hex code) |
-| **Stage4**     | Number            | Fourth stage value |
+| **Stage4**     | Liczba            | Fourth stage value |
 | **Stage4Label**| Single line text  | Fourth stage name |
 | **Stage4Color**| Single line text  | Fourth stage color (hex code) |
 
@@ -93,19 +93,19 @@ You need to add these columns to your newly created list:
 - Use proper hex color format: #000000
 - Avoid color names like "red" or "blue"
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 funnel-chart-tile.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Version History
 
-| Version | Date | Comments |
+| Wersja | Data | Uwagi |
 |---------|------|----------|
-| 1.0 | Sep 04, 2025 | Initial release |
+| 1.0 | Sep 04, 2025 | Wersja początkowa |
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/funnel-chart-tile" />

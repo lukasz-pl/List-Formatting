@@ -1,44 +1,44 @@
 # Planner Inspired Task Cards
 
-## Summary
+## Podsumowanie
 Formats Task List Items in a Planner Inspired Card View. Uses Fluent UI Icons to designate "In Progress", "Completed" and "Delayed" Statuses. Automatically strikes out text for "Completed" items.  
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-All fields below should be part of the view, but only those marked with Required need to have values:
+Wszystkie poniższe pola powinny być częścią widoku, ale tylko te oznaczone jako Wymagane muszą mieć wartości:
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Person|AssignedTo|Yes|
-|Choice|Status|No|
-|DateTime|DueDate|No|
+|Pojedyncza linia tekstu|Title|Tak|
+|Person|AssignedTo|Tak|
+|Choice|Status|Nie|
+|DataTime|DueData|Nie|
 
 The `Status` column expects the following choice values:
 - In Progress
 - Delayed
 - Completed
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
-planner-inspired-task-card.json | [April Dunnam](https://github.com/aprildunnam)
+planner-inspired-task-card.json | [kwietnia Dunnam](https://github.com/aprildunnam)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|July 26, 2019|Initial release
+1.0|26 lipca 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 This format takes advantage of `CustomRowActions` to enable the `defaultClick` and `delete` actions from icon buttons:
 

@@ -1,10 +1,10 @@
 # Bar Graph
 
-## Summary
+## Podsumowanie
 
 This sample shows how to format a list to show the data as a bar graph. In this instance we are showing number of votes per fruit.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The sample features the following:
 - Conditionally showing a crown icon if the item is marked as MostVoted
@@ -18,17 +18,17 @@ The sample features the following:
 ![Bar Graph Screenshot with animate.css app customiser](./assets/bargraph.gif)
 
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Number|Votes||
+|Pojedyncza linia tekstu|Title|Tak|
+|Liczba|Votes||
 |Yes/No|IsLastItem||
 |Yes/No|IsHighest||
-|Single line of text|Icon||
+|Pojedyncza linia tekstu|Icon||
 
-## Setup
+## Konfiguracja
 
 The sample needs the following setup:
 - Only one item needs to have `IsHighest` as yes
@@ -41,23 +41,23 @@ In the sample, the height of the parent div is set to 800px and the child div ca
 ### Inject CSS applcation customiser
 The [inject css application customiser](https://github.com/SharePoint/sp-dev-fx-extensions/tree/master/samples/react-application-injectcss) by [Hugo Bernier](http://tahoeninjas.blog/) shows how we can inject css on to pages. Please follow the instructions in readme.md of that sample and use [animate.min.css](https://raw.githubusercontent.com/daneden/animate.css/master/animate.min.css) instead of custom.css .
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 bar-graph.json | [Anoop Tatti](https://github.com/anoopt)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 02, 2019 |Initial release
+1.0|września 02, 2019 |Wersja początkowa
 
 ## Improvements
 Need to check if a gradient css can also be added to the bars, with an application customiser.
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

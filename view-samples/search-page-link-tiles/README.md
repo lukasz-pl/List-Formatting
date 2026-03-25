@@ -1,63 +1,63 @@
 # Links to Search Page
 
-## Summary
+## Podsumowanie
 
 This sample demonstrates displaying links to the search page. When you open the search page, it displays the search results where the query registered in the `Query` column of the item has been executed. Also, there are two types of links, each with a different search scope. One is for the entire tenant, and the other is for within the site.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 You can also add search keywords on the search page to further refine your search results.
 
-![screenshot of the search result](./assets/search-result.png)
+![zrzut ekranu the search result](./assets/search-result.png)
 
 In addition, there is a favorite feature using the `setValue` action.
 
-![screenshot of the favorite feature](./assets/favorite.png)
+![zrzut ekranu the favorite feature](./assets/favorite.png)
 
 In addition to a view that shows all items, it is useful to create a view that displays only the items you have added to your favorites.
 
-![screenshot of the my favorites view](./assets/my-favorites-view.png)
+![zrzut ekranu the my favorites view](./assets/my-favorites-view.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type                         |Internal Name|Required|
+|Type                         |Internal Name|Wymagane|
 |-----------------------------|-------------|:------:|
-|Single line of text          |Title        |Yes     |
-|Single line of text          |Query        |Yes     |
-|Single line of text or Choice|Category     |Yes     |
-|Single line of text          |Icon         |Yes     |
+|Pojedyncza linia tekstu          |Title        |Yes     |
+|Pojedyncza linia tekstu          |Query        |Yes     |
+|Pojedyncza linia tekstu or Choice|Category     |Yes     |
+|Pojedyncza linia tekstu          |Icon         |Yes     |
 |Multi-Select Person          |Favorites    |        |
 
 - Set the icon name of [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons) in the `Icon` column.
 - You need to use Gallery view grouped by `Category` column
 
-### Sample Data
+### Próbka Data
 
 - You can view [sample data (CSV file)](./assets/sample-data.csv).
 - When using the Excel import and CSV import functions, the internal names of the columns are "field_" + "sequential number" like field_1, field_2. And these internal names of columns are not used in the sample JSON. Therefore, please note that the sample JSON cannot be used as it is when using the Excel import and CSV import functions.
-    ![screenshot of internal name of column when Excel import and CSV imported](./assets/excel-csv-import.png)
-- As of August 15, 2023, the gallery view is not available when [exporting from Excel to SharePoint](https://support.microsoft.com/office/export-an-excel-table-to-sharepoint-974544f9-94bc-4aa8-9159-97282d256dab). Please note this as well.  
+    ![zrzut ekranu internal name of column when Excel import and CSV imported](./assets/excel-csv-import.png)
+- As of sierpnia 15, 2023, the gallery view is not available when [exporting from Excel to SharePoint](https://support.microsoft.com/office/export-an-excel-table-to-sharepoint-974544f9-94bc-4aa8-9159-97282d256dab). Please note this as well.  
 Related Link: [Export an Excel table to SharePoint: gallery view layout not available · Issue #8811 · SharePoint/sp-dev-docs](https://github.com/SharePoint/sp-dev-docs/issues/8811)
 - If you want to import the sample data into your list, I recommend downloading the CSV file of the sample data, opening it in Excel, copying a range of all the data, and pasting it in using Edit Grid View.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 search-page-link-tiles.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date            |Comments
+Version |Data            |Uwagi
 --------|----------------|--------------------------------
-1.0     |August 15, 2023 |Initial release
+1.0     |sierpnia 15, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - This sample was inspired by [Ai Hirano's post](https://x.com/ai_yamasaki/status/1545353487533232130).
 - The following documents describe the managed property and the search query.

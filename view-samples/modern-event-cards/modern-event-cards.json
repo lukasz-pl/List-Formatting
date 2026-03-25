@@ -67,7 +67,7 @@
                 "children": [
                   {
                     "elmType": "div",
-                    "txtContent": "=if(getMonth([$EventDate])==0,'JAN',if(getMonth([$EventDate])==1,'FEB',if(getMonth([$EventDate])==2,'MAR',if(getMonth([$EventDate])==3,'APR',if(getMonth([$EventDate])==4,'MAY',if(getMonth([$EventDate])==5,'JUN',if(getMonth([$EventDate])==6,'JUL',if(getMonth([$EventDate])==7,'AUG',if(getMonth([$EventDate])==8,'SEP',if(getMonth([$EventDate])==9,'OCT',if(getMonth([$EventDate])==10,'NOV','DEC')))))))))))",
+                    "txtContent": "=if(getMonth([$EventDate])==0,'JAN',if(getMonth([$EventDate])==1,'FEB',if(getMonth([$EventDate])==2,'MAR',if(getMonth([$EventDate])==3,'APR',if(getMonth([$EventDate])==4,'MAY',if(getMonth([$EventDate])==5,'JUN',if(getMonth([$EventDate])==6,'JUL',if(getMonth([$EventDate])==7,'AUG',if(getMonth([$EventDate])==8,'SEP',if(getMonth([$EventDate])==9,'OCT',if(getMonth([$EventDate])==10,'NIEV','DEC')))))))))))",
                     "attributes": {
                       "class": "ms-fontColor-themePrimary ms-fontWeight-semibold"
                     },

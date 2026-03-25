@@ -1,43 +1,43 @@
 # Out of Office
 
-## Summary
+## Podsumowanie
 This sample shows how to format a list to show upcoming employee time away from office. It features the following:
 - Responsive layout through flexbox
 - Conditionally showing a today icon if the out of office overlaps the current date
 - Conditionally changing the text which shows based on if the out of office start date is the current date
 - Use of theme color classes to ensure the format displays as intended regardless of theme (light, dark, custom, etc.)
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 > This sample is derived from the [birthdays](../birthdays) sample.
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Person|Who|Yes|
-|Date Time|Startdate|Yes|
-|Date Time|Enddate|No|
+|Pojedyncza linia tekstu|Title|Tak|
+|Person|Who|Tak|
+|Data Time|Startdate|Tak|
+|Data Time|Enddate|Nie|
 
 This sample relies on having a View set up which filters to only show items where either the Start date or the End date is greater than or equal to the current date. Make sure to apply the necessary filters in your view for this to work:
 
 ![View Filter](./assets/ViewFilter.png)
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 out-of-office.json | [Tom Resing](https://github.com/tomresing)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 14, 2021 |Initial release
+1.0|maja 14, 2021 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

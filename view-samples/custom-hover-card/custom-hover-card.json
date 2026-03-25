@@ -41,7 +41,7 @@
                   "elmType": "img",
                   "attributes": {
                     "src": "=if([$ProductPhoto] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$ProductPhoto])",
-                    "title": "=if([$ProductPhoto] == '', 'No picture available', [$Picture.desc])"
+                    "title": "=if([$ProductPhoto] == '', 'Brak dostępnego zdjęcia', [$Picture.desc])"
                   },
                   "style": {
                     "width": "100%",
@@ -133,7 +133,7 @@
                                     "cursor": "pointer",
                                     "padding": "10px"
                                   },
-                                  "txtContent": "Delete",
+                                  "txtContent": "Usuń",
                                   "customRowAction": {
                                     "action": "delete"
                                   },
@@ -154,7 +154,7 @@
                               "children": [
                                 {
                                   "elmType": "button",
-                                  "txtContent": "Edit",
+                                  "txtContent": "Edytuj",
                                   "style": {
                                     "border": "unset",
                                     "background-color": "unset",
@@ -695,7 +695,7 @@
                                         "font-weight": "=if([$StatusCode] > 0, '600', ''",
                                         "padding-left": "9px"
                                       },
-                                      "txtContent": "Ready to be packed",
+                                      "txtContent": "Gotowe do spakowania",
                                       "attributes": {
                                         "class": "ms-fontColor-green"
                                       }
@@ -764,7 +764,7 @@
                                         "font-weight": "=if([$StatusCode] > 0, '600', ''",
                                         "padding-left": "9px"
                                       },
-                                      "txtContent": "Packed",
+                                      "txtContent": "Spakowano",
                                       "attributes": {
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')"
                                       }
@@ -782,7 +782,7 @@
                                       "attributes": {
                                         "class": "ms-fontColor-black"
                                       },
-                                      "txtContent": "[$PackedDate]"
+                                      "txtContent": "[$SpakowanoDate]"
                                     }
                                   ]
                                 },
@@ -836,7 +836,7 @@
                                         "font-weight": "=if([$StatusCode] > 1, '600', ''",
                                         "padding-left": "9px"
                                       },
-                                      "txtContent": "Shipped",
+                                      "txtContent": "Wysłano",
                                       "attributes": {
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
                                       }
@@ -854,7 +854,7 @@
                                       "attributes": {
                                         "class": "ms-fontColor-black"
                                       },
-                                      "txtContent": "[$ShippedDate]"
+                                      "txtContent": "[$WysłanoDate]"
                                     }
                                   ]
                                 },
@@ -908,7 +908,7 @@
                                         "font-weight": "=if([$StatusCode] > 2, '600', ''",
                                         "padding-left": "9px"
                                       },
-                                      "txtContent": "In transit",
+                                      "txtContent": "W transporcie",
                                       "attributes": {
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
                                       }
@@ -980,7 +980,7 @@
                                         "font-weight": "=if([$StatusCode] > 3, '600', ''",
                                         "padding-left": "9px"
                                       },
-                                      "txtContent": "Delivered",
+                                      "txtContent": "Dostarczono",
                                       "attributes": {
                                         "class": "='ms-fontColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')"
                                       }
@@ -996,7 +996,7 @@
                                       "attributes": {
                                         "class": "ms-fontColor-black"
                                       },
-                                      "txtContent": "[$DeliveredDate]"
+                                      "txtContent": "[$DostarczonoDate]"
                                     }
                                   ]
                                 }

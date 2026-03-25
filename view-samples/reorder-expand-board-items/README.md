@@ -1,19 +1,19 @@
 # Reorder and Expand Board Items
 
-## Summary
+## Podsumowanie
 This sample allow users to manage card order in Board Views and also enables expanding and collapsing images. This sample has the option "**Move to Top**" that allows users to move cards to the top of the board view as a way to rearrange card positions.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
+Title | Pojedyncza linia tekstu 
 Category | Choice - Include the following options **"Started,Pending,Completed"**
-Order | Single line of text   - Manage the order of cards
-Image | Single line of text   - This field allow to include url to image.
+Order | Pojedyncza linia tekstu   - Manage the order of cards
+Image | Pojedyncza linia tekstu   - This field allow to include url to image.
 Expand | Yes/No - default value **"No"**
 
 ### Create Board View
@@ -28,20 +28,20 @@ Expand | Yes/No - default value **"No"**
    - Access to "**Sort**" Area and select column "**Order**" and check as **descending order**, this option order the cards based on changed.
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 reorder-expand-board-items.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 15, 2022|Initial release
+1.0|15 lutego 2022|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/reorder-expand-board-items" />

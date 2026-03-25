@@ -1,37 +1,37 @@
 # Product Gallery
 
-## Summary
+## Podsumowanie
 This sample demonstrates creating a custom gallery tile to show product information. Photos are referenced using a picture field and additional details are shown.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 > This format takes advantage of the `tileProps` property to create tiles in the Tiles layout for the view. To see the tiles, switch your layout to the Tiles layout after you've added the JSON.
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
+Title | Pojedyncza linia tekstu 
 ProductPhoto | Picture
-ProductPrice | Number
-Features | Multiple lines of text
+ProductPrice | Liczba
+Features | Wiele linii tekstu
 
 The size of the tile can be adjusted by changing the width and height values.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 product-gallery.json | [Rk Menon](https://github.com/rk-menon)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|Septmeber 9, 2019|Initial release
+1.0|Septmeber 9, 2019|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/product-gallery" />

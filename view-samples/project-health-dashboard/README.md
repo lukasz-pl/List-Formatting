@@ -1,45 +1,45 @@
 # Project Health Dashboard
 
-## Summary
+## Podsumowanie
 This is a template for Project health statuses; it has nice features such as Risk scoring, Severity of the project, Schedule timing, Hover effects that provide the latest project updates, Theme Colors, Project Team members, and the cost of the project.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ### Hover Display
 
-![screenshot of format with hover](./assets/screenshot-hover.png)
+![zrzut ekranu format with hover](./assets/screenshot-hover.png)
 
-## View requirements
+## Wymagania widoku
 This format expects the following columns to be part of the view:
 
-|Type|Internal Name|Required|Details|
+|Typ|Nazwa wewnętrzna|Wymagane|Details|
 |---|---|:---:|---|
-|Single line of text|Title|Yes|
-|Mulit-Person|ProjectMembers|Yes|
-|Currency|ProjectCost|Yes|
-|Number|Risk|Yes|
-|Yes/No|OnSchedule|Yes|
-|Choice|Severity|Yes|Critical, Poor, Fair, Good|
-|Multi-Text|ProjectUpdates|Yes|
+|Pojedyncza linia tekstu|Title|Tak|
+|Mulit-Person|ProjectMembers|Tak|
+|Currency|ProjectCost|Tak|
+|Liczba|Risk|Tak|
+|Yes/No|OnSchedule|Tak|
+|Choice|Severity|Tak|Critical, Poor, Fair, Good|
+|Multi-Text|ProjectUpdates|Tak|
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 project-health-dashboard.json | [Andres Ibarra](https://github.com/Riftsan)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 29, 2020|Initial release
+1.0|29 grudnia 2020|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 None
 

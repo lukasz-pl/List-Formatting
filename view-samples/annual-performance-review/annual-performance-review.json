@@ -220,7 +220,7 @@
             "children": [
               {
                 "elmType": "div",
-                "txtContent": "Edit Mode",
+                "txtContent": "Edytuj Mode",
                 "style": {
                   "display": "flex",
                   "height": "40%",

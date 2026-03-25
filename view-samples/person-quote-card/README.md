@@ -1,40 +1,40 @@
 # Person Quote Card
 
-## Summary
+## Podsumowanie
 
 This sample transforms list items into a template that displates quotes from People with a link to their Twitter (X) handle. The columns listed below must be included in the list view.
 
-![screenshot of the sample](./assets/screenshot.png)  
+![zrzut ekranu próbki](./assets/screenshot.png)  
 
 ![sample data](./assets/sample.png)
 
-## View requirements
+## Wymagania widoku
 
 Column Name                 | Type
 ----------------------------|-----------------------------------------
-Title                       | Single line of text
-Quote                       | Single line of text
-TwitterHandle               | Single line of text
+Title                       | Pojedyncza linia tekstu
+Quote                       | Pojedyncza linia tekstu
+TwitterHandle               | Pojedyncza linia tekstu
 Publisher                   | Person or Group
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 person-quote-card.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 14, 2025|Initial release
+1.0|14 stycznia 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 None
 

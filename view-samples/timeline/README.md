@@ -1,36 +1,36 @@
 # Timeline
 
-## Summary
+## Podsumowanie
 This sample formats your SharePoint list view to look like a timeline.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 **timeline-horizontal.json**
-![screenshot of the sample](./assets/screenshot-horizontal.gif)
+![zrzut ekranu próbki](./assets/screenshot-horizontal.gif)
 
-## View requirements
+## Wymagania widoku
 
 Column Name   |Type
 --------------|--------------
 Title         | Single Line Text
 Description   | Multi Line Text
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 timeline.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 timeline-horizontal.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
-## Version history
+## Historia wersji
 
-Version |Date              |Comments
+Version |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |October 17, 2020  |Initial release
-2.0     |November 17, 2020 |Added horizontal-timeline-format
+1.0     |października 17, 2020  |Wersja początkowa
+2.0     |listopada 17, 2020 |Added horizontal-timeline-format
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/timeline" />

@@ -1,6 +1,6 @@
 # Twitter Timeline
 
-## Summary
+## Podsumowanie
 This sample formats your SharePoint list view to look like Twitter. If you are using the Microsoft Flow Templates to track tweets in a SharePoint list, this is a great way to format your list so that it looks more like Twitter. For more info on Flow Templates that take Tweets and add them to a SharePoint list check out this template: https://us.flow.microsoft.com/en-us/galleries/public/templates/e78571e5c70e4806a18eeacba5a897c8/save-tweets-that-include-a-specific-hashtag-to-a-sharepoint-list/
 
 This sample features the following:
@@ -10,47 +10,47 @@ This sample features the following:
 - The Person's name is a hyperlink to their Profile
 - Pulls in Twitter Profile Pictures
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 Screen Capture of working Links
 
 ![Twitter Format Screenshot](./assets/SPTwitter.gif)
 
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Single line of text|TweetBy|Yes|
-|Single line of text|TweetByFullName|Yes|
-|Date Time|TweetDate|Yes|
-|Calculated Column|TweetFormattedDate|Yes|
-|Hyperlink|TwitterProfilePic|Yes|
-|Hyperlink|ProfileLink|Yes|
-|Hyperlink|LinkToTweet|Yes|
-|Multi Line of Text|FullTweet|Yes|
-|Number|NumbRetweets|Yes|
+|Pojedyncza linia tekstu|Title|Tak|
+|Pojedyncza linia tekstu|TweetBy|Tak|
+|Pojedyncza linia tekstu|TweetByFullName|Tak|
+|Data Time|TweetData|Tak|
+|Calculated Column|TweetFormattedData|Tak|
+|Hiperłącze|TwitterProfilePic|Tak|
+|Hiperłącze|ProfileLink|Tak|
+|Hiperłącze|LinkToTweet|Tak|
+|Multi Line of Text|FullTweet|Tak|
+|Liczba|NumbRetweets|Tak|
 
-You need the `TweetFormattedDate` Calculated Column so that it only shows the current month name spelled out and date (not the year or time). The formula for this calculated column is below:
+You need the `TweetFormattedData` Calculated Column so that it only shows the current month name spelled out and date (not the year or time). The formula for this calculated column is below:
 
-`=TEXT(TweetDate,"mmm d")`
+`=TEXT(TweetData,"mmm d")`
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
-twitter-timeline.json | [April Dunnam](https://github.com/aprildunnam)
+twitter-timeline.json | [kwietnia Dunnam](https://github.com/aprildunnam)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 2, 2019 |Initial release
+1.0|sierpnia 2, 2019 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

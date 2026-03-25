@@ -1,40 +1,40 @@
 # Image Slider
 
-## Summary
+## Podsumowanie
 This sample display images as a slider with navigation to the next image.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 > The image to display is determined by the `UpdateState` column where the order to display is stored. This is updated by the format for **All** users.
 
-## View requirements
+## Wymagania widoku
 - The format expect the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
-url | Single line of text  - url of image
-UpdateState | Single line of text - this field will be used order the images
+Title | Pojedyncza linia tekstu 
+url | Pojedyncza linia tekstu  - url of image
+UpdateState | Pojedyncza linia tekstu - this field will be used order the images
 
 ### Edit View requirements
 
    - **Sort**: sort by `UpdateState` in ascending order
-   - **Item Limit**: Edit the view and set _"Number of items to display"_ to **1** and check option _"Limit the total number of items returned to the specified amount."_
+   - **Item Limit**: Edit the view and set _"Liczba of items to display"_ to **1** and check option _"Limit the total number of items returned to the specified amount."_
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 image-slider.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 08, 2021|Initial release
+1.0|08 grudnia 2021|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/image-slider" />

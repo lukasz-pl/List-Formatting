@@ -1,45 +1,45 @@
 # Quiz
 
-## Summary
+## Podsumowanie
 
 This sample creates a quiz with multiple choice questions. The tile view and custom card props provide visual feedback to users when making answer choices.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|Notes|
+|Typ|Nazwa wewnętrzna|Wymagane|Notes|
 |---|---|:---:|---|
-|Single line of text|Title|Yes|Quiz question|
-|Single line of text|Answer|Yes|Quiz question answer|
-|Multi lines of text|Justification|Yes| |
-|Single line of text|Choice1|Yes|Quiz answer choice 1|
-|Single line of text|Choice2|Yes|Quiz answer choice 2|
-|Single line of text|Choice3|Yes|Quiz answer choice 3|
-|Single line of text|Choice4|Yes|Quiz answer choice 4|
-|Hyperlink|MoreInfo|No|
+|Pojedyncza linia tekstu|Title|Tak|Quiz question|
+|Pojedyncza linia tekstu|Answer|Tak|Quiz question answer|
+|Multi lines of text|Justification|Tak| |
+|Pojedyncza linia tekstu|Choice1|Tak|Quiz answer choice 1|
+|Pojedyncza linia tekstu|Choice2|Tak|Quiz answer choice 2|
+|Pojedyncza linia tekstu|Choice3|Tak|Quiz answer choice 3|
+|Pojedyncza linia tekstu|Choice4|Tak|Quiz answer choice 4|
+|Hiperłącze|MoreInfo|Nie|
 
 - You need to use the Gallery layout.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 quiz.json | [Anand Ragav](https://github.com/anandragav)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 29, 2023|Initial release
+1.0|29 kwietnia 2023|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - None
 

@@ -1,37 +1,37 @@
 # Group Header color change depending on amount of items grouped
 
-## Summary
+## Podsumowanie
 This is a sample of customizing the group header by showing a color code that changes depending on the amount of items in the group:
 
 - Less then 5 items shows the header as red, yellow, etc
 - Exactly 5 items shows the header as green
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The header will also show "x of 5", with x being the amount of items in the group.
 
-## View requirements
+## Wymagania widoku
 
 Group by a column of choice.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 group-header-color-itemcount.json | [Marijnsomers](https://github.com/marijnsomers)
 
-## Version history
+## Historia wersji
 
-Version |Date          |Comments
+Version |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |February 20, 2023 |Initial release
+1.0     |lutego 20, 2023 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - None
 

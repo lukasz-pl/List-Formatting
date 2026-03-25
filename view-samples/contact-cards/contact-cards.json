@@ -48,7 +48,7 @@
                     "elmType": "img",
                     "attributes": {
                       "src": "=if([$Picture] == '', @currentWeb + '/_layouts/15/userphoto.aspx?size=M', [$Picture])",
-                      "title": "=if([$Picture] == '', 'No picture available', [$Picture.desc])"
+                      "title": "=if([$Picture] == '', 'Brak dostępnego zdjęcia', [$Picture.desc])"
                     },
                     "style": {
                       "position": "relative",
@@ -351,7 +351,7 @@
                   "action": "delete"
                 },
                 "attributes": {
-                  "title": "Delete",
+                  "title": "Usuń",
                   "class": "ms-fontColor-neutralPrimary ms-fontColor-red--hover"
                 },
                 "style": {
@@ -374,7 +374,7 @@
                   "action": "editProps"
                 },
                 "attributes": {
-                  "title": "Edit",
+                  "title": "Edytuj",
                   "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover"
                 },
                 "style": {

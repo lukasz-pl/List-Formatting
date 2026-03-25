@@ -1,38 +1,38 @@
 # Random Item
 
-## Summary
+## Podsumowanie
 This sample demonstrates utilizing layering to draw all rows on top of each other and then the z-index is set to a randomized value to determine which row to draw on the very top.
 
 The trick is that the z-index is set using the `@now` parameter with a modulo operator against the total number of items (7). This number should be updated to match the number of items in the list you are trying to display. However, it can also be dynamic by setting this to a relatively high number.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
 In the above use case, this format has been used to display a random turkey fact! This can easily be added to a page using the list web part and will act as a miniature application.
 
-![screenshot of the sample on a page](./assets/screenshotOnPage.png)
+![zrzut ekranu the sample on a page](./assets/screenshotOnPage.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Multiple line of text|Details|Yes|
+|Pojedyncza linia tekstu|Title|Tak|
+|Multiple line of text|Details|Tak|
 |Image|Image|Yes
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 random-item.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 15, 2022|Initial release
+1.0|15 kwietnia 2022|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

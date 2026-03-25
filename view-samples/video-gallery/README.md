@@ -1,11 +1,11 @@
 # Video Gallery
 
-## Summary
+## Podsumowanie
 A gallery view of video stored in SharePoint with a card layout showing rich metadata such as title, description, people, tools topics covered, social sharing options like yammer, share and like.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 Column Name   |Type
 --------------|--------------
@@ -16,29 +16,29 @@ Session       | Single Line Text
 About         | Multi Line Text
 Responsible   | Person or Group
 Image         | Image
-Learning      | Hyperlink
-Yammer        | Hyperlink
+Learning      | Hiperłącze
+Yammer        | Hiperłącze
 User          | Person or Group
 Age           | Calculated (=DATEDIF(Created,TODAY(),"d"))
 Tool          | Choice
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 video-gallery.json | [Anand Ragav](https://github.com/anandragav)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 23, 2021|Initial release
+1.0|23 listopada 2021|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/video-gallery" />

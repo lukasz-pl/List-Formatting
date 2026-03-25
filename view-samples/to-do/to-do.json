@@ -360,12 +360,12 @@
                         },
                         "attributes": {
                           "src": "=getUserImage([$Editor.email], 'S')",
-                          "title": "[$Editor.title]"
+                          "title": "[$Edytujor.title]"
                         }
                       },
                       {
                         "elmType": "span",
-                        "txtContent": "[$Editor.title]",
+                        "txtContent": "[$Edytujor.title]",
                         "style": {
                           "font-size": "12px",
                           "font-weight": "200"

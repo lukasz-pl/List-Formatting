@@ -1,11 +1,11 @@
 # Budget Tracker
 
-## Summary
+## Podsumowanie
 The budget tracker sample demonstrates how to use view formatting to format lists and display views of the lists inside connected web parts. This provides the ability to view the budget items associated with individual projects on a single page. 
 
- ![screenshot of the sample](./assets/screenshot.png)
+ ![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 This solution is comprised of a library, 3 lookup lists, and 2 primary lists. This is a complicated setup. Fortunately, you can also have all lists (including sample data) setup for you by using the provisioning instructions below.
 
@@ -65,22 +65,22 @@ After the script has successfully run you will see the following screen.
 
  ![screenshot on a page](assets/screenshot.png)
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 budget-tracker.json | [Todd Baginski](https://github.com/TBag), Chris McNulty, Chad Liu, Damian Gibbs, Randy Wang
 budget-tracker-activity-milestone.json | [Todd Baginski](https://github.com/TBag), Chris McNulty, Chad Liu, Damian Gibbs, Randy Wang
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 29, 2020|Initial release
+1.0|29 stycznia 2020|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

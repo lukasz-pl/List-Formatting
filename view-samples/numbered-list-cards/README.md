@@ -1,34 +1,34 @@
-# Numbered List Card
+# Liczbaed List Card
 
-## Summary
+## Podsumowanie
 This sample converts list items into numbered list cards. The numbering is done using `@rowIndex` JSON formatting value. If you prefer custom ordering, create a new column and use it for sorting in the SharePoint view. To ensure the view works properly, ensure all required columns are included.
 
 The sample includes two different JSON files: one where the numbering background uses a SharePoint theme color, and another that uses a custom image for the background.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
-|Type               |Internal Name|Required|
+## Wymagania widoku
+|Type               |Internal Name|Wymagane|
 |-------------------|-------------|:------:|
-|Single line of text|Title        |     |
-|Multiple lines of text|Description  |        |
+|Pojedyncza linia tekstu|Title        |     |
+|Wiele linii tekstu|Description  |        |
 
 - Make sure to use the List View and include all the specified fields in the view.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 numbered-list-cards.json | [Tanel Vahk](https://github.com/tvahk)
 numbered-list-cards-background.json | [Tanel Vahk](https://github.com/tvahk)
 
-## Version history
+## Historia wersji
 
-Version |Date             |Comments
+Version |Data             |Uwagi
 --------|-----------------|--------------------------------
-1.0     |October 01, 2024 |Initial release
+1.0     |października 01, 2024 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/numbered-list-cards" />

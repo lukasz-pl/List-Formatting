@@ -1,6 +1,6 @@
 # Project Gantt Chart
 
-## Summary
+## Podsumowanie
 This project Gantt Chart sample demonstrates how to show a list of high level tasks in a Gantt chart. It is mainly useful for top-level views.
 
 So this
@@ -9,45 +9,45 @@ So this
 
 Turns into this
 
-![screenshot of the sample](./assets/screenshot.png)  
+![zrzut ekranu próbki](./assets/screenshot.png)  
 
-## View requirements
+## Wymagania widoku
 This format expects the following columns to be part of the view:
 
-|Type|Internal Name|Required|Values\
+|Typ|Nazwa wewnętrzna|Wymagane|Values\
 |---|---|---|:---:|
-|Single line of text|Title|Yes||
-|Date|ProjectStart|Yes||
-|Date|ProjectDue|Yes||
-|Date|TaskStart|Yes||
-|Date|TaskDue|Yes||
-|Number|Progress|Yes||
-|Choice|TaskType|No|Task, Milestone|
-|People (single select)|AssignedToUser|Yes||
-|Multilines of text (no format)|TaskDescription|Yes||
+|Pojedyncza linia tekstu|Title|Tak||
+|Data|ProjectStart|Tak||
+|Data|ProjectDue|Tak||
+|Data|TaskStart|Tak||
+|Data|TaskDue|Tak||
+|Liczba|Progress|Tak||
+|Choice|TaskType|Nie|Task, Milestone|
+|People (single select)|AssignedToUser|Tak||
+|Multilines of text (no format)|TaskDescription|Tak||
 
 The view should be sorted by `TaskStart`, ascending
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 project-gantt-chart.json | [Geert de Kooter](https://github.com/gdk-max)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 1, 2020|Initial release
-2.0|February 10, 2021| Added status Progress indicator, current date indicator, and width fixes
-3.0|August 12, 2023|Added Milestones, Progressbar, Clicks to update the progress, Task description, Task assignment, Labels that mover from right to left based on the amount of space.
+1.0|1 listopada 2020|Wersja początkowa
+2.0|10 lutego 2021| Added status Progress indicator, current date indicator, and width fixes
+3.0|12 sierpnia 2023|Added Milestones, Progressbar, Clicks to update the progress, Task description, Task assignment, Labels that mover from right to left based on the amount of space.
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 None
 

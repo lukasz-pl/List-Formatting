@@ -1,49 +1,49 @@
 # Menu Link Button
 
-## Summary
+## Podsumowanie
 
 This sample has been inspired by [menu-link-tiles](https://github.com/pnp/List-Formatting/tree/master/view-samples/menu-link-tiles) by [André Lage](https://github.com/aaclage). It includes a Button style menu similar to Quick Links Button style with additional features such as using **width** , **height**, **color** and **fontColor**, and also includes `customCardProps` to show a custom hover card with the **description** of a tile.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 Also, this sample is responsive.
 
 ![Quick Links Button Style ](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 
 - The format expect the following fields:
 
-|Type|Internal Name|Required|Notes|
+|Typ|Nazwa wewnętrzna|Wymagane|Notes|
 |---|---|:---:|---|
-|Single line of text|Title|Yes| |
-|Multiple line of text|Description|No| |
-|Single line of text|BackgroundColor|No|Select one of this pre defined case-sensitive colors - (**empty/null, Green, Red, Cyan, CyanBlue, Gray, MagentaPink, BlueMagenta, Orange, OrangeYellow, RedOrange**). |
-|Single line of text|FontColor|No|Set the HTML color code or color name (e.g. #CD5C5C, pink). If not set, the color is white.|
-|Single line of text|Icon|No|Set the icon name for [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons).|
-|Hyperlink|URL|Yes| |
-|Yes/No|NewTab|No|This field is used to open the link the same tab or new tab.|
-|Number|Width|No|If not set, the default width is set to 100px.|
-|Number|Height|No|If not set, the default width is set to 40px.|
+|Pojedyncza linia tekstu|Title|Tak| |
+|Multiple line of text|Description|Nie| |
+|Pojedyncza linia tekstu|BackgroundColor|Nie|Select one of this pre defined case-sensitive colors - (**empty/null, Green, Red, Cyan, CyanBlue, Gray, MagentaPink, BlueMagenta, Orange, OrangeYellow, RedOrange**). |
+|Pojedyncza linia tekstu|FontColor|Nie|Set the HTML color code or color name (e.g. #CD5C5C, pink). If not set, the color is white.|
+|Pojedyncza linia tekstu|Icon|Nie|Set the icon name for [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons).|
+|Hiperłącze|URL|Tak| |
+|Yes/No|NewTab|Nie|This field is used to open the link the same tab or new tab.|
+|Liczba|Width|Nie|If not set, the default width is set to 100px.|
+|Liczba|Height|Nie|If not set, the default width is set to 40px.|
 
 ### Edit View requirements
 
 - Sort by the `Modified` column in descending order
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 menu-link-button.json | [Reshmee Auckloo](https://github.com/reshmee011)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 03, 2023|Initial release
+1.0|03 maja 2023|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/menu-link-button" />

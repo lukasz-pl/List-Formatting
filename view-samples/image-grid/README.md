@@ -1,6 +1,6 @@
 # Image Grid
 
-## Summary
+## Podsumowanie
 
 Displays images in a grid layout with customisable height and width. The sample was inspired by the [chevron-shape-format](https://github.com/pnp/List-Formatting/tree/master/view-samples/chevron-shape-format) by [André Lage](https://github.com/aaclage).
 On click of each post, the link specified by the URL is opened. On hover on each image the description of the image is shown. Optionally an icon is displayed on the top right of the image.
@@ -9,7 +9,7 @@ This sample includes two formatting options:
 
 1. **image-grid.json** - Original row formatter for displaying images in a grid layout
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ![Animated GIF of the Styled SharePoint List View In Action](./assets/screenshot-animated.gif)
 
@@ -18,9 +18,9 @@ This sample includes two formatting options:
 
 2. **Image-grid-horizontally.json** - Tile formatter designed for Gallery view type to display images horizontally
 
-![screenshot of the sample](./assets/screenshotHorisontal.png)
+![zrzut ekranu próbki](./assets/screenshotHorisontal.png)
 
-## View requirements
+## Wymagania widoku
 
 This sample provides two different formatting approaches:
 
@@ -30,15 +30,15 @@ Use this format with standard list views. Note: Due to recent changes in Microso
 - Apply the formatting using **Format current view** option
 - The format expect the following fields:
 
-|Type|Internal Name|Required|Notes|
+|Typ|Nazwa wewnętrzna|Wymagane|Notes|
 |---|---|:---:|---|
-|Multiple line of text|Description|Yes| |
-|Single line of text|Icon|No|Set the icon name for [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons).|
-|Hyperlink|URL|Yes| |
-|Yes/No|NewTab|No|This field is used to open the link the same tab or new tab.|
-|Number|Width|No|If not set, the default width is set to 100px.|
-|Number|Height|No|If not set, the default height is set to 100px.|
-|Image|Image|Yes||
+|Multiple line of text|Description|Tak| |
+|Pojedyncza linia tekstu|Icon|Nie|Set the icon name for [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons).|
+|Hiperłącze|URL|Tak| |
+|Yes/No|NewTab|Nie|This field is used to open the link the same tab or new tab.|
+|Liczba|Width|Nie|If not set, the default width is set to 100px.|
+|Liczba|Height|Nie|If not set, the default height is set to 100px.|
+|Image|Image|Tak||
 
 ### Option 2: Tile Formatter (Image-grid-horizontally.json) - Recommended
 Use this format with **Gallery** view type for optimal horizontal image display.
@@ -48,13 +48,13 @@ Use this format with **Gallery** view type for optimal horizontal image display.
 - Uses fixed dimensions (160px width, 150px height) for consistent display
 - The format expect the following fields:
 
-|Type|Internal Name|Required|Notes|
+|Typ|Nazwa wewnętrzna|Wymagane|Notes|
 |---|---|:---:|---|
-|Multiple line of text|Description|Yes|Displayed in hover card|
-|Single line of text|Icon|No|Set the icon name for [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons).|
-|Hyperlink|URL|Yes| |
-|Yes/No|NewTab|No|This field is used to open the link the same tab or new tab.|
-|Image|Image|Yes||
+|Multiple line of text|Description|Tak|Displayed in hover card|
+|Pojedyncza linia tekstu|Icon|Nie|Set the icon name for [Fluent UI Icons](https://developer.microsoft.com/fluentui#/styles/web/icons).|
+|Hiperłącze|URL|Tak| |
+|Yes/No|NewTab|Nie|This field is used to open the link the same tab or new tab.|
+|Image|Image|Tak||
 
 ### Technologies Used
 
@@ -69,27 +69,27 @@ Use this format with **Gallery** view type for optimal horizontal image display.
 
 * Format the view and copy and paste the JSON provided.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 image-grid.json | [Reshmee Auckloo](https://github.com/Reshmee011)
 Image-grid-horizontally.json | [Valeras Narbutas](https://github.com/ValerasNarbutas)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 20, 2023|Initial release
-2.0|July 30, 2025|Updated to include tile formatter for Gallery view type
+1.0|20 maja 2023|Wersja początkowa
+2.0|30 lipca 2025|Updated to include tile formatter for Gallery view type
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 The following issues and pull request are related to the deprecation of the `float` style:
 - [Deprecating float style prop in custom formatter by tpodugu-ms · Pull Request #10169 · SharePoint/sp-dev-docs](https://github.com/SharePoint/sp-dev-docs/pull/10169)

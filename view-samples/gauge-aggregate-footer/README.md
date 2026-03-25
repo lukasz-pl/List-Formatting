@@ -1,17 +1,17 @@
 # Gauge Aggregate Footer
 
-## Summary
+## Podsumowanie
 
 This sample shows a gauge in the list footer (when aggregates are enabled).
 
-![Screenshot of the sample](./assets/screenshot.png)
+![Zrzut ekranu the sample](./assets/screenshot.png)
 
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Number|any|Yes|
+|Liczba|any|Tak|
 
 This format can be applied to any list where a column has an aggregate function (ie sum, average, etc.).
 
@@ -19,25 +19,25 @@ The format assumes a value between 0 and 10 (and is converting to a percentage).
 
 > By default, this format will be applied to ALL aggregate columns. To filter only to a specific field, add a check for the `@columnAggregate.columnDisplayName` and hide accordingly.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 gauge-aggregate-footer.json | [Chris Kent](https://github.com/thechriskent)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 4, 2022|Initial release
+1.0|4 kwietnia 2022|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/gauge-aggregate-footer" />

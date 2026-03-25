@@ -171,11 +171,11 @@
                       "style": {
                         "color": "#a7a7a7"
                       },
-                      "txtContent": "Editor Name"
+                      "txtContent": "Edytujor Name"
                     },
                     {
                       "elmType": "div",
-                      "txtContent": "[$Editor.title]",
+                      "txtContent": "[$Edytujor.title]",
                       "defaultHoverField": "[$Editor]"
                     }
                   ]
@@ -222,7 +222,7 @@
                     "actionParams": "{\"id\": \"183bedd4-6f2b-4264-855c-9dc7617b4dbe\"}"
                   },
                   "attributes": {
-                    "title": "Edit"
+                    "title": "Edytuj"
                   },
                   "style": {
                     "padding": "5px 10px",
@@ -245,7 +245,7 @@
                     "action": "editProps"
                   },
                   "attributes": {
-                    "title": "Edit"
+                    "title": "Edytuj"
                   },
                   "style": {
                     "padding": "5px",
@@ -257,7 +257,7 @@
                   "children": [
                     {
                       "elmType": "span",
-                      "txtContent": "Edit Item"
+                      "txtContent": "Edytuj element"
                     }
                   ]
                 }

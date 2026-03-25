@@ -1,11 +1,11 @@
 # Interactive Content Card with Explore Button
 
-## Summary
+## Podsumowanie
 
 This sample uses **SharePoint List Formatting** to display list items as **modern card tiles** with a prominent image header, icon overlay, and call-to-action button.  
 Each card features a fixed 365x400px layout with an image background, branded icon badge, title/description content area, and an "Explore Section" button that opens external links.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## View Requirements
 
@@ -13,11 +13,11 @@ Create a list with the following columns:
 
 | Internal Name   | Type               | Description |
 |-----------------|--------------------|-------------|
-| **Title**       | Single line of text| Card title/heading |
-| **Description** | Multiple lines of text | Card description/summary |
+| **Title**       | Pojedyncza linia tekstu| Card title/heading |
+| **Description** | Wiele linii tekstu | Card description/summary |
 | **Image**       | Single of text          | Main card background image (upload image siteassets) |
-| **IconUrl**     | Single line of text | Small icon for the overlay badge (upload image/url siteassets) |
-| **Url**         | Hyperlink          | Target URL for the "Explore Section" button |
+| **IconUrl**     | Pojedyncza linia tekstu | Small icon for the overlay badge (upload image/url siteassets) |
+| **Url**         | Hiperłącze          | Target URL for the "Explore Section" button |
 
 
 ## How it Works
@@ -37,20 +37,20 @@ Create a list with the following columns:
 - **Accessibility**: Proper contrast ratios and semantic HTML structure
 - **Interactive Elements**: Hover-friendly button styling
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 interactive-content-card.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 16, 2025|Initial release
+1.0|16 września 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

@@ -125,7 +125,7 @@
                             },
                             {
                               "elmType": "span",
-                              "txtContent": "Edit",
+                              "txtContent": "Edytuj",
                               "style": {
                                 "text-align": "left",
                                 "flex-grow": "1",
@@ -205,7 +205,7 @@
                             },
                             {
                               "elmType": "span",
-                              "txtContent": "Delete",
+                              "txtContent": "Usuń",
                               "style": {
                                 "text-align": "left",
                                 "flex-grow": "1",

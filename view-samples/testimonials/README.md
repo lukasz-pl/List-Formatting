@@ -1,36 +1,36 @@
 # Testimonials
 
-## Summary
+## Podsumowanie
 This is a template for testimonials (Business Statements), it has nice features such as directional messages, styles, utilizes the current theme colors, image persona hover card, overflow logic and even has some SVG Magic! 🙌
 
-![screenshot of the sample](./assets/screenshot.gif)  
+![zrzut ekranu próbki](./assets/screenshot.gif)  
 
-## View requirements
+## Wymagania widoku
 This format expects the following columns to be part of the view:
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Person|BusinessLead|Yes|
-|Multi-line Text|Statement|Yes|
+|Person|BusinessLead|Tak|
+|Multi-line Text|Statement|Tak|
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 testimonials.json | [Andres Ibarra](https://github.com/Riftsan)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 29, 2020|Initial release
+1.0|29 grudnia 2020|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 None
 

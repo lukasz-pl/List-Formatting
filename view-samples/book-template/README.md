@@ -1,26 +1,26 @@
 # Book Template Card Formatter
 
-## Summary
+## Podsumowanie
 
 This SharePoint JSON view formatting sample transforms your list items into visually rich book cards. Each card displays a book cover, title, author, price, category, release date, best seller badge, and more. It is ideal for book catalogues, libraries, or online bookstore lists.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
 ### SharePoint List Columns
 
 | Column Name      | Type                   | Description                                 |
 |------------------|------------------------|---------------------------------------------|
-| Title            | Single line of text    | Book title                                  |
-| BookAuthor       | Single line of text    | Author of the book                          |
-| BookAbstract     | Multiple lines of text | Short extract or summary of the book        |
-| Category         | Single line of text    | Book category (e.g., Fantasy, Classic)      |
-| Price            | Single line of text    | Price of the book                           |
-| BookCoverUrl     | Single line of text    | URL to the book cover image                 |
+| Title            | Pojedyncza linia tekstu    | Book title                                  |
+| BookAuthor       | Pojedyncza linia tekstu    | Author of the book                          |
+| BookAbstract     | Wiele linii tekstu | Short extract or summary of the book        |
+| Category         | Pojedyncza linia tekstu    | Book category (e.g., Fantasy, Classic)      |
+| Price            | Pojedyncza linia tekstu    | Price of the book                           |
+| BookCoverUrl     | Pojedyncza linia tekstu    | URL to the book cover image                 |
 | IsBestSeller     | Yes/No                 | Indicates if the book is a best seller      |
-| ReleaseDate      | Date and Time          | Book release date                           |
-| FindInStoreUrl   | Single line of text    | Link to find the book in a store (e.g., map)|
+| ReleaseData      | Data i godzina          | Book release date                           |
+| FindInStoreUrl   | Pojedyncza linia tekstu    | Link to find the book in a store (e.g., map)|
 | AddToCart        | Yes/No                 | Add to cart flag                            |
 
 > [!NOTE]
@@ -28,24 +28,24 @@ This SharePoint JSON view formatting sample transforms your list items into visu
 > - A [PowerShell Script](./assets/Create%20List.ps1) is provided in the assets folder to provision the list and add sample data.
 > - This script uses [PnP PowerShell](https://pnp.github.io/powershell/) and requires an environment ready for PnP PowerShell.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 book-template.json | [Sudeep Ghatak](https://github.com/sudeepghatak)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|Aug 31, 2025|Initial release
+1.0|Aug 31, 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - This sample includes a visually rich card layout for books, with best seller highlighting and store location links.
 

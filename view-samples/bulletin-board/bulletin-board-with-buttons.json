@@ -128,7 +128,7 @@
         },
         "attributes": {
           "class": "ms-fontColor-themeLight ms-fontColor-themeDark--hover",
-          "title": "Share Item"
+          "title": "Udostępnij element"
         },
         "style": {
           "border": "none",
@@ -155,7 +155,7 @@
         },
         "attributes": {
           "class": "ms-fontColor-themeLight ms-fontColor-themeDark--hover",
-          "title": "Delete Item"
+          "title": "Usuń element"
         },
         "style": {
           "border": "none",

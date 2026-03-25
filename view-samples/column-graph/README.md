@@ -1,10 +1,10 @@
 # Column Graph format
 
-## Summary
+## Podsumowanie
 
 This sample shows how to format a list to show the data as a column graph. In this instance we are showing number of views per blog.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
 The sample features the following:
 - Conditionally showing a crown icon if the item is marked as MostRead
@@ -16,15 +16,15 @@ The sample features the following:
 ### Item Hover view
 ![Column Graph with Title Screenshot](./assets/columngraph_with_title.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|
+|Typ|Nazwa wewnętrzna|Wymagane|
 |---|---|:---:|
-|Single line of text|Title|Yes|
-|Number|Views||
+|Pojedyncza linia tekstu|Title|Tak|
+|Liczba|Views||
 |Yes/No|MostRead||
 
-### Setup
+### Konfiguracja
 
 The sample needs the following setup:
 - Only one item needs to have `MostRead` as yes
@@ -33,20 +33,20 @@ The idea is that this data gets populated via some code so that it can represent
 
 In the sample, the height of the parent div is set to 800px and the child div calculates heights. The heights are calcuated considering 1000 as the max number of views. If this number needs changed, please update the formulas in lines 89 and 112 accordingly.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 column-graph.json | [Anoop Tatti](https://github.com/anoopt)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 15, 2019 |Initial release
+1.0|sierpnia 15, 2019 |Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

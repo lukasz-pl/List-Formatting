@@ -140,7 +140,7 @@
               "action": "defaultClick"
             },
             "attributes": {
-              "title": "Edit",
+              "title": "Edytuj",
               "class": "ms-fontColor-neutralPrimary ms-fontColor-themePrimary--hover"
             },
             "style": {
@@ -163,7 +163,7 @@
               "action": "delete"
             },
             "attributes": {
-              "title": "Delete",
+              "title": "Usuń",
               "class": "ms-fontColor-neutralPrimary ms-fontColor-red--hover"
             },
             "style": {

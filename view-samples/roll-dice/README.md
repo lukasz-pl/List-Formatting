@@ -1,38 +1,38 @@
 # Roll Dice
 
-## Summary
+## Podsumowanie
 This sample format provides a simulation of a game where a random number (between 1 and 6) is generated and displayed as a die. The value makes the progress bar advance with the associated emoji until the value 0 is reached and the winner emoji appears.
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 - The format expects the following fields:
 
 Field |Type
 --------|---------
-Title | Single line of text 
-Value | Number
-Value2 | Number
-Dice | Number
-Dice2 | Number
-Position | Single line of text 
-Character1 | Single line of text - Include emoji of runner "🏃‍♀️"
-Character2 | Single line of text - Include emoji of runner "🏃"
+Title | Pojedyncza linia tekstu 
+Value | Liczba
+Value2 | Liczba
+Dice | Liczba
+Dice2 | Liczba
+Position | Pojedyncza linia tekstu 
+Character1 | Pojedyncza linia tekstu - Include emoji of runner "🏃‍♀️"
+Character2 | Pojedyncza linia tekstu - Include emoji of runner "🏃"
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 roll-dice.json | [André Lage](https://github.com/aaclage)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 21, 2022|Initial release
+1.0|21 stycznia 2022|Wersja początkowa
 
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/roll-dice" />

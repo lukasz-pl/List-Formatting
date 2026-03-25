@@ -3,7 +3,7 @@
 This sample uses **SharePoint List Formatting** to automatically generate QR codes for each list item based on the Title field.  
 Each row displays the item title alongside a dynamically generated QR code, making it easy to create scannable links or references for physical handouts, inventory tracking, or event management.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 ![Gif of the qr code scan](./assets/qr.gif)
 
 ## View Requirements
@@ -12,19 +12,19 @@ Create a list with the following columns:
 
 | Internal Name   | Type               |
 |-----------------|--------------------|
-| **Title**       | Single line of text|
-| **QR**          | Single line of text|
+| **Title**       | Pojedyncza linia tekstu|
+| **QR**          | Pojedyncza linia tekstu|
 
 *Note: Additional columns can be added as needed for your specific use case.*
 
-## Sample Data
+## Próbka Data
 
 | Title                    |
 |--------------------------|
 | Sai Bandaru              |
 | Budvik                   |
 
-## Summary
+## Podsumowanie
 
 - The formatter displays each list item's **Title** with a corresponding **QR code**
 - QR codes are generated dynamically using the [QRServer.com API](https://goqr.me/api/)
@@ -44,20 +44,20 @@ Create a list with the following columns:
 
 **Without this security configuration, QR codes will not display due to SharePoint's content security policies.**
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 qr-code.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 29, 2025|Initial release
+1.0|29 sierpnia 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 

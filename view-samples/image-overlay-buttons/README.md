@@ -2,13 +2,13 @@
 
 A custom SharePoint list formatting JSON that displays images with overlay buttons in a modern card layout, designed to work consistently across all image aspect ratios.
 
-## Summary
+## Podsumowanie
 
 This improved formatting creates an attractive card-style view for SharePoint lists containing images with action buttons overlaid on the image. The solution uses absolute positioning and a consistent container height to ensure buttons appear reliably regardless of image orientation or aspect ratio.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## Features
+## Funkcje
 
 - **Responsive Image Display**: Images fill container while maintaining aspect ratio
 - **Consistent Overlay Buttons**: Always positioned at bottom
@@ -17,17 +17,17 @@ This improved formatting creates an attractive card-style view for SharePoint li
 - **Professional Styling**: Clean appearance with shadows and rounded corners
 - **Secure External Links**: Opens in new tab with proper security attributes
 
-## View requirements
+## Wymagania widoku
 
 Your SharePoint list must have the following columns:
 
 | Column Name | Type | Description |
 |-------------|------|-------------|
-| `ImageUrl` | Single line of text or Hyperlink | URL to the image to display |
-| `Button1Label` | Single line of text | Text for the first button |
-| `Button1Url` | Hyperlink | URL for the first button |
-| `Button2Label` | Single line of text | Text for the second button |
-| `Button2Url` | Hyperlink | URL for the second button |
+| `ImageUrl` | Pojedyncza linia tekstu or Hiperłącze | URL to the image to display |
+| `Button1Label` | Pojedyncza linia tekstu | Text for the first button |
+| `Button1Url` | Hiperłącze | URL for the first button |
+| `Button2Label` | Pojedyncza linia tekstu | Text for the second button |
+| `Button2Url` | Hiperłącze | URL for the second button |
 
 ## Installation
 
@@ -149,19 +149,19 @@ For testing different aspect ratios:
 - **Square**: 1:1 ratio
 
 
-### Sample
+### Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|Sep 04, 2025|Initial release
+1.0|Sep 04, 2025|Wersja początkowa
 
-## Disclaimer
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+## Zastrzeżenie
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/image-overlay-buttons" />

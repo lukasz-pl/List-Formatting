@@ -1,15 +1,15 @@
 # Rating in Tiles
 
-## Summary
+## Podsumowanie
 
 This sample demonstrates how to create a clickable rating experience in the view Tile mode. It allows users to rate the item/document when in the tile mode. 
 
-![screenshot of the sample](./assets/screenshot.gif)
+![zrzut ekranu próbki](./assets/screenshot.gif)
 
-## View requirements
+## Wymagania widoku
 
 ### Create a list using the template Recipe Tracker
-![screenshot of create list](./assets/create-list.png)
+![zrzut ekranu create list](./assets/create-list.png)
 
 ### Enabling the ratings feature (Only communication site)
 The ratings feature is available by default in the team site, but not in the communication site. If you want to use the ratings feature in the list of communication sites, you need to enable the feature GUID `915c240e-a6cc-49b8-8b2c-0bff8b553ed3`. The following is an example of how to enable it using [PnP PowerShell](https://pnp.github.io/powershell).
@@ -26,13 +26,13 @@ Disconnect-PnPOnline
 2. Click **List Settings**
 3. Under **General Settings**, click **Rating Settings**.
 
-   ![screenshot of how to add the ratings feature](./assets/set-listsettings-rating-1.png)
+   ![zrzut ekranu how to add the ratings feature](./assets/set-listsettings-rating-1.png)
 
 4. Under **Rating Settings**, click **Yes**.
 5. Under **Which voting/rating experience you would like to enable for this list?**, click **Rating**.
 6. Click **OK**.
 
-   ![screenshot of how to add the ratings feature](./assets/set-listsettings-rating-2.png)
+   ![zrzut ekranu how to add the ratings feature](./assets/set-listsettings-rating-2.png)
 
 ### Adding rating fields to the default view
 The following is an example of how to add the rating related fields to the default view using [PnP PowerShell](https://pnp.github.io/powershell).
@@ -54,25 +54,25 @@ After this the default view should look like:
  ![screenshot list view columns](./assets/view-columns.png)
 
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 rating-in-tiles.json | [Luís Ribeiro](https://github.com/luis-ribeiro)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 22, 2023|Initial release
+1.0|22 października 2023|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 None
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/view-samples/rating-in-tiles" />

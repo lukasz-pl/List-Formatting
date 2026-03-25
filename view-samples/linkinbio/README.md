@@ -1,49 +1,49 @@
 # Linkinbio
 
-## Summary
+## Podsumowanie
 
 This sample creates a link in bio card for users. A "Link in bio" is important for people to have because it provides a centralized location where they can direct their followers or potential customers to access more information about them, their products, or their services.
 
-![screenshot of the sample](./assets/screenshot.png)
+![zrzut ekranu próbki](./assets/screenshot.png)
 
-## View requirements
+## Wymagania widoku
 
-|Type|Internal Name|Required|Notes|
+|Typ|Nazwa wewnętrzna|Wymagane|Notes|
 |---|---|:---:|---|
-|Person|Person|Yes||
-|Multi lines of text|Bio|Yes||
-|Hyperlink|Yammer|No||
-|Hyperlink|TeamsCall|No|Set up a [deep link to call a person in Teams](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-workflow?tabs=teamsjs-v2#deep-link-to-start-an-audio-video-call-with-users).|
-|Hyperlink|TeamsChat|No|Set up a [deep link to chat with a person in Teams](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-workflow?tabs=teamsjs-v2#deep-link-to-start-a-new-chat).|
-|Hyperlink|LinkedIn|No||
-|Hyperlink|Twitter|No||
-|Hyperlink|Website|No||
-|Hyperlink|Blog|No||
-|Hyperlink|Newsletter|No||
-|Hyperlink|Coffee|No||
-|Hyperlink|Bookings|No||
+|Person|Person|Tak||
+|Multi lines of text|Bio|Tak||
+|Hiperłącze|Yammer|Nie||
+|Hiperłącze|TeamsCall|Nie|Set up a [deep link to call a person in Teams](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-workflow?tabs=teamsjs-v2#deep-link-to-start-an-audio-video-call-with-users).|
+|Hiperłącze|TeamsChat|Nie|Set up a [deep link to chat with a person in Teams](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-workflow?tabs=teamsjs-v2#deep-link-to-start-a-new-chat).|
+|Hiperłącze|LinkedIn|Nie||
+|Hiperłącze|Twitter|Nie||
+|Hiperłącze|Website|Nie||
+|Hiperłącze|Blog|Nie||
+|Hiperłącze|Newsletter|Nie||
+|Hiperłącze|Coffee|Nie||
+|Hiperłącze|Bookings|Nie||
 
 - You need to use the Gallery layout.
 
-## Sample
+## Próbka
 
-Solution|Author(s)
+Rozwiązanie|Autor(zy)
 --------|---------
 linkinbio.json | [Anand Ragav](https://github.com/anandragav)
 
-## Version history
+## Historia wersji
 
-Version|Date|Comments
+Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 22, 2023|Initial release
+1.0|22 kwietnia 2023|Wersja początkowa
 
-## Disclaimer
+## Zastrzeżenie
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**TEN KOD JEST DOSTARCZANY *W STANIE, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional notes
+## Dodatkowe uwagi
 
 - None
 

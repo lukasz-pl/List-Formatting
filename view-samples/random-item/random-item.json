@@ -53,7 +53,7 @@
       },
       {
         "elmType": "div",
-        "txtContent": "[$Details]",
+        "txtContent": "[$Szczegóły]",
         "style": {
           "font-size": "14px"
         }
