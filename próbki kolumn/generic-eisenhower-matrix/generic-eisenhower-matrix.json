@@ -24,7 +24,7 @@
       "children": [
         {
           "elmType": "div",
-          "txtContent": "Do",
+          "txtContent": "Zrób",
           "style": {
             "display": "flex",
             "min-height": "45px",
@@ -50,7 +50,7 @@
         },
         {
           "elmType": "div",
-          "txtContent": "Decide",
+          "txtContent": "Zdecyduj",
           "style": {
             "display": "flex",
             "min-height": "45px",
@@ -76,7 +76,7 @@
         },
         {
           "elmType": "div",
-          "txtContent": "Delegate",
+          "txtContent": "Deleguj",
           "style": {
             "display": "flex",
             "min-height": "45px",
@@ -102,7 +102,7 @@
         },
         {
           "elmType": "div",
-          "txtContent": "Delete",
+          "txtContent": "Usuń",
           "style": {
             "display": "flex",
             "min-height": "45px",

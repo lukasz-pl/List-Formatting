@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-person-localization",
     "reponame": "person-localization",
     "source": "pnp",
-    "title": "Person Localization",
+    "title": "Lokalizacja osoby",
     "shortDescription": "Ta próbka pokazuje changing text output based on the @lcid token. This allows you to provide localized text within your format ensuring that users in various regions can use your formats without issue.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/person-localization",
     "longDescription": [

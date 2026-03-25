@@ -1,4 +1,4 @@
-# Linking to a Local Resource
+# Link do zasobu lokalnego
 
 ## Podsumowanie
 Ta próbka przedstawia multiple formats to illustrate the options available to link to local resources. The primary purpose is to demonstrate the usage of `@currentWeb` (O365 only) to prevent issues with reusable formats or formats rendered outside of the main list view. This format links to other lists, but this could just as easily be specific pages/files/etc. on a site.
@@ -17,13 +17,13 @@ To jest format, którego należy używać w Office 365. The link's `href` attrib
 
 Ten format pokazuje providing a full URL (including the tenant and site). This is NOT recommended because while the link will always work regardless of level, the format will have to be manually updated to be reused. For example, to use this format in your own environment you will first have to update the tenant URL.
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported (SP2019).
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane (SP2019).
 
 ### text-relative-link
 
 Ten format pokazuje providing a relative link that assumes the format knows the position of the resources relative to where the format is rendered. This is NOT recommended because while the format is reusable across sites without manual updates required, the format is very fragile because it can easily break across your site depending on the relative location the format is rendered. For instance, a page using a list web part will be at a different level (relative foldering) than the list view itself.
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported (SP2019).
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane (SP2019).
 
 ## Wymagania widoku
 - Ten format można zastosować do a Text or Choice column
@@ -40,7 +40,7 @@ text-relative-link.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 10, 2018|Wersja początkowa
+1.0|10 stycznia 2018|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

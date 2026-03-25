@@ -6,7 +6,7 @@ Ta próbka pokazuje changing managed metadata (multiple) values to buttons that 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 *Example of Related client(s) references on a document item within a SharePoint Document library*
 
-![screenshot of the projects example](./assets/screenshot_projects.png)
+![zrzut ekranu the projects example](./assets/screenshot_projects.png)
 *Example of Related projects(s) references on a document item within a SharePoint Document library*
 
 ![zrzut ekranu próbki](./assets/screenshot_normreference.png)
@@ -45,9 +45,9 @@ managed-metadata-button.json | [Daniel Giessenburg](https://github.com/DAGiessen
 
 Wersja |Data               |Uwagi
 --------|-------------------|--------
-1.0     |June 26, 2025      |Wersja początkowa
+1.0     |czerwca 26, 2025      |Wersja początkowa
 
-## Additional Notes
+## Dodatkowe uwagi
 - [Introduction to managed metadata](https://learn.microsoft.com/sharepoint/managed-metadata)
 
 - [Create a Managed Metadata column](https://support.microsoft.com/office/create-a-managed-metadata-column-8fad9e35-a618-4400-b3c7-46f02785d27f)

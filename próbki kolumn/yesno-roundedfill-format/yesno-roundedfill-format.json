@@ -26,7 +26,7 @@
           "attributes": {
             "class": "ms-fontColor-white ms-fontWeight-bold"
           },
-          "txtContent": "YES",
+          "txtContent": "TAK",
           "customRowAction": {
             "action": "setValue",
             "actionInput": {
@@ -76,7 +76,7 @@
           "attributes": {
             "class": "ms-fontWeight-bold"
           },
-          "txtContent": "NO",
+          "txtContent": "NIE",
           "customRowAction": {
             "action": "setValue",
             "actionInput": {

@@ -52,7 +52,7 @@
             },
             {
               "elmType": "span",
-              "txtContent": "Approve",
+              "txtContent": "Zatwierdź",
               "style": {
                 "word-break": "keep-all"
               }
@@ -93,7 +93,7 @@
             },
             {
               "elmType": "span",
-              "txtContent": "Reject",
+              "txtContent": "Odrzuć",
               "style": {
                 "word-break": "keep-all"
               }

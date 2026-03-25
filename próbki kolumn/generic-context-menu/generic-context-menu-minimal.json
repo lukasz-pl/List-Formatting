@@ -93,7 +93,7 @@
                         },
                         {
                           "elmType": "span",
-                          "txtContent": "Open",
+                          "txtContent": "Otwórz",
                           "style": {
                             "margin-left": "9px",
                             "font-weight": "600"
@@ -127,7 +127,7 @@
                         },
                         {
                           "elmType": "span",
-                          "txtContent": "Edit",
+                          "txtContent": "Edytuj",
                           "style": {
                             "margin-left": "9px",
                             "font-weight": "600"
@@ -161,7 +161,7 @@
                         },
                         {
                           "elmType": "span",
-                          "txtContent": "Delete",
+                          "txtContent": "Usuń",
                           "style": {
                             "margin-left": "9px",
                             "font-weight": "600"

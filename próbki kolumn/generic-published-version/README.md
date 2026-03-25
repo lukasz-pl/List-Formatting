@@ -21,7 +21,7 @@ generic-published-version.json | [Miroslav Kačena](https://github.com/mkacena) 
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 7, 2024|Wersja początkowa
+1.0|7 października 2024|Wersja początkowa
 
 ## Zastrzeżenie
 
@@ -31,6 +31,6 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-None
+Brak
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-published-version" />

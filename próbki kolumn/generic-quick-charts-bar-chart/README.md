@@ -13,13 +13,13 @@ Utwórz listę z następującymi kolumnami:
 
 | Nazwa wewnętrzna | Typ    |
 |---------------------|---------|
-| **Title**       | Single line of text  |
-| **ToDoCount**       | Number  |
-| **InProgressCount** | Number  |
-| **DoneCount**       | Number  |
-| **Charts**       | Single line of text  |
+| **Title**       | Pojedyncza linia tekstu  |
+| **ToDoCount**       | Liczba  |
+| **InProgressCount** | Liczba  |
+| **DoneCount**       | Liczba  |
+| **Charts**       | Pojedyncza linia tekstu  |
 
-*Note: Additional columns can be added as needed for your specific use case.*
+*Uwaga: dodatkowe kolumny można dodać w zależności od potrzeb konkretnego przypadku użycia.*
 
 ## Dane przykładowe
 
@@ -32,22 +32,22 @@ Utwórz listę z następującymi kolumnami:
 ## Jak to działa
 
 - Formatter displays a **bar chart** for each list item based on task status counts
-- Charts are generated dynamically using the [QuickChart.io API](https://quickchart.io/)
+- Wykresy są generowane dynamicznie przy użyciu [QuickChart.io API](https://quickchart.io/)
 - Each bar chart visualizes three data segments with unique colors:
   - **To Do** (Red - #FF6384)
   - **In Progress** (Yellow - #FFCE56)
   - **Done** (Blue - #36A2EB)
-- The layout displays charts at 400x250 pixels with rounded corners
-- The chart automatically updates when column values change
+- Układ wyświetla wykresy w rozmiarze 400x250 pikseli z zaokrąglonymi rogami
+- Wykres aktualizuje się automatycznie po zmianie wartości w kolumnach
 
 ## Konfiguracja zabezpieczeń
 
-**CRITICAL**: Before the charts will display, you must configure SharePoint security settings:
+**KRYTYCZNE**: zanim wykresy zaczną się wyświetlać, musisz skonfigurować ustawienia zabezpieczeń SharePoint:
 
 1. Navigate to **SharePoint Admin Center**
 2. Przejdź do **Settings** > **Advanced Settings**  
 3. Znajdź **"HTML Field Security"** section
-4. Add `quickchart.io` to the **allowed domains** list
+4. Dodaj `quickchart.io` do listy **dozwolonych domen**
 5. Zapisz konfigurację
 
 **Bez tej konfiguracji zabezpieczeń wykresy nie będą wyświetlane z powodu zasad bezpieczeństwa zawartości w SharePoint.**
@@ -62,7 +62,7 @@ generic-quick-charts-bar-chart.json | [Sai Bandaru](https://github.com/saiiiiiii
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 08, 2025|Wersja początkowa
+1.0|08 października 2025|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -130,9 +130,9 @@ The default color scheme uses:
 Możesz dostosować these colors to match your organization's branding or create different visual meanings.
 
 ### Ograniczenia
-- Requires internet connectivity for chart generation
+- Wymaga połączenia z internetem do generowania wykresów
 - External dependency on QuickChart.io API
-- Performance may vary with large lists due to multiple API calls
+- Wydajność może się różnić przy dużych listach ze względu na wiele wywołań API
 - Limited customization without modifying the URL-encoded chart configuration
 - Chart renders as a static image (not interactive)
 

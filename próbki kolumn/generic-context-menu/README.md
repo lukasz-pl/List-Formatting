@@ -12,11 +12,11 @@ To use this sample, you need to modify `__LIST ID__` and `__FLOW ID__` in [gener
 
 - For `__LIST ID__`, set the value between %7B and %7D after List= in the URL of the list settings screen.
 
-    ![screenshot of the setting List ID](./assets/setting-list-id.png)
+    ![zrzut ekranu the setting List ID](./assets/setting-list-id.png)
 
 - For `__FLOW ID__`, get the flow identifier from the flow screen you want to execute and set that. (Reference: [Advanced formatting concepts - Create a button to launch a Flow](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-advanced#create-a-button-to-launch-a-flow))
 
-    ![screenshot of the setting Flow ID](./assets/setting-flow-id.png)
+    ![zrzut ekranu the setting Flow ID](./assets/setting-flow-id.png)
 
 ## Wymagania widoku
 
@@ -33,8 +33,8 @@ generic-context-menu-minimal.json | [Watana](https://github.com/watana2)
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |April 2, 2024 |Wersja początkowa
-1.1     |February 17, 2025 |Dodano generic-context-menu-minimal.json
+1.0     |kwietnia 2, 2024 |Wersja początkowa
+1.1     |lutego 17, 2025 |Dodano generic-context-menu-minimal.json
 
 ## Zastrzeżenie
 

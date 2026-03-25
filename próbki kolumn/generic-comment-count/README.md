@@ -20,7 +20,7 @@ generic-comment-count.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |December 3, 2020 |Wersja początkowa
+1.0     |grudnia 3, 2020 |Wersja początkowa
 
 
 ## Zastrzeżenie

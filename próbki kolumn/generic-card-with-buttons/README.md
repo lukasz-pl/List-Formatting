@@ -25,7 +25,7 @@ generic-card-with-buttons.json | [Luise Freese](https://github.com/luisefreeset)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 16, 2024|Wersja początkowa
+1.0|16 października 2024|Wersja początkowa
 
 ## Zastrzeżenie
 
@@ -35,6 +35,6 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-None
+Brak
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-card-with-buttons" />

@@ -18,10 +18,10 @@ text-wrap-format.json | [Aaron Miao](https://github.com/aaronmi)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 13, 2017|Wersja początkowa
-1.1|August 20, 2018|Schema update
-1.2|January 16, 2018|Dodano padding
-1.3|May 27, 2020|Dodano display override for Firefox
+1.0|13 grudnia 2017|Wersja początkowa
+1.1|20 sierpnia 2018|Schema update
+1.2|16 stycznia 2018|Dodano padding
+1.3|27 maja 2020|Dodano display override for Firefox
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

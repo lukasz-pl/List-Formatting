@@ -3,7 +3,7 @@
 ## Podsumowanie
 Ta próbka pokazuje creating a deep link to a Microsoft Teams chat. This format works both within Microsoft Teams and within SharePoint Online.
 
-![screenshot of the sample in Microsoft Teams](./assets/screenshotTeams.png)
+![zrzut ekranu the sample in Microsoft Teams](./assets/screenshotTeams.png)
 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
@@ -26,7 +26,7 @@ There are a few key differences when it comes to creating formats to be used wit
 
 ## Wymagania widoku
 - Ten format można zastosować do a Multi-Select Person column
-- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
+- Ten format używa operatorów dostępnych wyłącznie w SharePoint Online i nie może być używany w SharePoint 2019
 - Ten format powinien być zastosowany do a document library (relies on `[$FileLeafRef]` but could easily be adapted for a List by using a different field such as `[$Title]`)
 
 ## Przykład
@@ -39,7 +39,7 @@ multi-person-teams-chat-link.json | [Chris Kent](https://github.com/thechriskent
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 23, 2020|Wersja początkowa
+1.0|23 stycznia 2020|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

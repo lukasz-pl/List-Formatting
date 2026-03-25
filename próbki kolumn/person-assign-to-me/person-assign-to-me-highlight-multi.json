@@ -67,7 +67,7 @@
         },
         {
           "elmType": "div",
-          "txtContent": "+ Assign to Me",
+          "txtContent": "+ Przypisz do mnie",
           "style": {
             "display": "=if(indexOf(@currentField.email,@me)>-1,'none','flex')",
             "align-items": "center",

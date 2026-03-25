@@ -12,7 +12,7 @@ Możesz znaleźć the list of countries used in this JSON sample at: [Countries]
 
 Add list of countries in the choice column settings like:
 
-![screenshot of the edit column](./assets/edit-column.png)
+![zrzut ekranu the edit column](./assets/edit-column.png)
 
 ## Wymagania widoku
 
@@ -28,7 +28,7 @@ multi-choice-country-flags.json | [Ganesh Sanap](https://github.com/ganesh-sanap
 
 Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |August 27, 2023 |Wersja początkowa
+1.0     |sierpnia 27, 2023 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

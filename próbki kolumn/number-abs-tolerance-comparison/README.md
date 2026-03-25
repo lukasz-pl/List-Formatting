@@ -14,10 +14,10 @@ A Fluent UI icon is also applied to provide visual indicators of Pass or Fail.
 
 
 ## Column Types
-The columns used in this sample were created as "Number" column types.
+The columns used in this sample were created as "Liczba" column types.
 
 ## Wymagania widoku
-- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
+- Ten format używa operatorów dostępnych wyłącznie w SharePoint Online i nie może być używany w SharePoint 2019
 
 ## Przykład
 
@@ -29,7 +29,7 @@ number-abs-tolerance-comparison.json | [David Warner II](https://github.com/PopW
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 8, 2019|Wersja początkowa
+1.0|8 marca 2019|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -6,11 +6,11 @@ Ta próbka zawiera visual selection of volume from 0 to 5.
 ![zrzut ekranu próbki](./assets/screenshot.gif)
 
 ## Wymagania widoku
-- Format expect the following fields:
+- Format oczekuje następujących pól:
 
-Field |Type
+Pole |Typ
 --------|---------
-Volume | Number - Volume options from 0 to 5 
+Volume | Liczba - Volume options from 0 to 5 
 
 
 ## Przykład
@@ -23,7 +23,7 @@ number-volume.json | [André Lage](https://github.com/aaclage)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 01, 2022|Wersja początkowa
+1.0|01 kwietnia 2022|Wersja początkowa
 
 
 ## Zastrzeżenie

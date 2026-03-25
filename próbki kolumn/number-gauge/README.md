@@ -1,4 +1,4 @@
-# Number Gauge
+# Liczba Gauge
 
 ## Podsumowanie
 Ta próbka pokazuje combining a fixed SVG (gauge background) with a dynamic SVG (needle). It makes understanding number columns (percent) very intuitive.
@@ -10,7 +10,7 @@ An alternate version (number-gauge-reversed) has been provided for scenarios whe
 ![screenshot reversed](./assets/screenshotReversed.png)
 
 ## Wymagania widoku
-- Ten format można zastosować do a Number column. It is expected that the values will be from 0 to 1 (percent)
+- Ten format można zastosować do a Liczba column. It is expected that the values will be from 0 to 1 (percent)
 
 ## Przykład
 
@@ -23,7 +23,7 @@ number-gauge-reversed.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|July 10, 2019|Wersja początkowa
+1.0|10 lipca 2019|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

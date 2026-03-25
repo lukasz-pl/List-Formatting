@@ -51,7 +51,7 @@ Combining more than one of the above formats in a single listview can easily tra
 - This format should be applied to a text or choice field with values of Green, Yellow, Red, or Amber
 
 ### risk-score.json
-- This format should be applied to a Number column
+- This format should be applied to a Liczba column
 
 ### risk-level-change-status.json
 - This format should be applied to a text or choice field with values of Down, Level, or Up
@@ -68,9 +68,9 @@ risk-score.json | [S Merchant](https://github.com/sohailmerchant)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 10, 2017|Wersja początkowa
-1.1|March 22, 2018|Bug fixes and style adjustments
-1.2|August 20, 2018|Updated to use Excel-style expressions and theme color classes
+1.0|10 listopada 2017|Wersja początkowa
+1.1|22 marca 2018|Bug fixes and style adjustments
+1.2|20 sierpnia 2018|Updated to use Excel-style expressions and theme color classes
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -79,6 +79,6 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-> Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowe wersje wykorzystujące Abstract Tree Syntax (AST) są również dostępne dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-project-management" />

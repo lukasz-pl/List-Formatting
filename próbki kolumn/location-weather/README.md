@@ -30,7 +30,7 @@ location-weather.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 16, 2021|Wersja początkowa
+1.0|16 września 2021|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

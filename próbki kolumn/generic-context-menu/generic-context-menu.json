@@ -32,7 +32,7 @@
       "attributes": {
         "iconName": "MoreVertical",
         "class": "ms-bgColor-gray50--hover",
-        "title": "Click to Show Actions"
+        "title": "Kliknij, aby pokazać akcje"
       },
       "customCardProps": {
         "openOnEvent": "click",
@@ -109,7 +109,7 @@
                           "attributes": {
                             "title": "='Item ID: ' + [$ID]"
                           },
-                          "txtContent": "Open"
+                          "txtContent": "Otwórz"
                         }
                       ]
                     },
@@ -150,7 +150,7 @@
                           "attributes": {
                             "title": "='Item ID: ' + [$ID]"
                           },
-                          "txtContent": "Edit"
+                          "txtContent": "Edytuj"
                         }
                       ]
                     },
@@ -176,7 +176,7 @@
                         "target": "_blank",
                         "data-interception": "off",
                         "href": "=@currentWeb + '/_layouts/15/versions.aspx?List=' + '%7B' + '__LIST ID__' + '%7D' + '&ID=' + [$ID]",
-                        "title": "Version history",
+                        "title": "Historia wersji",
                         "class": "ms-bgColor-success--hover ms-fontColor-black--hover"
                       },
                       "children": [
@@ -196,7 +196,7 @@
                             "margin-left": "9px",
                             "font-weight": "600"
                           },
-                          "txtContent": "Version history"
+                          "txtContent": "Historia wersji"
                         }
                       ]
                     },
@@ -280,7 +280,7 @@
                             "margin-left": "9px",
                             "font-weight": "600"
                           },
-                          "txtContent": "Flow Name"
+                          "txtContent": "Nazwa przepływu"
                         }
                       ]
                     },

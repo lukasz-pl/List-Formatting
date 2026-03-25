@@ -24,8 +24,8 @@ picture-roundimage-format.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 21, 2018|Wersja początkowa
-1.1|August 20, 2018|Updated schema
+1.0|21 marca 2018|Wersja początkowa
+1.1|20 sierpnia 2018|Updated schema
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -33,7 +33,7 @@ Wersja|Data|Uwagi
 ---
 
 ## Dodatkowe uwagi
-This template is included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart.
+Ten szablon jest dołączony do webpartu [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md).
 
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 

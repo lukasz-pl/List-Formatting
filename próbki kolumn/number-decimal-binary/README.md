@@ -1,4 +1,4 @@
-# Decimal to Binary Conversion
+# Konwersja z dziesiętnego na binarny
 
 ## Podsumowanie
 Ta próbka przedstawia decimal conversion to binary using standard List formatting math functions.
@@ -6,11 +6,11 @@ Ta próbka przedstawia decimal conversion to binary using standard List formatti
 ![zrzut ekranu próbki](./assets/screenshot.gif)
 
 ## Wymagania widoku
-- Format expect the following fields:
+- Format oczekuje następujących pól:
 
-Field |Type
+Pole |Typ
 --------|---------
-DecimalBinary | Number- Define min value of 0 and max value of 255.
+DecimalBinary | Liczba- Define min value of 0 and max value of 255.
 
 
 ## Przykład
@@ -23,7 +23,7 @@ number-decimal-binary.json | [André Lage](https://github.com/aaclage)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 04, 2022|Wersja początkowa
+1.0|04 kwietnia 2022|Wersja początkowa
 
 
 ## Zastrzeżenie

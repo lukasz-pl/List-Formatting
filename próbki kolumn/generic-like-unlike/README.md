@@ -10,9 +10,9 @@ Ta próbka pokazuje how to like/unlike a list item. Ta próbka wykorzystuje the 
 
 Ten format można zastosować do any column type (its value is ignored). In addition, below fields needs to be defined:
 
-|Type               |Internal Name|Required|Comments|
+|Type               |Internal Name|Wymagane|Uwagi|
 |-------------------|-------------|--------|--------|
-|Number|LikesCount      |No      |Default value = 0|
+|Liczba|LikesCount      |No      |Default value = 0|
 |Person|LikedBy      |No      |Allow multiple selections|
 
 ## Przykład
@@ -25,7 +25,7 @@ generic-like-unlike.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |November 27, 2021 |Wersja początkowa
+1.0     |listopada 27, 2021 |Wersja początkowa
 
 ## Zastrzeżenie
 

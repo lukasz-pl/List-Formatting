@@ -1,4 +1,4 @@
-# Number Gradation
+# Liczba Gradation
 
 ## Podsumowanie
 Ta próbka pokazuje a gradual background color change between the minimum and maximum values. In this sample, the minimum value is -30 and the maximum value is 90.
@@ -6,7 +6,7 @@ Ta próbka pokazuje a gradual background color change between the minimum and ma
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-Ten format można zastosować do a Number column. It is expected that the values will be from -30 to 90.
+Ten format można zastosować do a Liczba column. It is expected that the values will be from -30 to 90.
 
 ## Przykład
 
@@ -20,7 +20,7 @@ number-gradation-red-blue.json | [Tetsuya Kawahara](https://github.com/tecchan11
 
 Wersja |Data          |Uwagi
 --------|--------------|----------------
-1.0     |April 8, 2022 |Wersja początkowa
+1.0     |kwietnia 8, 2022 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -13,7 +13,7 @@ Ta próbka pokazuje how to use **SharePoint Column Formatting** to create a dyna
 
 ### Wymagania widoku
 
-Create a SharePoint list with the following columns:
+Utwórz listę SharePoint z następującymi kolumnami:
 
 | Column Name | Type |
 |-------------|-------------|
@@ -41,7 +41,7 @@ Create a SharePoint list with the following columns:
 
 Formatting code will apply to the column containing the JSON and reference these other columns to create the complete visual.
 
-## How to Apply
+## Jak zastosować
 
 1. Open your **SharePoint list**.
 2. Click the column header you want to format → **Column settings → Format this column**.
@@ -49,7 +49,7 @@ Formatting code will apply to the column containing the JSON and reference these
 4. Paste the JSON provided in this project into the formatting editor.
 5. Click **Save**. The column will render as a word cloud automatically.
 
-### How It Works
+### Jak to działa
 
 The bubble chart is created using a single JSON file that applies to a column in your SharePoint list. The key parts of the code are:
 
@@ -63,11 +63,11 @@ Rozwiązanie|Autor(zy)
 --------|---------
 generic-bubble-chart.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-### Version History
+### Historia wersji
 
-| Version | Date            | Comments       |
+| Version | Data            | Uwagi       |
 |---------|-----------------|----------------|
-| 1.0     | September 2, 2025 | Wersja początkowa |
+| 1.0     | września 2, 2025 | Wersja początkowa |
 
 ### Zastrzeżenie
 
@@ -75,11 +75,11 @@ generic-bubble-chart.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 -----
 
-### Additional Notes
+### Dodatkowe uwagi
 
   * You can easily customize the bubble sizes, colors, and the number of rows by editing the JSON code.
 
-## References
+## Odnośniki
 
 - [SharePoint Column Formatting Documentation](https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)

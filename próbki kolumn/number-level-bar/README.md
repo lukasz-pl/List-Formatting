@@ -1,4 +1,4 @@
-# Number Level Bar
+# Liczba Level Bar
 
 ## Podsumowanie
 Ta próbka pokazuje displaying a percentage across a bar. End users are able to edit the values by increasing/decreasing in 25% increments using arrow buttons.
@@ -19,7 +19,7 @@ number-level-bar.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 12, 2022|Wersja początkowa
+1.0|12 maja 2022|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

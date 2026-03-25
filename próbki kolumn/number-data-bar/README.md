@@ -11,10 +11,10 @@ In this format, the data bar width is set to `100%` when the value is greater th
 ### Percentage Data Bar (percent-data-bar.json)
 An additional format is included to illustrate how to apply the same visualization to a number column set to display as a percent. The data bar width is set to the `@currentField`'s value directly and the display text adds the % sign as expected.
 
-![screenshot of the Percentage Data Bar](./assets/screenshot-percent.png)
+![zrzut ekranu the Percentage Data Bar](./assets/screenshot-percent.png)
 
 ## Wymagania widoku
-- Ten format można zastosować do a Number column
+- Ten format można zastosować do a Liczba column
 
 ## Przykład
 
@@ -27,10 +27,10 @@ percent-data-bar.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 2, 2017|Wersja początkowa
-1.1|May 27, 2018|Poprawiono issue with 0 values and added percentage format
-1.2|August 18, 2018|Poprawiono issue with low value text wrapping and converted to excel-style expressions
-1.3|May 17, 2019|Dodano box-sizing:border-box to root style
+1.0|2 listopada 2017|Wersja początkowa
+1.1|27 maja 2018|Poprawiono issue with 0 values and added percentage format
+1.2|18 sierpnia 2018|Poprawiono issue with low value text wrapping and converted to excel-style expressions
+1.3|17 maja 2019|Dodano box-sizing:border-box to root style
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -42,8 +42,8 @@ Ta próbka jest również opisana w głównej dokumentacji dotyczącej formatowa
 
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
+Podobny kreator znajduje się także w webparcie [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md), który pozwala na pełne dostosowanie.
 
-> Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowe wersje wykorzystujące Abstract Tree Syntax (AST) są również dostępne dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-data-bar" />

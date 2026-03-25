@@ -43,7 +43,7 @@
                 "href": "=getThumbnailImage(@currentField, 3000, 2000)",
                 "target": "_blank",
                 "class": "ms-bgColor-black ms-fontColor-white ms-fontColor-themeLight--hover",
-                "title": "Open in New Window"
+                "title": "Otwórz w nowym oknie"
               },
               "style": {
                 "font-size": "18px",

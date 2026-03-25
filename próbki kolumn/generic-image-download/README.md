@@ -1,4 +1,4 @@
-# Download Image from SharePoint Image column
+# Zróbwnload Image from SharePoint Image column
 
 ## Podsumowanie
 
@@ -13,7 +13,7 @@ For this JSON to work in your list, make sure to edit the JSON and replace the `
 
 Ten format można zastosować do any column type (its value is ignored). However, it is expected that the following one column is part of the view.
 
-|Type  |Internal Name |Required|
+|Type  |Internal Name |Wymagane|
 |------|--------------|:------:|
 |Image |Image         |No      |
 
@@ -27,8 +27,8 @@ generic-image-download.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |November 12, 2022 |Wersja początkowa
-1.1     |January 16, 2024 |Poprawiono an issue where images could not be downloaded due to a change in image storage location
+1.0     |listopada 12, 2022 |Wersja początkowa
+1.1     |stycznia 16, 2024 |Poprawiono an issue where images could not be downloaded due to a change in image storage location
 
 ## Zastrzeżenie
 

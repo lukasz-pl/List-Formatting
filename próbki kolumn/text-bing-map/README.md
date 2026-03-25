@@ -15,7 +15,7 @@ To add additional parameters, just continue to add operands in the + operation!
 The text "insert your Bing Map API Key Here" in the template (the text after `&key`) should be changed to your own FREE API Key. Getting a key takes 2 minutes and is FREE: [Get API Key](https://docs.microsoft.com/en-us/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key)
 
 
-### Column Types
+### Typy kolumn
 
 The values are expected to be addresses such as _Tulsa, OK_ or _Texas_ or _200 S Main St. Broken Arrow, OK 74012_.
 
@@ -31,7 +31,7 @@ If your address is stored in a Multi-Line of Text field, there are a few extra c
 
 Rozwiązanie|Autor(zy)
 --------|---------
-text-bing-map.json | [April Dunnam](https://github.com/aprildunnam)
+text-bing-map.json | [kwietnia Dunnam](https://github.com/aprildunnam)
 
 ## Historia wersji
 

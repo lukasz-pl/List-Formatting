@@ -69,7 +69,7 @@
                         "font-weight": "=if([$StatusCode] > 0, '600', '')",
                         "padding-left": "9px"
                       },
-                      "txtContent": "Ready to be packed",
+                      "txtContent": "Gotowe do spakowania",
                       "attributes": {
                         "class": "='ms-fontColor-' + if([$StatusCode] > 0, 'green', 'green')"
                       }
@@ -140,7 +140,7 @@
                         "font-weight": "=if([$StatusCode] > 0, '600', '')",
                         "padding-left": "9px"
                       },
-                      "txtContent": "Packed",
+                      "txtContent": "Spakowano",
                       "attributes": {
                         "class": "='ms-fontColor-' + if([$StatusCode] > 0,'green','neutralSecondaryAlt')"
                       }
@@ -214,7 +214,7 @@
                         "font-weight": "=if([$StatusCode] > 1, '600', '')",
                         "padding-left": "9px"
                       },
-                      "txtContent": "Shipped",
+                      "txtContent": "Wysłano",
                       "attributes": {
                         "class": "='ms-fontColor-' + if([$StatusCode] > 1,'green','neutralSecondaryAlt')"
                       }
@@ -288,7 +288,7 @@
                         "font-weight": "=if([$StatusCode] > 2, '600', '')",
                         "padding-left": "9px"
                       },
-                      "txtContent": "In transit",
+                      "txtContent": "W transporcie",
                       "attributes": {
                         "class": "='ms-fontColor-' + if([$StatusCode] > 2,'green','neutralSecondaryAlt')"
                       }
@@ -362,7 +362,7 @@
                         "font-weight": "=if([$StatusCode] > 3, '600', '')",
                         "padding-left": "9px"
                       },
-                      "txtContent": "Delivered",
+                      "txtContent": "Dostarczono",
                       "attributes": {
                         "class": "='ms-fontColor-' + if([$StatusCode] > 3,'green','neutralSecondaryAlt')"
                       }

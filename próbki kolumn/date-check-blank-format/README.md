@@ -9,12 +9,12 @@ The text content and classes applied are determined based on following condition
 
 |Condition|txtContent|Class|
 |---|---|---|
-|DueDate is blank|Blank Date|sp-field-severity--warning|
+|DueDate is blank|Blank Data|sp-field-severity--warning|
 |DueDate < Now|Expired|sp-field-severity--blocked|
 |Else|Active|sp-field-severity--good|
 
 ## Wymagania widoku
-- Ten format można zastosować do a Single line of text or Choice column
+- Ten format można zastosować do a Pojedyncza linia tekstu or Choice column
 - An additional DateTime column with an internal name of `DueDate`
 
 
@@ -28,7 +28,7 @@ date-check-blank-format.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|July 18, 2020|Wersja początkowa
+1.0|18 lipca 2020|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

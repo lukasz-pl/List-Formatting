@@ -1,4 +1,4 @@
-# Share to Teams
+# Udostępnij w Teams
 
 ## Podsumowanie
 Ta próbka pokazuje how to add a "Share to Microsoft Teams" link into a document library.
@@ -20,7 +20,7 @@ generic-share-to-teams.json | [Sven Sieverding](https://github.com/365knoten)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 15, 2023|Wersja początkowa
+1.0|15 sierpnia 2023|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

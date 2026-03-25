@@ -15,13 +15,13 @@ Key points:
 
 ## Wymagania widoku
 
-|Type|Internal Name|Required|Additional Information|
+|Type|Internal Name|Wymagane|Dodatkowe informacje|
 |---|---|:---:|---|
 |Choice|Priority|Yes|Values: `low`, `medium`, `high` (all lowercase)|
 |Choice|Status|Yes|Values: `new`, `in progress`, `resolved` (all lowercase)|
-|Single line of text|Actions| |Apply [generic-action-buttons.json](./generic-action-buttons.json) to this column|
+|Pojedyncza linia tekstu|Actions| |Apply [generic-action-buttons.json](./generic-action-buttons.json) to this column|
 
-- Format is best applied to a dedicated Actions column (type: Single line of text) that exists solely for button rendering.
+- Format is best applied to a dedicated Actions column (type: Pojedyncza linia tekstu) that exists solely for button rendering.
 
 ## Przykład
 
@@ -33,7 +33,7 @@ generic-action-buttons.json | [Luise Freese](https://github.com/LuiseFreese)
 
 Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |July 16, 2025 |Wersja początkowa
+1.0     |lipca 16, 2025 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -6,7 +6,7 @@ Ta próbka pokazuje creating a progress bar using icons. The number column repre
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-- Ten format można zastosować do a Number column (the format expects values from 0-5, but can easily be adjusted to account for more)
+- Ten format można zastosować do a Liczba column (the format expects values from 0-5, but can easily be adjusted to account for more)
 
 ## Przykład
 
@@ -18,7 +18,7 @@ number-icon-progressbar.json | [Julien Seguin](https://twitter.com/julien_seguin
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 1, 2019|Wersja początkowa
+1.0|1 marca 2019|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

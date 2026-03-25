@@ -1,4 +1,4 @@
-# Doughnut Chart
+# Zróbughnut Chart
 
 ## Podsumowanie
 Ta próbka zmienia wygląd wartości w kolumnach liczbowych (procentowych) na wykres pierścieniowy. Wykres jest wyświetlany przy użyciu `svg`.
@@ -6,7 +6,7 @@ Ta próbka zmienia wygląd wartości w kolumnach liczbowych (procentowych) na wy
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-Ten format można zastosować do a Number column. It is expected that the values will be from 0 to 1 (percent).
+Ten format można zastosować do a Liczba column. It is expected that the values will be from 0 to 1 (percent).
 
 ## Przykład
 
@@ -21,9 +21,9 @@ number-doughnut-chart-compact.json    | [Tetsuya Kawahara](https://github.com/te
 
 Wersja |Data            |Uwagi
 --------|----------------|----------------
-1.0     |August 20, 2021 |Wersja początkowa
-1.1     |October 3, 2021 |Poprawiono the display when the value is less than 0% and greater than 100%.
-1.2     |April 12, 2025 |Dodano `number-doughnut-chart-compact.json`
+1.0     |sierpnia 20, 2021 |Wersja początkowa
+1.1     |października 3, 2021 |Poprawiono the display when the value is less than 0% and greater than 100%.
+1.2     |kwietnia 12, 2025 |Dodano `number-doughnut-chart-compact.json`
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -8,7 +8,7 @@ The background and text colors are set using theme values by applying classes fr
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-- Ten format można zastosować do a Number column
+- Ten format można zastosować do a Liczba column
 
 ## Przykład
 
@@ -21,8 +21,8 @@ number-piechart.json | [Aaron Miao](https://github.com/aaronmi), [Chris Kent](ht
 Wersja|Data|Uwagi
 -------|----|--------
 1.0|Dec 13, 2017|Wersja początkowa
-1.1|March 20, 2018|Dodano min & max values and fixed skewed drawing issue
-1.2|August 20, 2018|Switched to Excel-style expressions and use of theme classes
+1.1|20 marca 2018|Dodano min & max values and fixed skewed drawing issue
+1.2|20 sierpnia 2018|Przełączono na wyrażenie w stylu Excelas and use of theme classes
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -31,8 +31,8 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
+Podobny kreator znajduje się także w webparcie [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md), który pozwala na pełne dostosowanie.
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-piechart" />

@@ -18,7 +18,7 @@ Format expects the following fields:
 |------|------|------|
 |Choice|Importance|Options - High, Low
 |Choice|Urgency|Options - High, Low
-|Calculated field - Single line of text |EMatrix|Formula - `=IF(AND(Importance<>"",Urgency<>""),IF(Importance="High",2,1)&"."&IF(Urgency="High",2,1),"")` or `=IF(AND(Importance<>"";Urgency<>"");IF(Importance="High";2;1)&"."&IF(Urgency="High";2;1);"")`
+|Calculated field - Pojedyncza linia tekstu |EMatrix|Formula - `=IF(AND(Importance<>"",Urgency<>""),IF(Importance="High",2,1)&"."&IF(Urgency="High",2,1),"")` or `=IF(AND(Importance<>"";Urgency<>"");IF(Importance="High";2;1)&"."&IF(Urgency="High";2;1);"")`
 
 > [!NOTE]  
 > The delimiter in the formula for the Calculated field is a comma (,) or semi-colon (;), but the available ones depend on the locale of the site. (Reference: [Calculated Field Formulas](https://learn.microsoft.com/previous-versions/office/developer/sharepoint-2010/bb862071(v=office.14)#important-notes)) 
@@ -33,7 +33,7 @@ generic-eisenhower-matrix.json | [Larry Pfaff](https://github.com/jaxkookie)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 2, 2024|Wersja początkowa
+1.0|2 kwietnia 2024|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

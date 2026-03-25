@@ -24,11 +24,11 @@ Notice that "Destroyed" condition has values for class, icon, text, etc. but it 
 
 To use the sample, you must substitute the ID of the Flow(s) you want to run. The IDs are contained within the expression inside the `customRowAction` attribute inside the `button` element.
 
-To obtain a Flow's ID:
+Aby uzyskać identyfikator przepływu:
 
-1. Click _Flow_ > _See your flows_ in the SharePoint list where the Flow is configured
-2. Click on the Flow you want to run
-3. Copy the ID from the end of the URL (between _flows/_ and _/details_)
+1. Kliknij _Flow_ > _See your flows_ na liście SharePoint, na której skonfigurowano przepływ
+2. Kliknij przepływ, który chcesz uruchomić
+3. Skopiuj identyfikator z końca adresu URL (between _flows/_ and _/details_)
 ![Flow ID](./assets/FlowID.png)
 
 ## Wymagania widoku
@@ -40,7 +40,7 @@ To obtain a Flow's ID:
 	- Deployed
 	- Destroyed
 
-> Tip - You can apply this format to a Calculated Column with a formula of `=""`. This prevents this field from being part of your edit/new forms.
+> Wskazówka: możesz zastosować ten format do kolumny obliczeniowej z formułą `=""`. Dzięki temu pole nie będzie częścią formularzy nowego elementu ani edycji.
 
 ## Przykład
 
@@ -52,7 +52,7 @@ generic-start-flow-conditionally.json | [Chris Kent](https://github.com/thechris
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 15, 2019|Initial version
+1.0|15 marca 2019|Initial version
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -1,4 +1,4 @@
-# Count the Number of Clicks on a Link
+# Count the Liczba of Clicks on a Link
 
 ## Podsumowanie
 Ta próbka pokazuje counting the number of clicks on a link. By keeping track of the number of link clicks, you can figure out which links are popular with users.
@@ -7,10 +7,10 @@ Ta próbka pokazuje counting the number of clicks on a link. By keeping track of
 
 ## Wymagania widoku
 
-|Type      |Internal Name|Required|
+|Type      |Internal Name|Wymagane|
 |----------|-------------|:------:|
 |Hyperlink |Link         |Yes     |
-|Number    |ClickCount   |No      |
+|Liczba    |ClickCount   |No      |
 
 ## Przykład
 
@@ -22,7 +22,7 @@ hyperlink-click-count.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |December 11, 2021 |Wersja początkowa
+1.0     |grudnia 11, 2021 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

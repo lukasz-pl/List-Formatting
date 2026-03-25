@@ -10,7 +10,7 @@ Ta próbka pokazuje how to change the shade of the background color depending on
 
 ## Wymagania widoku
 
-Ten format można zastosować do a Number column.
+Ten format można zastosować do a Liczba column.
 
 ## Przykład
 
@@ -23,7 +23,7 @@ number-background-color-shading-custom-color.json | [Tetsuya Kawahara](https://g
 
 Wersja |Data             |Uwagi
 --------|-----------------|----------------
-1.0     |November 16, 2021|Wersja początkowa
+1.0     |listopada 16, 2021|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

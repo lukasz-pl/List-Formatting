@@ -19,7 +19,7 @@ Ten format wyświetla również różnicę wartości między polami `Before` i `
 
 The difference values are in a `<span>`, separate from the `After` `<span>`, allowing for unique properties to be applied without altering the `After` value.
 
-![screenshot of the sample with difference](./assets/screenshotWithDifference.png)
+![zrzut ekranu the sample with difference](./assets/screenshotWithDifference.png)
 
 #### Difference Calculation
 |Condition|Expression|Class|
@@ -30,8 +30,8 @@ The difference values are in a `<span>`, separate from the `After` `<span>`, all
 
 ## Wymagania widoku
 - Ten format można zastosować do any column
-- This format expects a Number column with an internal name of `After`
-- This format expects a Number column with an internal name of `Before`
+- This format expects a Liczba column with an internal name of `After`
+- This format expects a Liczba column with an internal name of `Before`
 
 ## Przykład
 
@@ -44,10 +44,10 @@ number-trending-icon-with-difference.json | [David Warner II](https://github.com
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 2, 2017|Wersja początkowa
-1.1|March 20, 2018|Dodano equal value styling
-1.2|June 12, 2018|With Difference format added
-1.3|August 20, 2018|Updated to use Excel-style expressions
+1.0|2 listopada 2017|Wersja początkowa
+1.1|20 marca 2018|Dodano equal value styling
+1.2|12 czerwca 2018|With Difference format added
+1.3|20 sierpnia 2018|Updated to use Excel-style expressions
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -57,10 +57,10 @@ Wersja|Data|Uwagi
 ## Dodatkowe uwagi
 Ta próbka jest również opisana w głównej dokumentacji dotyczącej formatowania kolumn.
 
-A similar template is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart.
+Podobny szablon znajduje się także w webparcie [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md).
 
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-> Additional versions using Abstract Tree Syntax (AST) are also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowe wersje wykorzystujące Abstract Tree Syntax (AST) są również dostępne dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-trending-icon" />

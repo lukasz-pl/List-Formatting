@@ -30,8 +30,8 @@ generic-svgicon-format.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 26, 2018|Wersja początkowa
-1.1|August 20, 2018|Switched to Excel-style expressions
+1.0|26 marca 2018|Wersja początkowa
+1.1|20 sierpnia 2018|Przełączono na wyrażenia w stylu Excela
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -46,6 +46,6 @@ The icons used were adapted from Font Awesome which is available under the [Crea
 
 - [Use Font Awesome icons in Column Formatting](https://thechriskent.com/2018/03/25/use-font-awesome-icons-in-column-formatting/).
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-svgicon-format" />

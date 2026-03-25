@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-person-teams-message-format",
     "reponame": "person-teams-message-format",
     "source": "pnp",
-    "title": "Teams Message Format",
+    "title": "Format wiadomości Teams",
     "shortDescription": "This sample is using Microsoft Teams deep links to create a link that allows a user to send Microsoft Teams messages to the user in the column.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/person-teams-message-format",
     "longDescription": [

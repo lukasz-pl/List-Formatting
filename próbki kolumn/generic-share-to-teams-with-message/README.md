@@ -27,7 +27,7 @@ generic-share-to-teams-with-message.json | [Bianca W](https://github.com/bianca-
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 15, 2023|Wersja początkowa
+1.0|15 października 2023|Wersja początkowa
 
 ## Dodatkowe uwagi
 

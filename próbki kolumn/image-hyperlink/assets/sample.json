@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-image-hyperlink",
     "reponame": "image-hyperlink",
     "source": "pnp",
-    "title": "Changing Image Hyperlink Standard Behavior",
+    "title": "Zmiana standardowego zachowania hiperłącza obrazu",
     "shortDescription": "If you click on an image in a SharePoint list, the image is displayed as a preview. This formatter changes the standard behavior in which a link from another column is used. In this way, a click on the image has the same behavior as if the link had been clicked directly.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/image-hyperlink",
     "longDescription": [

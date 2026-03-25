@@ -11,12 +11,12 @@ This is the primary sample. It uses the `@currentField` value, but you could swi
 ### number-per-100-people-gallery.json
 This is a gallery view format that utilizes `columnFormatterReference` to pull in the `number-per-100-people-grid.json` format. It assumes the column name is `HorsesPerPeople` so just swap that out for your column where the format is applied. You can have the scaling be inherited from the gallery settings by removing the `font-size` from the root element (the column will inherit from the list and the gallery will inherit from it's root element).
 
-![screenshot of the gallery](./assets/screenshotGallery.png)
+![zrzut ekranu the gallery](./assets/screenshotGallery.png)
 
 ### number-per-100-people-grid-emoji.json
 This is an example of taking the same technique but using emojis instead.
 
-![screenshot of the emoji version](./assets/screenshotEmoji.png)
+![zrzut ekranu the emoji version](./assets/screenshotEmoji.png)
 
 ## Wymagania widoku
 
@@ -34,7 +34,7 @@ number-per-100-people-grid-emoji.json | [Chris Kent](https://github.com/thechris
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 25, 2025|Wersja początkowa
+1.0|25 września 2025|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -18,7 +18,7 @@ generic-centered-content.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 24, 2018|Wersja początkowa
+1.0|24 sierpnia 2018|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -26,6 +26,6 @@ Wersja|Data|Uwagi
 ---
 
 ## Dodatkowe uwagi
-None
+Brak
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-centered-content" />

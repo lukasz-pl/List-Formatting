@@ -15,7 +15,7 @@ Ta próbka pokazuje the display of a yearly Gantt chart.
 
 Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
-|Type               |Internal Name|Required|
+|Type               |Internal Name|Wymagane|
 |-------------------|-------------|:------:|
 |DateTime           |Start        |Yes     |
 |DateTime           |End          |Yes     |
@@ -31,9 +31,9 @@ generic-yearly-gantt-chart-with-today.json | [Alvin Fong](https://github.com/hak
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |April 12, 2021|Wersja początkowa
-1.1     |August 27, 2022|Dodano generic-yearly-gantt-chart-with-today.json
-1.2.    |August 9, 2025|Latest year is prioritized in ranges that span across years (unless first year is current year), neutral colors used for ranges outside current year
+1.0     |kwietnia 12, 2021|Wersja początkowa
+1.1     |sierpnia 27, 2022|Dodano generic-yearly-gantt-chart-with-today.json
+1.2.    |sierpnia 9, 2025|Latest year is prioritized in ranges that span across years (unless first year is current year), neutral colors used for ranges outside current year
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -8,13 +8,13 @@ Ta próbka pokazuje displaying a linear gauge from a regular string set to the s
 
 ## Wymagania widoku
 
-- Ten format można zastosować do a Number column.
+- Ten format można zastosować do a Liczba column.
 
 ## How to apply this sample
 
 Ta próbka wymaga dostosowania do konkretnego zastosowania. Konieczne są dwie zmiany.
 
-### Step 1: Set the min and max values
+### Krok 1: Set the min and max values
 
 1. Znajdź the split operator on line 31 of the JSON.
 2. Adjust the min and max values to match your desired range.
@@ -32,9 +32,9 @@ Ta próbka wymaga dostosowania do konkretnego zastosowania. Konieczne są dwie z
     "forEach": "_overallRange in split('min:0,max:1','^')",
     ```
 
-    ![screenshot of the gauge setting](./assets/gauge-setting.png)
+    ![zrzut ekranu the gauge setting](./assets/gauge-setting.png)
 
-### Step 2: Set numerical range, background color, and range name
+### Krok 2: Set numerical range, background color, and range name
 
 1. Znajdź the split operator on line 50 of the JSON.
 2. Adjust the numerical range, background color, and range name for each range according to your use case. Use a comma-separated format.
@@ -61,7 +61,7 @@ Ta próbka wymaga dostosowania do konkretnego zastosowania. Konieczne są dwie z
     - **RANGE_NAME:** Set the text to be displayed in the range.
         - Example: `A`, `Range_B`, `Great`
 
-    ![screenshot of the range setting](./assets/range-setting.png)
+    ![zrzut ekranu the range setting](./assets/range-setting.png)
 
 > [!NOTE]  
 > - Expressions such as `n>=20` or `20<n` are not acceptable for numeric ranges. Please strictly adhere to the specified format `RANGE_MIN[<= or <]n[<= or <]RANGE_MAX`.
@@ -103,7 +103,7 @@ number-linear-gauge.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |December 1, 2023 |Wersja początkowa
+1.0     |grudnia 1, 2023 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -118,7 +118,7 @@ The linear gauge adjusts based on the column width.
 
 ### About formulas in JSON
 
-![screenshot of the explanatory diagram](./assets/explanatory-diagram.png)
+![zrzut ekranu the explanatory diagram](./assets/explanatory-diagram.png)
 
 The style properties of each range are set to the following values:  
 
@@ -133,9 +133,9 @@ The characters used in the above formula and their meanings are as follows:
 
 |Character|Meaning|Formula in JSON|
 |---|---|---|
-|$$G_{max}$$|Max value of linear gauge|Number\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'max:'\)+4,indexOf\(\[$_overallRange\]+'^','^'\)\)\)|
-|$$G_{min}$$|Min value of linear gauge|Number\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'min:'\)+4,indexOf\(\[$_overallRange\],','\)\)\)|
-|$$R_{max}$$|Max value of each range|Number\(replaceAll\(substring\(\[$_range\],lastIndexOf\(\[$_range\],'<'\)+1,indexOf\(\[$_range\],':'\)\),'=',''\)\)|
-|$$R_{min}$$|Min value of each range|Number\(substring\(\[$_range\],0,indexOf\(\[$_range\],'<'\)\)\)|
+|$$G_{max}$$|Max value of linear gauge|Liczba\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'max:'\)+4,indexOf\(\[$_overallRange\]+'^','^'\)\)\)|
+|$$G_{min}$$|Min value of linear gauge|Liczba\(substring\(\[$_overallRange\],indexOf\(\[$_overallRange\],'min:'\)+4,indexOf\(\[$_overallRange\],','\)\)\)|
+|$$R_{max}$$|Max value of each range|Liczba\(replaceAll\(substring\(\[$_range\],lastIndexOf\(\[$_range\],'<'\)+1,indexOf\(\[$_range\],':'\)\),'=',''\)\)|
+|$$R_{min}$$|Min value of each range|Liczba\(substring\(\[$_range\],0,indexOf\(\[$_range\],'<'\)\)\)|
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/number-linear-gauge" />

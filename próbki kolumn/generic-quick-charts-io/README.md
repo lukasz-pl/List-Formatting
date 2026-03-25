@@ -22,13 +22,13 @@ Utwórz listę z następującymi kolumnami:
 
 | Nazwa wewnętrzna | Typ    |
 |---------------------|---------|
-| **Title**       | Single line of text  |
-| **ToDoCount**       | Number  |
-| **InProgressCount** | Number  |
-| **DoneCount**       | Number  |
-| **Charts**       | Single line of text  |
+| **Title**       | Pojedyncza linia tekstu  |
+| **ToDoCount**       | Liczba  |
+| **InProgressCount** | Liczba  |
+| **DoneCount**       | Liczba  |
+| **Charts**       | Pojedyncza linia tekstu  |
 
-*Note: Additional columns can be added as needed for your specific use case.*
+*Uwaga: dodatkowe kolumny można dodać w zależności od potrzeb konkretnego przypadku użycia.*
 
 ## Dane przykładowe
 
@@ -63,22 +63,22 @@ Utwórz listę z następującymi kolumnami:
 ## Jak to działa
 
 - Formatter displays a **doughnut chart** for each list item based on task status counts
-- Charts are generated dynamically using the [QuickChart.io API](https://quickchart.io/)
+- Wykresy są generowane dynamicznie przy użyciu [QuickChart.io API](https://quickchart.io/)
 - Each doughnut chart visualizes three data segments:
   - **To Do** (first segment)
   - **In Progress** (second segment)
   - **Done** (third segment)
-- The layout displays charts at 400x250 pixels with rounded corners
-- The chart automatically updates when column values change
+- Układ wyświetla wykresy w rozmiarze 400x250 pikseli z zaokrąglonymi rogami
+- Wykres aktualizuje się automatycznie po zmianie wartości w kolumnach
 
 ## Konfiguracja zabezpieczeń
 
-**CRITICAL**: Before the charts will display, you must configure SharePoint security settings:
+**KRYTYCZNE**: zanim wykresy zaczną się wyświetlać, musisz skonfigurować ustawienia zabezpieczeń SharePoint:
 
 1. Navigate to **SharePoint Site**
 2. Przejdź do **Site Settings**
 3. Znajdź **"HTML Field Security"** section
-4. Add `quickchart.io` to the **allowed domains** list
+4. Dodaj `quickchart.io` do listy **dozwolonych domen**
 5. Zapisz konfigurację
 
 **Bez tej konfiguracji zabezpieczeń wykresy nie będą wyświetlane z powodu zasad bezpieczeństwa zawartości w SharePoint.**
@@ -95,15 +95,15 @@ generic-quick-charts-polararea.json | [Sai Bandaru](https://github.com/saiiiiiii
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 13, 2025|Wersja początkowa
+1.0|13 października 2025|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ## Limitations
-- Requires internet connectivity for chart generation
+- Wymaga połączenia z internetem do generowania wykresów
 - External dependency on QuickChart.io API availability
-- Performance may vary with large lists due to multiple API calls
+- Wydajność może się różnić przy dużych listach ze względu na wiele wywołań API
 - Maximum URL length restrictions may apply for complex configurations
 - Charts may take a moment to render on initial page load
 
@@ -120,7 +120,7 @@ Możesz dostosować the charts by modifying the URL-encoded Chart.js configurati
 
 Refer to the [QuickChart.io documentation](https://quickchart.io/documentation/) and [Chart.js documentation](https://www.chartjs.org/docs/) for all available customization options.
 
-## Troubleshooting
+## Rozwiązywanie problemów
 
 **Charts not displaying:**
 - Verify `quickchart.io` is added to HTML Field Security settings

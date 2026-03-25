@@ -15,7 +15,7 @@ The Issue HoverCard Formatter is a SharePoint list Column JSON formatter compone
 | Priority            | Choice (Critical, High, Normal, Low)   | Priority             |
 | Status              | Choice (Blocked, In Progress, Completed, Duplicate)     | Status  |
 | Assigned to         | Person or Group                        | Assignedto0          |
-| Date Reported       | Date and Time                          | DateReported         |
+| Data Reported       | Data and Time                          | DateReported         |
 | Issue logged by     | Person or Group                        | Issueloggedby        |
 | IssueCard           | Single Line Text                       | IssueCard            |
 
@@ -27,9 +27,9 @@ generic-quickview-issue-card.json | [Jatin Patil](https://github.com/Jatin-patil
 
 ## Historia wersji
 
-| Version | Date             | Comments        |
+| Version | Data             | Uwagi        |
 | ------- | ---------------- | --------------- |
-| 1.0     | 29 May, 2024     | Wersja początkowa |
+| 1.0     | 29 maja, 2024     | Wersja początkowa |
 
 ## Zastrzeżenie
 

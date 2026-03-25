@@ -4,10 +4,10 @@
     "reponame": "person-mailto",
     "source": "pnp",
     "title": "Person Mail To Link",
-    "shortDescription": "Możesz użyć formatowania kolumn, aby render quick action links next to fields. This sample, intended for a person field, renders two elements inside the parent \u0060\u003Cdiv /\u003E\u0060 element:",
+    "shortDescription": "Możesz użyć formatowania kolumn, aby render quick action links next to fields. This sample, intended for a person field, renders two elements inside the parent `<div />` element:",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/person-mailto",
     "longDescription": [
-      "Możesz użyć formatowania kolumn, aby render quick action links next to fields. This sample, intended for a person field, renders two elements inside the parent \u0060\u003Cdiv /\u003E\u0060 element:"
+      "Możesz użyć formatowania kolumn, aby render quick action links next to fields. This sample, intended for a person field, renders two elements inside the parent `<div />` element:"
     ],
     "creationDateTime": "2017-11-02T00:00:00.000Z",
     "updateDateTime": "2018-08-18T00:00:00.000Z",

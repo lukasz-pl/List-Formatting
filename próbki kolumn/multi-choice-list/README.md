@@ -7,7 +7,7 @@ Ta próbka pokazuje displaying Multi-Select Choice column values like a bulleted
 
 The bullet list symbols use [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons), which can be changed to stars, hearts, etc. by changing the value of the `iconName` property.
 
-![screenshot of the bulleted list sample](./assets/screenshot-bulleted-list.png)
+![zrzut ekranu the bulleted list sample](./assets/screenshot-bulleted-list.png)
 
 ## Wymagania widoku
 Ten format można zastosować do a Multi-Select Choice column.
@@ -23,7 +23,7 @@ multi-choice-numbered-list.json | [Tetsuya Kawahara](https://github.com/tecchan1
 
 Wersja |Data             |Uwagi
 --------|-----------------|----------------
-1.0     |January 14, 2023 |Wersja początkowa
+1.0     |stycznia 14, 2023 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

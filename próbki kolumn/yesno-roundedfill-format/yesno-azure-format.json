@@ -27,7 +27,7 @@
           "attributes": {
             "class": "ms-fontColor-white"
           },
-          "txtContent": "Off",
+          "txtContent": "Wył.",
           "customRowAction": {
             "action": "setValue",
             "actionInput": {
@@ -48,7 +48,7 @@
             "border-bottom": "=if([$AzureOption] == true ,'2px solid #0078d4','')",
             "border-radius": "30px"
           },
-          "txtContent": "On",
+          "txtContent": "Wł.",
           "customRowAction": {
             "action": "setValue",
             "actionInput": {

@@ -1,4 +1,4 @@
-# Download File Button
+# Zróbwnload File Button
 
 ## Podsumowanie
 
@@ -20,8 +20,8 @@ generic-download-file-button.json | [Ganesh Sanap](https://github.com/ganesh-san
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |January 05, 2022 |Wersja początkowa
-1.1     |January 07, 2023 |Changed button hide condition.
+1.0     |stycznia 05, 2022 |Wersja początkowa
+1.1     |stycznia 07, 2023 |Changed button hide condition.
 
 ## Zastrzeżenie
 

@@ -20,7 +20,7 @@ generic-blurred.json | [Julien Aubert](https://github.com/JulienVLC)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 08, 2024|Wersja początkowa
+1.0|08 lutego 2024|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

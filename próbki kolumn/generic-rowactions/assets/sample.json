@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-rowactions",
     "reponame": "generic-rowactions",
     "source": "pnp",
-    "title": "Row Actions",
+    "title": "Akcje wiersza",
     "shortDescription": "You can use column and view formatting to create buttons that perform pre-defined actions when clicked. Ta próbka przedstawia a quick format that demonstrates the use of each of the possible actions.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-rowactions",
     "longDescription": [

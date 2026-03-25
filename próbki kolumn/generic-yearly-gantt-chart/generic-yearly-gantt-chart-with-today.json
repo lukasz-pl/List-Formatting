@@ -202,7 +202,7 @@
               "children": [
                 {
                   "elmType": "div",
-                      "txtContent": "=toLocaleDateString(@now)"
+                  "txtContent": "=toLocaleDateString(@now)"
                 }
               ]
             }

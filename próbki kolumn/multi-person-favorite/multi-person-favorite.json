@@ -27,7 +27,7 @@
         },
         {
           "elmType": "span",
-          "txtContent": "Favorite",
+          "txtContent": "Ulubione",
           "style": {
             "margin-left": "4px"
           }
@@ -59,7 +59,7 @@
         },
         {
           "elmType": "span",
-          "txtContent": "Remove Favorite",
+          "txtContent": "Usuń z ulubionych",
           "style": {
             "margin-left": "4px"
           }

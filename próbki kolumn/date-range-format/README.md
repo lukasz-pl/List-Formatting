@@ -1,4 +1,4 @@
-# Overdue Date
+# Overdue Data
 
 ## Podsumowanie
 This example colors the current field red when the value inside an item's DueDate is before the current date/time. Unlike some of the previous examples, this example applies formatting to one field by looking at the value inside another field. Note that DueDate is referenced using the [$FieldName] syntax. FieldName is assumed to be the internal name of the field. This example also takes advantage of a special value that can be used in date/time fields - `@now`, which resolves to the current date/time, evaluated when the user loads the list view.
@@ -21,9 +21,9 @@ date-range-format.json | [SharePoint Team](https://github.com/SharePoint)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 2, 2017|Wersja początkowa
-1.1|March 22, 2018|Minor color adjustment
-1.2|August 17, 2018|Changed color from style to class and switched to Excel-style expressions
+1.0|2 listopada 2017|Wersja początkowa
+1.1|22 marca 2018|Minor color adjustment
+1.2|17 sierpnia 2018|Changed color from style to class and switched to Excel-style expressions
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -35,6 +35,6 @@ Ta próbka jest również opisana w głównej dokumentacji dotyczącej formatowa
 
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-range-format" />

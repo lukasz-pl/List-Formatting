@@ -17,7 +17,7 @@ Ta próbka pokazuje how to use the setValue action to update the value of the Pr
 
 After demoting it, please republish it. Otherwise, view-only users will not reflect the change and the page will remain displayed as a news page.
 
-![screenshot of how to republish](./assets/republish.png)
+![zrzut ekranu how to republish](./assets/republish.png)
 
 ## Wymagania wstępne
 The Promoted State column needs to be displayed in the view. Poniższe is how to display it.
@@ -43,9 +43,9 @@ promotedstate-demote-news.json | [Tetsuya Kawahara](https://github.com/tecchan11
 
 Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |December 11, 2021 |Wersja początkowa
-1.1     |January 2, 2024   |Dodano ability to promote back into page
-1.2     |January 6, 2024   |Poprawiono the more icon not to wrap
+1.0     |grudnia 11, 2021 |Wersja początkowa
+1.1     |stycznia 2, 2024   |Dodano ability to promote back into page
+1.2     |stycznia 6, 2024   |Poprawiono the more icon not to wrap
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

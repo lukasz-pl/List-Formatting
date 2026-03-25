@@ -1,4 +1,4 @@
-# Red-Amber-Green (RAG) Bars Based on Date Ranges
+# Red-Amber-Green (RAG) Bars Based on Data Ranges
 
 ## Podsumowanie
 This example creates colored data bars on the current field based on `DueDate` and `StartDate` fields compared to the current date/time.
@@ -17,7 +17,7 @@ The colors used are determined by the classes applied:
 |Condition|Class|
 |---|---|
 |DueDate <= Now|sp-field-severity--severeWarning|
-|Number of days passed between StartDate & DueDate > 70% of the total days|sp-field-severity--warning|
+|Liczba of days passed between StartDate & DueDate > 70% of the total days|sp-field-severity--warning|
 |Else|sp-field-severity--good|
 
 If the `DueDate` has not yet passed, the width of the bar is determined by calculating the percentage of days that have passed from `StartDate` and the `DueDate`.
@@ -28,7 +28,7 @@ Additionally, the value of the field (`@currentField`) is displayed when there i
 
 In this version of the sample, the days left are displayed within the box:
 
-![screenshot of the days-left sample](./assets/screenshot-daysleft.png)
+![zrzut ekranu the days-left sample](./assets/screenshot-daysleft.png)
 
 
 ## Wymagania widoku
@@ -47,11 +47,11 @@ date-range-rag-days-left.json | [Joe Ayre](https://github.com/JoeAyre)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|June 13, 2018|Wersja początkowa
-1.1|July 25, 2018|Updated to include amber class
-1.2|August 20, 2018|Updated to use Excel-style expressions, add a theme font class, and to simplify the calculations
-1.3|August 12, 2019|Dodano days-left sample
-1.4|November 1, 2021|[Zylantha](https://github.com/zylantha) simplified days-left calculation
+1.0|13 czerwca 2018|Wersja początkowa
+1.1|25 lipca 2018|Updated to include amber class
+1.2|20 sierpnia 2018|Updated to use Excel-style expressions, add a theme font class, and to simplify the calculations
+1.3|12 sierpnia 2019|Dodano days-left sample
+1.4|1 listopada 2021|[Zylantha](https://github.com/zylantha) simplified days-left calculation
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -62,6 +62,6 @@ Wersja|Data|Uwagi
 
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/date-range-rag" />

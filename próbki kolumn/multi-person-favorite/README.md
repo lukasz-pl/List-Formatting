@@ -23,7 +23,7 @@ multi-person-favorite.json | [Alexander Henkel](https://github.com/AlexanderHenk
 
 Wersja |Data         |Uwagi
 --------|-------------|--------
-1.0     |July 31, 2023 |Wersja początkowa
+1.0     |lipca 31, 2023 |Wersja początkowa
 
 ## Dodatkowe uwagi
 

@@ -26,9 +26,9 @@ yesno-checkmark-format.json | [Aaron Miao](https://github.com/aaronmi)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 22, 2017|Wersja początkowa
-1.1|March 22, 2018|Simplified logic and added blank value icon
-1.2|August 20, 2018|Switched to Excel-style expression and added theme fontColor
+1.0|22 listopada 2017|Wersja początkowa
+1.1|22 marca 2018|Uproszczono logikę and added blank value icon
+1.2|20 sierpnia 2018|Przełączono na wyrażenie w stylu Excela and added theme fontColor
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -37,6 +37,6 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/yesno-checkmark-format" />

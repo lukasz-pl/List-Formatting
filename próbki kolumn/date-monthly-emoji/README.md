@@ -9,21 +9,21 @@ The correspondence between the months and emoji in this sample is as follows:
 
 Month     |Emoji
 ----------|------
-January   |🎍
-February  |🍫
-March     |🌷
-April     |🌸
-May       |🍓
-June      |☔
-July      |🌻
-August    |🏄
-September |🌰
-October   |🎃
-November  |🍁
-December  |🎅
+stycznia   |🎍
+lutego  |🍫
+marca     |🌷
+kwietnia     |🌸
+maja       |🍓
+czerwca      |☔
+lipca      |🌻
+sierpnia    |🏄
+września |🌰
+października   |🎃
+listopada  |🍁
+grudnia  |🎅
 
 ## Wymagania widoku
-Ten format można zastosować do a Date column
+Ten format można zastosować do a Data column
 
 ## Przykład
 
@@ -35,7 +35,7 @@ date-monthly-emoji.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |October 17, 2021 |Wersja początkowa
+1.0     |października 17, 2021 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

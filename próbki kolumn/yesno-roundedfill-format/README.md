@@ -8,9 +8,9 @@ Ta próbka zawiera custom checkbox rounded styles.
 ## Wymagania widoku
 - Format expects the following fields:
 
-Field |Type
+Pole |Typ
 --------|---------
-Title | Single line of text 
+Title | Pojedyncza linia tekstu 
 CheckOption | Yes/No - field with rounded style
 AzureOption | Yes/No - field with Azure look style
 
@@ -26,7 +26,7 @@ yesno-azure-format.json | [André Lage](https://github.com/aaclage)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 07, 2022|Wersja początkowa
+1.0|07 stycznia 2022|Wersja początkowa
 
 
 ## Zastrzeżenie

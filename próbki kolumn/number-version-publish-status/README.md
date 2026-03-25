@@ -4,7 +4,7 @@
 Sample contains an example of using the modulo math expression for highlighting 'published', 'published with draft' and 'draft with no published versions' of pages
 
 **Before**
-![screenshot of the sample before formatting](./assets/screenshotBefore.png)
+![zrzut ekranu the sample before formatting](./assets/screenshotBefore.png)
 **After**
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
@@ -23,8 +23,8 @@ number-version-publish-status.json | [Paul Bullock](https://github.com/pkbullock
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0| May 20, 2019|Wersja początkowa
-1.1| June 15, 2022|Version number added
+1.0| maja 20, 2019|Wersja początkowa
+1.1| czerwca 15, 2022|Version number added
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

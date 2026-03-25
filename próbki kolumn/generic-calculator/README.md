@@ -6,11 +6,11 @@ Ta próbka zawiera design capabilities and formulas to simulate a simple calcula
 ![zrzut ekranu próbki](./assets/screenshot.gif)
 
 ## Wymagania widoku
-- Format expect the following fields:
+- Format oczekuje następujących pól:
 
-Field |Type
+Pole |Typ
 --------|---------
-Calc | Single line of text - Calculator format
+Calc | Pojedyncza linia tekstu - Calculator format
 
 
 ## Przykład
@@ -23,7 +23,7 @@ generic-calculator.json | [André Lage](https://github.com/aaclage)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 01, 2022|Wersja początkowa
+1.0|01 kwietnia 2022|Wersja początkowa
 
 
 ## Zastrzeżenie

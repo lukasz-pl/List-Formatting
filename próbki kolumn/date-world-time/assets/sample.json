@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-date-world-time",
     "reponame": "date-world-time",
     "source": "pnp",
-    "title": "World Time",
+    "title": "Czas na świecie",
     "shortDescription": "Ta próbka pokazuje displaying the times of countries and regions of the world for a date column value that includes the time.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/date-world-time",
     "longDescription": [

@@ -13,7 +13,7 @@
   "children": [
     {
       "elmType": "a",
-      "txtContent": "Download",
+      "txtContent": "Pobierz",
       "style": {
         "text-decoration": "none",
         "padding": "10px 0px",

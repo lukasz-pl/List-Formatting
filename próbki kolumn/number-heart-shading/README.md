@@ -10,7 +10,7 @@ Ta próbka pokazuje how to express percentages in terms of the color shading of 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-Ten format można zastosować do a Number column. It is expected that the values will be from 0 to 1 (percent).
+Ten format można zastosować do a Liczba column. It is expected that the values will be from 0 to 1 (percent).
 
 ## Przykład
 
@@ -24,7 +24,7 @@ number-heart-shading-rainbow-color.json | [Tetsuya Kawahara](https://github.com/
 
 Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |February 13, 2022 |Wersja początkowa
+1.0     |lutego 13, 2022 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -12,10 +12,10 @@ Ten format można zastosować do any column type. However, it expects to have 4 
 
 Column Name   |Type
 --------------|--------------
-January       | Number
-February      | Number
-March         | Number
-April         | Number
+stycznia       | Liczba
+lutego      | Liczba
+marca         | Liczba
+kwietnia         | Liczba
 Chart         | Any
 
 The column where you apply your format (Chart above) can be any type since it's value is ignored. A calculated column with a formula of `=""` will prevent the field from showing up on your forms.
@@ -33,7 +33,7 @@ generic-column-chart.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |October 10, 2020 |Wersja początkowa
+1.0     |października 10, 2020 |Wersja początkowa
 
 
 ## Zastrzeżenie

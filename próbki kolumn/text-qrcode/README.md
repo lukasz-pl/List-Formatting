@@ -9,7 +9,7 @@ Ta próbka pokazuje the use of [TEC-IT's service](https://barcode.tec-it.com/QRC
 
 External image sources are blocked by default in the custom formatter. To allow external images, you must add the domain to **HTML Field Security**.
 
-![screenshot of HTML Field Security](./assets/html-field-security.png)
+![zrzut ekranu HTML Field Security](./assets/html-field-security.png)
 
 Poniższe are the steps to add it.
 
@@ -17,14 +17,14 @@ Poniższe are the steps to add it.
 2. Select **Settings ⚙** > Select **Site information** > Select **View all site settings**
 3. Select **HTML Field Security**
 
-    ![screenshot of the site settings](./assets/site-settings.png)
+    ![zrzut ekranu the site settings](./assets/site-settings.png)
 
 4. Input the domain name you want to allow (in the case of this sample, input "barcode.tec-it.com")
 5. Select **Add**
 6. Check if the added domain is listed in the list
 7. Select **OK**
 
-    ![screenshot of the steps to add a domain](./assets/add-domain.png)
+    ![zrzut ekranu the steps to add a domain](./assets/add-domain.png)
 
 ## Wymagania widoku
 - Ten format można zastosować do any column type (but is intended for text fields)
@@ -40,7 +40,7 @@ text-qrcode-card.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |November 13, 2022 |Wersja początkowa
+1.0     |listopada 13, 2022 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

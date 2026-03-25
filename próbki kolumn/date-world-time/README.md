@@ -1,4 +1,4 @@
-# World Time
+# Czas na świecie
 
 ## Podsumowanie
 
@@ -17,7 +17,7 @@ Ta próbka pokazuje displaying the times of countries and regions of the world f
 
 ## Wymagania widoku
 
-Ten format można zastosować do a Date column.
+Ten format można zastosować do a Data column.
 
 ## Przykład
 
@@ -29,7 +29,7 @@ date-world-time.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |March 3, 2023 |Wersja początkowa
+1.0     |marca 3, 2023 |Wersja początkowa
 
 ## Zastrzeżenie
 

@@ -19,8 +19,8 @@ generic-dynamic-colored-pills.json | [Larry Pfaff](https://github.com/jaxkookie)
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |July 17, 2024 |Wersja początkowa
-1.1     |September 12, 2025 |Sample Updates
+1.0     |lipca 17, 2024 |Wersja początkowa
+1.1     |września 12, 2025 |Sample Updates
 
 ## Zastrzeżenie
 

@@ -5,20 +5,20 @@ Ta próbka pokazuje using the `indexOf` function (O365 only) to test if text sta
 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
-The `indexOf` function returns the index where a given value is found within a string (indexes start at 0). If the value is not found in the text, the result is -1.
+Funkcja `indexOf` zwraca indeks, pod którym dana wartość została znaleziona w ciągu znaków (indeksy zaczynają się od 0). Jeśli wartość nie zostanie znaleziona w tekście, wynikiem jest -1.
 
 To evaluate if text "startsWith" a given value, we want to know if the index of the value within the string is 0 (at the beginning). So we can use the function like this:
 
 `"=if(indexOf(@currentField,'A')==0, 'Yes', 'No')"`
 
-Some example values and the result using the function above:
-`@currentField`|result
+Kilka przykładowych wartości i wynik działania powyższej funkcji:
+`@currentField`|wynik
 ---|---
-A dog | Yes
+A dog | Tak
 a dog | No
 Pet A dog | No
 
-Notice that the `indexOf` function is **case-sensitive**. You can do a case-insensitive check by adding the `toLowerCase` function like this:
+Zwróć uwagę, że funkcja `indexOf` **rozróżnia wielkość liter**. Aby wykonać sprawdzenie bez rozróżniania wielkości liter, możesz dodać funkcję `toLowerCase` w taki sposób:
 
 `=if(indexOf(toLowerCase(@currentField),'a')==0, 'Yes', 'No')`
 
@@ -26,11 +26,11 @@ Notice that the `indexOf` function is **case-sensitive**. You can do a case-inse
 
 [External image sources are blocked](https://learn.microsoft.com/sharepoint/dev/declarative-customization/formatting-syntax-reference#img-src-security) by default in the custom formatter. To allow external images, you must [add the domain to HTML Field Security](https://support.microsoft.com/office/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b). The domain that needs to be added in this sample is `flagcdn.com`.
 
-![screenshot of HTML Field Security](./assets/html-field-security.png)
+![zrzut ekranu HTML Field Security](./assets/html-field-security.png)
 
 ## Wymagania widoku
 - Ten format można zastosować do a Text or Choice column
-- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
+- Ten format używa operatorów dostępnych wyłącznie w SharePoint Online i nie może być używany w SharePoint 2019
 
 ## Przykład
 
@@ -42,8 +42,8 @@ text-startswith-callingcodes.json | [Chris Kent](https://github.com/thechriskent
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 5, 2019|Wersja początkowa
-1.1|September 29, 2023|Dodano note about HTML Field Security and [changed domain from flags.fmcdn.net to flagcdn.com](https://flags.fmcdn.net/)
+1.0|5 lutego 2019|Wersja początkowa
+1.1|29 września 2023|Dodano note about HTML Field Security and [changed domain from flags.fmcdn.net to flagcdn.com](https://flags.fmcdn.net/)
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -25,7 +25,7 @@ text-expand-collapse-format.json | [André Lage](https://github.com/aaclage)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 10, 2022|Wersja początkowa
+1.0|10 stycznia 2022|Wersja początkowa
 
 
 ## Zastrzeżenie

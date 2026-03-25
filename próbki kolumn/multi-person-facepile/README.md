@@ -7,7 +7,7 @@ Próbka demonstrates the use of the `forEach` property to apply a format for eac
 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
-### User Profile Picture sizes
+### Rozmiary obrazów profilowych użytkownika
 
 |Key|Size|
 |:---:|:---:|
@@ -19,11 +19,11 @@ The L size profile pictures maintain the ratio of the original photo which means
 
 Overall, however, the L size shouldn't be used inside columns not only because the ratio is not guaranteed, but because the default column width won't allow you to take up that much space.
 
-> Note: `@currentField.picture` can be used to retrieve a profile picture directly from a person column. However, size options are not available using that approach.
+> Uwaga: `@currentField.picture` może zostać użyte do pobrania zdjęcia profilowego bezpośrednio z kolumny osoby. W tym podejściu opcje rozmiaru nie są jednak dostępne.
 
 ## Wymagania widoku
 - Ten format można zastosować do a Multi-Select Person column
-- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
+- Ten format używa operatorów dostępnych wyłącznie w SharePoint Online i nie może być używany w SharePoint 2019
 
 ## Przykład
 
@@ -35,8 +35,8 @@ multi-person-facepile.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 4, 2019|Wersja początkowa
-1.1|January 22, 2020|Dodano vertical-align property for use in Microsoft Teams
+1.0|4 kwietnia 2019|Wersja początkowa
+1.1|22 stycznia 2020|Dodano vertical-align property for use in Microsoft Teams
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

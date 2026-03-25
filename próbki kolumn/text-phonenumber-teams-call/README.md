@@ -19,7 +19,7 @@ text-phonenumber-teams-call.json | [Hagen Deike](https://github.com/samurai-ka) 
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 16, 2024|Wersja początkowa
+1.0|16 lutego 2024|Wersja początkowa
 
 ## Zastrzeżenie
 

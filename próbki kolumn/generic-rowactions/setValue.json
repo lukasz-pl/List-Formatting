@@ -12,7 +12,7 @@
       },
       "attributes": {
         "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
-        "title": "Increase value"
+        "title": "Zwiększ wartość"
       },
       "style": {
         "border": "none",
@@ -39,7 +39,7 @@
       },
       "attributes": {
         "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
-        "title": "Decrease value"
+        "title": "Zmniejsz wartość"
       },
       "style": {
         "border": "none",

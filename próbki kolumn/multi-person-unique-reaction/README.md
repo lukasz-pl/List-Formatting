@@ -9,7 +9,7 @@ A user can only either like or dislike an item, if an item is liked by the curre
 
 ## Wymagania widoku
 
-|Type|Internal Name|Required|Additional Information
+|Type|Internal Name|Wymagane|Dodatkowe informacje
 |---|---|:---:|---|
 |Person or Group (Multi)|Like|Yes| Apply the template [multi-person-unique-reaction.json](./multi-person-unique-reaction.json) on this field
 |Person or Group (Multi)|Dislike|Yes| Apply the template [multi-person-unique-reaction-dislike.json](./multi-person-unique-reaction-dislike.json) on this field
@@ -25,7 +25,7 @@ multi-person-unique-reaction-dislike.json | [Michel Mendes](https://github.com/m
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |November 27, 2021 |Wersja początkowa
+1.0     |listopada 27, 2021 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

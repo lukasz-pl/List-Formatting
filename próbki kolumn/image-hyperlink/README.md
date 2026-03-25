@@ -1,13 +1,13 @@
-# Changing Image Hyperlink Standard Behavior
+# Zmiana standardowego zachowania hiperłącza obrazu
 
 ## Podsumowanie
-If you click on an image in a SharePoint list, the image is displayed as a preview. This formatter changes the standard behavior in which a link from another column is used. In this way, a click on the image has the same behavior as if the link had been clicked directly.
+Jeśli klikniesz obraz na liście SharePoint, zostanie on wyświetlony jako podgląd. Ten formatter zmienia standardowe zachowanie tak, aby używany był link z innej kolumny. Dzięki temu kliknięcie obrazu działa tak samo, jak bezpośrednie kliknięcie linku.
 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-- A column of type image containing this column formatter
-- A hyperlink column (Internal Name: Link) that contains the target link.
+- Kolumna typu obraz zawierająca ten formatter kolumny
+- Kolumna hiperłącza (nazwa wewnętrzna: `Link`) zawierająca link docelowy.
 
 ## Przykład
 
@@ -19,8 +19,8 @@ image-hyperlink.json | [Hagen Deike](https://github.com/samurai-ka) ([@samurai@s
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 21, 2024|Wersja początkowa
-1.1|November 21, 2024|Using columns link description instead of title
+1.0|21 listopada 2024|Wersja początkowa
+1.1|21 listopada 2024|Użycie opisu linku kolumny zamiast tytułu
 
 ## Zastrzeżenie
 
@@ -30,9 +30,9 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-- Change the Image size on line 21
-- To remove rounded corners, remove the image style on line 24-26
-- Padding between the rows can be tweaked on line 6 & 7
-- Choose how the link opens in the browser on line 14. "_blank" for new window/tab, or "_self" for the same window.
+- Zmień rozmiar obrazu w linii 21
+- Aby usunąć zaokrąglone rogi, usuń styl obrazu w liniach 24-26
+- Odstępy między wierszami można dostosować w liniach 6 i 7
+- W linii 14 wybierz sposób otwierania linku w przeglądarce: `"_blank"` dla nowego okna lub karty albo `"_self"` dla tego samego okna.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/image-hyperlink" />

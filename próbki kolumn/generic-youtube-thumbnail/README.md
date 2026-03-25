@@ -19,7 +19,7 @@ generic-youtube-thumbnail.json | [João Ferreira](https://github.com/joaoferreir
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 10, 2021|Wersja początkowa
+1.0|10 lutego 2021|Wersja początkowa
 
 
 ## Zastrzeżenie

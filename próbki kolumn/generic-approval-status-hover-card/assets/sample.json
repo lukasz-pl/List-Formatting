@@ -1,79 +1,79 @@
 [
-    {
-      "name": "pnp-list-formatting-generic-approval-status-hover-card",
-      "reponame": "generic-approval-status-hover-card",
-      "source": "pnp",
-      "title": "Approval Status Hover Card",
-      "shortDescription": "Adds a hover card with additional details when using Content Approval",
-      "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card",
-      "longDescription": [
-        "Ta próbka przedstawia more detail on list/library items when the standard Conent Approval flow is enabled. The approval status and a related icon/color are shown with additional details about the overall process visible in a panel on hover."
-      ],
-      "creationDateTime": "2021-03-08T00:00:00.000Z",
-      "updateDateTime": "2021-03-08T00:00:00.000Z",
-      "products": [
-        "SharePoint",
-        "Microsoft Lists"
-      ],
-      "metadata": [
-        {
-          "key": "LIST-SAMPLE-TYPE",
-          "value": "Column"
-        },
-        {
-          "key": "SHAREPOINT-COMPATIBILITY",
-          "value": "SharePoint Online"
-        },
-        {
-          "key": "SAMPLE-CATEGORIES",
-          "value": "Icons, Hover Cards"
-        },
-        {
-          "key": "LIST-COLUMN-TYPE",
-          "value": "General"
-        },
-        {
-          "key": "FORMATTING-TOKENS",
-          "value": ""
-        },
-        {
-          "key": "FORMATTING-OPERATORS",
-          "value": "toLocaleDateString"
-        },
-        {
-          "key": "FORMATTING-ACTIONS",
-          "value": ""
-        },
-        {
-          "key": "FORMATTING-FEATURES",
-          "value": "customCardProps, directionalHint"
-        },
-        {
-          "key": "CLASSES",
-          "value": "ms-fontColor-themePrimary, ms-fontColor-themeDarker--hover, ms-fontColor-black, ms-fontColor-neutralSecondaryAlt, ms-fontColor-red, ms-fontColor-green, ms-fontColor-orange, ms-borderColor-green, ms-borderColor-neutralSecondaryAlt, ms-fontColor-themeDark, ms-fontColor-themeDarker"
-        }
-      ],
-      "thumbnails": [
-        {
-          "type": "image",
-          "order": 100,
-          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-approval-status-hover-card/assets/screenshot.png",
-          "alt": "Status_hover"
-        }
-      ],
-      "authors": [
-        {
-          "gitHubAccount": "m3ngi3",
-          "pictureUrl": "https://github.com/m3ngi3.png",
-          "name": "Django Lohn"
-        }
-      ],
-      "references": [
-        {
-          "name": "Użyj formatowania kolumn do dostosowania SharePoint",
-          "description": "Możesz użyć formatowania kolumn, aby dostosować sposób wyświetlania pól na listach i w bibliotekach SharePoint. W tym celu tworzysz obiekt JSON opisujący elementy wyświetlane wtedy, gdy pole jest uwzględnione w widoku listy, oraz style stosowane do tych elementów. Formatowanie kolumn nie zmienia danych elementu listy ani pliku; zmienia jedynie sposób ich wyświetlania użytkownikom przeglądającym listę.",
-          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
-        }
-      ]
-    }
-  ]
+  {
+    "name": "pnp-list-formatting-generic-approval-status-hover-card",
+    "reponame": "generic-approval-status-hover-card",
+    "source": "pnp",
+    "title": "Approval Status Hover Card",
+    "shortDescription": "Adds a hover card with additional details when using Content Approval",
+    "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-approval-status-hover-card",
+    "longDescription": [
+      "Ta próbka przedstawia more detail on list/library items when the standard Conent Approval flow is enabled. The approval status and a related icon/color are shown with additional details about the overall process visible in a panel on hover."
+    ],
+    "creationDateTime": "2021-03-08T00:00:00.000Z",
+    "updateDateTime": "2021-03-08T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons, Hover Cards"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "General"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": "toLocaleDateString"
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "customCardProps, directionalHint"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, ms-fontColor-themeDarker--hover, ms-fontColor-black, ms-fontColor-neutralSecondaryAlt, ms-fontColor-red, ms-fontColor-green, ms-fontColor-orange, ms-borderColor-green, ms-borderColor-neutralSecondaryAlt, ms-fontColor-themeDark, ms-fontColor-themeDarker"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/generic-approval-status-hover-card/assets/screenshot.png",
+        "alt": "Status_hover"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "m3ngi3",
+        "pictureUrl": "https://github.com/m3ngi3.png",
+        "name": "Django Lohn"
+      }
+    ],
+    "references": [
+      {
+        "name": "Użyj formatowania kolumn do dostosowania SharePoint",
+        "description": "Możesz użyć formatowania kolumn, aby dostosować sposób wyświetlania pól na listach i w bibliotekach SharePoint. W tym celu tworzysz obiekt JSON opisujący elementy wyświetlane wtedy, gdy pole jest uwzględnione w widoku listy, oraz style stosowane do tych elementów. Formatowanie kolumn nie zmienia danych elementu listy ani pliku; zmienia jedynie sposób ich wyświetlania użytkownikom przeglądającym listę.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

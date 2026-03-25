@@ -19,7 +19,7 @@ text-hyperlink-long-addresses.json | [Geert de Kooter](https://github.com/gdk-ma
 ## Historia wersji
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 23, 2023|Wersja początkowa
+1.0|23 stycznia 2023|Wersja początkowa
 
 ## Zastrzeżenie
 
@@ -28,6 +28,6 @@ Wersja|Data|Uwagi
 ---
 
 ## Dodatkowe uwagi
-- None
+- Brak
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-hyperlink-long-addresses" />

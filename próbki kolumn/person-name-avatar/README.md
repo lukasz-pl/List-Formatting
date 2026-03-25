@@ -58,9 +58,9 @@ person-name-avatar.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 ## Historia wersji
 
-| Version | Date | Comments |
+| Version | Data | Uwagi |
 |---------|------|---------|
-| 1.0 | August 25, 2025 | Wersja początkowa |
+| 1.0 | sierpnia 25, 2025 | Wersja początkowa |
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

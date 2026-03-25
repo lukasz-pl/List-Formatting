@@ -28,7 +28,7 @@
           },
           "attributes": {
             "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover",
-            "title": "Register"
+            "title": "Zarejestruj"
           },
           "style": {
             "border": "none",
@@ -74,7 +74,7 @@
           },
           "attributes": {
             "class": "ms-fontColor-themePrimary ms-fontColor-themeDarker--hover",
-            "title": "Unregister"
+            "title": "Wyrejestruj"
           },
           "style": {
             "border": "none",
@@ -105,7 +105,7 @@
       "children": [
         {
           "elmType": "span",
-          "txtContent": "Registered",
+          "txtContent": "Zarejestrowano",
           "style": {
             "display": "=if([$RegistrationEndDate] > @now && indexOf([$PeopleWhoRegistered.email], @me) > -1, '','none')",
             "padding-left": "5px",
@@ -119,7 +119,7 @@
       "children": [
         {
           "elmType": "span",
-          "txtContent": "Course is full",
+          "txtContent": "Brak miejsc na kursie",
           "style": {
             "display": "=if([$RegistrationEndDate] > @now && length([$PeopleWhoRegistered]) >= [$NumberOfPlaces], '','none')",
             "padding-left": "5px",
@@ -133,7 +133,7 @@
       "children": [
         {
           "elmType": "span",
-          "txtContent": "Registration has ended",
+          "txtContent": "Rejestracja została zakończona",
           "style": {
             "display": "=if([$RegistrationEndDate] > @now, 'none','inherit')",
             "padding-left": "5px",

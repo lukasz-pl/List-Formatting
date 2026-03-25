@@ -26,10 +26,10 @@ If you want to show or hide the button, change the value of the `display` proper
 ## Wymagania widoku
 Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
-|Type            |Internal Name |Required|
+|Type            |Internal Name |Wymagane|
 |----------------|--------------|:------:|
 |Choice          |Status        |No      |
-|Date and Time   |Date          |No      |
+|Data and Time   |Data          |No      |
 |Person or Group |User          |No      |
 
 ## Przykład
@@ -49,7 +49,7 @@ generic-update-button-OK-NG-filled-text.json | [Tetsuya Kawahara](https://github
 
 Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |April 2, 2022 |Wersja początkowa
+1.0     |kwietnia 2, 2022 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

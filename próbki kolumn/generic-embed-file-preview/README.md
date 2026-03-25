@@ -8,20 +8,20 @@ Ta próbka pokazuje how to display a file preview from a document library or Sit
 
 Pages can also be previewed in a callout.
 
-![screenshot of a Site Pages page preview in a callout](./assets/screenshot-site-pages.png)
+![zrzut ekranu a Site Pages page preview in a callout](./assets/screenshot-site-pages.png)
 
 > [!WARNING]
-> Support for the `embed` action in Site Pages may not yet be available in some tenants as of October 2, 2025, so page previews might not work in those environments.
+> Support for the `embed` action in Site Pages may not yet be available in some tenants as of października 2, 2025, so page previews might not work in those environments.
 
 ## Wymagania wstępne
 
 To embed content, the domain of the SharePoint site (e.g., `contoso.sharepoint.com`) must be allowed for embedding. For guidance on how to allow embedding, please refer to [Allow or restrict the ability to embed content on SharePoint Lists using custom formatters](https://go.microsoft.com/fwlink/p/?linkid=2258033).
 
-![screenshot of HTML field security settings](./assets/html-field-security.png)
+![zrzut ekranu HTML field security settings](./assets/html-field-security.png)
 
 If you attempt to embed content from a domain that is not allowed, the following error screen will appear:
 
-![screenshot of the error screen when target site is not allowed to embed](./assets/not-allowed-screen.png)
+![zrzut ekranu the error screen when target site is not allowed to embed](./assets/not-allowed-screen.png)
 
 ## Wymagania widoku
 
@@ -38,8 +38,8 @@ generic-embed-file-preview.json | [Tetsuya Kawahara](https://github.com/tecchan1
 
 Wersja |Data         |Uwagi
 --------|-------------|--------
-1.0     |June 30, 2025|Wersja początkowa
-1.1     |October 2, 2025|Extended to support page (aspx) previews
+1.0     |czerwca 30, 2025|Wersja początkowa
+1.1     |października 2, 2025|Extended to support page (aspx) previews
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

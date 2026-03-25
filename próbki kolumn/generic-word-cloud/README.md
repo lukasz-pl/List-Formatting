@@ -62,7 +62,7 @@ The JSON formatting applies styles using conditional expressions:
 
 > **Note:** SharePoint JSON formatting does **not support rotation or random positioning**, so words are displayed in a flexible grid rather than a fully freeform cloud.
 
-## How to Apply
+## Jak zastosować
 
 1. Open your **SharePoint list**.
 2. Click the column header you want to format → **Column settings → Format this column**.
@@ -109,12 +109,12 @@ generic-word-cloud.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 2, 2025|Wersja początkowa
+1.0|2 września 2025|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## References
+## Odnośniki
 
 - [SharePoint Column Formatting Documentation](https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)

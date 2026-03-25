@@ -21,8 +21,8 @@ person-mailto.json | [SharePoint Team](https://github.com/SharePoint)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 2, 2017|Wersja początkowa
-1.1|August 18, 2018|Changed from generic-action-button to person-mailto and switched to Excel-style expressions
+1.0|2 listopada 2017|Wersja początkowa
+1.1|18 sierpnia 2018|Changed from generic-action-button to person-mailto and switched to Excel-style expressions
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -34,8 +34,8 @@ Ta próbka jest również opisana w głównej dokumentacji dotyczącej formatowa
 
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-A similar wizard is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart that allows full customization.
+Podobny kreator znajduje się także w webparcie [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md), który pozwala na pełne dostosowanie.
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-mailto" />

@@ -5,7 +5,7 @@ Ta próbka otwiera Microsoft Office documents in full screen within a new tab. T
 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
-![screenshot of the file preview](./assets/screenshotFilePreview.png)
+![zrzut ekranu the file preview](./assets/screenshotFilePreview.png)
 
 ## Wymagania widoku
 - This format is intended for document libraries
@@ -33,8 +33,8 @@ generic-file-preview.json | [Geert de Kooter](https://github.com/gdk-max)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 08, 2020|Wersja początkowa
-2.0|January 26, 2022|When the filetype is not of the supported filetypes, it will open in a new window, the icon changes to reflect this behavior.
+1.0|08 sierpnia 2020|Wersja początkowa
+2.0|26 stycznia 2022|When the filetype is not of the supported filetypes, it will open in a new window, the icon changes to reflect this behavior.
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

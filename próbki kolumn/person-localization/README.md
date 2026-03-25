@@ -1,4 +1,4 @@
-# Person Localization
+# Lokalizacja osoby
 
 ## Podsumowanie
 Ta próbka pokazuje changing text output based on the `@lcid` token. This allows you to provide localized text within your format ensuring that users in various regions can use your formats without issue.
@@ -19,7 +19,7 @@ person-localization.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 27, 2022|Wersja początkowa
+1.0|27 kwietnia 2022|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

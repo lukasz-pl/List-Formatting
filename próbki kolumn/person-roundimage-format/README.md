@@ -11,7 +11,7 @@ For best results, images should be square (S & M user profile pictures always ar
 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
-### User Profile Picture sizes
+### Rozmiary obrazów profilowych użytkownika
 
 |Key|Size|
 |:---:|:---:|
@@ -23,7 +23,7 @@ The L size profile pictures maintain the ratio of the original photo which means
 
 Overall, however, the L size shouldn't be used inside columns not only because the ratio is not guaranteed, but because the default column width won't allow you to take up that much space.
 
-> Note: `@currentField.picture` can be used to retrieve a profile picture directly from a person column. However, size options are not available using that approach.
+> Uwaga: `@currentField.picture` może zostać użyte do pobrania zdjęcia profilowego bezpośrednio z kolumny osoby. W tym podejściu opcje rozmiaru nie są jednak dostępne.
 
 ## Wymagania widoku
 - Ten format można zastosować do a Person column
@@ -38,8 +38,8 @@ person-roundimage-format.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 21, 2018|Wersja początkowa
-1.1|August 20, 2018|Switched to Excel-style expression
+1.0|21 marca 2018|Wersja początkowa
+1.1|20 sierpnia 2018|Switched to Excel-style expression
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -47,10 +47,10 @@ Wersja|Data|Uwagi
 ---
 
 ## Dodatkowe uwagi
-This template is included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart.
+Ten szablon jest dołączony do webpartu [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md).
 
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-roundimage-format" />

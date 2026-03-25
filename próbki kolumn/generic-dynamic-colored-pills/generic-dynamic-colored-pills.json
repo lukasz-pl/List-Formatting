@@ -22,7 +22,7 @@
             "padding": "5px",
             "color": "=if( ((((ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5)) % 255) / 10) * 10) * 0.299) + (ceiling(((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10) * 0.587) + ((255 - ceiling(((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)) * 0.114)) ) > 145, '#000000', '#ffffff')",
             "background-color": "='rgba(' + (ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5)) % 255) / 10) * 10) + ', ' + (ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)  + ', ' + (255 - ceiling(((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)) + ', 1)'",
-			"border-width": "2px",
+            "border-width": "2px",
             "border-style": "solid",
             "border-color": "='rgba(' + (255 - ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5)) % 255) / 10) * 10) + ', ' + (255 - ceiling((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)  + ', ' + (ceiling(((((@currentField.lookupValue.length) * pow(@currentField.lookupId, 5) + @currentField.lookupId ) % 255) / 10) * 10)) + ', 1)'",
             "border-radius": "25px"

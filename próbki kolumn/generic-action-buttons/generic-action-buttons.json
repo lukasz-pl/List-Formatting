@@ -9,7 +9,7 @@
   "children": [
     {
       "elmType": "button",
-      "txtContent": "Escalate",
+      "txtContent": "Eskaluj",
       "style": {
         "background-color": "=if([$Priority] == 'high', '#287b7d', '#e0e0e0')",
         "color": "=if([$Priority] == 'high', 'white', '#888888')",
@@ -28,7 +28,7 @@
     },
     {
       "elmType": "button",
-      "txtContent": "Resolve",
+      "txtContent": "Rozwiąż",
       "style": {
         "background-color": "=if([$Status] == 'new', '#f0f0f0', 'transparent')",
         "color": "=if([$Status] == 'new', '#aaaaaa', '#287b7d')",

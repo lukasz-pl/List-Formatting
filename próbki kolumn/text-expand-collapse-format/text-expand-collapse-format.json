@@ -13,7 +13,7 @@
           "children": [
             {
               "elmType": "div",
-              "txtContent": "Click to expand"
+              "txtContent": "Kliknij, aby rozwinąć"
             },
             {
               "elmType": "div",

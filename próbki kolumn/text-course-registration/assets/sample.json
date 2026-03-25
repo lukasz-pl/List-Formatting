@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-text-course-registration",
     "reponame": "text-course-registration",
     "source": "pnp",
-    "title": "Course Registration",
+    "title": "Rejestracja na kurs",
     "shortDescription": "Demonstrates creating a button to register for a course.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-course-registration",
     "longDescription": [

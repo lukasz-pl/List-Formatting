@@ -10,14 +10,14 @@ The approval hover card provides an intuitive, streamlined way for users to quic
 
 | Internal Name            | Type                | Notes                                                       |
 |--------------------------|---------------------|-------------------------------------------------------------|
-| Approver1Comments        | Single line of text |                                                             |
-| Approver2Comments        | Single line of text |                                                             |
+| Approver1Comments        | Pojedyncza linia tekstu |                                                             |
+| Approver2Comments        | Pojedyncza linia tekstu |                                                             |
 | Approver1Response        | Choice              | "Approved","Rejected","Pending"                             |
 | Approver2Response        | Choice              | "Approved","Rejected","Pending"                             |
 | Approver1                | Person or Group     |                                                             |
 | Approver2                | Person or Group     |                                                             |
-| Approver1RespondedOn     | Date and Time       |                                                             |
-| Approver2RespondedOn     | Date and Time       |                                                             |
+| Approver1RespondedOn     | Data and Time       |                                                             |
+| Approver2RespondedOn     | Data and Time       |                                                             |
 
 ## Przykład
 
@@ -29,7 +29,7 @@ generic-custom-hover-card-approvers.json | [Sudeep Ghatak](https://github.com/su
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 24, 2024|Wersja początkowa
+1.0|24 września 2024|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

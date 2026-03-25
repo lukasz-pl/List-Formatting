@@ -49,7 +49,7 @@
         },
         {
           "elmType": "div",
-          "txtContent": "+ Assign to Me",
+          "txtContent": "+ Przypisz do mnie",
           "style": {
             "display": "=if(@currentField,'none','flex')",
             "align-items": "center",

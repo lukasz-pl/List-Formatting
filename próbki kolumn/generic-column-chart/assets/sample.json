@@ -4,10 +4,10 @@
     "reponame": "generic-column-chart",
     "source": "pnp",
     "title": "Inline Column Chart",
-    "shortDescription": "Ta próbka pokazuje displaying a column chart using SVG. It uses the \u0060currentColor\u0060 for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site\u0027s theme.",
+    "shortDescription": "Ta próbka pokazuje displaying a column chart using SVG. It uses the `currentColor` for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site's theme.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-column-chart",
     "longDescription": [
-      "Ta próbka pokazuje displaying a column chart using SVG. It uses the \u0060currentColor\u0060 for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site\u0027s theme."
+      "Ta próbka pokazuje displaying a column chart using SVG. It uses the `currentColor` for the fill value of the SVGs which allows us to use a theme class to make the final SVGs fit your site's theme."
     ],
     "creationDateTime": "2020-10-10T00:00:00.000Z",
     "updateDateTime": "2020-10-10T00:00:00.000Z",

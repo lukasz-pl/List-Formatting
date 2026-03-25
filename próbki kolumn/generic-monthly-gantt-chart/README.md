@@ -1,17 +1,17 @@
 # Monthly Gantt Chart
 
 ## Podsumowanie
-Ta próbka pokazuje the display of a monthly Gantt chart. The Gantt chart for the month corresponding to the `StartDate` value will be shown. For example, if the `StartDate` is March 15, the Gantt chart for March will be displayed; if the `StartDate` is April 2, the Gantt chart for April will be shown.
+Ta próbka pokazuje the display of a monthly Gantt chart. The Gantt chart for the month corresponding to the `StartDate` value will be shown. For example, if the `StartDate` is marca 15, the Gantt chart for marca will be displayed; if the `StartDate` is kwietnia 2, the Gantt chart for kwietnia will be shown.
 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
 Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
-|Type|Internal Name|Required|
+|Type|Internal Name|Wymagane|
 |---|---|:---:|
-|Date and Time|StartDate|Yes|
-|Date and Time|EndDate|Yes|
+|Data and Time|StartDate|Yes|
+|Data and Time|EndDate|Yes|
 
 ## Przykład
 
@@ -23,7 +23,7 @@ generic-monthly-gantt-chart.json | [Ahmed Mandour](https://github.com/AMandour)
 
 Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |February 16, 2025 |Wersja początkowa
+1.0     |lutego 16, 2025 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

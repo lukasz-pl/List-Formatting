@@ -7,7 +7,7 @@ Ta próbka pokazuje the use of the `split` operator to change the value of a num
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-Ten format można zastosować do a Number column (the format expects values from 0-10)
+Ten format można zastosować do a Liczba column (the format expects values from 0-10)
 
 ## Przykład
 
@@ -19,7 +19,7 @@ number-zero-to-ten-rating.json | [Tetsuya Kawahara](https://github.com/tecchan11
 
 Wersja |Data               |Uwagi
 --------|-------------------|--------
-1.0     |September 18, 2022 |Wersja początkowa
+1.0     |września 18, 2022 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -8,7 +8,7 @@ Sample can be extended to different colors based on your requirements.
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-- Ten format można zastosować do a Choice, Single line of text column
+- Ten format można zastosować do a Choice, Pojedyncza linia tekstu column
 
 ## Przykład
 
@@ -20,7 +20,7 @@ color-based-smiley-face.json | [Siddharth Vaghasia](https://github.com/siddharth
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|June 16, 2019|Wersja początkowa
+1.0|16 czerwca 2019|Wersja początkowa
 
 
 ## Zastrzeżenie
@@ -33,6 +33,6 @@ Ta próbka wykorzystuje icons from the Office UI Fabric
 
 - [Office UI Fabric](https://developer.microsoft.com/en-us/fabric)
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/color-based-smiley-face" />

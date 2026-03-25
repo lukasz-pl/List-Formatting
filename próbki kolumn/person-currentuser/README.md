@@ -20,8 +20,8 @@ person-currentuser.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 20, 2018|Wersja początkowa
-1.1|August 18, 2018|Using theme classes and switched to Excel-style expressions
+1.0|20 marca 2018|Wersja początkowa
+1.1|18 sierpnia 2018|Using theme classes and switched to Excel-style expressions
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -31,11 +31,11 @@ Wersja|Data|Uwagi
 ## Dodatkowe uwagi
 Ta próbka jest również opisana w głównej dokumentacji dotyczącej formatowania kolumn.
 
-A similar template is also included in the [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md) webpart.
+Podobny szablon znajduje się także w webparcie [Column Formatter](https://github.com/SharePoint/sp-dev-solutions/blob/master/solutions/ColumnFormatter/README.md).
 
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting#me)
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 A similar sample is available for use with multi-select person fields: [multi-person-currentuser](../multi-person-currentuser)
 

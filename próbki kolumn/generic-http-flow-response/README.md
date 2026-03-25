@@ -20,7 +20,7 @@ generic-http-flow-response.json  | [Sam Yost](https://github.com/samyost)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 23, 2025|Wersja początkowa
+1.0|23 listopada 2025|Wersja początkowa
 
 ## Zastrzeżenie
 
@@ -45,7 +45,7 @@ This pattern relies on a specific Power Automate configuration to function corre
 * **Headers:** `Content-Type`: `text/html; charset=utf-8`
 * **Body:** Include the HTML you want displayed in the bubble (e.g., `<b>✅ Success</b>`).
 
-### Troubleshooting
+### Rozwiązywanie problemów
 **"Content not allowed" or "Refused to connect"**
 If the callout bubble appears but displays an error message, your SharePoint environment may be blocking external iframes (including Azure Logic Apps domains).
 

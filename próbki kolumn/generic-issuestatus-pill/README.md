@@ -27,7 +27,7 @@ generic-issuestatus-pill.json | [Hugo Bernier](https://github.com/hugoabernier)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|July 30, 2020|Wersja początkowa
+1.0|30 lipca 2020|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

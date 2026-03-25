@@ -20,8 +20,8 @@ yesno-toggle-emoji-format.json | [Tetsuya Kawahara](https://github.com/tecchan11
 
 Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |April 29, 2021    |Wersja początkowa
-1.1     |November 21, 2021 |Modified to update item using `setValue`
+1.0     |kwietnia 29, 2021    |Wersja początkowa
+1.1     |listopada 21, 2021 |Modified to update item using `setValue`
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

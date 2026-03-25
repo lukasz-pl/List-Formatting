@@ -1,4 +1,4 @@
-# Open File as PDF
+# Otwórz File as PDF
 
 ## Podsumowanie
 Tę próbkę można zastosować do kolumny w bibliotece dokumentów, aby renderować link otwierający dokument Office jako PDF. Opiera się ona na interfejsie SharePoint 2.0 REST API. Symbol zastępczy `YOUR_DRIVE_ID` w JSON-ie należy zamienić na poprawny `driveurl` biblioteki dokumentów, w której używany jest ten format.
@@ -28,8 +28,8 @@ generic-open-file-as-pdf.json | [Russell Gove](https://github.com/russgove)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 28, 2020|Wersja początkowa
-1.1|July 7, 2022|Dodano `@currentWeb` usage
+1.0|28 października 2020|Wersja początkowa
+1.1|7 lipca 2022|Dodano `@currentWeb` usage
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

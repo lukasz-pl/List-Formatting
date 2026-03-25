@@ -10,19 +10,19 @@ Ta próbka formatowania kolumn displays images with action buttons overlaid at t
 
 Ten format można zastosować do any column in your SharePoint list or Microsoft List. The column itself doesn't need to contain specific data - the formatting references other columns in the list to display images and buttons.
 
-### Required Columns
+### Wymagane Columns
 
 Your SharePoint list must have the following columns:
 
 | Column Internal Name | Type | Description |
 |---------------------|------|-------------|
-| `Title` | Single line of text | Title |
-| `ImageUrl` | Single line of text or Hyperlink | URL to the image to display |
+| `Title` | Pojedyncza linia tekstu | Title |
+| `ImageUrl` | Pojedyncza linia tekstu or Hyperlink | URL to the image to display |
 | `ImageOrientation` | Choice | Image orientation: "Landscape", "Portrait", or "Square" |
-| `Button1Label` | Single line of text | Text label for the first button |
-| `Button1Url` | Hyperlink or Single line of text | URL for the first button action |
-| `Button2Label` | Single line of text | Text label for the second button |
-| `Button2Url` | Hyperlink or Single line of text | URL for the second button action |
+| `Button1Label` | Pojedyncza linia tekstu | Text label for the first button |
+| `Button1Url` | Hyperlink or Pojedyncza linia tekstu | URL for the first button action |
+| `Button2Label` | Pojedyncza linia tekstu | Text label for the second button |
+| `Button2Url` | Hyperlink or Pojedyncza linia tekstu | URL for the second button action |
 
 ### Setting Up the ImageOrientation Column
 
@@ -47,7 +47,7 @@ Your SharePoint list must have the following columns:
 8. Click **Preview** to test the formatting
 9. Click **Save** to apply the changes
 
-## How It Works
+## Jak to działa
 
 This column formatting creates a custom rendering for each list item, displaying:
 1. An image with dimensions based on orientation
@@ -146,15 +146,15 @@ Modify the negative margin percentages:
 
 Increase the percentage to move buttons up or left, decrease to move them down or right.
 
-## Troubleshooting
+## Rozwiązywanie problemów
 
 ### Images Not Displaying Correctly
 
 **Problem**: Images appear stretched or distorted  
-**Solution**: Ensure `ImageOrientation` column is set correctly for each image (must match exactly: "Landscape", "Portrait", or "Square")
+**Rozwiązanie**: Ensure `ImageOrientation` column is set correctly for each image (must match exactly: "Landscape", "Portrait", or "Square")
 
 **Problem**: Images don't load  
-**Solution**: 
+**Rozwiązanie**: 
 - Verify image URLs are accessible and valid
 - Check that URLs include the protocol (https://)
 - Ensure images aren't blocked by security policies
@@ -163,18 +163,18 @@ Increase the percentage to move buttons up or left, decrease to move them down o
 ### Buttons Not Positioned Correctly
 
 **Problem**: Buttons appear too high or too low  
-**Solution**: Adjust the negative margin percentages in the `margin-top` style
+**Rozwiązanie**: Adjust the negative margin percentages in the `margin-top` style
 
 **Problem**: Buttons appear off to the side  
-**Solution**: Modify the `margin-left` percentage values
+**Rozwiązanie**: Modify the `margin-left` percentage values
 
 **Problem**: Buttons don't show at all  
-**Solution**: Check that button label and URL columns have data for each item
+**Rozwiązanie**: Check that button label and URL columns have data for each item
 
 ### Buttons Not Clickable
 
 **Problem**: Clicking buttons doesn't work  
-**Solution**:
+**Rozwiązanie**:
 - Verify URL columns (`Button1Url`, `Button2Url`) contain valid URLs
 - Check SharePoint external link policies
 - Ensure URLs include the protocol (https://)
@@ -183,7 +183,7 @@ Increase the percentage to move buttons up or left, decrease to move them down o
 ### Button Text Not Showing
 
 **Problem**: Buttons appear but no text visible  
-**Solution**: 
+**Rozwiązanie**: 
 - Check that `Button1Label` and `Button2Label` columns contain text
 - Verify columns aren't hidden or filtered out
 - Ensure text color contrasts with button background
@@ -191,7 +191,7 @@ Increase the percentage to move buttons up or left, decrease to move them down o
 ### Column Formatting Not Applied
 
 **Problem**: Column shows default values instead of formatted output  
-**Solution**:
+**Rozwiązanie**:
 - Ensure JSON is valid (no syntax errors)
 - Verify all referenced column names exist and match exactly (case-sensitive)
 - Check that you have edit permissions on the list
@@ -240,7 +240,7 @@ generic-image-overlay-buttons.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 16, 2025|Wersja początkowa
+1.0|16 października 2025|Wersja początkowa
 
 ## Zastrzeżenie
 

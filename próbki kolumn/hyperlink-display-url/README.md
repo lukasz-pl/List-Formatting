@@ -21,7 +21,7 @@ hyperlink-display-url-format-picture.json | [Watana](https://github.com/watana2)
 
 Wersja |Data            |Uwagi
 --------|----------------|--------
-1.0     |September 16, 2024 |Wersja początkowa
+1.0     |września 16, 2024 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-number-battery",
     "reponame": "number-battery",
     "source": "pnp",
-    "title": "Number Battery",
+    "title": "Bateria liczbowa",
     "shortDescription": "This sample changes the appearance of the values in number columns (percent)  to look like a battery.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/number-battery",
     "longDescription": [

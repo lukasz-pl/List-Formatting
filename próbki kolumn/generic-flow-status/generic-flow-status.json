@@ -34,7 +34,7 @@
         },
         {
           "elmType": "span",
-          "txtContent": "Request",
+          "txtContent": "Wniosek",
           "attributes": {
             "class": "ms-font-l"
           },
@@ -454,7 +454,7 @@
                   "attributes": {
                     "href": "@currentField",
                     "target": "_blank",
-                    "title": "Requires flow ownership rights to access",
+                    "title": "Wymaga uprawnień właściciela przepływu",
                     "class": "ms-fontColor-neutralSecondary ms-fontColor-themePrimary--hover"
                   },
                   "style": {
@@ -469,7 +469,7 @@
                     },
                     {
                       "elmType": "span",
-                      "txtContent": "Flow run details",
+                      "txtContent": "Szczegóły uruchomienia przepływu",
                       "style": {
                         "padding-left": "4px"
                       }

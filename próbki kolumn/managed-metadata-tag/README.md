@@ -19,7 +19,7 @@ managed-metadata-tag-multiple-values.json | [Tetsuya Kawahara](https://github.co
 
 Wersja |Data               |Uwagi
 --------|-------------------|--------
-1.0     |September 17, 2023 |Wersja początkowa
+1.0     |września 17, 2023 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

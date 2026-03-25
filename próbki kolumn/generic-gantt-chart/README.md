@@ -7,21 +7,21 @@ Ta próbka pokazuje the use of the Calculated column to generate a string for di
 
 Additionally, you can adjust the date format displayed on the Gantt chart by combining JSON and the corresponding formulas. Refer to the table below for date format options and the associated JSON and formulas:
 
-| Date Format | JSON File                         | Formula for GanttChart Column |
+| Data Format | JSON File                         | Formula for GanttChart Column |
 | ----------- | --------------------------------- | ----------------------------- | 
 | MM/dd/yyyy  | generic-gantt-chart.json          | Formula1 or Formula3          | 
 | yyyy/MM/dd  | generic-gantt-chart.json          | Formula2 or Formula4          | 
 | dd/MM/yyyy  | generic-gantt-chart-ddMMyyyy.json | Formula2 or Formula4          | 
 
-![screenshot of the date format sample](./assets/date-format.png)
+![zrzut ekranu the date format sample](./assets/date-format.png)
 
 ## Wymagania widoku
 
-|Type                             |Internal Name|Required|
+|Type                             |Internal Name|Wymagane|
 |---------------------------------|-------------|:------:|
-|Date and time                    |Start        |Yes     |
-|Date and time                    |End          |Yes     |
-|Calculated (Single line of text) |GanttChart   |Yes     |
+|Data and time                    |Start        |Yes     |
+|Data and time                    |End          |Yes     |
+|Calculated (Pojedyncza linia tekstu) |GanttChart   |Yes     |
 
 Set one of the following formulas for the `GanttChart` column.
 ```
@@ -40,7 +40,7 @@ Set one of the following formulas for the `GanttChart` column.
 =TEXT([Start],"yyyy-MM-dd")&"^"&TEXT([End],"yyyy-MM-dd")&"(2023-08-01_2024-01-31)"
 ```
 
-![screenshot of the calculated column setting screen](./assets/formula.png)
+![zrzut ekranu the calculated column setting screen](./assets/formula.png)
 
 **Note**  
 [Depending on the site settings, the parameter delimiter in the Calculated column may be a ; (semi-colon) instead of a , (comma).](https://learn.microsoft.com/previous-versions/office/developer/sharepoint-2010/bb862071(v=office.14)#important-notes) If the parameter delimiter is incorrect, an error screen will appear after creating or editing the Calculated column. If the site uses ; (semi-colon) as the parameter delimiter, please use the following formula.
@@ -71,9 +71,9 @@ generic-gantt-chart-ddMMyyyy.json | [Tetsuya Kawahara](https://github.com/teccha
 
 Wersja |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |September 27, 2023|Wersja początkowa
-1.1     |October 12, 2023|Dodano note on delimiter character in Calculated column
-1.2     |October 13, 2023|Dodano more options for date format displayed on Gantt chart
+1.0     |września 27, 2023|Wersja początkowa
+1.1     |października 12, 2023|Dodano note on delimiter character in Calculated column
+1.2     |października 13, 2023|Dodano more options for date format displayed on Gantt chart
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -84,6 +84,6 @@ Wersja |Data              |Uwagi
 
 - Calculated columns can be added from [See all column types] on the Create Column screen.
 
-    ![screenshot of the create column screen](./assets/create-column-screen.png)
+    ![zrzut ekranu the create column screen](./assets/create-column-screen.png)
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-gantt-chart" />

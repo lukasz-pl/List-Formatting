@@ -9,12 +9,12 @@ Ta próbka pokazuje creating deep links to the scheduling dialog in Microsoft Te
 ## Wymagania widoku
 Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
-|Type                 |Internal Name  |Required|
+|Type                 |Internal Name  |Wymagane|
 |---------------------|---------------|:------:|
-|Single line of text  |Title          |Yes     |
+|Pojedyncza linia tekstu  |Title          |Yes     |
 |Multiple line of text|Content        |No      |
-|Date and Time        |Start          |Yes     |
-|Date and Time        |End            |Yes     |
+|Data and Time        |Start          |Yes     |
+|Data and Time        |End            |Yes     |
 |Calculated Column    |FormattedStart |        |
 |Calculated Column    |FormattedEnd   |        |
 
@@ -41,7 +41,7 @@ generic-scheduling-link-advanced.json | [Tetsuya Kawahara](https://github.com/te
 
 Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |January 28, 2021 |Wersja początkowa
+1.0     |stycznia 28, 2021 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -11,7 +11,7 @@ The [Office UI Fabric](https://developer.microsoft.com/en-us/fabric) theme color
 
 ## Wymagania widoku
 - Ten format można zastosować do a Person column
-- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
+- Ten format używa operatorów dostępnych wyłącznie w SharePoint Online i nie może być używany w SharePoint 2019
 
 ## Przykład
 
@@ -23,7 +23,7 @@ multi-person-currentuser.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 5, 2019|Wersja początkowa
+1.0|5 lutego 2019|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

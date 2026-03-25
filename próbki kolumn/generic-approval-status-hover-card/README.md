@@ -23,7 +23,7 @@ generic-approval-status-hover-card.json | [Django Lohn](https://github.com/m3ngi
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|March 19, 2021|Wersja początkowa
+1.0|19 marca 2021|Wersja początkowa
 
 
 ## Zastrzeżenie

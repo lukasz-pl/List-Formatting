@@ -7,21 +7,21 @@ Ta próbka pokazuje using the `indexOf` and `join` functions (O365 only) to test
 
 Ta próbka pokazuje również, jak używać podwójnych cudzysłowów wewnątrz wartości. Aby je dodać, musisz je poprzedzić znakiem ucieczki zgodnie ze składnią JSON, umieszczając ukośnik przed cudzysłowem: `"\"Juice\""`
 
-The `indexOf` function returns the index where a given value is found within a string (indexes start at 0). If the value is not found in the text, the result is -1.
+Funkcja `indexOf` zwraca indeks, pod którym dana wartość została znaleziona w ciągu znaków (indeksy zaczynają się od 0). Jeśli wartość nie zostanie znaleziona w tekście, wynikiem jest -1.
 
 To evaluate if text contains a given value, we want to know if the index of the value within the string is anything but -1. So we can use the function like this:
 
 `"=if(indexOf(@currentField,'dog') != -1, 'Yes', 'No')"`
 
-Some example values and the result using the function above:
-`@currentField`|result
+Kilka przykładowych wartości i wynik działania powyższej funkcji:
+`@currentField`|wynik
 ---|---
-A dog | Yes
+A dog | Tak
 a Dog | No
 dog's are nice | Yes
 bark dog bark | Yes
 
-Notice that the `indexOf` function is **case-sensitive**. You can do a case-insensitive check by adding the `toLowerCase` function like this:
+Zwróć uwagę, że funkcja `indexOf` **rozróżnia wielkość liter**. Aby wykonać sprawdzenie bez rozróżniania wielkości liter, możesz dodać funkcję `toLowerCase` w taki sposób:
 
 `"=if(indexOf(toLowerCase(@currentField),'dog') != -1, 'Yes', 'No')"`
 
@@ -33,7 +33,7 @@ We can use the `join` or `toString` functions on the value first and then nest t
 
 ## Wymagania widoku
 - Ten format można zastosować do a Multi-Select Choice column
-- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
+- Ten format używa operatorów dostępnych wyłącznie w SharePoint Online i nie może być używany w SharePoint 2019
 
 ### Przykład Choice Values
 - Water
@@ -52,7 +52,7 @@ multi-choice-icons.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 5, 2019|Wersja początkowa
+1.0|5 lutego 2019|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

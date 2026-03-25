@@ -1,4 +1,4 @@
-# Date Update Format
+# Data Update Format
 
 ## Podsumowanie
 Ta próbka pokazuje updating a date value directly from the format. This includes setting the date to the current date/time, incremeting/decrementing the date by day (alternate format included to demonstrate incrementing/decrementing by year), and clearing the date.
@@ -6,12 +6,12 @@ Ta próbka pokazuje updating a date value directly from the format. This include
 ![zrzut ekranu próbki](./assets/screenshot.gif)
 
 ## Wymagania widoku
-- Format expect the following fields:
+- Format oczekuje następujących pól:
 
-Field |Type
+Pole |Typ
 --------|---------
-Title | Single line of text 
-CustomDate | Date and Time
+Title | Pojedyncza linia tekstu 
+CustomDate | Data and Time
 
 
 ## Przykład
@@ -25,7 +25,7 @@ date-update-format-years.json | [André Lage](https://github.com/aaclage)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 09, 2021|Wersja początkowa
+1.0|09 grudnia 2021|Wersja początkowa
 
 
 ## Zastrzeżenie

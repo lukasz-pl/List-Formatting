@@ -1,4 +1,4 @@
-# Multi-Person Mail To Link
+# Link MailTo dla wielu osób
 
 ## Podsumowanie
 
@@ -22,7 +22,7 @@ multi-person-mailto.json | [Ganesh Sanap](https://github.com/ganesh-sanap)
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |December 12, 2021 |Wersja początkowa
+1.0     |grudnia 12, 2021 |Wersja początkowa
 
 ## Zastrzeżenie
 

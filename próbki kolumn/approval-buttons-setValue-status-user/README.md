@@ -12,7 +12,7 @@ Key points:
 
 ## Wymagania widoku
 
-|Type|Internal Name|Required|Additional Information
+|Type|Internal Name|Wymagane|Dodatkowe informacje
 |---|---|:---:|---|
 |Any (see below)|Approval|Yes| Apply [approval-buttons-setValue-status-user.json](./approval-buttons-setValue-status-user.json) to this column
 |Choice|ItemStatus|No| Choice values needed: (Pending / Approved / Rejected) Default: Pending
@@ -30,7 +30,7 @@ approval-buttons-setValue-status-user.json | [Michel Mendes](https://github.com/
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |November 19, 2021 |Wersja początkowa
+1.0     |listopada 19, 2021 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

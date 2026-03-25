@@ -2,8 +2,8 @@
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
   "elmType": "div",
   "style": {
-    "display":"flex",
-    "flex-wrap":"wrap"
+    "display": "flex",
+    "flex-wrap": "wrap"
   },
   "children": [
     {
@@ -20,7 +20,7 @@
         "box-sizing": "border-box",
         "padding": "4px 8px 5px 8px",
         "border-radius": "20px",
-        "white-space":"nowrap"
+        "white-space": "nowrap"
       },
       "children": [
         {

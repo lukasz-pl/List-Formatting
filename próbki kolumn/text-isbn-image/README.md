@@ -22,9 +22,9 @@ text-isbn-image.json | [Aaron Miao](https://github.com/aaronmi)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|November 27, 2017|Wersja początkowa
-1.1|March 22, 2018|Dodano details about API
-1.2|August 20, 2018|Switched to Excel-style expression
+1.0|27 listopada 2017|Wersja początkowa
+1.1|22 marca 2018|Dodano details about API
+1.2|20 sierpnia 2018|Przełączono na wyrażenie w stylu Excela
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -34,6 +34,6 @@ Wersja|Data|Uwagi
 ## Dodatkowe uwagi
 Tę próbkę można zastosować na przykład do renderowania numeru produktu jako ikony lub obrazu produktu.
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-isbn-image" />

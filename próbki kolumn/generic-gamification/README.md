@@ -4,9 +4,9 @@
 
 This project demonstrates how to create **dynamic Gamification badges** within a SharePoint list using **column formatting JSON**. The badges display different contributor levels based on score values, with **visual indicators, tooltips, and color-coded borders**.
 
-![Screenshot of the sample](./assets/screenshot.png)
+![Zrzut ekranu próbki](./assets/screenshot.png)
 
-## Features
+## Funkcje
 
 - **Dynamic Badge Display:** Shows different contributor images based on score ranges
 - **Color-Coded Borders:** Visual indication of Gamification level with themed colors
@@ -31,7 +31,7 @@ To formatowanie wymaga następujących **kolumn na liście SharePoint**:
 
 | Column Name | Type | Description |
 |-------------|------|-------------|
-| Score | Number | Numerical score value for determining Gamification level |
+| Score | Liczba | Numerical score value for determining Gamification level |
 | EmployeeName | Pojedyncza linia tekstu | Employee Name |
 | Title | Pojedyncza linia tekstu | Column where the formatting will be applied |
 
@@ -47,10 +47,10 @@ Formatowanie JSON obejmuje kilka zaawansowanych funkcji:
 - **Badge Overlay:** Small circular badge in bottom-right corner with achievement emoji
 - **Flexible Sizing:** 100x100px images with responsive borders
 
-## How to Apply
+## Jak zastosować
 
 1. **Prepare Your List:**
-   - Ensure you have a **Score** column (Number type)
+   - Ensure you have a **Score** column (Liczba type)
    - Have the images uploaded to your SharePoint site assets
 
 2. **Apply Column Formatting:**
@@ -67,7 +67,7 @@ Formatowanie JSON obejmuje kilka zaawansowanych funkcji:
      - `Champion.png` - For champions
    - Update the URLs in the JSON to match your site path
 
-## Troubleshooting
+## Rozwiązywanie problemów
 
 ### Images Not Loading
 - Verify image URLs are accessible to all users
@@ -75,7 +75,7 @@ Formatowanie JSON obejmuje kilka zaawansowanych funkcji:
 - Ensure image file names match exactly (case-sensitive)
 
 ### Formatting Not Applied  
-- Confirm Score column is Number type
+- Confirm Score column is Liczba type
 - Check column references match exact column names
 - Validate JSON syntax using online JSON validators
 
@@ -102,16 +102,16 @@ Rozwiązanie|Autor(zy)
 --------|---------
 generic-gamification.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version History
+## Historia wersji
 
-Version|Date|
+Version|Data|
 -------|----|
-1.0|September 26, 2025|
+1.0|26 września 2025|
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## References
+## Odnośniki
 
 - [SharePoint Column Formatting Documentation](https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)

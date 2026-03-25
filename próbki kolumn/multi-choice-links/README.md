@@ -22,7 +22,7 @@ Also included is an additional format (multi-choice-links-advanced.json) that se
 
 ![Example choice values of advanced format](./assets/example-choice-values-advanced.png)
 
-## Details of the sample
+## Szczegóły of the sample
 
 To display the links, we loop through the values present in the multi-choice column of the current item and extract the `<Link title>` using this formula:
 ```JSON
@@ -45,8 +45,8 @@ multi-choice-links-advanced.json | [Abhijeet Jadhav](https://github.com/TekExpo)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 14, 2021 |Wersja początkowa
-1.1|March 17, 2023 |Dodano multi-choice-links-advanced.json
+1.0|kwietnia 14, 2021 |Wersja początkowa
+1.1|marca 17, 2023 |Dodano multi-choice-links-advanced.json
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

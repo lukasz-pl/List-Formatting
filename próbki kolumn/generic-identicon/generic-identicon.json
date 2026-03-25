@@ -17,74 +17,338 @@
       "children": [
         {
           "elmType": "div",
-          "style": { "display": "flex" },
+          "style": {
+            "display": "flex"
+          },
           "children": [
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')" } }
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')"
+              }
+            }
           ]
         },
         {
           "elmType": "div",
-          "style": { "display": "flex" },
+          "style": {
+            "display": "flex"
+          },
           "children": [
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } }
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')"
+              }
+            }
           ]
         },
         {
           "elmType": "div",
-          "style": { "display": "flex" },
+          "style": {
+            "display": "flex"
+          },
           "children": [
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } }
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')"
+              }
+            }
           ]
         },
         {
           "elmType": "div",
-          "style": { "display": "flex" },
+          "style": {
+            "display": "flex"
+          },
           "children": [
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%8>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%8>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } }
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%8>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%8>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%7>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')"
+              }
+            }
           ]
         },
         {
           "elmType": "div",
-          "style": { "display": "flex" },
+          "style": {
+            "display": "flex"
+          },
           "children": [
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } }
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%6>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%4>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')"
+              }
+            }
           ]
         },
         {
           "elmType": "div",
-          "style": { "display": "flex" },
+          "style": {
+            "display": "flex"
+          },
           "children": [
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')" } },
-            { "elmType": "div", "style": { "width": "12px", "height": "12px", "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')" } }
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%5>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%3>0,'#3498db','#f8f9fa')"
+              }
+            },
+            {
+              "elmType": "div",
+              "style": {
+                "width": "12px",
+                "height": "12px",
+                "background-color": "=if(Number([$TitleLength])%2>0,'#3498db','#f8f9fa')"
+              }
+            }
           ]
         }
       ]

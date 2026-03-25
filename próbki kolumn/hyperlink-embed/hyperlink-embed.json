@@ -22,7 +22,7 @@
           },
           "attributes": {
             "class": "ms-fontColor-themeDarker--hover ms-fontSize-s",
-            "title": "Click to open callout with embedded content."
+            "title": "Kliknij, aby otworzyć dymek z osadzoną zawartością."
           },
           "customRowAction": {
             "action": "embed",

@@ -10,7 +10,7 @@ The purpose of this sample is to enhance the use of documentsets. Assuming you h
 - A view showing all the recent documents
 -- Folders: "Show all items without folders"
 -- Filter: Content Type is not equal to NameOfTheDocumentSetContentType
-- A "Single line of text" column, the column doesn't need to be linked to any content type
+- A "Pojedyncza linia tekstu" column, the column doesn't need to be linked to any content type
 
 ## Przykład
 
@@ -24,8 +24,8 @@ generic-link-to-parent-documentset.json | [Geert de Kooter](https://github.com/g
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 7, 2022|Wersja początkowa
-2.0|January 20, 2023|Changed txtContent formula - based on the idea of Chris Kent
+1.0|7 kwietnia 2022|Wersja początkowa
+2.0|20 stycznia 2023|Changed txtContent formula - based on the idea of Chris Kent
 
 ## Dodatkowe uwagi
 none

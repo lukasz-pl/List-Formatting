@@ -6,7 +6,7 @@ Ta próbka dostosowuje kolumnę daty tak, aby wyglądała jak kalendarz z odrywa
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-Ten format można zastosować do a Date column.
+Ten format można zastosować do a Data column.
 
 ## Przykład
 
@@ -23,14 +23,14 @@ date-page-a-day-calendar-30d-counter-dow.json | [Watana](https://github.com/wata
 
 Wersja |Data              |Uwagi
 --------|------------------|--------
-1.0     |October 17, 2020  |Wersja początkowa
-1.1     |August  2, 2021   |Poprawiono to show days of the week.
-1.2     |October 2, 2022   |Poprawiono incorrect days of the week being displayed.
-1.3     |December 13, 2024 |Dodano `date-page-a-day-calendar-minimal.json`
-1.4     |December 14, 2024 |Adjusted the layout for `date-page-a-day-calendar.json` to ensure that the day-of-the-week text, which was partially hidden due to the update, is now visible.
-1.5     |September 1, 2025 |Dodano `date-page-a-day-calendar-prev-today-next.json`
-1.6     |September 13, 2025|Dodano `date-page-a-day-calendar-weekend.json`
-1.7     |October 1, 2025   |Dodano `date-page-a-day-calendar-30d-counter.json` & `date-page-a-day-calendar-30d-counter-dow.json` and refactored previous samples.
+1.0     |października 17, 2020  |Wersja początkowa
+1.1     |sierpnia  2, 2021   |Poprawiono to show days of the week.
+1.2     |października 2, 2022   |Poprawiono incorrect days of the week being displayed.
+1.3     |grudnia 13, 2024 |Dodano `date-page-a-day-calendar-minimal.json`
+1.4     |grudnia 14, 2024 |Adjusted the layout for `date-page-a-day-calendar.json` to ensure that the day-of-the-week text, which was partially hidden due to the update, is now visible.
+1.5     |września 1, 2025 |Dodano `date-page-a-day-calendar-prev-today-next.json`
+1.6     |września 13, 2025|Dodano `date-page-a-day-calendar-weekend.json`
+1.7     |października 1, 2025   |Dodano `date-page-a-day-calendar-30d-counter.json` & `date-page-a-day-calendar-30d-counter-dow.json` and refactored previous samples.
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

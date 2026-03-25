@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-flow-status",
     "reponame": "generic-flow-status",
     "source": "pnp",
-    "title": "Flow Status",
+    "title": "Status przepływu",
     "shortDescription": "This sample conditionally shows a button to launch a flow. Additional details are provided to customize the flow panel title and button. This provides context to users and is often far more meaningful than the default of 'Run Flow' which generally doesn't mean much to end users.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/generic-flow-status",
     "longDescription": [

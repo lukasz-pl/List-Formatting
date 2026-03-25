@@ -25,8 +25,8 @@ file-thumbnail-lightbox.json | [Tetsuya Kawahara](https://github.com/tecchan1107
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 27, 2019|Wersja początkowa
-1.1|July 4, 2021|Dodano file-thumbnail-lightbox.json
+1.0|27 maja 2019|Wersja początkowa
+1.1|4 lipca 2021|Dodano file-thumbnail-lightbox.json
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

@@ -4,10 +4,10 @@
     "reponame": "multi-lookup-projected-field",
     "source": "pnp",
     "title": "Multi-lookup fields and projected fields",
-    "shortDescription": "Lookup columns that support multiple values can be formatted using the advanced \u0060forEach\u0060 property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. Ta próbka przedstawia two formats illustrating the difference in how these columns are formatted.",
+    "shortDescription": "Lookup columns that support multiple values can be formatted using the advanced `forEach` property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. Ta próbka przedstawia two formats illustrating the difference in how these columns are formatted.",
     "url": "https://github.com/pnp/List-Formatting/tree/master/column-samples/multi-lookup-projected-field",
     "longDescription": [
-      "Lookup columns that support multiple values can be formatted using the advanced \u0060forEach\u0060 property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. Ta próbka przedstawia two formats illustrating the difference in how these columns are formatted."
+      "Lookup columns that support multiple values can be formatted using the advanced `forEach` property. Unfortunately, the way values are returned for any projected fields (additional columns associated to your lookup column) can present unique challenges. Ta próbka przedstawia two formats illustrating the difference in how these columns are formatted."
     ],
     "creationDateTime": "2021-04-22T00:00:00.000Z",
     "updateDateTime": "2023-08-14T00:00:00.000Z",

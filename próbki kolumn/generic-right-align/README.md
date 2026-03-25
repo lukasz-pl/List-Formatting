@@ -22,7 +22,7 @@ generic-right-align.json | [Mike Honey](https://github.com/Mike-Honey)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 13, 2021|Wersja początkowa
+1.0|13 lutego 2021|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -30,6 +30,6 @@ Wersja|Data|Uwagi
 ---
 
 ## Dodatkowe uwagi
-None
+Brak
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-right-align" />

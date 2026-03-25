@@ -16,7 +16,7 @@ Ta próbka pochodzi z [number-data-bar](https://github.com/pnp/List-Formatting/t
 
 ## Wymagania widoku
 
-Ten format można zastosować do a Number column. It is expected that the values will be from 0 to 1 (percent).
+Ten format można zastosować do a Liczba column. It is expected that the values will be from 0 to 1 (percent).
 
 ## Przykład
 
@@ -28,7 +28,7 @@ number-data-bar-multi-color.json | [Ganesh Sanap](https://github.com/ganesh-sana
 
 Wersja |Data          |Uwagi
 --------|--------------|--------------------------------
-1.0     |December 29, 2021 |Wersja początkowa
+1.0     |grudnia 29, 2021 |Wersja początkowa
 
 ## Zastrzeżenie
 

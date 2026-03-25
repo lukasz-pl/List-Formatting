@@ -1,4 +1,4 @@
-# Teams Message Format
+# Format wiadomości Teams
 
 ## Podsumowanie
 Ta próbka używa [deep linków Microsoft Teams](https://learn.microsoft.com/microsoftteams/platform/concepts/build-and-test/deep-link-teams#configure-deep-link-to-start-a-chat-manually), aby utworzyć link pozwalający wysłać wiadomość Microsoft Teams do użytkownika wskazanego w kolumnie.
@@ -30,7 +30,7 @@ person-teams-message-format-picture.json | [Steve Corey](https://github.com/stev
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|September 20, 2023|Wersja początkowa
+1.0|20 września 2023|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

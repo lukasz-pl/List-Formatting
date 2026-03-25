@@ -6,9 +6,9 @@ Ta próbka wykorzystuje [Microsoft Teams deep links](https://docs.microsoft.com/
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
 ## Wymagania widoku
-- Format expect the following fields:
+- Format oczekuje następujących pól:
 
-Field |Type
+Pole |Typ
 --------|---------
 Person | Person - Person field with multiple selections
 
@@ -23,7 +23,7 @@ person-teams-call-format.json | [André Lage](https://github.com/aaclage)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|December 16, 2021|Wersja początkowa
+1.0|16 grudnia 2021|Wersja początkowa
 
 
 ## Zastrzeżenie

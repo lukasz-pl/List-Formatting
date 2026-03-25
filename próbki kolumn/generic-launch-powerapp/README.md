@@ -1,4 +1,4 @@
-# Launch Power App Button
+# Przycisk uruchamiania Power App
 
 ## Podsumowanie
 Providing a direct link to an item within Power Apps is easy to do using this sample. To use it follow the instructions below to get the link to your Power App (and replace that portion of the format).
@@ -47,7 +47,7 @@ generic-launch-powerapp.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 27, 2021|Wersja początkowa
+1.0|27 maja 2021|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -56,7 +56,7 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-None
+Brak
 
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-launch-powerapp" />

@@ -9,7 +9,7 @@ Ta próbka pokazuje showing the full size image in a lightbox (hover card) rathe
 
 An additional format (image-lightbox-advanced.json) is provided which demonstrates the same lightbox effects but dynamically scales the lightbox image based on the window size (50% of the rendered inner width/height). This format also adds a link in the bottom right corner of the hoverbox to open the image in a new window (matches the standard Image display behavior).
 
-![screenshot of the advanced sample](./assets/screenshotAdvanced.gif)
+![zrzut ekranu the advanced sample](./assets/screenshotAdvanced.gif)
 
 ## Wymagania widoku
 - Ten format można zastosować do any image column type (Note: this sample does not work with the Picture column type)
@@ -26,9 +26,9 @@ image-lightbox-advanced.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 10, 2020|Wersja początkowa
-1.1|July 8, 2021|Dodano advanced format
-1.2|October 26, 2023|Updated samples to use getThumbnailImage
+1.0|10 lutego 2020|Wersja początkowa
+1.1|8 lipca 2021|Dodano advanced format
+1.2|26 października 2023|Updated samples to use getThumbnailImage
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

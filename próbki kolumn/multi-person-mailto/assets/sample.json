@@ -1,79 +1,79 @@
 [
-    {
-      "name": "pnp-list-formatting-multi-person-mailto",
-      "reponame": "multi-person-mailto",
-      "source": "pnp",
-      "title": "Multi-Person Mail To Link",
-      "shortDescription": "Ta próbka formatowania kolumn demonstrates how to add a mailto: link for each person in a multiple selection person column.",
-      "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-person-mailto",
-      "longDescription": [
-        "Ta próbka formatowania kolumn demonstrates how to add a mailto: link for each person in a multiple selection person column."
-      ],
-      "creationDateTime": "2021-12-12T00:00:00.000Z",
-      "updateDateTime": "2021-12-12T00:00:00.000Z",
-      "products": [
-        "SharePoint",
-        "Microsoft Lists"
-      ],
-      "metadata": [
-        {
-          "key": "LIST-SAMPLE-TYPE",
-          "value": "Column"
-        },
-        {
-          "key": "SHAREPOINT-COMPATIBILITY",
-          "value": "SharePoint Online"
-        },
-        {
-          "key": "SAMPLE-CATEGORIES",
-          "value": "Icons"
-        },
-        {
-          "key": "LIST-COLUMN-TYPE",
-          "value": "Multi-Person"
-        },
-        {
-          "key": "FORMATTING-TOKENS",
-          "value": ""
-        },
-        {
-          "key": "FORMATTING-OPERATORS",
-          "value": ""
-        },
-        {
-          "key": "FORMATTING-ACTIONS",
-          "value": ""
-        },
-        {
-          "key": "FORMATTING-FEATURES",
-          "value": "forEach"
-        },
-        {
-          "key": "CLASSES",
-          "value": "ms-fontColor-themePrimary, sp-field-quickAction"
-        }
-      ],
-      "thumbnails": [
-        {
-          "type": "image",
-          "order": 100,
-          "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-mailto/assets/screenshot.png",
-          "alt": "zrzut ekranu"
-        }
-      ],
-      "authors": [
-        {
-          "gitHubAccount": "ganesh-sanap",
-          "pictureUrl": "https://github.com/ganesh-sanap.png",
-          "name": "Ganesh Sanap"
-        }
-      ],
-      "references": [
-        {
-          "name": "Użyj formatowania kolumn do dostosowania SharePoint",
-          "description": "Możesz użyć formatowania kolumn, aby dostosować sposób wyświetlania pól na listach i w bibliotekach SharePoint. W tym celu tworzysz obiekt JSON opisujący elementy wyświetlane wtedy, gdy pole jest uwzględnione w widoku listy, oraz style stosowane do tych elementów. Formatowanie kolumn nie zmienia danych elementu listy ani pliku; zmienia jedynie sposób ich wyświetlania użytkownikom przeglądającym listę.",
-          "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
-        }
-      ]
-    }
-  ]
+  {
+    "name": "pnp-list-formatting-multi-person-mailto",
+    "reponame": "multi-person-mailto",
+    "source": "pnp",
+    "title": "Link MailTo dla wielu osób",
+    "shortDescription": "Ta próbka formatowania kolumn demonstrates how to add a mailto: link for each person in a multiple selection person column.",
+    "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/multi-person-mailto",
+    "longDescription": [
+      "Ta próbka formatowania kolumn demonstrates how to add a mailto: link for each person in a multiple selection person column."
+    ],
+    "creationDateTime": "2021-12-12T00:00:00.000Z",
+    "updateDateTime": "2021-12-12T00:00:00.000Z",
+    "products": [
+      "SharePoint",
+      "Microsoft Lists"
+    ],
+    "metadata": [
+      {
+        "key": "LIST-SAMPLE-TYPE",
+        "value": "Column"
+      },
+      {
+        "key": "SHAREPOINT-COMPATIBILITY",
+        "value": "SharePoint Online"
+      },
+      {
+        "key": "SAMPLE-CATEGORIES",
+        "value": "Icons"
+      },
+      {
+        "key": "LIST-COLUMN-TYPE",
+        "value": "Multi-Person"
+      },
+      {
+        "key": "FORMATTING-TOKENS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-OPERATORS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-ACTIONS",
+        "value": ""
+      },
+      {
+        "key": "FORMATTING-FEATURES",
+        "value": "forEach"
+      },
+      {
+        "key": "CLASSES",
+        "value": "ms-fontColor-themePrimary, sp-field-quickAction"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://raw.githubusercontent.com/pnp/List-Formatting/master/column-samples/multi-person-mailto/assets/screenshot.png",
+        "alt": "zrzut ekranu"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "ganesh-sanap",
+        "pictureUrl": "https://github.com/ganesh-sanap.png",
+        "name": "Ganesh Sanap"
+      }
+    ],
+    "references": [
+      {
+        "name": "Użyj formatowania kolumn do dostosowania SharePoint",
+        "description": "Możesz użyć formatowania kolumn, aby dostosować sposób wyświetlania pól na listach i w bibliotekach SharePoint. W tym celu tworzysz obiekt JSON opisujący elementy wyświetlane wtedy, gdy pole jest uwzględnione w widoku listy, oraz style stosowane do tych elementów. Formatowanie kolumn nie zmienia danych elementu listy ani pliku; zmienia jedynie sposób ich wyświetlania użytkownikom przeglądającym listę.",
+        "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
+      }
+    ]
+  }
+]

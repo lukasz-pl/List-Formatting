@@ -53,7 +53,7 @@ generic-icon-overlay-multiple.json | [Chris Kent](https://github.com/thechrisken
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 9, 2020|Wersja początkowa
+1.0|9 stycznia 2020|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

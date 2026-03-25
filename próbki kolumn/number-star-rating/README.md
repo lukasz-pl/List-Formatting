@@ -10,10 +10,10 @@ Ta próbka pokazuje changing the value of a number column to a star rating.
 
 Możesz również change the `★` set in `txtContent` to `♥` or `♡` to make it a heart rating.
 
-![screenshot of the heart sample](./assets/screenshot_heart.png)
+![zrzut ekranu the heart sample](./assets/screenshot_heart.png)
 
 ## Wymagania widoku
-Ten format można zastosować do a Number column (the format expects values from 0-5)
+Ten format można zastosować do a Liczba column (the format expects values from 0-5)
 
 ## Przykład
 
@@ -26,7 +26,7 @@ number-star-rating-custom-color.json | [Tetsuya Kawahara](https://github.com/tec
 
 Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |June 11, 2022 |Wersja początkowa
+1.0     |czerwca 11, 2022 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

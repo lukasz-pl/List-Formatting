@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-text-conditional-format",
     "reponame": "text-conditional-format",
     "source": "pnp",
-    "title": "Conditional Text Formatting (Severity)",
+    "title": "Warunkowe formatowanie tekstu (ważność)",
     "shortDescription": "Możesz zastosować formatowanie warunkowe do text or choice fields that might contain a fixed set of values. Ta próbka stosuje different classes depending on whether the value of the field is Done, In Review, Blocked, or another value.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-conditional-format",
     "longDescription": [

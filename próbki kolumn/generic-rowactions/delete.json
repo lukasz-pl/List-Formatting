@@ -6,7 +6,7 @@
   },
   "attributes": {
     "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
-    "title": "Delete Item"
+    "title": "Usuń element"
   },
   "style": {
     "border": "none",

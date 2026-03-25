@@ -8,10 +8,10 @@ Ta próbka pokazuje a time schedule with a filled background from `Start` time t
 ## Wymagania widoku
 Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
-|Type|Internal Name|Required|
+|Type|Internal Name|Wymagane|
 |---|---|:---:|
-|Single line of text or Choice|Start|Yes|
-|Single line of text or Choice|End|Yes|
+|Pojedyncza linia tekstu or Choice|Start|Yes|
+|Pojedyncza linia tekstu or Choice|End|Yes|
 
 `Start` and `End` columns must be in `hh:mm` format.
 
@@ -25,7 +25,7 @@ generic-time-schedule.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data             |Uwagi
 --------|-----------------|--------
-1.0     |November 3, 2020 |Wersja początkowa
+1.0     |listopada 3, 2020 |Wersja początkowa
 
 
 ## Zastrzeżenie

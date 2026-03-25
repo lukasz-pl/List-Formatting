@@ -26,11 +26,11 @@ text-column-workcategory-pill.json | [Ganesh Sanap](https://github.com/ganesh-sa
 
 ## Historia wersji
 
-| Version | Date          | Comments        |
+| Version | Data          | Uwagi        |
 |---------|---------------|-----------------|
-| 1.0     | August 08, 2020 | Wersja początkowa |
-| 1.1     | November 1, 2024 | Dodano text-column-workcategory-pill.json |
-| 1.2     | November 15, 2024 | Modified text-column-workcategory-pill.json to change colors and icons based on field values |
+| 1.0     | sierpnia 08, 2020 | Wersja początkowa |
+| 1.1     | listopada 1, 2024 | Dodano text-column-workcategory-pill.json |
+| 1.2     | listopada 15, 2024 | Modified text-column-workcategory-pill.json to change colors and icons based on field values |
 
 ## Zastrzeżenie
 

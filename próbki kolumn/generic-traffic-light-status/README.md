@@ -4,9 +4,9 @@
 
 This column formatting demonstrates how to create a **dynamic traffic light visual** within a SharePoint list using **column formatting JSON**. The traffic light displays different signal states (Red, Yellow, Green) with realistic styling including glowing effects, metal pole structure, and decorative side triangles.
 
-![Screenshot of the sample](./assets/screenshot.png)
+![Zrzut ekranu próbki](./assets/screenshot.png)
 
-## Features
+## Funkcje
 
 - **Dynamic Light States:** Shows active light based on column value (Red, Yellow, or Green)
 - **Realistic Visual Design:** 3D-styled traffic light with shadows and depth
@@ -71,7 +71,7 @@ The JSON formatting includes several advanced visual features:
 - Upper base: Light gray (#999)
 - Ground line: Black separator
 
-## How to Apply
+## Jak zastosować
 
 1. **Prepare Your List:**
    - Create a **Choice column** named **"Status"**
@@ -111,7 +111,7 @@ Replace `@currentField == 'Red'` with your custom values:
 "background-color": "=if(@currentField == 'Critical', '#FF3333', '#555')"
 ```
 
-## Troubleshooting
+## Rozwiązywanie problemów
 
 ### Lights Not Changing Color
 - Verify the column is named exactly "Status" (case-sensitive)
@@ -135,16 +135,16 @@ Rozwiązanie|Autor(zy)
 --------|---------
 generic-traffic-light-status.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version History
+## Historia wersji
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 7, 2025|Wersja początkowa
+1.0|7 października 2025|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
-## References
+## Odnośniki
 
 - [SharePoint Column Formatting Documentation](https://learn.microsoft.com/sharepoint/dev/declarative-customization/column-formatting)
 - [JSON Schema for SharePoint Column Formatting](https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json)

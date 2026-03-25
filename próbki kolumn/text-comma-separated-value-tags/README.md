@@ -13,7 +13,7 @@ Ta próbka pokazuje using the `split` function (O365 only) to display a comma se
 ## Wymagania widoku
 
 - Ten format można zastosować do a Pojedyncza linia tekstu or Multiline of Text column
-- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
+- Ten format używa operatorów dostępnych wyłącznie w SharePoint Online i nie może być używany w SharePoint 2019
 
 ## Przykład
 
@@ -23,9 +23,9 @@ text-comma-separated-value-tags.json | [Sudhir Kesharwani](https://github.com/su
 
 ## Historia wersji
 
-| Version | Date               | Comments        |
+| Version | Data               | Uwagi        |
 | ------- | ------------------ | --------------- |
-| 1.0     | September 04, 2025 | Wersja początkowa |
+| 1.0     | września 04, 2025 | Wersja początkowa |
 
 ## Zastrzeżenie
 

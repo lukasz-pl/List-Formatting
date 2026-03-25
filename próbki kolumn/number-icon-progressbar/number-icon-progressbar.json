@@ -8,7 +8,7 @@
     {
       "elmType": "span",
       "attributes": {
-        "title": "Step 1",
+        "title": "Krok 1",
         "iconName": "=if(@currentField < 1, 'CircleRing', 'SkypeCircleCheck')",
         "class": "='ms-fontColor-' + if(@currentField == 1, 'green', if(@currentField > 1, 'greenLight', 'neutralLight'))"
       },
@@ -19,7 +19,7 @@
     {
       "elmType": "span",
       "attributes": {
-        "title": "Step 2",
+        "title": "Krok 2",
         "iconName": "=if(@currentField < 2, 'CircleRing', 'SkypeCircleCheck')",
         "class": "='ms-fontColor-' + if(@currentField == 2, 'green', if(@currentField > 2, 'greenLight', 'neutralLight'))"
       },
@@ -30,7 +30,7 @@
     {
       "elmType": "span",
       "attributes": {
-        "title": "Step 3",
+        "title": "Krok 3",
         "iconName": "=if(@currentField < 3, 'CircleRing', 'SkypeCircleCheck')",
         "class": "='ms-fontColor-' + if(@currentField == 3, 'green', if(@currentField > 3, 'greenLight', 'neutralLight'))"
       },
@@ -41,7 +41,7 @@
     {
       "elmType": "span",
       "attributes": {
-        "title": "Step 4",
+        "title": "Krok 4",
         "iconName": "=if(@currentField < 4, 'CircleRing', 'SkypeCircleCheck')",
         "class": "='ms-fontColor-' + if(@currentField == 4, 'green', if(@currentField > 4, 'greenLight', 'neutralLight'))"
       },
@@ -52,7 +52,7 @@
     {
       "elmType": "span",
       "attributes": {
-        "title": "Step 5",
+        "title": "Krok 5",
         "iconName": "=if(@currentField < 5, 'CircleRing', 'SkypeCircleCheck')",
         "class": "='ms-fontColor-' + if(@currentField == 5, 'green', if(@currentField > 5, 'greenLight', 'neutralLight'))"
       },

@@ -7,7 +7,7 @@ Ta próbka pokazuje displaying circles of the color of the values of the choices
 
 The value of the choices must be set to the HTML color code or HTML color name. (e.g. Red, #038387) Also, to set a two-tone or higher color scheme, a `+` must be set between colors. (e.g. Orange+Purple, Blue+Green+Gray)
 
-![screenshot of the edit column](./assets/edit-column.png)
+![zrzut ekranu the edit column](./assets/edit-column.png)
 
 ## Wymagania widoku
 - Ten format można zastosować do a Multi-Select Choice column
@@ -22,7 +22,7 @@ multi-choice-color-circles.json | [Tetsuya Kawahara](https://github.com/tecchan1
 
 Wersja |Data          |Uwagi
 --------|--------------|--------
-1.0     |July 17, 2023 |Wersja początkowa
+1.0     |lipca 17, 2023 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

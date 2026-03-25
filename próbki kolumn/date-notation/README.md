@@ -1,4 +1,4 @@
-# Date Notation
+# Data Notation
 
 ## Podsumowanie
 Ta próbka przedstawia a way to make sure that the notation of a date and time column in SharePoint is forced in a specific notation.
@@ -28,7 +28,7 @@ date-notation.json | [Django Lohn](https://github.com/m3ngi3)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 8, 2023|Wersja początkowa
+1.0|8 lutego 2023|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

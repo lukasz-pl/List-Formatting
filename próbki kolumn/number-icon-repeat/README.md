@@ -1,4 +1,4 @@
-# Display icons by repeating
+# Wyświetlanie ikon przez powtarzanie
 
 ## Podsumowanie
 Ta próbka pokazuje the use of the `padStart` and `split` operators to repeatedly display icons for the number of values in the number column.
@@ -7,10 +7,10 @@ Ta próbka pokazuje the use of the `padStart` and `split` operators to repeatedl
 
 It also uses [Fluent UI Icons](https://developer.microsoft.com/en-us/fluentui#/styles/web/icons), and by changing the `iconName` property, the icons to be displayed can be changed.
 
-![screenshot of the icon sample](./assets/screenshot-icon.png)
+![zrzut ekranu the icon sample](./assets/screenshot-icon.png)
 
 ## Wymagania widoku
-Ten format można zastosować do a Number column.
+Ten format można zastosować do a Liczba column.
 
 ## Przykład
 
@@ -23,7 +23,7 @@ number-icon-repeat-with-number.json | [Tetsuya Kawahara](https://github.com/tecc
 
 Wersja |Data             |Uwagi
 --------|-----------------|----------------
-1.0     |January 14, 2023 |Wersja początkowa
+1.0     |stycznia 14, 2023 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

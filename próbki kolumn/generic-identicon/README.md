@@ -1,4 +1,4 @@
-# Identicon Column Formatting
+# Formatowanie kolumny identikony
 
 ## Podsumowanie
 Ta próbka pokazuje how to use **SharePoint Column Formatting** to generate **Identicons** for list items.  
@@ -15,12 +15,12 @@ Each identicon is a small visual grid that represents the `Title` of the item, m
 
 ## Wymagania widoku
 
-Create a SharePoint list with the following columns:
+Utwórz listę SharePoint z następującymi kolumnami:
 
 | Internal Name   | Type                     |
 |-----------------|--------------------------|
-| **Title**       | Single line of text      |
-| **TitleLength** | Calculated (Number)      |
+| **Title**       | Pojedyncza linia tekstu      |
+| **TitleLength** | Calculated (Liczba)      |
 
 > **TitleLength formula:**  
 > ```
@@ -38,7 +38,7 @@ Create a SharePoint list with the following columns:
 
 The identicon pattern automatically updates based on `TitleLength`.
 
-## How It Works
+## Jak to działa
 
 - Each square in the identicon grid is colored using a formula based on `TitleLength`.
 - Squares change between two colors to produce a unique visual pattern.
@@ -51,18 +51,18 @@ Rozwiązanie|Autor(zy)
 --------|---------
 generic-identicon.json | [Sai Bandaru](https://github.com/saiiiiiii)
 
-## Version History
+## Historia wersji
 
-| Version | Date       | Comments           |
+| Version | Data       | Uwagi           |
 |---------|------------|------------------|
-| 1.0     | August 25, 2025 | Wersja początkowa |
+| 1.0     | sierpnia 25, 2025 | Wersja początkowa |
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
 
 ---
 
-## Additional Notes
+## Dodatkowe uwagi
 
 - Adjust colors or square size by editing the `generic-identicon.json`.
 - Works best in modern SharePoint lists sorted by Title or other relevant columns.

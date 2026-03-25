@@ -9,7 +9,7 @@ Próbka demonstrates the use of the `forEach` property to apply a format for eac
 
 ## Wymagania widoku
 - Ten format można zastosować do a Multi-Select Person column
-- This format uses operators only available in SharePoint Online and cannot be used in SharePoint 2019
+- Ten format używa operatorów dostępnych wyłącznie w SharePoint Online i nie może być używany w SharePoint 2019
 
 ## Przykład
 
@@ -21,7 +21,7 @@ multi-person-inlineedit-pill.json | [Hubert Lam](https://github.com/z3019494)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|August 1, 2023|Wersja początkowa
+1.0|1 sierpnia 2023|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

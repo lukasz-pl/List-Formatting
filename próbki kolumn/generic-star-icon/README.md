@@ -7,7 +7,7 @@ Ta próbka formatuje kolumnę wyboru tak, aby używać ikon gwiazdek podobnych d
 
 Ta próbka wymaga a choice field with these options added:
 
-- None
+- Brak
 - Yellow Star
 - Orange Star
 - Red Star
@@ -20,11 +20,11 @@ Ta próbka wymaga a choice field with these options added:
 - Info
 - Question
 
-![screenshot of the icon list](./assets/icon-list.png)
+![zrzut ekranu the icon list](./assets/icon-list.png)
 
 Also, it uses `inlineEditField`, which allows the user to change the icon on the view.
 
-![screenshot of the inlineEditField](./assets/inlineEditField.gif)
+![zrzut ekranu the inlineEditField](./assets/inlineEditField.gif)
 
 ## Wymagania widoku
 - Ten format można zastosować do a Choice column
@@ -39,7 +39,7 @@ generic-star-icon.json | [Will Cooper](https://github.com/wwcoop)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|May 15, 2023|Wersja początkowa
+1.0|15 maja 2023|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

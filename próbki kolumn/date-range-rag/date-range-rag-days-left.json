@@ -15,10 +15,9 @@
         "min-height": "inherit",
         "width": "=if([$DueDate] <= @now, '100%', if((Number([$DueDate] - @now))/86400000)>=100,'100%', (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate])) * 100 + '%')"
       },
-	  
       "attributes": {
-		"class": "=if([$DueDate] <= @now, 'sp-field-severity--severeWarning', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.7) && (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) < 0.9), 'sp-field-severity--warning', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.9, 'sp-field-severity--severeWarning', 'sp-field-severity--good'))"
-      }  
+        "class": "=if([$DueDate] <= @now, 'sp-field-severity--severeWarning', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.7) && (1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) < 0.9), 'sp-field-severity--warning', if(1 - Number([$DueDate] - @now) / Number([$DueDate] - [$StartDate]) >= 0.9, 'sp-field-severity--severeWarning', 'sp-field-severity--good'))"
+      }
     },
     {
       "elmType": "span",

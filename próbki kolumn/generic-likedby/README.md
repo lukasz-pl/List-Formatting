@@ -21,22 +21,22 @@ Disconnect-PnPOnline
 2. Click **List Settings**
 3. Under **General Settings**, click **Rating settings**.
 
-   ![screenshot of how to add the ratings feature](./assets/add_ratings_1.png)
+   ![zrzut ekranu how to add the ratings feature](./assets/add_ratings_1.png)
 
 4. Under **Allow items in this list to be rated?**, click **Yes**.
 5. Under **Which voting/rating experience would you like to enable for this list?**, click **Likes**.
 6. Click **OK**.
 
-   ![screenshot of how to add the ratings feature](./assets/add_ratings_2.png)
+   ![zrzut ekranu how to add the ratings feature](./assets/add_ratings_2.png)
 
 ## Wymagania widoku
 
 - Add a ratings feature to the list and display a like button.
 - In addition, one field needs to be defined
 
-|Type               |Internal Name|Required|
+|Type               |Internal Name|Wymagane|
 |-------------------|-------------|:------:|
-|Single line of text|LikedBy      |No      |
+|Pojedyncza linia tekstu|LikedBy      |No      |
 
 ## Przykład
 
@@ -48,7 +48,7 @@ generic-likedby.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data            |Uwagi
 --------|----------------|----------------
-1.0     |October 22, 2021|Wersja początkowa
+1.0     |października 22, 2021|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

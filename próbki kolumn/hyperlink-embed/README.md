@@ -17,7 +17,7 @@ To embed content, the target site must be allowed for embedding. For guidance on
 
 If you try to embed a site that is not allowed to be embedded, the following error screen will appear:
 
-![screenshot of the error screen when target site is not allowed to embed](./assets/not-allowed-screen.png)
+![zrzut ekranu the error screen when target site is not allowed to embed](./assets/not-allowed-screen.png)
 
 ### Obtaining and Setting the Embedding URL
 
@@ -34,7 +34,7 @@ For example, the embedding URL for YouTube can be obtained as follows:
 
 If the URL is not an embedding URL, the following error screen may appear:
 
-![screenshot of the error screen if the URL is not an embedding URL](./assets/refused-screen.png)
+![zrzut ekranu the error screen if the URL is not an embedding URL](./assets/refused-screen.png)
 
 ## Wymagania widoku
 
@@ -50,7 +50,7 @@ hyperlink-embed.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data            |Uwagi
 --------|----------------|--------
-1.0     |August 27, 2024 |Wersja początkowa
+1.0     |sierpnia 27, 2024 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

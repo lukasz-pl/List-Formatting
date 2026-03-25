@@ -18,8 +18,8 @@ person-hover-card.json | [Niket Jain](https://github.com/NiketJain)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 08, 2020|Wersja początkowa
-1.1|October 02, 2023|Poprawiono to use @currentField from [$Editor] to make it available in any Person column.
+1.0|08 kwietnia 2020|Wersja początkowa
+1.1|02 października 2023|Poprawiono to use @currentField from [$Editor] to make it available in any Person column.
 
 
 ## Zastrzeżenie
@@ -29,6 +29,6 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-- None
+- Brak
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/person-hover-card" />

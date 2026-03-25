@@ -8,10 +8,10 @@ Ta próbka pokazuje displaying an hourglass. Sand begins to fall when it is time
 ## Wymagania widoku
 Ten format można zastosować do any column type but expects the following columns to be part of the view:
 
-|Type          |Internal Name |Required|
+|Type          |Internal Name |Wymagane|
 |--------------|--------------|:------:|
-|Date and Time |Start         |Yes     |
-|Date and Time |End           |Yes     |
+|Data and Time |Start         |Yes     |
+|Data and Time |End           |Yes     |
 
 ## Przykład
 
@@ -23,7 +23,7 @@ generic-hourglass.json | [Tetsuya Kawahara](https://github.com/tecchan1107)
 
 Wersja |Data         |Uwagi
 --------|-------------|----------------
-1.0     |May 15, 2022 |Wersja początkowa
+1.0     |maja 15, 2022 |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

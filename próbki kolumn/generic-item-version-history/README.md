@@ -7,7 +7,7 @@ Since document sets rely on a different style of version history (captured versi
 
 > [!NOTE]  
 > If you use this sample, you need to set the __LIST ID__. If not set, the link will not work.
-> ![screenshot of how to find List ID](./assets/listid.png)
+> ![zrzut ekranu how to find List ID](./assets/listid.png)
 
 ## Wymagania widoku
 
@@ -21,9 +21,9 @@ generic-item-version-history.json | [Dan Toft](https://github.com/Tanddant)
 
 ## Historia wersji
 
-| Version | Date         | Comments        |
+| Version | Data         | Uwagi        |
 | ------- | ------------ | --------------- |
-| 1.0     | May 12, 2023 | Wersja początkowa |
+| 1.0     | maja 12, 2023 | Wersja początkowa |
 
 ## Zastrzeżenie
 

@@ -25,7 +25,7 @@ text-multiple-hyperlinks.json | [Geert de Kooter](https://github.com/gdk-max)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|January 26, 2023|Wersja początkowa
+1.0|26 stycznia 2023|Wersja początkowa
 
 ## Zastrzeżenie
 
@@ -34,6 +34,6 @@ Wersja|Data|Uwagi
 ---
 
 ## Dodatkowe uwagi
-None
+Brak
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/text-multiple-hyperlinks" />

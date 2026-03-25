@@ -71,7 +71,7 @@
     "references": [
       {
         "name": "Użyj formatowania kolumn do dostosowania SharePoint",
-        "description": "Możesz użyć formatowania kolumn, aby customize how items in SharePoint lists and libraries are displayed. To do this, you construct a JSON object that describes the elements that are displayed when an item is loaded in a column and any styles to be applied to those elements.",
+        "description": "Możesz użyć formatowania kolumn, aby dostosować sposób wyświetlania elementów na listach i w bibliotekach SharePoint. W tym celu tworzysz obiekt JSON opisujący elementy wyświetlane wtedy, gdy element jest ładowany w kolumnie, oraz style stosowane do tych elementów.",
         "url": "https://docs.microsoft.com/sharepoint/dev/declarative-customization/column-formatting"
       }
     ]

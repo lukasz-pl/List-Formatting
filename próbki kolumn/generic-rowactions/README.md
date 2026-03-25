@@ -1,68 +1,68 @@
-# Row Actions
+# Akcje wiersza
 
 ## Podsumowanie
 Możesz używać formatowania kolumn i widoków do tworzenia przycisków wykonujących predefiniowane akcje po kliknięciu. Ta próbka zawiera kilka szybkich formatów pokazujących użycie każdej z dostępnych akcji.
 
-These samples are all built for column formatting, but these can be easily adapted to work with view formatting.
+Wszystkie te przykłady zostały przygotowane dla formatowania kolumn, ale można je łatwo dostosować do formatowania widoków.
 
-Custom row actions only work when placed inside of `button`, `div`, or `span` elements. However, you can adjust the element's styles/children to customize the look entirely _(you can even wrap your entire format in a button - see the [bulletin-board-format](../../view-samples/bulletin-board-format) for an example)_.
+Niestandardowe akcje wiersza działają tylko wtedy, gdy są umieszczone wewnątrz elementów `button`, `div` lub `span`. Możesz jednak dowolnie zmieniać style i elementy podrzędne, aby całkowicie dostosować wygląd _(możesz nawet opakować cały format w przycisk - przykład znajdziesz w [bulletin-board-format](../../view-samples/bulletin-board-format))_.
 
 ![zrzut ekranu próbki](./assets/screenshot.png)
 
-> Actions are supported in lists and libraries in SharePoint and Microsoft Lists
+> Akcje są obsługiwane na listach i w bibliotekach w SharePoint oraz Microsoft Lists
 
-![screenshot of the sample - document library](./assets/screenshot2.png)
+![zrzut ekranu próbki - biblioteka dokumentów](./assets/screenshot2.png)
 
-> Some actions, however, are only supported in document libraries
+> Niektóre akcje są jednak obsługiwane tylko w bibliotekach dokumentów
 
 ### defaultClick (generic-rowactions.json)
-This action will open the list item. This is equivalent to double-clicking an item.
+Ta akcja otwiera element listy. To odpowiednik dwukrotnego kliknięcia elementu.
 
-![screenshot of defaultClick](./assets/defaultClick.png)
+![zrzut ekranu defaultClick](./assets/defaultClick.png)
 
 ### editProps (editProps.json)
-This action will open the list item in edit mode. This is equivalent to double-clicking an item and then pressing `Edit all`.
+Ta akcja otwiera element listy w trybie edycji. To odpowiednik dwukrotnego kliknięcia elementu i wybrania `Edit all`.
 
-![screenshot of editProps](./assets/editProps.png)
+![zrzut ekranu editProps](./assets/editProps.png)
 
 ### share (share.json)
-This action will launch the Share dialog for an item. This is equivalent to selecting the item and then pressing the `Share` command bar button.
+Ta akcja otwiera okno dialogowe udostępniania dla elementu. To odpowiednik zaznaczenia elementu i kliknięcia przycisku `Share` na pasku poleceń.
 
-![screenshot of share](./assets/share.png)
+![zrzut ekranu share](./assets/share.png)
 
 ### copyLink (copyLink.json)
-This action will launch the Copy Link dialog for an item and copy the link to the clipboard. This is equivalent to selecting the item and then pressing the `Copy link` command bar button.
+Ta akcja otwiera okno dialogowe kopiowania linku dla elementu i kopiuje link do schowka. To odpowiednik zaznaczenia elementu i kliknięcia przycisku `Copy link` na pasku poleceń.
 
-![screenshot of copyLink](./assets/copyLink.png)
+![zrzut ekranu copyLink](./assets/copyLink.png)
 
 ### comment (comment.json)
-This action will open the list item and place the focus in the comment input box. This is equivalent to double-clicking an item and then clicking in the comment box.
+Ta akcja otwiera element listy i ustawia fokus w polu komentarza. To odpowiednik dwukrotnego kliknięcia elementu, a następnie kliknięcia w pole komentarza.
 
-![screenshot of comment](./assets/comment.png)
+![zrzut ekranu comment](./assets/comment.png)
 
 ### delete (delete.json)
-This action will prompt the user with a Deletion confirmation dialog and delete the item if they choose yes. This is equivalent to selecting the item and then pressing the `Delete` command bar button.
+Ta akcja wyświetla użytkownikowi okno potwierdzenia usunięcia i usuwa element po wybraniu opcji potwierdzającej. To odpowiednik zaznaczenia elementu i kliknięcia przycisku `Delete` na pasku poleceń.
 
-![screenshot of delete](./assets/delete.png)
+![zrzut ekranu delete](./assets/delete.png)
 
 ### executeFlow (executeFlow.json)
-This action will launch a Power Automate flow for the item as the selected item. This action requires additional configuration through the `actionParams` property. The ID is always required, but you can also optionally include `headerText` and/or `runFlowButtonText` properties as well to customize the Flow panel.
+Ta akcja uruchamia przepływ Power Automate dla wybranego elementu. Wymaga dodatkowej konfiguracji poprzez właściwość `actionParams`. Identyfikator jest zawsze wymagany, ale opcjonalnie możesz także podać właściwości `headerText` i/lub `runFlowButtonText`, aby dostosować panel przepływu.
 
->Note - the `headerText` and `runFlowButtonText` parameters are not available in SharePoint 2019
+>Uwaga: parametry `headerText` i `runFlowButtonText` nie są dostępne w SharePoint 2019
 
-![screenshot of executeFlow](./assets/executeFlow.png)
+![zrzut ekranu executeFlow](./assets/executeFlow.png)
 
-#### To obtain a Flow's ID:
+#### Aby uzyskać identyfikator przepływu:
 
-1. Click _Flow_ > _See your flows_ in the SharePoint list where the Flow is configured
-2. Click on the Flow you want to run
-3. Copy the ID from the end of the URL
+1. Kliknij _Flow_ > _See your flows_ na liście SharePoint, na której skonfigurowano przepływ
+2. Kliknij przepływ, który chcesz uruchomić
+3. Skopiuj identyfikator z końca adresu URL
 
-> Alternatively, this information is available in the Power Automate environment where your flow lives and can be found in flow details
+> Alternatywnie tę informację znajdziesz w środowisku Power Automate, w szczegółach przepływu
 
 #### actionParams
 
-`actionParams` are JSON values but because they are inside a JSON format, they have to be entered as a JSON string value. In order to do that, you have to escape all the double quotes. So the JSON for `actionParams` may look like this:
+`actionParams` to wartości JSON, ale ponieważ znajdują się wewnątrz formatu JSON, muszą zostać zapisane jako tekstowy ciąg JSON. Aby to zrobić, trzeba poprzedzić wszystkie podwójne cudzysłowy znakami ucieczki. JSON dla `actionParams` może więc wyglądać tak:
 
 ```JSON
 {
@@ -72,86 +72,86 @@ This action will launch a Power Automate flow for the item as the selected item.
 }
 ```
 
-It has to be put into a single string value for the `actionParams` property so we put a backslash (`\`) in front of each double quote (`"`) and put it all on one line:
+Trzeba to umieścić w jednej wartości tekstowej właściwości `actionParams`, więc przed każdym podwójnym cudzysłowem (`"`) dodajemy ukośnik odwrotny (`\`) i zapisujemy wszystko w jednym wierszu:
 
 ```JSON
 "actionParams": "{\"id\":\"f7ecec0b-15c5-419f-8211-302a5d4e94f1\", \"headerText\":\"It's Flow Time!\",\"runFlowButtonText\":\"Do it\"}"
 ```
 
-This value can even be written using expressions but you'll need to remember to build it with all the escapes as well.
+Tę wartość można zapisać także za pomocą wyrażeń, ale trzeba pamiętać o dodaniu wszystkich znaków ucieczki.
 
 ```JSON
 "actionParams": "='{\"id\":\"' + if([$Status] == 'New', 'f7ecec0b-15c5-419f-8211-302a5d4e94f1', 'b8rcwc6d-26d3-562n-5657-201b5a2c32d0') + '\"}'"
 ```
 
 ### openApprovalDialog (openApprovalDialog.json)
-This action will open the Approval Dialog for the item (at whatever stage of approval it is in). This requires Content Approval to be enabled for the list/library. This is equivalent to selecting an item and pressing the `Request Approval` command bar button.
+Ta akcja otwiera okno zatwierdzania dla elementu, niezależnie od etapu akceptacji. Wymaga włączenia zatwierdzania zawartości dla listy lub biblioteki. To odpowiednik zaznaczenia elementu i kliknięcia przycisku `Request Approval` na pasku poleceń.
 
-![screenshot of openApprovalDialog](./assets/openApprovalDialog.png)
+![zrzut ekranu openApprovalDialog](./assets/openApprovalDialog.png)
 
 ### openContextMenu (openContextMenu.json)
-This action will open the context menu for an item. This is equivalent to right-clicking (or <kbd>CTRL</kbd>-clicking on Mac) and item.
+Ta akcja otwiera menu kontekstowe elementu. To odpowiednik kliknięcia prawym przyciskiem myszy (lub kliknięcia z klawiszem <kbd>CTRL</kbd> na Macu) na elemencie.
 
-![screenshot of openContextMenu](./assets/openContextMenu.png)
+![zrzut ekranu openContextMenu](./assets/openContextMenu.png)
 
 ### embed (embed.json)
-This action will open a callout with content embedded in it. You must specify the `src` value as part of `actionInput` to determine what content is loaded. Możesz również specify width and height of the callout using optional properties.
+Ta akcja otwiera dymek z osadzoną zawartością. Aby określić, jaka treść ma zostać załadowana, musisz podać wartość `src` jako część `actionInput`. Możesz również określić szerokość i wysokość dymku za pomocą opcjonalnych właściwości.
 
-![screenshot of embed](./assets/embed.png)
+![zrzut ekranu embed](./assets/embed.png)
 
 #### actionInput
-There are 3 properties that can be set within `actionInput` with `src` being required.
+W `actionInput` można ustawić 3 właściwości, z czego `src` jest wymagane.
 
-- `src`: This is the embeddable URL of the content to load in the callout (via iframe)
-- `width`: This is an optional property that determines the width of the callout in pixels. Enter the value as a plain number.
-- `height`: This is an optional property that determines the height of the callout in pixels. Enter the value as a plain number.
+- `src`: adres URL treści, którą można osadzić i załadować w dymku (przez iframe)
+- `width`: opcjonalna właściwość określająca szerokość dymku w pikselach. Wpisz wartość jako zwykłą liczbę.
+- `height`: opcjonalna właściwość określająca wysokość dymku w pikselach. Wpisz wartość jako zwykłą liczbę.
 
-#### Getting an embed URL
-The `src` property is the URL of the embeddable content. You can generally find it as the `src` attribute of a generated `iframe` element on a site that provides `embed` options.
+#### Jak uzyskać adres URL do osadzenia
+Właściwość `src` to adres URL treści możliwej do osadzenia. Zwykle znajdziesz go jako atrybut `src` wygenerowanego elementu `iframe` w serwisie, który oferuje opcję `embed`.
 
-> Note - SharePoint restricts the domains that can be used for this. This can be adjusted on individual site collections or for the whole tenant. [Allow or restrict the ability to embed content on SharePoint Lists using custom formatters](https://go.microsoft.com/fwlink/p/?linkid=2258033)
+> Uwaga: SharePoint ogranicza domeny, których można do tego używać. Można to dostosować dla poszczególnych kolekcji witryn lub dla całej dzierżawy. [Zezwalanie na osadzanie treści w SharePoint Lists przy użyciu niestandardowych formaterów lub ograniczanie tej możliwości](https://go.microsoft.com/fwlink/p/?linkid=2258033)
 
-For example, you can get an embed URL for a public YouTube video by clicking on **Share** then selecting **Embed** and copying the `src` value and the `width` and `height` values from the generated markup:
+Na przykład możesz uzyskać adres URL do osadzenia publicznego filmu z YouTube, klikając **Share**, następnie wybierając **Embed** i kopiując wartość `src` oraz wartości `width` i `height` z wygenerowanego kodu:
 
-![embedding from YouTube](./assets/youtubeEmbed.png)
+![osadzanie z YouTube](./assets/youtubeEmbed.png)
 
 ### setValue (setValue.json)
-This action allows you to update the values of one or more fields for a given item. You specify the fields and their updated values using `actionInput`.
+Ta akcja pozwala zaktualizować wartości jednego lub wielu pól dla danego elementu. Pola i ich nowe wartości określasz za pomocą `actionInput`.
 
-![screenshot of setValue](./assets/setValue.png)
+![zrzut ekranu setValue](./assets/setValue.png)
 
 ### previewFileAction (previewFileAction.json)
-This action will open the default preview handler for the file directly in the library interface.
+Ta akcja otwiera domyślny podgląd pliku bezpośrednio w interfejsie biblioteki.
 
-![screenshot of previewFileAction](./assets/previewFileAction.png)
+![zrzut ekranu previewFileAction](./assets/previewFileAction.png)
 
 ### copyFile (copyFile.json)
-This action will send a copy of a file to another library. You specify the destination library and/or sub folder within that library using `actionParams`. This is equivalent to selecting a file and clicking the `Copy to` command bar button with the added benefit of already specifying the destination.
+Ta akcja wysyła kopię pliku do innej biblioteki. Bibliotekę docelową i/lub podfolder określasz za pomocą `actionParams`. To odpowiednik zaznaczenia pliku i kliknięcia przycisku `Copy to` na pasku poleceń, z dodatkową korzyścią w postaci wcześniejszego wskazania miejsca docelowego.
 
-![screenshot of copyFile](./assets/copyFile.png)
+![zrzut ekranu copyFile](./assets/copyFile.png)
 
 #### actionParams
-Just like with `executeFlow` the `actionParams` are escaped JSON but there's currently only one property that needs to be specified: `destinationUrl`. This is a full URL (using `@currentWeb` to avoid hard coding your tenant) directly to the library and/or the folder within that library you want the file copied to.
+Podobnie jak w `executeFlow`, `actionParams` to JSON ze znakami ucieczki, ale obecnie trzeba podać tylko jedną właściwość: `destinationUrl`. Jest to pełny adres URL (z użyciem `@currentWeb`, aby uniknąć wpisywania na stałe adresu dzierżawy) prowadzący bezpośrednio do biblioteki i/lub folderu, do którego chcesz skopiować plik.
 
-User's permissions on the destination library/folder are not verified ahead of time and users without permission will receive an error.
+Uprawnienia użytkownika do biblioteki lub folderu docelowego nie są sprawdzane z wyprzedzeniem, więc użytkownicy bez odpowiednich uprawnień otrzymają błąd.
 
 ### moveFile (moveFile.json)
-This action will move a file to another library (removing it from the source library). You specify the destination library and/or sub folder within that library using `actionParams`. This is equivalent to selecting a file and clicking the `Move to` command bar button with the added benefit of already specifying the destination.
+Ta akcja przenosi plik do innej biblioteki, usuwając go z biblioteki źródłowej. Bibliotekę docelową i/lub podfolder określasz za pomocą `actionParams`. To odpowiednik zaznaczenia pliku i kliknięcia przycisku `Move to` na pasku poleceń, z dodatkową korzyścią w postaci wcześniejszego wskazania miejsca docelowego.
 
-![screenshot of moveFile](./assets/moveFile.png)
+![zrzut ekranu moveFile](./assets/moveFile.png)
 
 #### actionParams
-Just like with `executeFlow` the `actionParams` are escaped JSON but there's currently only one property that needs to be specified: `destinationUrl`. This is a full URL (using `@currentWeb` to avoid hard coding your tenant) directly to the library and/or the folder within that library you want the file moved to.
+Podobnie jak w `executeFlow`, `actionParams` to JSON ze znakami ucieczki, ale obecnie trzeba podać tylko jedną właściwość: `destinationUrl`. Jest to pełny adres URL (z użyciem `@currentWeb`, aby uniknąć wpisywania na stałe adresu dzierżawy) prowadzący bezpośrednio do biblioteki i/lub folderu, do którego chcesz przenieść plik.
 
-User's permissions on the destination library/folder are not verified ahead of time and users without permission will receive an error.
+Uprawnienia użytkownika do biblioteki lub folderu docelowego nie są sprawdzane z wyprzedzeniem, więc użytkownicy bez odpowiednich uprawnień otrzymają błąd.
 
 ## Wymagania widoku
-- These formats can be applied to any column type (its value is ignored)
-- If using the `executeFlow` action, the list/library is expected to have an associated Flow, the ID of this flow needs to be included in the `actionParams` for the button
-- The `setValue.json` sample expects a number column named `Value`
-- The `previewFileAction.json`, `copyFile.json`, and `moveFile.json` formats can only be used within document libraries
+- Te formaty można zastosować do dowolnego typu kolumny, ponieważ jej wartość jest ignorowana
+- Jeśli używasz akcji `executeFlow`, lista lub biblioteka musi mieć powiązany przepływ, a jego identyfikator należy umieścić w `actionParams` przycisku
+- Przykład `setValue.json` zakłada istnienie kolumny liczbowej o nazwie `Value`
+- Formaty `previewFileAction.json`, `copyFile.json` i `moveFile.json` mogą być używane wyłącznie w bibliotekach dokumentów
 
-> Tip - You can apply these formats to a Calculated Column with a formula of `=""`. This makes it obvious the fields aren't expected to hold values and you can configure the columns of your form to hide them easily.
+> Wskazówka: możesz zastosować te formaty do kolumny obliczeniowej z formułą `=""`. Dzięki temu od razu widać, że pola nie mają przechowywać wartości, a kolumny można łatwo ukryć w formularzu.
 
 ## Przykład
 
@@ -176,8 +176,8 @@ moveFile.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 18, 2019|Wersja początkowa
-2.0|July 31, 2025|Additional actions
+1.0|18 kwietnia 2019|Wersja początkowa
+2.0|31 lipca 2025|Dodatkowe akcje
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -186,7 +186,7 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-- Additional samples of the `executeFlow` action can be found here:
+- Dodatkowe przykłady akcji `executeFlow` znajdziesz tutaj:
   - [generic-start-flow](../generic-start-flow)
   - [generic-start-flow-conditionally](../generic-start-flow-conditionally)
 

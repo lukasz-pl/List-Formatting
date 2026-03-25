@@ -49,7 +49,7 @@ The advanced thumbnail template requires users to have **editing permission** (e
 |---|---|---|
 |**MULTIPLETHUMBNAIL**|Multiple choice|Each image URL is a corresponding option of this column|
 |**LASTURL**|Wiele linii tekstu|This column keeps track temporarily of an image URL, when a user clicks on a miniature to open a larger window|
-|**VIEWTIME**| Single line of text |This column keeps track of the current date and time to perform an if condition **temporarily true**, so that a larger preview window works properly on click|
+|**VIEWTIME**| Pojedyncza linia tekstu |This column keeps track of the current date and time to perform an if condition **temporarily true**, so that a larger preview window works properly on click|
 
 After creating the 3 columns reported above, format the **MULTIPLETHUMBNAIL** column with the JSON code available [**here**](./multi-choice-thumbnail-advanced.json).
 
@@ -76,7 +76,7 @@ multi-choice-thumbnail-advanced.json | [Federico Sapia](https://github.com/Fedes
 
 Wersja |Data              |Uwagi
 --------|------------------|--------------------------------
-1.0     |January 19, 2024  |Wersja początkowa
+1.0     |stycznia 19, 2024  |Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

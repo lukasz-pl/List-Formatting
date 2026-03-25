@@ -3,7 +3,7 @@
     "name": "pnp-list-formatting-generic-start-flow",
     "reponame": "generic-start-flow",
     "source": "pnp",
-    "title": "Launch a Flow for a Selected Item",
+    "title": "Uruchamianie przepływu dla wybranego elementu",
     "shortDescription": "Możesz użyć formatowania kolumn, aby create buttons that, when clicked, run Flows on the corresponding list item. The Flow Launch Panel will be displayed after clicking the button allowing the user to specify any required data and then run the flow.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/generic-start-flow",
     "longDescription": [

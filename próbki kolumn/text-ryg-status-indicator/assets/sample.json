@@ -4,10 +4,10 @@
     "reponame": "text-ryg-status-indicator",
     "source": "pnp",
     "title": "Traffic Light (Red-Yellow-Green) Status Indicator",
-    "shortDescription": "This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of \u0060@currentField\u0060 to \u0060@currentField.lookupValue\u0060).",
+    "shortDescription": "This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of `@currentField` to `@currentField.lookupValue`).",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/text-ryg-status-indicator",
     "longDescription": [
-      "This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of \u0060@currentField\u0060 to \u0060@currentField.lookupValue\u0060)."
+      "This sample displays a traffic light style (Red-Yellow-Green) status indicator based on the value of a choice/text column (to use a lookup column, switch all occurrences of `@currentField` to `@currentField.lookupValue`)."
     ],
     "creationDateTime": "2017-11-27T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",

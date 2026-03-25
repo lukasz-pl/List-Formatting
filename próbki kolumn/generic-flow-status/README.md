@@ -1,4 +1,4 @@
-# Flow Status
+# Status przepływu
 
 ## Podsumowanie
 
@@ -6,7 +6,7 @@
 
 Ta próbka warunkowo wyświetla przycisk uruchamiający przepływ. Dodatkowe szczegóły pozwalają dostosować tytuł panelu przepływu i sam przycisk. Daje to użytkownikom więcej kontekstu i jest zwykle znacznie bardziej zrozumiałe niż domyślne "Run Flow", które często niewiele mówi użytkownikom końcowym.
 
-![screenshot of the flow panel](./assets/screenshotCustomFlowPanel.png)
+![zrzut ekranu the flow panel](./assets/screenshotCustomFlowPanel.png)
 
 ### Power Automate flow instance URL
 
@@ -20,7 +20,7 @@ This expression can be used in any flow.
 
 In this sample, both the status and the flow url are updated (the flow url field is where the format is applied). This allows the format to turn off the launch flow button for items that are already in progress and provide a link to the exact instance for any troubleshooting.
 
-![screenshot of the Flow actions](./assets/screenshotFlowURL.png)
+![zrzut ekranu the Flow actions](./assets/screenshotFlowURL.png)
 
 ### Flow Diagram
 
@@ -29,7 +29,7 @@ The process status shown in the hover card was created in Visio and saved as an 
 ## Wymagania widoku
 - Ten format powinien być zastosowany do a text column where the value of the field is the flow instance URL (see above).
 
-|Type|Internal Name|Required|
+|Type|Internal Name|Wymagane|
 |---|---|:---:|
 |Choice|Status|Yes|
 
@@ -51,7 +51,7 @@ generic-flow-status.json | [Chris Kent](https://github.com/thechriskent)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 15, 2022|Wersja początkowa
+1.0|15 kwietnia 2022|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

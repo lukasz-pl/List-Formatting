@@ -4,10 +4,10 @@
     "reponame": "number-piechart",
     "source": "pnp",
     "title": "Pie Chart",
-    "shortDescription": "This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using \u0060\u003Csvg\u003E\u0060 with \u0060\u003Cpath\u003E\u0060 tags. The number% displayed at the bottom of the pie in neutralPrimary.",
+    "shortDescription": "This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using `<svg>` with `<path>` tags. The number% displayed at the bottom of the pie in neutralPrimary.",
     "url": "https://github.com/pnp/list-formatting/tree/master/column-samples/number-piechart",
     "longDescription": [
-      "This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using \u0060\u003Csvg\u003E\u0060 with \u0060\u003Cpath\u003E\u0060 tags. The number% displayed at the bottom of the pie in neutralPrimary."
+      "This example renders whole pie in neutralLight with radius 50 and the number% (column value) as a slice of the pie in blue using `<svg>` with `<path>` tags. The number% displayed at the bottom of the pie in neutralPrimary."
     ],
     "creationDateTime": "2017-12-13T00:00:00.000Z",
     "updateDateTime": "2018-08-20T00:00:00.000Z",

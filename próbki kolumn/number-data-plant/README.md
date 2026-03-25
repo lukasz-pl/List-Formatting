@@ -6,7 +6,7 @@ Ten format stosuje różne SVG z wieloma ścieżkami do pola liczbowego, zależn
 
 This solution provides a visually appealing way to represent progress using custom SVG graphics. Formatting dynamically changes the displayed SVG based on the value in a "Progress" column.
 
-## Features
+## Funkcje
 
 * Custom SVG graphics for different progress stages
 * Dynamic display based on a "Progress" field value
@@ -41,7 +41,7 @@ number-data-plant.json | [Luise Freese](https://github.com/LuiseFreese)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|October 8, 2024|Wersja początkowa
+1.0|8 października 2024|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**

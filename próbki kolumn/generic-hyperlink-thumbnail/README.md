@@ -33,10 +33,10 @@ generic-image-thumbnail.json | [Josef Lahmer](https://github.com/josy1024)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|July 17, 2018 |Wersja początkowa
-1.1|August 20, 2018|Switched to Excel-style expressions
-1.2|January 9, 2019|Removed hardcoded url and replaced with @currentWeb token
-1.3|April 9, 2019|Bug fix in @currentWeb, + generic-image-thumbnail
+1.0|lipca 17, 2018 |Wersja początkowa
+1.1|20 sierpnia 2018|Przełączono na wyrażenia w stylu Excela
+1.2|9 stycznia 2019|Removed hardcoded url and replaced with @currentWeb token
+1.3|9 kwietnia 2019|Bug fix in @currentWeb, + generic-image-thumbnail
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -46,6 +46,6 @@ Wersja|Data|Uwagi
 ## Dodatkowe uwagi
 - [Użyj formatowania kolumn do dostosowania SharePoint](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/column-formatting)
 
-> An additional version using Abstract Tree Syntax (AST) is also provided for environments where the Excel-style expressions are not supported.
+> Dodatkowa wersja wykorzystująca Abstract Tree Syntax (AST) jest również dostępna dla środowisk, w których wyrażenia w stylu Excela nie są obsługiwane.
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/generic-hyperlink-thumbnail" />

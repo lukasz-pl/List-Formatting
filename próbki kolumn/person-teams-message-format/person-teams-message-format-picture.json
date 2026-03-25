@@ -30,7 +30,7 @@
           "attributes": {
             "iconName": "TeamsLogo",
             "class": "ms-fontSize-42 ms-fontWeight-regular ms-fontColor-themePrimary",
-            "title": "Details"
+            "title": "Szczegóły"
           },
           "style": {
             "font-size": "24px"

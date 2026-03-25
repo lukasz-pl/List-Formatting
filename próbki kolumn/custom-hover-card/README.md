@@ -11,11 +11,11 @@ A custom card is shown on hover of an item. The hover card shows additional deta
 Nazwa wewnętrzna|Typ|Uwagi
 --------------------|---------------|------------
 Status              | Choice        |
-StatusCode          | Number        |This field is assumed to be set to a value of 0, 1, 2, 3, or 4
-PackedDate          | Date and Time |
-ShippedDate         | Date and Time |
-InTransitStartDate  | Date and Time |
-DeliveredDate       | Date and Time |
+StatusCode          | Liczba        |This field is assumed to be set to a value of 0, 1, 2, 3, or 4
+PackedDate          | Data and Time |
+ShippedDate         | Data and Time |
+InTransitStartDate  | Data and Time |
+DeliveredDate       | Data and Time |
 
 ## Przykład
 
@@ -27,8 +27,8 @@ custom-hover-card.json | [Niket Jain](https://github.com/NiketJain)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|April 08, 2020|Wersja początkowa
-1.1|November 15, 2023|Poprawiono view requirements in README.md and added `)` that was missing in JSON
+1.0|08 kwietnia 2020|Wersja początkowa
+1.1|15 listopada 2023|Poprawiono view requirements in README.md and added `)` that was missing in JSON
 
 
 ## Zastrzeżenie

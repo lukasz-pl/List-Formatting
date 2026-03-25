@@ -20,7 +20,7 @@ childcount-color-change.json | [Marijn Somers](https://github.com/marijnsomers)
 
 Wersja|Data|Uwagi
 -------|----|--------
-1.0|February 20, 2023|Wersja początkowa
+1.0|20 lutego 2023|Wersja początkowa
 
 ## Zastrzeżenie
 **TEN KOD JEST DOSTARCZANY W STANIE *TAKIM, W JAKIM JEST*, BEZ JAKIEJKOLWIEK GWARANCJI, WYRAŹNEJ ANI DOROZUMIANEJ, W TYM TAKŻE DOROZUMIANYCH GWARANCJI PRZYDATNOŚCI DO OKREŚLONEGO CELU, WARTOŚCI HANDLOWEJ ANI NIENARUSZANIA PRAW.**
@@ -29,6 +29,6 @@ Wersja|Data|Uwagi
 
 ## Dodatkowe uwagi
 
-- None
+- Brak
 
 <img src="https://pnptelemetry.azurewebsites.net/list-formatting/column-samples/childcount-color-change" />
